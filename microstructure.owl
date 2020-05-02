@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://emmo.info/microstructure/microstructure#"
+     xml:base="http://emmo.info/microstructure/microstructure"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:annotations="http://emmo.info/emmo/top/annotations#"
+     xmlns:crystallography="http://emmo.info/crystallography/crystallography#">
+    <owl:Ontology rdf:about="http://emmo.info/microstructure/microstructure">
+        <owl:versionIRI rdf:resource="http://emmo.info/microstructure/0.0.1/microstructure"/>
+        <owl:imports rdf:resource="http://emmo.info/crystallography/0.0.1/crystallography"/>
+        <owl:imports rdf:resource="http://emmo.info/emmo/marketplace-1.0.1"/>
+        <owl:imports rdf:resource="http://emmo.info/mechanics/0.0.1/mechanics"/>
+        <terms:abstract>EMMO-based domain ontology for metallic microstructures, covering aspects like:
+  - composition
+  - particles, both stable (primary) and metastable (precipitates)
+  - grains
+  - subgrains
+  - grain boundaries &amp; particle free zones (PFZs)
+  - texture
+  - dislocations
+
+The aim is to support both microstructure modelling and characterisation.</terms:abstract>
+        <terms:license>Creative Commons BY 4.0</terms:license>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://emmo.info/emmo/middle/units-extension#EMMO_0a88be81_343d_4388_92c1_09228ff95ada -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo/middle/units-extension#EMMO_0a88be81_343d_4388_92c1_09228ff95ada">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Probability is a dimensionless quantity that can attain values between 0 and 1; zero denotes the impossible event and 1 denotes a certain event.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:comment>The propability for a certain outcome, is the ratio between the number of events leading to the given outcome and the total number of events.</rdfs:comment>
+        <rdfs:label xml:lang="en">Probability</rdfs:label>
+        <owl:deprecated>Probability will be defined in the next version of EMMO and should be removed from microstructure.</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_65c961f8_18c3_49c6_a5f0_7a6096d5a736"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>A region of a crystalline material with (almost) the same crystal orientation.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:comment>Grains contacts each other at surfaces called grain boundaries.</rdfs:comment>
+        <rdfs:label xml:lang="en">Grain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac"/>
+        <rdfs:label xml:lang="en">ParticleSize</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_151e8758_11f3_44a7_bc76_cb3397562fd3 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_151e8758_11f3_44a7_bc76_cb3397562fd3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
+                <owl:hasValue>T0 L-2 M0 I0 Θ0 N0 J0</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc"/>
+        <rdfs:label xml:lang="en">PerSquareLengthDimension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/models#EMMO_4456a5d2_16a6_4ee1_9a8e_5c75956b28ea"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Models that predict the temporal evolution of a microstructure.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">EvolutionModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569"/>
+                        <owl:allValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_151e8758_11f3_44a7_bc76_cb3397562fd3"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>The total length of dislocations per unit volume.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="en">DislocationDensity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_179d60e5_ed1e_41f5_9bca_e860d8f768e2 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_179d60e5_ed1e_41f5_9bca_e860d8f768e2">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5"/>
+        <rdfs:label xml:lang="en">PrecipitationModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258"/>
+        <rdfs:label xml:lang="en">GrainSizeDistribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_1f003200_d0a7_4280_83da_f116b6e961ea -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_1f003200_d0a7_4280_83da_f116b6e961ea">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_179d60e5_ed1e_41f5_9bca_e860d8f768e2"/>
+        <rdfs:label xml:lang="en">KampmannWagnerNumericalModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_21257efe_86aa_4ea4_afdd_58f0b6b65f38 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_21257efe_86aa_4ea4_afdd_58f0b6b65f38">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_0a88be81_343d_4388_92c1_09228ff95ada"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The misorientation distribution function (MDF) describes the misorientation between grains (and subgrains) in a microstructure.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">MisorientationDistributionFunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a"/>
+        <rdfs:label xml:lang="en">Subgrain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_36c79456_e29c_400d_8bd3_0eedddb82652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_ede4bc9f_6d79_4d43_b324_6956856b5f45"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">GrainBoundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_29a4ccd2_3626_405b_b9cd_c3c87010b0d2 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_29a4ccd2_3626_405b_b9cd_c3c87010b0d2">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07"/>
+        <rdfs:label xml:lang="en">GeometricalNessesaryDislocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_34a563bf_1eea_4bbb_88ca_65125dddf493 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_34a563bf_1eea_4bbb_88ca_65125dddf493">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07"/>
+        <rdfs:label xml:lang="en">IntrinsicDislocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_39317489_61f1_4eff_9545_08dac960b195 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_39317489_61f1_4eff_9545_08dac960b195">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_36c79456_e29c_400d_8bd3_0eedddb82652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">QuadruplePoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_3de4490a_844c_42f1_b150_2a25f55e8388 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_3de4490a_844c_42f1_b150_2a25f55e8388">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_c4535007_db2d_4448_b783_8e8d7713c088"/>
+        <rdfs:label xml:lang="en">StableParticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/models#EMMO_4456a5d2_16a6_4ee1_9a8e_5c75956b28ea"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Model for a microstructure property given a microstructure state.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">PropertyModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_40e025d5_83b2_440f_80eb_8ef74ac1c072 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_40e025d5_83b2_440f_80eb_8ef74ac1c072">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81"/>
+        <annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>YieldStrength</annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The yield stress is a material property and is the stress corresponding to the yield point at which the material begins to deform plastically.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">YieldStress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_45531a1e_50ca_402b_99d0_7d13bbf16e9e -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_45531a1e_50ca_402b_99d0_7d13bbf16e9e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258"/>
+        <rdfs:label xml:lang="en">MeanGrainSize</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_455ae83c_4bd9_49fa_84d0_b9fe6a07bcd5 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_455ae83c_4bd9_49fa_84d0_b9fe6a07bcd5">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07"/>
+        <rdfs:label xml:lang="en">PartialDislocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_4ab75040_bae4_48b1_a8d2_0f2826a473a0 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_4ab75040_bae4_48b1_a8d2_0f2826a473a0">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5"/>
+        <rdfs:label xml:lang="en">RecrystallisationModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_502d99ff_53f4_4636_a4d3_db9562036884 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_502d99ff_53f4_4636_a4d3_db9562036884">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90"/>
+        <rdfs:label xml:lang="en">ElectricConductivityModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_508e5155_449e_479c_8e94_6d1ba4a110db -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_508e5155_449e_479c_8e94_6d1ba4a110db">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>In metallic alloys are high-angle grain boundaries typically defined as grain boundaries with a misorientation angle larger than 15°.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">HighAngleGrainBoundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_57ed2ec9_25c3_49a4_b275_1e015d27d742 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_57ed2ec9_25c3_49a4_b275_1e015d27d742">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_36c79456_e29c_400d_8bd3_0eedddb82652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">TripleLine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_5de69a99_f9c1_4c7e_b5f2_209b692488e6 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_5de69a99_f9c1_4c7e_b5f2_209b692488e6">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The symbolic object used to define materials families.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">MaterialsFamily</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_60e8426c_35c8_43db_bb8d_150d9ab0647c -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_60e8426c_35c8_43db_bb8d_150d9ab0647c">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_3de4490a_844c_42f1_b150_2a25f55e8388"/>
+        <rdfs:label xml:lang="en">PrimaryParticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_65c961f8_18c3_49c6_a5f0_7a6096d5a736 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_65c961f8_18c3_49c6_a5f0_7a6096d5a736">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_8f33f1ee_dc63_4a89_92be_10350bb16368"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SubgrainBoundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_6c09b642_4e7f_45ed_9e89_60f42dc9a434 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_6c09b642_4e7f_45ed_9e89_60f42dc9a434">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1"/>
+        <rdfs:label xml:lang="en">MeanParticleSize</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_79d97edd_19a1_4957_8ea0_f12b963f6859 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_79d97edd_19a1_4957_8ea0_f12b963f6859">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531"/>
+        <rdfs:label xml:lang="en">Precipitate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_36c79456_e29c_400d_8bd3_0eedddb82652"/>
+        <rdfs:label xml:lang="en">Dislocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_80341b76_5996_4665_8b8f_a6e8926fad43 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_80341b76_5996_4665_8b8f_a6e8926fad43">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_21257efe_86aa_4ea4_afdd_58f0b6b65f38"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_40e025d5_83b2_440f_80eb_8ef74ac1c072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_d8cdee21_8d73_40b5_9d51_ff74c9459859"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>An alloy is a combination of metals or metals combined with one or more other elements. For example, combining the metallic elements gold and copper produces red gold, gold and silver becomes white gold, and silver combined with copper produces sterling silver.
+
+Wikipedia</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">Alloy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_814665eb_aa38_42df_820e_41662bef353b -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_814665eb_aa38_42df_820e_41662bef353b">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531"/>
+        <rdfs:label xml:lang="en">Cluster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_8f33f1ee_dc63_4a89_92be_10350bb16368 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_8f33f1ee_dc63_4a89_92be_10350bb16368">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>In metallic alloys are low-angle grain boundaries typically defined as grain boundaries with a misorientation angle between 5° and 15°.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">LowAngleGrainBoundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_984c26d0_5907_4610_8e6e_1a68deaabb90 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_984c26d0_5907_4610_8e6e_1a68deaabb90">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/models#EMMO_27c5d8c6_8af7_4d63_beb1_ec37cd8b3fa3"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>A partial differential equation that express conservation of a physical quantity Q in a continuum system.
+
+It describes how the change in time of the density of Q is related to the change in space of the flow density of Q.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">ContinuityEquation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_a1664ff8_1062_45aa_90ce_54cd83e04ca0 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_a1664ff8_1062_45aa_90ce_54cd83e04ca0">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_5de69a99_f9c1_4c7e_b5f2_209b692488e6"/>
+        <rdfs:label xml:lang="en">AlloySystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5"/>
+        <rdfs:label xml:lang="en">TextureEvolutionModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_b6589de0_8e4d_498f_8d8e_1f0e16cccf6c -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_b6589de0_8e4d_498f_8d8e_1f0e16cccf6c">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90"/>
+        <rdfs:label xml:lang="en">WorkHardeningModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_c4535007_db2d_4448_b783_8e8d7713c088"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Intermetallic particles located at grain boundaries. They may be either stable or metastable.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">GrainBoundaryParticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07"/>
+        <rdfs:label xml:lang="en">GrainBoundaryDislocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_c4535007_db2d_4448_b783_8e8d7713c088 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_c4535007_db2d_4448_b783_8e8d7713c088">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">IntermetallicParticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1"/>
+        <rdfs:label xml:lang="en">ParticleSizeDistribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_d8cdee21_8d73_40b5_9d51_ff74c9459859 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_d8cdee21_8d73_40b5_9d51_ff74c9459859">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_0a88be81_343d_4388_92c1_09228ff95ada"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The orientation distribution function (ODF) describes the angular distribution of grains (and subgrains) or an microstructure.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">OrientationDistributionFunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_c4535007_db2d_4448_b783_8e8d7713c088"/>
+        <rdfs:label xml:lang="en">MetastableParticle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_e007f051_62fd_493b_a04a_12b4ce41c49e -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_e007f051_62fd_493b_a04a_12b4ce41c49e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_3de4490a_844c_42f1_b150_2a25f55e8388"/>
+        <rdfs:label xml:lang="en">Dispersoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_e3ded882_a0e7_4c70_a4d5_4ebbda61e1a5 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_e3ded882_a0e7_4c70_a4d5_4ebbda61e1a5">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/models#EMMO_53935db0_af45_4426_b9e9_244a0d77db00"/>
+        <rdfs:label xml:lang="en">ClusterDynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_ed669684_2722_4581_8ebc_d8336da9b5e5 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_ed669684_2722_4581_8ebc_d8336da9b5e5">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/microstructure/microstructure#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5"/>
+        <rdfs:label xml:lang="en">RecoveryModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_ede4bc9f_6d79_4d43_b324_6956856b5f45 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_ede4bc9f_6d79_4d43_b324_6956856b5f45">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_f3dd74c0_f480_49e8_9764_33b78638c235"/>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The anble between two grains or subgrains.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">MisorientationAngle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/microstructure/microstructure#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258 -->
+
+    <owl:Class rdf:about="http://emmo.info/microstructure/microstructure#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac"/>
+        <annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>EquivalentSphericalGrainSize</annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>
+        <annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>GrainDiameter</annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Average grain diameter</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:comment>For historical reasons grain size is typically measured as the grain diameter (assuming spherical grains) rather than volume, which would have been more natural.</rdfs:comment>
+        <rdfs:label xml:lang="en">GrainSize</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

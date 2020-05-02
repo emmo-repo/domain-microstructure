@@ -1,0 +1,6 @@
+[submodule "crystallography"]
+	path = crystallography
+	url = ../crystallography.git
+[submodule "mechanics"]
+	path = mechanics
+	url = ../mechanics.git
