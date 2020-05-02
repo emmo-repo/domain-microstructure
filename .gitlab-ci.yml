@@ -1,0 +1,18 @@
+image: "python:3.7"
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - python --version
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+  - pip install EMMO
+
+stages:
+  - Check against EMMO conventions
+
+emmocheck:
+  stage: Check against EMMO conventions
+  script:
+  - emmocheck microstructure.owl --local --verbose
