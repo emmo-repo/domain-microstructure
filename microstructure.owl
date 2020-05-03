@@ -14,6 +14,7 @@
         <owl:imports rdf:resource="http://emmo.info/crystallography/0.0.1/crystallography"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/marketplace-1.0.1"/>
         <owl:imports rdf:resource="http://emmo.info/mechanics/0.0.1/mechanics"/>
+        <owl:imports rdf:resource="http://emmo.info/microstructure/0.0.1/to-emmo"/>
         <terms:abstract>EMMO-based domain ontology for metallic microstructures, covering aspects like:
   - composition
   - particles, both stable (primary) and metastable (precipitates)
@@ -54,18 +55,6 @@ The aim is to support both microstructure modelling and characterisation.</terms
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://emmo.info/emmo/middle/units-extension#EMMO_0a88be81_343d_4388_92c1_09228ff95ada -->
-
-    <owl:Class rdf:about="http://emmo.info/emmo/middle/units-extension#EMMO_0a88be81_343d_4388_92c1_09228ff95ada">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef"/>
-        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Probability is a dimensionless quantity that can attain values between 0 and 1; zero denotes the impossible event and 1 denotes a certain event.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
-        <rdfs:comment>The propability for a certain outcome, is the ratio between the number of events leading to the given outcome and the total number of events.</rdfs:comment>
-        <rdfs:label xml:lang="en">Probability</rdfs:label>
-        <owl:deprecated>Probability will be defined in the next version of EMMO and should be removed from microstructure.</owl:deprecated>
-    </owl:Class>
     
 
 
