@@ -1,10 +1,11 @@
-[![pipeline status](https://gitlab.cc-asp.fraunhofer.de/ontology/domains/emmo-microstructure/badges/master/pipeline.svg)](https://gitlab.cc-asp.fraunhofer.de/ontology/domains/emmo-microstructure/pipelines/latest)
+[![pipeline status](https://gitlab.com/sfi-physmet/platform/physmetontology/badges/master/pipeline.svg)](https://gitlab.com/sfi-physmet/platform/physmetontology/pipelines/latest)
 
 
-First draft of an EMMO-based ontology for microstructures
-=========================================================
-This is intended to be a domain ontology for metallic microstructures,
-covering aspects like:
+First draft of an EMMO-based ontology for physical metallurgy
+=============================================================
+This is intended to be a domain ontology for physical metallurgy.  The
+intension is to cover all relevant aspect of metallic microstructures,
+including
   - composition
   - particles, both stable (primary) and metastable (precipitates)
   - grains
@@ -66,7 +67,7 @@ This repository include the correct version of the crystallography and
 mechanics domain ontologies as a git submodules.  Hence, use the
 following command when cloning this repository:
 
-    git clone --recurse-submodules --shallow-submodules https://gitlab.cc-asp.fraunhofer.de/ontology/domains/emmo-microstructure.git
+    git clone --recurse-submodules --shallow-submodules git@gitlab.com:sfi-physmet/platform/physmetontology.git
 
 
 Attributions and credits
@@ -84,8 +85,10 @@ Attributions and credits
 
 License
 -------
-The microstructure domain ontology is released under the [Creative
-Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license (CC BY 4.0).
+The physmet domain ontology is released under the [Creative Commons
+Attribution 4.0
+International](https://creativecommons.org/licenses/by/4.0/legalcode)
+license (CC BY 4.0).
 
 
 [1]: https://github.com/emmo-repo/EMMO

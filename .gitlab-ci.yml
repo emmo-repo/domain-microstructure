@@ -15,4 +15,4 @@ stages:
 emmocheck:
   stage: Check against EMMO conventions
   script:
-  - emmocheck microstructure.owl --local --verbose
+  - emmocheck physmet.owl --local --verbose
