@@ -95,7 +95,20 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_c4535007_db2d_4448_b783_8e8d7713c088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L1 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Sice of intermetallic particles.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:comment xml:lang="en">The particle size is typically referred to as the radius of a spherical particle with the same volume as the intermetallic particle.</rdfs:comment>
+        <skos:altLabel xml:lang="en">EquivalentSphericalRadius</skos:altLabel>
         <skos:prefLabel xml:lang="en">ParticleSize</skos:prefLabel>
     </owl:Class>
     
