@@ -55,13 +55,13 @@ compatibilies:
 
 | Imported Ontologies  | Version           |
 | -------------------- | ----------------- |
-| [EMMO][1]            | marketplace-1.0.1 |
+| [EMMO][1]            | 1.0.0-alpha2      |
 | [crystallography][2] | 0.0.1             |
 | [mechanics][3]       | 0.0.1             |
 
 
-Obtaining microstructure
-------------------------
+Obtaining PhysMetOntology
+-------------------------
 This repository include the correct version of the crystallography and
 mechanics domain ontologies as a git submodules.  Hence, use the
 following command when cloning this repository:
@@ -73,8 +73,9 @@ Attributions and credits
 ------------------------
 ### Authors
 - Jesper Friis, SINTEF
-- Georg J. Schmitz, ACCESS
+- Tomas Manik, NTNU
 - Sylvain Gouttenbroze, SINTEF
+- Astrid Marthinsen, SINTEF
 
 ### Projects
 - Demystify ontologies - Internal project at [SINTEF](www.sintef.no)
