@@ -58,7 +58,6 @@ compatibilies:
 | -------------------- | ----------------- |
 | [EMMO][1]            | 1.0.0-alpha2      |
 | [crystallography][2] | 0.0.1             |
-| [mechanics][3]       | 0.0.1             |
 
 
 Obtaining PhysMetOntology
@@ -92,5 +91,4 @@ license (CC BY 4.0).
 
 
 [1]: https://github.com/emmo-repo/EMMO
-[2]: https://gitlab.cc-asp.fraunhofer.de/ontology/domains/crystallography
-[3]: https://gitlab.cc-asp.fraunhofer.de/ontology/domains/mechanics
+[2]: https://github.com/emmo-repo/domain-crystallography
