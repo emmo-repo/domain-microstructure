@@ -128,6 +128,16 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L-2 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>The total length of dislocations per unit volume.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <skos:prefLabel xml:lang="en">DislocationDensity</skos:prefLabel>
@@ -147,8 +157,18 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
     <!-- http://emmo.info/physmet/physmet#EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd -->
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/physmet/physmet#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258"/>
-        <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L1 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L-4 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <skos:prefLabel xml:lang="en">GrainSizeDistribution</skos:prefLabel>
     </owl:Class>
     
@@ -167,8 +187,18 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_21257efe_86aa_4ea4_afdd_58f0b6b65f38">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L0 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
-        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The misorientation distribution function (MDF) describes the misorientation between grains (and subgrains) in a physmet.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">The misorientation distribution function (MDF) describes the misorientation between grains (and subgrains) in a microstructure.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <skos:prefLabel xml:lang="en">MisorientationDistributionFunction</skos:prefLabel>
     </owl:Class>
     
@@ -268,6 +298,16 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_40e025d5_83b2_440f_80eb_8ef74ac1c072">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T-2 L-1 M+1 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>YieldStrength</annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The yield stress is a material property and is the stress corresponding to the yield point at which the material begins to deform plastically.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
@@ -335,6 +375,21 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">TripleLine</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1 -->
+
+    <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_9380ab64_0363_4804_b13f_3a8a94119a76"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">Microstructure</skos:prefLabel>
     </owl:Class>
     
 
@@ -524,9 +579,39 @@ It describes how the change in time of the density of Q is related to the change
     <!-- http://emmo.info/physmet/physmet#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726 -->
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/physmet/physmet#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1"/>
-        <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L1 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L-4 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <skos:prefLabel xml:lang="en">ParticleSizeDistribution</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/physmet/physmet#EMMO_d244a044_a3f4_47d7_812d_e547b75e014a -->
+
+    <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_d244a044_a3f4_47d7_812d_e547b75e014a">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L-4 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
+        <skos:prefLabel xml:lang="en">SubgrainSizeDistribution</skos:prefLabel>
     </owl:Class>
     
 
@@ -535,6 +620,16 @@ It describes how the change in time of the density of Q is related to the change
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_d8cdee21_8d73_40b5_9d51_ff74c9459859">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/physmet/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L0 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The orientation distribution function (ODF) describes the angular distribution of grains (and subgrains) or an microstructure.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <skos:prefLabel xml:lang="en">OrientationDistributionFunction</skos:prefLabel>
