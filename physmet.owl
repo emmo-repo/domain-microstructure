@@ -14,7 +14,7 @@
     <owl:Ontology rdf:about="http://emmo.info/physmet/physmet">
         <owl:versionIRI rdf:resource="http://emmo.info/physmet/0.0.1/physmet"/>
         <owl:imports rdf:resource="http://emmo.info/crystallography/0.0.1/crystallography"/>
-        <dcterms:abstract>EMMO-based domain ontology for physical metallurgy and metallic microstructures, covering aspects like:
+        <dcterms:abstract xml:lang="en">EMMO-based domain ontology for physical metallurgy and metallic microstructures, covering aspects like:
   - composition
   - particles, both stable (primary) and metastable (precipitates)
   - grains
@@ -22,11 +22,11 @@
   - grain boundaries &amp; particle free zones (PFZs)
   - texture
   - dislocations
+  - alloy systems
 
 The aim is to support both microstructure modelling and characterisation.
 
-This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).
-        </dcterms:abstract>
+This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</dcterms:abstract>
         <dcterms:contributor>NTNU</dcterms:contributor>
         <dcterms:contributor>SINTEF</dcterms:contributor>
         <dcterms:creator>Astrid Marthinsen</dcterms:creator>
@@ -481,7 +481,7 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
     <!-- http://emmo.info/physmet/physmet#EMMO_80341b76_5996_4665_8b8f_a6e8926fad43 -->
 
     <owl:Class rdf:about="http://emmo.info/physmet/physmet#EMMO_80341b76_5996_4665_8b8f_a6e8926fad43">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_5e77f00d_5c0a_44e7_baf1_2c2a4cb5b3ae"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>An alloy is a combination of metals or metals combined with one or more other elements. For example, combining the metallic elements gold and copper produces red gold, gold and silver becomes white gold, and silver combined with copper produces sterling silver.
 
 Wikipedia</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
