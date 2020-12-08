@@ -14,7 +14,7 @@
     <owl:Ontology rdf:about="http://emmo.info/physmet/physmet">
         <owl:versionIRI rdf:resource="http://emmo.info/physmet/0.0.1/physmet"/>
         <owl:imports rdf:resource="http://emmo.info/crystallography/0.0.1/crystallography"/>
-        <dcterms:abstract>EMMO-based domain ontology for physical metallurgy and metallic microstructures, covering aspects like:
+        <dcterms:abstract xml:lang="en">EMMO-based domain ontology for physical metallurgy and metallic microstructures, covering aspects like:
   - composition
   - particles, both stable (primary) and metastable (precipitates)
   - grains
@@ -22,11 +22,11 @@
   - grain boundaries &amp; particle free zones (PFZs)
   - texture
   - dislocations
+  - alloy systems
 
 The aim is to support both microstructure modelling and characterisation.
 
-This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).
-        </dcterms:abstract>
+This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</dcterms:abstract>
         <dcterms:contributor>NTNU</dcterms:contributor>
         <dcterms:contributor>SINTEF</dcterms:contributor>
         <dcterms:creator>Astrid Marthinsen</dcterms:creator>
