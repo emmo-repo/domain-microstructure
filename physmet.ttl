@@ -26,7 +26,7 @@
 The aim is to support both microstructure modelling and characterisation.
 
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)."""@en ;
-                            dcterms:contributor "NTNU" ,
+                            dcterms:contributor "Nowegian University of Science and Technology (NTNU)" ,
                                                 "SINTEF" ;
                             dcterms:creator "Astrid Marthinsen" ,
                                             "Jesper Friis" ,
@@ -41,14 +41,6 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
 ###  http://purl.org/dc/terms/abstract
 dcterms:abstract rdf:type owl:AnnotationProperty .
-
-
-#################################################################
-#    Object Properties
-#################################################################
-
-###  http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204
-<http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -80,7 +72,7 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
                                                              owl:allValuesFrom :EMMO_c4535007_db2d_4448_b783_8e8d7713c088
                                                            ] ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sice of intermetallic particles."@en ;
-                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L+1 M0 I0 Θ0 N0 J0" ;
                                            rdfs:comment "The particle size is typically referred to as the radius of a spherical particle with the same volume as the intermetallic particle."@en ;
                                            skos:altLabel "EquivalentSphericalRadius"@en ;
                                            skos:prefLabel "ParticleSize"@en .
@@ -97,7 +89,7 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 :EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf <http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204>
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
                                                              owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
                                                            ] ;
@@ -221,7 +213,7 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 ###  http://emmo.info/physmet#EMMO_45531a1e_50ca_402b_99d0_7d13bbf16e9e
 :EMMO_45531a1e_50ca_402b_99d0_7d13bbf16e9e rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258 ;
-                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L+1 M0 I0 Θ0 N0 J0" ;
                                            skos:prefLabel "MeanGrainSize"@en .
 
 
@@ -290,7 +282,7 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
                                                              owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
+                                                             owl:onClass :EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772
                                                            ] ;
                                            skos:prefLabel "SubgrainBoundary"@en .
 
@@ -298,7 +290,7 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 ###  http://emmo.info/physmet#EMMO_6c09b642_4e7f_45ed_9e89_60f42dc9a434
 :EMMO_6c09b642_4e7f_45ed_9e89_60f42dc9a434 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_0cfa0628_48b6_4b47_967b_000249c27db1 ;
-                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L+1 M0 I0 Θ0 N0 J0" ;
                                            skos:prefLabel "MeanParticleSize"@en .
 
 
@@ -323,6 +315,7 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
                                                              owl:allValuesFrom :EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772
                                                            ] ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Subgrain size"@en ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L+1 M0 I0 Θ0 N0 J0" ;
                                            rdfs:comment "For historical reasons grain size is typically measured as the grain diameter (assuming spherical grains) rather than volume, which would have been more natural."@en ;
                                            skos:prefLabel "SubgrainSize"@en .
 
@@ -480,20 +473,17 @@ It describes how the change in time of the density of Q is related to the change
                                            emmo:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b "EquivalentSphericalGrainSize" ,
                                                                                           "GrainDiameter" ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Average grain diameter" ;
-                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L+1 M0 I0 Θ0 N0 J0" ;
                                            rdfs:comment "For historical reasons grain size is typically measured as the grain diameter (assuming spherical grains) rather than volume, which would have been more natural."@en ;
                                            skos:prefLabel "GrainSize"@en .
 
 
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
 ] .
 
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
@@ -501,12 +491,27 @@ It describes how the change in time of the density of Q is related to the change
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
