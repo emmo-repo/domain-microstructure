@@ -1,0 +1,512 @@
+@prefix : <http://emmo.info/physmet#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix emmo: <http://emmo.info/emmo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix crystallography: <http://emmo.info/crystallography/crystallography#> .
+@base <http://emmo.info/physmet> .
+
+<http://emmo.info/physmet> rdf:type owl:Ontology ;
+                            owl:versionIRI <http://emmo.info/physmet/0.0.1> ;
+                            owl:imports <http://emmo.info/crystallography/0.0.1/crystallography> ;
+                            dcterms:abstract """EMMO-based domain ontology for physical metallurgy and metallic microstructures, covering aspects like:
+  - composition
+  - particles, both stable (primary) and metastable (precipitates)
+  - grains
+  - subgrains
+  - grain boundaries & particle free zones (PFZs)
+  - texture
+  - dislocations
+  - alloy systems
+
+The aim is to support both microstructure modelling and characterisation.
+
+This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)."""@en ;
+                            dcterms:contributor "NTNU" ,
+                                                "SINTEF" ;
+                            dcterms:creator "Astrid Marthinsen" ,
+                                            "Jesper Friis" ,
+                                            "Sylvain Gouttebroze" ,
+                                            "Tomas Manik" ;
+                            dcterms:publisher "SFI PhysMet, https://www.ntnu.edu/physmet" ;
+                            dcterms:title "Physical Metallurgy Domain Ontology"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/abstract
+dcterms:abstract rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204
+<http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://emmo.info/physmet#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+:EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom :EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom :EMMO_65c961f8_18c3_49c6_a5f0_7a6096d5a736
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A region of a crystalline material with (almost) the same crystal orientation." ;
+                                           rdfs:comment "Grains contacts each other at surfaces called grain boundaries." ;
+                                           skos:prefLabel "Grain"@en .
+
+
+###  http://emmo.info/physmet#EMMO_0cfa0628_48b6_4b47_967b_000249c27db1
+:EMMO_0cfa0628_48b6_4b47_967b_000249c27db1 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_c4535007_db2d_4448_b783_8e8d7713c088
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sice of intermetallic particles."@en ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           rdfs:comment "The particle size is typically referred to as the radius of a spherical particle with the same volume as the intermetallic particle."@en ;
+                                           skos:altLabel "EquivalentSphericalRadius"@en ;
+                                           skos:prefLabel "ParticleSize"@en .
+
+
+###  http://emmo.info/physmet#EMMO_15c4156e_407a_47cc_911e_f39cf561aed5
+:EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_4456a5d2_16a6_4ee1_9a8e_5c75956b28ea ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Models that predict the temporal evolution of a physmet." ;
+                                           skos:prefLabel "EvolutionModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab
+:EMMO_16eb8b74_4cfb_4bf7_989e_056ef9c0acab rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf <http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204>
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+                                                           ] ;
+                                           emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "The total length of dislocations per unit volume." ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L-2 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "DislocationDensity"@en .
+
+
+###  http://emmo.info/physmet#EMMO_179d60e5_ed1e_41f5_9bca_e860d8f768e2
+:EMMO_179d60e5_ed1e_41f5_9bca_e860d8f768e2 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 ;
+                                           skos:prefLabel "PrecipitationModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd
+:EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+                                                           ] ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L-4 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "GrainSizeDistribution"@en .
+
+
+###  http://emmo.info/physmet#EMMO_1f003200_d0a7_4280_83da_f116b6e961ea
+:EMMO_1f003200_d0a7_4280_83da_f116b6e961ea rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_179d60e5_ed1e_41f5_9bca_e860d8f768e2 ;
+                                           skos:prefLabel "KampmannWagnerNumericalModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_21257efe_86aa_4ea4_afdd_58f0b6b65f38
+:EMMO_21257efe_86aa_4ea4_afdd_58f0b6b65f38 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The misorientation distribution function (MDF) describes the misorientation between grains (and subgrains) in a microstructure."@en ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L0 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "MisorientationDistributionFunction"@en .
+
+
+###  http://emmo.info/physmet#EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772
+:EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ;
+                                           skos:prefLabel "Subgrain"@en .
+
+
+###  http://emmo.info/physmet#EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
+:EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom :EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom :EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
+                                                             owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                           ] ;
+                                           skos:prefLabel "GrainBoundary"@en .
+
+
+###  http://emmo.info/physmet#EMMO_29a4ccd2_3626_405b_b9cd_c3c87010b0d2
+:EMMO_29a4ccd2_3626_405b_b9cd_c3c87010b0d2 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 ;
+                                           skos:prefLabel "GeometricalNessesaryDislocation"@en .
+
+
+###  http://emmo.info/physmet#EMMO_34a563bf_1eea_4bbb_88ca_65125dddf493
+:EMMO_34a563bf_1eea_4bbb_88ca_65125dddf493 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 ;
+                                           skos:prefLabel "IntrinsicDislocation"@en .
+
+
+###  http://emmo.info/physmet#EMMO_39317489_61f1_4eff_9545_08dac960b195
+:EMMO_39317489_61f1_4eff_9545_08dac960b195 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
+                                                             owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                           ] ;
+                                           skos:prefLabel "QuadruplePoint"@en .
+
+
+###  http://emmo.info/physmet#EMMO_3de4490a_844c_42f1_b150_2a25f55e8388
+:EMMO_3de4490a_844c_42f1_b150_2a25f55e8388 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_c4535007_db2d_4448_b783_8e8d7713c088 ;
+                                           skos:prefLabel "StableParticle"@en .
+
+
+###  http://emmo.info/physmet#EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90
+:EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_4456a5d2_16a6_4ee1_9a8e_5c75956b28ea ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Model for a physmet property given a microstructure state." ;
+                                           skos:prefLabel "PropertyModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_40e025d5_83b2_440f_80eb_8ef74ac1c072
+:EMMO_40e025d5_83b2_440f_80eb_8ef74ac1c072 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
+                                                           ] ;
+                                           emmo:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b "YieldStrength" ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The yield stress is a material property and is the stress corresponding to the yield point at which the material begins to deform plastically." ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T-2 L-1 M+1 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "YieldStress"@en .
+
+
+###  http://emmo.info/physmet#EMMO_45531a1e_50ca_402b_99d0_7d13bbf16e9e
+:EMMO_45531a1e_50ca_402b_99d0_7d13bbf16e9e rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258 ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "MeanGrainSize"@en .
+
+
+###  http://emmo.info/physmet#EMMO_455ae83c_4bd9_49fa_84d0_b9fe6a07bcd5
+:EMMO_455ae83c_4bd9_49fa_84d0_b9fe6a07bcd5 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 ;
+                                           skos:prefLabel "PartialDislocation"@en .
+
+
+###  http://emmo.info/physmet#EMMO_4ab75040_bae4_48b1_a8d2_0f2826a473a0
+:EMMO_4ab75040_bae4_48b1_a8d2_0f2826a473a0 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 ;
+                                           skos:prefLabel "RecrystallisationModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_502d99ff_53f4_4636_a4d3_db9562036884
+:EMMO_502d99ff_53f4_4636_a4d3_db9562036884 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90 ;
+                                           skos:prefLabel "ElectricConductivityModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_508e5155_449e_479c_8e94_6d1ba4a110db
+:EMMO_508e5155_449e_479c_8e94_6d1ba4a110db rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2 ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In metallic alloys are high-angle grain boundaries typically defined as grain boundaries with a misorientation angle larger than 15°." ;
+                                           skos:prefLabel "HighAngleGrainBoundary"@en .
+
+
+###  http://emmo.info/physmet#EMMO_57ed2ec9_25c3_49a4_b275_1e015d27d742
+:EMMO_57ed2ec9_25c3_49a4_b275_1e015d27d742 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
+                                                             owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                           ] ;
+                                           skos:prefLabel "TripleLine"@en .
+
+
+###  http://emmo.info/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+:EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_9380ab64_0363_4804_b13f_3a8a94119a76 ;
+                                                             owl:someValuesFrom :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                           ] ;
+                                           skos:prefLabel "Microstructure"@en .
+
+
+###  http://emmo.info/physmet#EMMO_5de69a99_f9c1_4c7e_b5f2_209b692488e6
+:EMMO_5de69a99_f9c1_4c7e_b5f2_209b692488e6 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The symbolic object used to define materials families." ;
+                                           skos:prefLabel "MaterialsFamily"@en .
+
+
+###  http://emmo.info/physmet#EMMO_60e8426c_35c8_43db_bb8d_150d9ab0647c
+:EMMO_60e8426c_35c8_43db_bb8d_150d9ab0647c rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_3de4490a_844c_42f1_b150_2a25f55e8388 ;
+                                           skos:prefLabel "PrimaryParticle"@en .
+
+
+###  http://emmo.info/physmet#EMMO_65c961f8_18c3_49c6_a5f0_7a6096d5a736
+:EMMO_65c961f8_18c3_49c6_a5f0_7a6096d5a736 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_8f33f1ee_dc63_4a89_92be_10350bb16368 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
+                                                             owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
+                                                           ] ;
+                                           skos:prefLabel "SubgrainBoundary"@en .
+
+
+###  http://emmo.info/physmet#EMMO_6c09b642_4e7f_45ed_9e89_60f42dc9a434
+:EMMO_6c09b642_4e7f_45ed_9e89_60f42dc9a434 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_0cfa0628_48b6_4b47_967b_000249c27db1 ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "MeanParticleSize"@en .
+
+
+###  http://emmo.info/physmet#EMMO_79d97edd_19a1_4957_8ea0_f12b963f6859
+:EMMO_79d97edd_19a1_4957_8ea0_f12b963f6859 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531 ;
+                                           skos:prefLabel "Precipitate"@en .
+
+
+###  http://emmo.info/physmet#EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07
+:EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ;
+                                           skos:prefLabel "Dislocation"@en .
+
+
+###  http://emmo.info/physmet#EMMO_7e9193f6_51aa_47c6_b3a7_387d727519e4
+:EMMO_7e9193f6_51aa_47c6_b3a7_387d727519e4 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Subgrain size"@en ;
+                                           rdfs:comment "For historical reasons grain size is typically measured as the grain diameter (assuming spherical grains) rather than volume, which would have been more natural."@en ;
+                                           skos:prefLabel "SubgrainSize"@en .
+
+
+###  http://emmo.info/physmet#EMMO_80341b76_5996_4665_8b8f_a6e8926fad43
+:EMMO_80341b76_5996_4665_8b8f_a6e8926fad43 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_5e77f00d_5c0a_44e7_baf1_2c2a4cb5b3ae ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """An alloy is a combination of metals or metals combined with one or more other elements. For example, combining the metallic elements gold and copper produces red gold, gold and silver becomes white gold, and silver combined with copper produces sterling silver.
+
+Wikipedia""" ;
+                                           skos:prefLabel "Alloy"@en .
+
+
+###  http://emmo.info/physmet#EMMO_814665eb_aa38_42df_820e_41662bef353b
+:EMMO_814665eb_aa38_42df_820e_41662bef353b rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531 ;
+                                           skos:prefLabel "Cluster"@en .
+
+
+###  http://emmo.info/physmet#EMMO_8f33f1ee_dc63_4a89_92be_10350bb16368
+:EMMO_8f33f1ee_dc63_4a89_92be_10350bb16368 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2 ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In metallic alloys are low-angle grain boundaries typically defined as grain boundaries with a misorientation angle between 5° and 15°." ;
+                                           skos:prefLabel "LowAngleGrainBoundary"@en .
+
+
+###  http://emmo.info/physmet#EMMO_984c26d0_5907_4610_8e6e_1a68deaabb90
+:EMMO_984c26d0_5907_4610_8e6e_1a68deaabb90 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_27c5d8c6_8af7_4d63_beb1_ec37cd8b3fa3 ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """A partial differential equation that express conservation of a physical quantity Q in a continuum system.
+
+It describes how the change in time of the density of Q is related to the change in space of the flow density of Q.""" ;
+                                           skos:prefLabel "ContinuityEquation"@en .
+
+
+###  http://emmo.info/physmet#EMMO_a1664ff8_1062_45aa_90ce_54cd83e04ca0
+:EMMO_a1664ff8_1062_45aa_90ce_54cd83e04ca0 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_5de69a99_f9c1_4c7e_b5f2_209b692488e6 ;
+                                           skos:prefLabel "AlloySystem"@en .
+
+
+###  http://emmo.info/physmet#EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09
+:EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 ;
+                                           skos:prefLabel "TextureEvolutionModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_b6589de0_8e4d_498f_8d8e_1f0e16cccf6c
+:EMMO_b6589de0_8e4d_498f_8d8e_1f0e16cccf6c rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_402604f3_2eeb_4070_9a5d_c8fbfd1b0e90 ;
+                                           skos:prefLabel "WorkHardeningModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926
+:EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_c4535007_db2d_4448_b783_8e8d7713c088 ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Intermetallic particles located at grain boundaries. They may be either stable or metastable." ;
+                                           skos:prefLabel "GrainBoundaryParticle"@en .
+
+
+###  http://emmo.info/physmet#EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3
+:EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 ;
+                                           skos:prefLabel "GrainBoundaryDislocation"@en .
+
+
+###  http://emmo.info/physmet#EMMO_c4535007_db2d_4448_b783_8e8d7713c088
+:EMMO_c4535007_db2d_4448_b783_8e8d7713c088 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ;
+                                           skos:prefLabel "IntermetallicParticle"@en .
+
+
+###  http://emmo.info/physmet#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726
+:EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+                                                           ] ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L-4 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "ParticleSizeDistribution"@en .
+
+
+###  http://emmo.info/physmet#EMMO_d244a044_a3f4_47d7_812d_e547b75e014a
+:EMMO_d244a044_a3f4_47d7_812d_e547b75e014a rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+                                                           ] ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L-4 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "SubgrainSizeDistribution"@en .
+
+
+###  http://emmo.info/physmet#EMMO_d8cdee21_8d73_40b5_9d51_ff74c9459859
+:EMMO_d8cdee21_8d73_40b5_9d51_ff74c9459859 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The orientation distribution function (ODF) describes the angular distribution of grains (and subgrains) or an microstructure." ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L0 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "OrientationDistributionFunction"@en .
+
+
+###  http://emmo.info/physmet#EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531
+:EMMO_df501fb1_51df_4b8e_8431_dfa8e7ff5531 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_c4535007_db2d_4448_b783_8e8d7713c088 ;
+                                           skos:prefLabel "MetastableParticle"@en .
+
+
+###  http://emmo.info/physmet#EMMO_e007f051_62fd_493b_a04a_12b4ce41c49e
+:EMMO_e007f051_62fd_493b_a04a_12b4ce41c49e rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_3de4490a_844c_42f1_b150_2a25f55e8388 ;
+                                           skos:prefLabel "Dispersoid"@en .
+
+
+###  http://emmo.info/physmet#EMMO_e3ded882_a0e7_4c70_a4d5_4ebbda61e1a5
+:EMMO_e3ded882_a0e7_4c70_a4d5_4ebbda61e1a5 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_53935db0_af45_4426_b9e9_244a0d77db00 ;
+                                           skos:prefLabel "ClusterDynamics"@en .
+
+
+###  http://emmo.info/physmet#EMMO_ed669684_2722_4581_8ebc_d8336da9b5e5
+:EMMO_ed669684_2722_4581_8ebc_d8336da9b5e5 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 ;
+                                           skos:prefLabel "RecoveryModel"@en .
+
+
+###  http://emmo.info/physmet#EMMO_ede4bc9f_6d79_4d43_b324_6956856b5f45
+:EMMO_ede4bc9f_6d79_4d43_b324_6956856b5f45 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_f3dd74c0_f480_49e8_9764_33b78638c235 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The anble between two grains or subgrains." ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L0 M0 I0 Θ0 N0 J0" ;
+                                           skos:prefLabel "MisorientationAngle"@en .
+
+
+###  http://emmo.info/physmet#EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258
+:EMMO_f6e44c8d_35a0_44e3_bdf4_bccf7eab2258 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                           ] ;
+                                           emmo:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b "EquivalentSphericalGrainSize" ,
+                                                                                          "GrainDiameter" ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Average grain diameter" ;
+                                           emmo:EMMO_de178b12_5d35_4bca_8efa_a4193162571d "T0 L1 M0 I0 Θ0 N0 J0" ;
+                                           rdfs:comment "For historical reasons grain size is typically measured as the grain diameter (assuming spherical grains) rather than volume, which would have been more natural."@en ;
+                                           skos:prefLabel "GrainSize"@en .
+
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
