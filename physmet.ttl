@@ -47,6 +47,12 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
+###  http://emmo.info/physmet#Distribution
+:Distribution rdf:type owl:Class ;
+              rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+              skos:prefLabel "Distribution"@en .
+
+
 ###  http://emmo.info/physmet#EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
 :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
@@ -106,7 +112,8 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 
 ###  http://emmo.info/physmet#EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd
 :EMMO_190e493c_6093_43b1_8af4_142d75fcd6cd rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                           rdfs:subClassOf emmo:EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3 ,
+                                                           :Distribution ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
@@ -255,11 +262,12 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 
 ###  http://emmo.info/physmet#EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1
 :EMMO_5a2f4538_11c1_4085_a114_8a8d78c2c0a1 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
+                                           rdfs:subClassOf :EMMO_a265e3c3_1989_40f2_832b_e62f856c213f ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_9380ab64_0363_4804_b13f_3a8a94119a76 ;
-                                                             owl:someValuesFrom :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
                                                            ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A microstructure is a spatial pattern with at least one solid direct part."@en ;
                                            skos:prefLabel "Microstructure"@en .
 
 
@@ -357,6 +365,12 @@ It describes how the change in time of the density of Q is related to the change
                                            skos:prefLabel "AlloySystem"@en .
 
 
+###  http://emmo.info/physmet#EMMO_a265e3c3_1989_40f2_832b_e62f856c213f
+:EMMO_a265e3c3_1989_40f2_832b_e62f856c213f rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_c74da218_9147_4f03_92d1_8894abca55f3 ;
+                                           skos:prefLabel "SpatialPattern" .
+
+
 ###  http://emmo.info/physmet#EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09
 :EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 ;
@@ -390,7 +404,8 @@ It describes how the change in time of the density of Q is related to the change
 
 ###  http://emmo.info/physmet#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726
 :EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                           rdfs:subClassOf emmo:EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3 ,
+                                                           :Distribution ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
@@ -402,7 +417,8 @@ It describes how the change in time of the density of Q is related to the change
 
 ###  http://emmo.info/physmet#EMMO_d244a044_a3f4_47d7_812d_e547b75e014a
 :EMMO_d244a044_a3f4_47d7_812d_e547b75e014a rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                           rdfs:subClassOf emmo:EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3 ,
+                                                           :Distribution ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
@@ -481,18 +497,6 @@ It describes how the change in time of the density of Q is related to the change
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
@@ -502,10 +506,22 @@ It describes how the change in time of the density of Q is related to the change
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
