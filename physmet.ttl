@@ -13,6 +13,14 @@
 <http://emmo.info/physmet> rdf:type owl:Ontology ;
                             owl:versionIRI <http://emmo.info/physmet/0.0.1> ;
                             owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred-chemistry/1.0.0-beta> ;
+                            dcterms:contributor "SINTEF" ,
+                                                "ACCESS"@en ,
+                                                "AC2T"@en ,
+                                                "Nowegian University of Science and Technology (NTNU)" ;
+                            dcterms:creator "Astrid Marthinsen" ;
+                            dcterms:title "Physical Metallurgy Domain Ontology"@en ;
+                            dcterms:creator "Georg J. Schmitz"@en ,
+                                            "Tomas Manik" ;
                             dcterms:abstract """EMMO-based domain ontology for physical metallurgy and metallic microstructures, covering aspects like:
   - composition
   - particles, both stable (primary) and metastable (precipitates)
@@ -26,14 +34,10 @@
 The aim is to support both microstructure modelling and characterisation.
 
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)."""@en ;
-                            dcterms:contributor "Nowegian University of Science and Technology (NTNU)" ,
-                                                "SINTEF" ;
-                            dcterms:creator "Astrid Marthinsen" ,
-                                            "Jesper Friis" ,
-                                            "Sylvain Gouttebroze" ,
-                                            "Tomas Manik" ;
+                            dcterms:creator "Ulrike Cihak-Bayr"@en ;
                             dcterms:publisher "SFI PhysMet, https://www.ntnu.edu/physmet" ;
-                            dcterms:title "Physical Metallurgy Domain Ontology"@en .
+                            dcterms:creator "Sylvain Gouttebroze" ,
+                                            "Jesper Friis" .
 
 #################################################################
 #    Annotation properties
@@ -144,21 +148,18 @@ dcterms:abstract rdf:type owl:AnnotationProperty .
 
 ###  http://emmo.info/physmet#EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772
 :EMMO_23e2a00e_66a9_4ac8_873e_46c9ebc0d772 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ;
+                                           rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_05684ca3_0f5e_4e39_afb8_e81476255d2a
+                                                           ] ;
                                            skos:prefLabel "Subgrain"@en .
 
 
 ###  http://emmo.info/physmet#EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
 :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
-                                                             owl:someValuesFrom :EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926
-                                                           ] ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
-                                                             owl:someValuesFrom :EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3
-                                                           ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
                                                              owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
@@ -371,6 +372,18 @@ It describes how the change in time of the density of Q is related to the change
                                            skos:prefLabel "SpatialPattern" .
 
 
+###  http://emmo.info/physmet#EMMO_a806eb67_5360_45ca_9b58_3ab259d69ca9
+:EMMO_a806eb67_5360_45ca_9b58_3ab259d69ca9 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a
+                                                           ] ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A spatial domain consisting of more than one phase."@en ;
+                                           rdfs:label "MultiPhaseMatter"@en .
+
+
 ###  http://emmo.info/physmet#EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09
 :EMMO_aef25ad2_a60f_4167_aecb_21ffc0289f09 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_15c4156e_407a_47cc_911e_f39cf561aed5 ;
@@ -385,21 +398,32 @@ It describes how the change in time of the density of Q is related to the change
 
 ###  http://emmo.info/physmet#EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926
 :EMMO_b744d14a_206a_4d9c_ac3b_7d2c11f62926 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_c4535007_db2d_4448_b783_8e8d7713c088 ;
+                                           rdfs:subClassOf :EMMO_c4535007_db2d_4448_b783_8e8d7713c088 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
+                                                           ] ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Intermetallic particles located at grain boundaries. They may be either stable or metastable." ;
                                            skos:prefLabel "GrainBoundaryParticle"@en .
 
 
 ###  http://emmo.info/physmet#EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3
 :EMMO_bd36f05a_c6e8_4702_ba22_9294648b75b3 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 ;
+                                           rdfs:subClassOf :EMMO_7ad92064_a788_4f64_919b_145fdb2b1f07 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+                                                                            ] ;
+                                                             owl:allValuesFrom :EMMO_24e4ffc8_9250_4f9c_a9d7_e12c156bdfd2
+                                                           ] ;
                                            skos:prefLabel "GrainBoundaryDislocation"@en .
 
 
 ###  http://emmo.info/physmet#EMMO_c4535007_db2d_4448_b783_8e8d7713c088
 :EMMO_c4535007_db2d_4448_b783_8e8d7713c088 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ;
-                                           skos:prefLabel "IntermetallicParticle"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Phases which have different crystallographic structures than the surrounding metal."@en ;
+                                           skos:prefLabel "IntermetallicPhase"@en .
 
 
 ###  http://emmo.info/physmet#EMMO_c9058bce_c8c2_4da3_a5f1_61854653a726
@@ -497,6 +521,30 @@ It describes how the change in time of the density of Q is related to the change
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
 
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
@@ -506,28 +554,4 @@ It describes how the change in time of the density of Q is related to the change
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
