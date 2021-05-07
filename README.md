@@ -61,11 +61,16 @@ compatibilies:
 | [crystallography][2] | 0.0.1             |
 
 
-Obtaining PhysMetOntology
--------------------------
-This repository include the correct version of the crystallography and
-mechanics domain ontologies as a git submodules.  Hence, use the
-following command when cloning this repository:
+Obtaining the Microstructure Domain Ontology
+--------------------------------------------
+The Microstructure Domain Ontology can be access or opened in Protege
+using the following url
+
+    https://raw.githubusercontent.com/emmo-repo/domain-microstructure/main/physmet.ttl
+
+It can also be cloned from its [GitHub repository][3].  With [ssh
+access to GitHub][github-ssh] set up, the Microstructure Domain
+Ontology can be cloned with
 
     git clone git@github.com:emmo-repo/domain-microstructure.git
 
@@ -97,3 +102,6 @@ license (CC BY 4.0).
 
 [1]: https://github.com/emmo-repo/EMMO
 [2]: https://github.com/emmo-repo/domain-crystallography
+[3]: https://github.com/emmo-repo/domain-microstructure
+[github]: https://github.com/
+[github-ssh]: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
