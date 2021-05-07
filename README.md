@@ -1,11 +1,11 @@
-[![pipeline status](https://gitlab.com/sfi-physmet/platform/physmetontology/badges/master/pipeline.svg)](https://gitlab.com/sfi-physmet/platform/physmetontology/pipelines/latest)
 
+Microstructure Domain Ontology
+==============================
+This is work in progress.
 
-First draft of an EMMO-based ontology for physical metallurgy
-=============================================================
-This is intended to be a domain ontology for physical metallurgy.  The
-intension is to cover all relevant aspect of metallic microstructures,
-including
+The Microstructure Domain Ontology is intended to be a domain ontology
+for physical metallurgy.  The intension is to cover all relevant
+aspect of metallic microstructures, including:
   - composition
   - particles, both stable (primary) and metastable (precipitates)
   - grains
@@ -67,20 +67,24 @@ This repository include the correct version of the crystallography and
 mechanics domain ontologies as a git submodules.  Hence, use the
 following command when cloning this repository:
 
-    git clone --recurse-submodules --shallow-submodules git@gitlab.com:sfi-physmet/platform/physmetontology.git
+    git clone git@github.com:emmo-repo/domain-microstructure.git
+
 
 
 Attributions and credits
 ------------------------
 ### Authors
-- Jesper Friis, SINTEF
-- Tomas Manik, NTNU
-- Sylvain Gouttenbroze, SINTEF
-- Astrid Marthinsen, SINTEF
+- Jesper Friis, SINTEF, Norway
+- Tomas Manik, NTNU, Norway
+- Sylvain Gouttenbroze, SINTEF, Norway
+- Astrid Marthinsen, SINTEF, Norway
+- Georg Schmitz, ACCESS, Germany
+- Ulrike Cihak-Bayr, AC2T, Austria
+
 
 ### Projects
 - Demystify ontologies - Internal project at [SINTEF](www.sintef.no)
-- SFI PhysMet
+- [SFI PhysMet](https://www.ntnu.edu/physmet)
 
 
 License

@@ -12,7 +12,7 @@
 
 <http://emmo.info/physmet> rdf:type owl:Ontology ;
                             owl:versionIRI <http://emmo.info/physmet/0.0.1> ;
-                            owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred-chemistry/1.0.0-beta> ;
+                            owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred-chemistry2.ttl> ;
                             dcterms:contributor "SINTEF" ,
                                                 "ACCESS"@en ,
                                                 "AC2T"@en ,
