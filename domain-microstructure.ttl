@@ -1,0 +1,493 @@
+@prefix : <http://emmo.info/domain-microstructure/microstructure#> .
+@prefix core: <http://www.w3.org/2004/02/skos/core#> .
+@prefix emmo: <http://emmo.info/emmo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term: <http://purl.org/dc/terms/> .
+
+<http://emmo.info/domain-microstructure/microstructure> a owl:Ontology ;
+    term:contributor "AC2T"@en,
+        "ACCESS"@en,
+        "SINTEF"@en ;
+    term:creator "Astrid Marthinsen"@en,
+        "Georg J. Schmitz"@en,
+        "Jesper Friis"@en,
+        "Sylvain Gouttebroze"@en,
+        "Tomas Manik"@en,
+        "Ulrike Cihak-Bayr"@en ;
+    term:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
+    term:title "Microstructure ontology based on EMMO - Top concepts"@en ;
+    owl:imports <http://emmo.info/emmo/domain-inferred> ;
+    owl:versionInfo "0.1"@en .
+
+:EMMO_0264be35-e8ad-5b35-a1a3-84b37bde22d1 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Temporal pattern occurring in a time interval"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Light house during one night"@en ;
+    rdfs:subClassOf :EMMO_138590b8-3333-515d-87ab-717aac8434e6,
+        :EMMO_4b32833e-0833-56a7-903c-28a6a8191fe8 ;
+    core:prefLabel "FiniteTemporalPattern"@en .
+
+:EMMO_06a205fb-d9eb-5d4f-85fd-444922c0d5e8 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diameter of an equivalent sphere with the same volume as the grain"@en ;
+    rdfs:subClassOf :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
+    core:altLabel "EquivalentSphericalGrainDiameter"@en ;
+    core:prefLabel "EquivalentSphericalGrainSize"@en .
+
+:EMMO_0a3607ec-9961-5e7f-9d4c-b0dcdb3ab439 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A function that provides the possible values for a variable and how often they occur."@en ;
+    rdfs:subClassOf emmo:EMMO_4bc29b0f_8fcc_4026_a291_f9774a66d9b8 ;
+    core:prefLabel "DistributionFunction"@en .
+
+:EMMO_0ce81730-cf19-5582-9dab-caa1cccea652 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sharp transition --> need definition of sharp"@en ;
+    rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+    core:prefLabel "SharpBoundary"@en .
+
+:EMMO_1357f923-667e-562c-9b38-0c57af14def4 a owl:Class ;
+    rdfs:subClassOf :EMMO_dc8fcaec-cd11-5531-a507-9243cdf42e57,
+        emmo:EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac ;
+    core:prefLabel "MolePhaseFraction"@en .
+
+:EMMO_202472bd-28d8-59db-afe7-650608452ef4 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical field who’s values are vectors."@en ;
+    rdfs:subClassOf :EMMO_d3787972-02cd-52fa-94b7-1dc90b0132e0 ;
+    core:prefLabel "PhysicalVectorField"@en .
+
+:EMMO_209d4a37-30d8-5bee-907e-fba213ed9674 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Number of VolumeElements in a mesh (or grid)"@en ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "NumberCells"@en .
+
+:EMMO_228234e4-e197-510c-b5cf-5d7302f972dc a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each voxel (VoxelGrid cell)"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "tomography image"@en ;
+    rdfs:subClassOf :EMMO_77acaaf6-990e-593d-8201-2b643e1d747d ;
+    core:prefLabel "VoxelField"@en .
+
+:EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical process in which a solid substance is produced from a solution (liquid or solid)"@en ;
+    rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+    core:prefLabel "Precipitation"@en .
+
+:EMMO_3fd3b90d-d1fb-5819-b312-a8926565820d a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The grain volume divided by the grain surface area."@en ;
+    rdfs:subClassOf :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
+    core:prefLabel "EquivalentGrainSize"@en .
+
+:EMMO_43a3abe6-a04b-5c62-a09f-2e8461cf05e9 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sum of all GrainVolumes divided by the NumberGrains"@en ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "AverageGrainVolume"@en .
+
+:EMMO_43d33531-9021-5bc2-b6ba-8387ce932f0b a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The fine structure (in a metal or other material) which can be made visible and examined with a microscope. [Oxford Languages]"@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is a spatial pattern with at least one solid direct part."@en ;
+    rdfs:subClassOf :EMMO_5f50f77e-f321-53e3-af76-fe5b0a347479,
+        emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+    core:prefLabel "MicroStructure"@en .
+
+:EMMO_469330b4-00e8-5861-87f5-7cf554133f75 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The result of an SEM measurement"@en ;
+    rdfs:subClassOf :EMMO_169bd902-a133-5e67-a11c-e84c199d9678 ;
+    core:prefLabel "SEMContrast"@en .
+
+:EMMO_472ed27e-ce08-53cb-8453-56ab363275c4 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Transition region between a FiniteSpatialPattern and its complement / surroundings"@en ;
+    rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+    core:prefLabel "SpatialBoundary"@en .
+
+:EMMO_48ca7260-fb16-5835-9049-6a60f35bada1 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A region of a grain with (almost) the same crystal orientation."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A common definition is that subgrains are separated from their neighbours by subgrain boundaries with a misorientation angle between 5 and 15 degrees."@en ;
+    rdfs:subClassOf :EMMO_276ec900-4cb8-548a-9362-38fd54e2be36 ;
+    core:prefLabel "SubGrain"@en .
+
+:EMMO_502b208a-c3ed-5798-b025-11ac9aeb4ff7 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Spatial pattern without regular temporal variations on 2D space section"@en ;
+    rdfs:subClassOf :EMMO_4b32833e-0833-56a7-903c-28a6a8191fe8,
+        :EMMO_5f50f77e-f321-53e3-af76-fe5b0a347479 ;
+    core:prefLabel "2DPattern"@en .
+
+:EMMO_52965fd6-ff68-56e9-a035-daa51a362e3a a owl:Class ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "NumberGrains"@en .
+
+:EMMO_5463be33-82fc-5e44-a18d-ca0267296ade a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A continuous material consisting of a multiple connected crystal."@en ;
+    rdfs:subClassOf emmo:0bb3b434_73aa_428f_b4e8_2a2468648e19 ;
+    core:prefLabel "PolyCrystal"@en .
+
+:EMMO_557ffa0d-c2f3-5958-a2c9-df726a7e6c1c a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The smallest volume over which a measurement can be made that will provide a value representative for the whole."@en ;
+    rdfs:subClassOf emmo:EMMO_4456a5d2_16a6_4ee1_9a8e_5c75956b28ea ;
+    core:altLabel "REV"@en,
+        "RVE"@en,
+        "RepresentativeVolumeElement"@en ;
+    core:prefLabel "RepresentativeElementaryVolume"@en .
+
+:EMMO_585604ac-1562-579b-878b-cacb38cc92b1 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The result of an optical measurement"@en ;
+    rdfs:subClassOf :EMMO_169bd902-a133-5e67-a11c-e84c199d9678 ;
+    core:prefLabel "OpticalContrast"@en .
+
+:EMMO_5ee3b417-59f4-5233-9a81-ec83bbf14423 a owl:Class ;
+    rdfs:subClassOf :EMMO_1519f92c-d740-550c-b49b-afd9da0a0550,
+        :EMMO_dc8fcaec-cd11-5531-a507-9243cdf42e57 ;
+    core:prefLabel "AreaPhaseFraction"@en .
+
+:EMMO_607b19e3-af18-5da2-a56e-2069f7a1688a a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical field who’s values are scalars."@en ;
+    rdfs:subClassOf :EMMO_d3787972-02cd-52fa-94b7-1dc90b0132e0 ;
+    core:prefLabel "PhysicalScalarField"@en .
+
+:EMMO_6246546c-55eb-52ee-87e2-56ce8912eb2d a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a pixel"@en ;
+    rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
+    core:prefLabel "PixelSize"@en .
+
+:EMMO_65707d05-f6a4-550d-8def-c57556ae62f2 a owl:Class ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "NumberPhases"@en .
+
+:EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Phase with uniform crystalline structure with a defined composition range (or stoichiometry) "@en ;
+    rdfs:subClassOf emmo:0bb3b434_73aa_428f_b4e8_2a2468648e19,
+        emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
+    core:prefLabel "CrystallinePhase"@en .
+
+:EMMO_66bf989d-d737-5e27-a6d5-6508c8bb75c6 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Grid with cubic elements of exactly the same size composing a box."@en ;
+    rdfs:subClassOf :EMMO_819b66ee-00f5-53ea-8811-60f54039dc64 ;
+    core:prefLabel "VoxelGrid"@en .
+
+:EMMO_6d47161f-7721-50e1-a78c-c256041aa83a a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]"@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "clarify difference from precipitate"@en ;
+    rdfs:subClassOf :EMMO_4c72efd2-93bc-5692-b200-256efce58997 ;
+    core:prefLabel "Dispersoid"@en .
+
+:EMMO_704a495d-7c0e-511b-a205-8ed58ebe61b2 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The result of an EBSD measurement"@en ;
+    rdfs:subClassOf :EMMO_169bd902-a133-5e67-a11c-e84c199d9678 ;
+    core:prefLabel "EBSDContrast"@en .
+
+:EMMO_708c2e92-4c34-52a8-83f6-51086d798da4 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical field who’s values are tensors."@en ;
+    rdfs:subClassOf :EMMO_d3787972-02cd-52fa-94b7-1dc90b0132e0 ;
+    core:prefLabel "PhysicalTensorField"@en .
+
+:EMMO_76b2eb15-3ab7-52b3-ade2-755aa390d63e a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Spatial pattern localized in a volume of space"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Textured surface after etching"@en ;
+    rdfs:subClassOf :EMMO_4b32833e-0833-56a7-903c-28a6a8191fe8,
+        :EMMO_5f50f77e-f321-53e3-af76-fe5b0a347479 ;
+    core:prefLabel "FiniteSpatialPattern"@en .
+
+:EMMO_84e023a7-3c91-57ea-a175-6cd23acfa86b a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length or thickness of a grain who's shape can be approximated with a cylinder."@en ;
+    rdfs:subClassOf :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
+    core:prefLabel "CylinderShapedGrainLength"@en .
+
+:EMMO_85e12c38-afc9-5757-8a3e-ce49b0cc9746 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diameter of a grain who's shape can be approximated with a cylinder."@en ;
+    rdfs:subClassOf :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
+    core:prefLabel "CylinderShapedGrainDiameter"@en .
+
+:EMMO_8a36cfff-9412-5ee9-8264-bd7658517cce a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The result of an EDX measurement"@en ;
+    rdfs:subClassOf :EMMO_169bd902-a133-5e67-a11c-e84c199d9678 ;
+    core:prefLabel "EDXContrast"@en .
+
+:EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Smooth and continuation transition"@en ;
+    rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+    core:prefLabel "DiffuseBoundary"@en .
+
+:EMMO_903bf818-c0b4-56ef-9673-799ba204795d a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A precipitate can not live without its sourounding microstructure"@en ;
+    rdfs:subClassOf :EMMO_4c72efd2-93bc-5692-b200-256efce58997 ;
+    core:prefLabel "Precipitate"@en .
+
+:EMMO_959299c9-f6f5-5376-ad92-09922f5abba0 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution that gives the probabilities of the occurence of different possible outcomes (of a measurement)."@en ;
+    rdfs:subClassOf :EMMO_711d1f55-796c-56cf-a932-1bc552cc20a3 ;
+    core:prefLabel "ProbabilityDistribution"@en .
+
+:EMMO_9a4d7dca-734f-5d06-bd87-6d6c97a81467 a owl:Class ;
+    rdfs:subClassOf :EMMO_dc8fcaec-cd11-5531-a507-9243cdf42e57,
+        emmo:EMMO_7c055d65_2929_40e1_af4f_4bf10995ad50 ;
+    core:prefLabel "MassPhaseFraction"@en .
+
+:EMMO_9ead4d78-23ad-5a33-8d8e-abef3925fcbb a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a PhysicalField where "@en ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "ConcentrationField"@en .
+
+:EMMO_a08e74f1-0f4e-55b4-951c-64138ed6125e a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Inverse length dimension"@en ;
+    rdfs:subClassOf emmo:EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc ;
+    core:prefLabel "PerLengthDimension"@en .
+
+:EMMO_a1d368ca-1e20-55b1-80d8-92509ff12f8f a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "SinglePhaseParticle forming during solidification"@en ;
+    rdfs:subClassOf :EMMO_0449d241-e6ec-5426-b327-16785bcf87fe ;
+    core:prefLabel "PrimaryParticle"@en .
+
+:EMMO_a27d4d7e-0398-56af-9fea-2ffa6786b4ac a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a pixel"@en ;
+    rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
+    core:prefLabel "VoxelSize"@en .
+
+:EMMO_a447eed4-184d-5002-9632-9eab73e10348 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Inverse area dimension"@en ;
+    rdfs:subClassOf emmo:EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc ;
+    core:prefLabel "PerAreaDimension"@en .
+
+:EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object in the microstructure. A region of a crystalline material with (almost) the same crystal orientation."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A common definition is that grains are separated from their neighbour grains by grain boundaries with a misorientation angle higher than 15 degrees."@en,
+        "Subpart of PolyCrystal consituted primarily of one CrystallinePhase."@en ;
+    rdfs:subClassOf :EMMO_276ec900-4cb8-548a-9362-38fd54e2be36 ;
+    core:prefLabel "Grain"@en .
+
+:EMMO_b11f2f2e-52ab-5477-bda2-db8f95145e26 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Grid with square elements of exactly the same size composing a rectangular shape."@en ;
+    rdfs:subClassOf :EMMO_819b66ee-00f5-53ea-8811-60f54039dc64 ;
+    core:prefLabel "PixelGrid"@en .
+
+:EMMO_b365d478-957b-547d-9c1d-cbf3224e96ab a owl:Class ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "example: AverageGrainSize. Sum of all grain sizes divided by the NumberGrains"@en ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:altLabel "AverageValue"@en ;
+    core:prefLabel "Average"@en .
+
+:EMMO_b41c9cb3-3b2d-509f-9c93-aa04da134307 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Begin or end of a FiniteTemporalPattern or FiniteSpatioTemporalPattern"@en ;
+    rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+    core:prefLabel "TemporalBoundary"@en .
+
+:EMMO_b8b7624c-c0e2-5cbf-9fe4-37be93659d9b a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of the dislocation per volume. Usually counted by pits in an etched area section"@en ;
+    rdfs:subClassOf :EMMO_b0b6d9b7-d73e-5537-b701-5501919d2051 ;
+    core:prefLabel "DislocationDensity"@en .
+
+:EMMO_bc4030ff-d125-5e63-b8f8-b2ef3d08b6d5 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Three angles describing the orientation of a real world object with respect to a main reference frame."@en ;
+    rdfs:subClassOf emmo:EMMO_f3dd74c0_f480_49e8_9764_33b78638c235 ;
+    core:prefLabel "EulerAngles"@en .
+
+:EMMO_c59c1e36-d4db-5562-bc92-4ade837a5967 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each pixel (PixelGrid cell)"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "pixel image"@en ;
+    rdfs:subClassOf :EMMO_77acaaf6-990e-593d-8201-2b643e1d747d ;
+    core:prefLabel "PixelField"@en .
+
+:EMMO_cabddf8f-c82e-5db9-ab4b-5572755784b8 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Number of specifiying chemical compounds or atoms in a volume"@en ;
+    rdfs:subClassOf :EMMO_1d6eaf9f-fff7-54f7-9626-0c124332bb09 ;
+    core:prefLabel "VolumetricConcentration"@en .
+
+:EMMO_cb697e71-ab8c-5fa1-afaa-70f81a3b6aa4 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Map of local chemical abundance of one element"@en ;
+    rdfs:subClassOf :EMMO_cd254842-c697-55f6-917d-9805c77b9187 ;
+    core:prefLabel "EDXMapping"@en .
+
+:EMMO_d0b9a1f9-602e-58ce-abd7-badb40306065 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of length."@en ;
+    rdfs:subClassOf :EMMO_a89c55c6-81c4-50c0-a28c-416f0b77aed7 ;
+    core:prefLabel "LengthDensity"@en .
+
+:EMMO_d34a6e6f-6422-58c4-99ad-d170e8c83a88 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The difference between two orientations."@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Misorientation between two grains."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The misorientation depends only on the two local reference frames, but not on the main reference frame."@en ;
+    rdfs:subClassOf :EMMO_0b63d829-64fc-5f3a-8117-188705ba8321 ;
+    core:prefLabel "Misorientation"@en .
+
+:EMMO_d3f0a471-79c3-5640-87a9-f64ff53014ec a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Inverse volume dimension"@en ;
+    rdfs:subClassOf emmo:EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc ;
+    core:prefLabel "PerVolumeDimension"@en .
+
+:EMMO_e0b20a22-7e6f-5c81-beca-35bc5358e11b a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Pattern which evolves in confined volume of space during a time interval"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "standing wave confined by some boundaries"@en ;
+    rdfs:subClassOf :EMMO_4b32833e-0833-56a7-903c-28a6a8191fe8,
+        :EMMO_9fa9ca88-2891-538a-a8dd-ccb8a08b9890 ;
+    core:prefLabel "FiniteSpatioTemporalPattern"@en .
+
+:EMMO_e9dfe3ef-ed1e-5232-99d5-fe364cdd3277 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The volume of a grain."@en ;
+    rdfs:subClassOf emmo:EMMO_f1a51559_aa3d_43a0_9327_918039f0dfed ;
+    core:prefLabel "GrainVolume"@en .
+
+:EMMO_ea990696-88b7-532e-8de7-d84e6fdf8e66 a owl:Class ;
+    rdfs:subClassOf :EMMO_dc8fcaec-cd11-5531-a507-9243cdf42e57,
+        emmo:EMMO_a8eb87b5_4d10_4137_a75c_e04ee59ca095 ;
+    core:prefLabel "VolumePhaseFraction"@en .
+
+:EMMO_ed4bb459-6407-57d3-a5da-5fe794b1b081 a owl:Class ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "NumberPrecipitates"@en .
+
+:EMMO_ed5ab546-9f6a-506f-829f-45339d75bffa a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an amount of matter characterized by a  chemical composition. "@en ;
+    rdfs:subClassOf emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+    core:prefLabel "alloy"@en .
+
+:EMMO_edf910b9-fb32-5907-acd6-22029e6cfcac a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Reference frame that is local to (follows) a real world object."@en ;
+    rdfs:subClassOf :EMMO_dd4044df-5052-50ad-8399-671dfac08165 ;
+    core:prefLabel "LocalReferenceFrame"@en .
+
+:EMMO_f178f320-a094-5364-bbf9-11bd5f692ca3 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The surface area of a grain."@en ;
+    rdfs:subClassOf emmo:EMMO_96f39f77_44dc_491b_8fa7_30d887fe0890 ;
+    core:prefLabel "GrainSurfaceArea"@en .
+
+:EMMO_f9f4a98f-a118-55bc-929e-9c3c9d767ffc a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A conventional global reference frame."@en ;
+    rdfs:subClassOf :EMMO_dd4044df-5052-50ad-8399-671dfac08165 ;
+    core:prefLabel "MainReferenceFrame"@en .
+
+:EMMO_0449d241-e6ec-5426-b327-16785bcf87fe a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Particle containing one PhaseOfMatter"@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In the physical sciences, a particle (or corpuscule in older texts) is a small localized object to which can be ascribed several physical or chemical properties, such as volume, density, or mass. [Wikipedia]"@en ;
+    rdfs:subClassOf :EMMO_4c72efd2-93bc-5692-b200-256efce58997,
+        emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
+    core:prefLabel "SinglePhaseParticle"@en .
+
+:EMMO_0b63d829-64fc-5f3a-8117-188705ba8321 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame."@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "For texture is the local reference frame typically connected to the crystal directions and the main reference frame to the rolling, transverse and normal directions."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Three independent values are needed to describe the orientation of the local reference frame."@en ;
+    rdfs:subClassOf emmo:EMMO_02c0621e_a527_4790_8a0f_2bb51973c819 ;
+    core:prefLabel "Orientation"@en .
+
+:EMMO_138590b8-3333-515d-87ab-717aac8434e6 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Pattern with only temporal aspect"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Voltage in AC plug"@en ;
+    rdfs:subClassOf :EMMO_9fa9ca88-2891-538a-a8dd-ccb8a08b9890 ;
+    core:prefLabel "TemporalPattern"@en .
+
+:EMMO_1519f92c-d740-550c-b49b-afd9da0a0550 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Area of parts divided by the total area of the whole (domain under consideration)."@en ;
+    rdfs:subClassOf emmo:EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef ;
+    core:prefLabel "AreaFraction"@en .
+
+:EMMO_1d6eaf9f-fff7-54f7-9626-0c124332bb09 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Number of objects per volume"@en ;
+    rdfs:subClassOf :EMMO_73650d49-8a40-5ed9-8a85-34a54079760c ;
+    core:prefLabel "NumberDensity"@en .
+
+:EMMO_711d1f55-796c-56cf-a932-1bc552cc20a3 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Numbers of counts for a number of intervals for the value of some property"@en ;
+    rdfs:subClassOf emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+    core:prefLabel "Distribution"@en .
+
+:EMMO_73650d49-8a40-5ed9-8a85-34a54079760c a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of volume."@en ;
+    rdfs:subClassOf :EMMO_a89c55c6-81c4-50c0-a28c-416f0b77aed7 ;
+    core:prefLabel "VolumeDensity"@en .
+
+:EMMO_7b782ab6-c534-5737-9c88-1061cc06bf2e a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A mesh does not put any restructiction on the type of vomume elements that are used."@en ;
+    rdfs:subClassOf emmo:EMMO_46f0f8df_4dc6_418f_8036_10427a3a288e ;
+    core:prefLabel "Mesh"@en .
+
+:EMMO_b0b6d9b7-d73e-5537-b701-5501919d2051 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of area."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "in EMMO: mass per unit area"@en ;
+    rdfs:subClassOf :EMMO_a89c55c6-81c4-50c0-a28c-416f0b77aed7 ;
+    core:prefLabel "AreaDensity2"@en .
+
+:EMMO_276ec900-4cb8-548a-9362-38fd54e2be36 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material consisting of a single crystal."@en ;
+    rdfs:subClassOf emmo:0bb3b434_73aa_428f_b4e8_2a2468648e19 ;
+    core:altLabel "SingleCrystal"@en ;
+    core:prefLabel "MonoCrystal"@en .
+
+:EMMO_77acaaf6-990e-593d-8201-2b643e1d747d a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical field that is only defined on a set of volume elements in space and time."@en ;
+    rdfs:subClassOf :EMMO_d3787972-02cd-52fa-94b7-1dc90b0132e0 ;
+    core:prefLabel "PhysicalDiscretisedField"@en .
+
+:EMMO_819b66ee-00f5-53ea-8811-60f54039dc64 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Regular mesh with one type of volume elements."@en ;
+    rdfs:subClassOf :EMMO_7b782ab6-c534-5737-9c88-1061cc06bf2e ;
+    core:prefLabel "Grid"@en .
+
+:EMMO_dd4044df-5052-50ad-8399-671dfac08165 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An abstract coordinate system with an origin, oritation and scale specified by a set of reference points. "@en ;
+    rdfs:subClassOf emmo:EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,
+        emmo:EMMO_d8aa8e1f_b650_416d_88a0_5118de945456 ;
+    core:altLabel "FrameOfReference"@en ;
+    core:prefLabel "ReferenceFrame"@en .
+
+:EMMO_4c72efd2-93bc-5692-b200-256efce58997 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders."@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "alpha particles,"@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Everything a metallurgist calls a \"particle\" in a microstructure."@en ;
+    rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ;
+    core:prefLabel "MicrostructureParticle"@en .
+
+:EMMO_5f50f77e-f321-53e3-af76-fe5b0a347479 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Spatial pattern without regular temporal variations"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Infinite grid"@en ;
+    rdfs:subClassOf :EMMO_9fa9ca88-2891-538a-a8dd-ccb8a08b9890 ;
+    core:prefLabel "SpatialPattern"@en .
+
+:EMMO_9fa9ca88-2891-538a-a8dd-ccb8a08b9890 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A pattern which (temporally) evolves in (unlimited) space"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "a propagating  wave "@en ;
+    rdfs:subClassOf :EMMO_cd254842-c697-55f6-917d-9805c77b9187 ;
+    core:prefLabel "SpatioTemporalPattern"@en .
+
+:EMMO_a89c55c6-81c4-50c0-a28c-416f0b77aed7 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of length, area or volume"@en ;
+    rdfs:subClassOf emmo:EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3 ;
+    core:prefLabel "GeneralDensity"@en .
+
+:EMMO_cd254842-c697-55f6-917d-9805c77b9187 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "everything that can be perceived or measured"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "NEED TO UPDATE TO DATA perspective"@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f " this definition is much broader than definition of pattern such as \"the regular and repeated way in which something happens or is\""@en,
+        "a pattern is defined from a contrast"@en ;
+    rdfs:subClassOf emmo:EMMO_649bf97b_4397_4005_90d9_219755d92e34 ;
+    core:prefLabel "Pattern"@en .
+
+:EMMO_169bd902-a133-5e67-a11c-e84c199d9678 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A variation in at least one physical property"@en ;
+    emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Physical properties could be grey value, RGB, intensity, wave length, acoustic intensity…"@en ;
+    rdfs:subClassOf emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e ;
+    core:prefLabel "Contrast"@en .
+
+:EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a perceivable contrast in some property "@en ;
+    rdfs:subClassOf emmo:EMMO_649bf97b_4397_4005_90d9_219755d92e34 ;
+    core:prefLabel "Boundary"@en .
+
+:EMMO_4b32833e-0833-56a7-903c-28a6a8191fe8 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Pattern occuring within a boundary in the 4D space"@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Every physical pattern is a FinitePattern"@en ;
+    rdfs:subClassOf :EMMO_cd254842-c697-55f6-917d-9805c77b9187 ;
+    core:prefLabel "FinitePattern"@en .
+
+:EMMO_d3787972-02cd-52fa-94b7-1dc90b0132e0 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity that has a value in each point in space and time. "@en ;
+    rdfs:subClassOf emmo:EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,
+        emmo:EMMO_4bc29b0f_8fcc_4026_a291_f9774a66d9b8 ;
+    core:prefLabel "PhysicalField"@en .
+
+:EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length measured according to a specified procedure (and/or model)"@en ;
+    rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
+    core:prefLabel "GrainSize"@en .
+
+:EMMO_dc8fcaec-cd11-5531-a507-9243cdf42e57 a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ratio of the quantity of a phase over the total quantity of all the phases over the domain considered. Quantity is usually mass, mole, area, or volume."@en ;
+    rdfs:subClassOf emmo:EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef ;
+    core:prefLabel "PhaseFraction"@en .
+
