@@ -17,7 +17,7 @@
         "Ulrike Cihak-Bayr"@en ;
     term:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
     term:title "Microstructure ontology based on EMMO - Top concepts"@en ;
-    owl:imports <http://emmo.info/emmo/domain-inferred> ;
+    owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta4/emmo-inferred.ttl> ;
     owl:versionInfo "0.1"@en .
 
 :EMMO_0264be35-e8ad-5b35-a1a3-84b37bde22d1 a owl:Class ;
@@ -490,4 +490,3 @@
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ratio of the quantity of a phase over the total quantity of all the phases over the domain considered. Quantity is usually mass, mole, area, or volume."@en ;
     rdfs:subClassOf emmo:EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef ;
     core:prefLabel "PhaseFraction"@en .
-
