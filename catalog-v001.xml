@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-    <uri name="http://emmo.info/domain-microstructure/0.1/domain-microstructure" uri="./domain-microstructure.ttl"/>
-    <uri name="http://emmo.info/crystallography/0.0.1/crystallography"           uri="./crystallography/crystallography.ttl"/>
-
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/mereocausality"                 uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/mereocausality/mereocausality.ttl"/>
-
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives"                   uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/perspectives.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/perspective"       uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/perspective.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/semiotics"         uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/semiotics.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/perceptual"        uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/perceptual.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/reductionistic"    uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/reductionistic.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/holistic"          uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/holistic.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/persistence"       uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/persistence.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/physicalistic"     uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/physicalistic.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/perspectives/data"              uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/perspectives/data.ttl"/>
-
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/multiperspective"               uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/multiperspective/multiperspective.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/multiperspective/persholistic"  uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/multiperspective/persholistic.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/multiperspective/properties"    uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/multiperspective/properties.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/multiperspective/symbolic"      uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/multiperspective/symbolic.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/multiperspective/information"   uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/multiperspective/information.ttl"/>
-
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines"                    uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/disciplines.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/chemistry"          uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/chemistry.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/computerscience"    uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/computerscience.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/isq"                uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/isq.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/manufacturing"      uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/manufacturing.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/materials"          uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/materials.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/math"               uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/math.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/metrology"          uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/metrology.ttl"/>
-    <uri name="http://emmo.info/emmo/1.0.0-beta4/disciplines/models"             uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta4/disciplines/models.ttl"/>
-
-  </group>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://emmo.info/emmo-inferred" uri="https://emmo-repo.github.io/versions/1.0.0-beta4/emmo-inferred.ttl"/>
+    </group>
 </catalog>
