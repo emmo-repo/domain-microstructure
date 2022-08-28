@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred-chemistry/1.0.0-beta" uri="https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred-chemistry2.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
-        <uri name="http://emmo.info/physmet/0.0.1/physmet" uri="./physmet.ttl"/>
-        <uri name="http://emmo.info/crystallography/0.0.1/crystallography" uri="./crystallography/crystallography.ttl"/>
+        <uri name="http://emmo.info/emmo-inferred" uri="https://emmo-repo.github.io/versions/1.0.0-beta4/emmo-inferred.ttl"/>
     </group>
 </catalog>
