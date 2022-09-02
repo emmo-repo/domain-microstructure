@@ -17,7 +17,7 @@
         "Ulrike Cihak-Bayr"@en ;
     dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
     dcterms:title "Microstructure ontology based on EMMO - Top concepts"@en ;
-    owl:imports <http://emmo.info/emmo-inferred> ;
+    owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta4/emmo.ttl> ;
     owl:versionInfo "0.1"@en .
 
 :EMMO_0264be35-e8ad-5b35-a1a3-84b37bde22d1 a owl:Class ;
@@ -622,4 +622,3 @@
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of an object measured according to a specified procedure (and/or model)"@en ;
     rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
     skos:prefLabel "Size"@en .
-
