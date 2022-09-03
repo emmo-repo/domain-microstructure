@@ -18,7 +18,7 @@
         "Ulrike Cihak-Bayr"@en ;
     term:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
     term:title "Microstructure ontology based on EMMO - Top concepts"@en ;
-    owl:imports <http://emmo.info/emmo-inferred> ;
+    owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta4/emmo.ttl> ;
     owl:versionInfo "0.1"@en .
 
 :EMMO_06a205fb-d9eb-5d4f-85fd-444922c0d5e8 a owl:Class ;
@@ -638,4 +638,3 @@
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Should be moved to EMMO middle"@en ;
     rdfs:subClassOf emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 ;
     core:prefLabel "SpatialContrast"@en .
-
