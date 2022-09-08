@@ -7,29 +7,17 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://emmo.info/domain-microstructure/microstructure> a owl:Ontology ;
-    owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta4/emmo.ttl> ;
-    owl:versionInfo "0.1"@en ;
-    dcterms:title "Microstructure Domain Ontology"@en ;
-    dcterms:abstract """The Microstructure Domain Ontology is a domain ontology for describing the properties and morphology of microstructures. It has been developed with a special focus for the needs within physical metallurgy.
-
-It intend to cover all relevant aspect of metallic microstructures, including:
-  - composition
-  - stable & metastable particles
-  - grains & subgrains
-  - grain boundaries
-  - particle free zones
-  - texture
-  - defects & dislocations
-  - alloy systems
-"""@en ;
-    dcterms:creator "Sylvain Gouttebroze (SINTEF)"@en,
-        "Jesper Friis (SINTEF)"@en,
-        "Astrid Marthinsen (SINTEF)"@en,
+    dcterms:contributor "SFI PhysMet"@en ;
+    dcterms:creator "Astrid Marthinsen (SINTEF)"@en,
         "Georg J. Schmitz (ACCESS)"@en,
+        "Jesper Friis (SINTEF)"@en,
+        "Sylvain Gouttebroze (SINTEF)"@en,
         "Tomas Manik (NTNU)"@en,
         "Ulrike Cihak-Bayr (AC2T)"@en ;
-    dcterms:contributor "SFI PhysMet"@en ;
-    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
+    dcterms:title "Microstructure domain ontology"@en ;
+    owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta4/emmo.ttl> ;
+    owl:versionInfo "0.1"@en .
 
 :EMMO_06a205fb-d9eb-5d4f-85fd-444922c0d5e8 a owl:Class ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diameter of an equivalent sphere with the same volume as the grain"@en ;
@@ -59,13 +47,15 @@ It intend to cover all relevant aspect of metallic microstructures, including:
 
 :EMMO_14ad97af-303a-58fe-bdcc-c13c57dbbb9e a owl:Class ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The fine structure (in a metal or other material) which can be made visible and examined with a microscope. [Oxford Languages]"@en ;
-    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is a material consisting of a spatial pattern of its holistic parts."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure constituents) are of a different type than the microstructure itself, it also a fundamental whole."@en,
+        "A microstructure is the structure of a material, not the material itself. Hence, it is a subclass of spatial data but not of material."@en ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-            owl:someValuesFrom :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ],
+            owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+            owl:onClass :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
+            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ],
         :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace,
-        emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94,
-        emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ;
+        emmo:EMMO_57c75ca1_bf8a_42bc_85d9_58cfe38c7df2,
+        emmo:EMMO_b9522e56_1fac_4766_97e6_428605fabd3e ;
     skos:prefLabel "Microstructure"@en .
 
 :EMMO_1a93c22d-52cb-590c-a30a-0ec734895211 a owl:Class ;
@@ -541,7 +531,11 @@ It intend to cover all relevant aspect of metallic microstructures, including:
 
 :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e a owl:Class ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Boundary between two (or more) phases."@en ;
-    rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+            owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
+            owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee ] ],
+        :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
     skos:prefLabel "PhaseBoundary"@en .
 
 :EMMO_3a9e6708-4df7-51a5-bd3f-f551d7f2ca30 a owl:Class ;
@@ -643,7 +637,8 @@ It intend to cover all relevant aspect of metallic microstructures, including:
             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
             owl:onClass :EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88 ;
             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee ] ],
-        :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 ;
+        :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929,
+        :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
     skos:prefLabel "GrainBoundary"@en .
 
 :EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5 a owl:Class ;
@@ -685,15 +680,6 @@ It intend to cover all relevant aspect of metallic microstructures, including:
     rdfs:subClassOf emmo:EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55 ;
     skos:prefLabel "GeneralisedDensity"@en .
 
-:EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace a owl:Class ;
-    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An entity with a spatial variation of its properties."@en ;
-    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Should be moved to EMMO middle"@en ;
-    rdfs:subClassOf emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 ;
-    skos:altLabel "SpatialContrast"@en,
-        "SpatialPattern"@en,
-        "SpatialVariation"@en ;
-    skos:prefLabel "SpatialData"@en .
-
 :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 a owl:Class ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Boundary with at least one solid"@en ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -722,6 +708,15 @@ It intend to cover all relevant aspect of metallic microstructures, including:
         emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ;
     skos:altLabel "Innoculant"@en ;
     skos:prefLabel "MicrostructureParticle"@en .
+
+:EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace a owl:Class ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An entity with a spatial variation of its properties."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Should be moved to EMMO middle"@en ;
+    rdfs:subClassOf emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 ;
+    skos:altLabel "SpatialContrast"@en,
+        "SpatialPattern"@en,
+        "SpatialVariation"@en ;
+    skos:prefLabel "SpatialData"@en .
 
 :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d a owl:Class ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a grain measured according to a specified procedure (and/or model)."@en ;
@@ -754,9 +749,9 @@ It intend to cover all relevant aspect of metallic microstructures, including:
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "There is no exact definition of the thickness of a boundary, but it refer to the region of each phase that is affected (in some property) by being in contact of the other phase."@en ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-            owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
+            owl:onClass emmo:EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de ;
             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee ] ],
-        emmo:EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2 ;
+        :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace ;
     skos:prefLabel "Boundary"@en .
 
 :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 a owl:Class ;
