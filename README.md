@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
+
 
 Microstructure Domain Ontology
 ==============================
