@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
+
 
 Microstructure Domain Ontology
 ==============================
@@ -57,7 +59,7 @@ compatibilies:
 
 | Imported Ontologies  | Version           |
 | -------------------- | ----------------- |
-| [EMMO][1]            | 1.0.0-alpha2      |
+| [EMMO][1]            | 1.0.0-beta5       |
 | [crystallography][2] | 0.0.1             |
 
 
