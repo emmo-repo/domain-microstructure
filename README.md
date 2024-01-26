@@ -25,7 +25,7 @@ For modelling, we will distinguish between
     succession of states) and
   - property models (that relates a microstructure state to a property).
 
-It should support describing same concept at different spacial
+It should support describing same concept at different spatial
 resolutions, like mean field, 1D, 2D and 3D.
 
 For mean field descriptions (what about spatially resolved), it should
