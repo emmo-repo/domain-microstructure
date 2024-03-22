@@ -29,8 +29,8 @@ jobs:
     - name: Create squashed and inferred ontology
       run: |
         mkdir build
-        ontoconvert -saw --base-iri "https://w3id.org/emmo#" --iri "https://w3id.org/emmo" microstructure.ttl build/microstructure.ttl
-        ontoconvert -saw -i --base-iri "https://w3id.org/emmo#" --iri "https://w3id.org/emmo" microstructure.ttl build/microstructure-inferred.ttl
+        ontoconvert -saw --base-iri "https://w3id.org/emmo/domain/microstructure#" --iri "https://w3id.org/emmo/domain/microstructure" microstructure.ttl build/microstructure.ttl
+        ontoconvert -saw --base-iri "https://w3id.org/emmo/domain/microstructure#" --iri "https://w3id.org/emmo/domain/microstructure" microstructure.ttl build/microstructure-inferred.ttl --infer=HermiT
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
