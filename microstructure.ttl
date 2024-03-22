@@ -44,7 +44,7 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf
 :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ;
-                                           rdfs:label "PhysicalMetallurgy"@en ;
+                                           skos:prefLabel "PhysicalMetallurgy"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A language entity used in the domain of physical metallurgy."@en .
 
 
@@ -59,7 +59,11 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0877f58d-0a9c-5803-b1b7-6dcb058fc163
 :EMMO_0877f58d-0a9c-5803-b1b7-6dcb058fc163 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_4448f871-557b-5026-ad6e-acda83fd3bc0 ;
+                                           rdfs:subClassOf :EMMO_4448f871-557b-5026-ad6e-acda83fd3bc0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+                                                             owl:someValuesFrom emmo:EMMO_11708648_fc62_46c6_bae5_3a10693e416e
+                                                           ] ;
                                            skos:prefLabel "SurfaceDensity"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of area."@en .
 
@@ -92,9 +96,9 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0b63d829-64fc-5f3a-8117-188705ba8321
 :EMMO_0b63d829-64fc-5f3a-8117-188705ba8321 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_02c0621e_a527_4790_8a0f_2bb51973c819 ;
+                                           skos:example "For texture is the local reference frame typically connected to the crystal directions and the main reference frame to the rolling, transverse and normal directions."@en ;
                                            skos:prefLabel "Orientation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "For texture is the local reference frame typically connected to the crystal directions and the main reference frame to the rolling, transverse and normal directions."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Three independent values are needed to describe the orientation of the local reference frame."@en .
 
 
@@ -186,9 +190,9 @@
                                                              owl:onProperty emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 ;
                                                              owl:someValuesFrom emmo:EMMO_20ff3b34_c864_4936_8955_9345fc0a3b3c
                                                            ] ;
+                                           skos:example "tomography image"@en ;
                                            skos:prefLabel "VoxelField"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each voxel (VoxelGrid cell)"@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "tomography image"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each voxel (VoxelGrid cell)"@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5
@@ -257,7 +261,7 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c
 :EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
-                                           rdfs:label "MaterialName"@en ;
+                                           skos:prefLabel "MaterialName"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a material."@en .
 
 
@@ -349,10 +353,10 @@
                                            rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
                                                            :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
                                            skos:altLabel "Innoculant"@en ;
+                                           skos:example " Precipates"@en ,
+                                                        "Alpha particles"@en ;
                                            skos:prefLabel "MicrostructureParticle"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a " Precipates"@en ,
-                                                                                          "Alpha particles"@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Everything a metallurgist calls a \"particle\" in a microstructure."@en .
 
 
@@ -435,9 +439,9 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_635b8459-fb8a-57b2-924d-659ee7180d9c
 :EMMO_635b8459-fb8a-57b2-924d-659ee7180d9c rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_3ed3297d-1512-5631-b0d3-7f36364040e0 ;
+                                           skos:example "Stacking fault, dislocation"@en ;
                                            skos:prefLabel "LineDefect"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A line defect is a line along which whole rows of atoms in a solid are arranged anomalously."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Stacking fault, dislocation"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A line defect is a line along which whole rows of atoms in a solid are arranged anomalously."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18
@@ -463,10 +467,10 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6aa987e8_d41e_4d25_84f1_35a3e2beba56
 :EMMO_6aa987e8_d41e_4d25_84f1_35a3e2beba56 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
-                                           rdfs:label "AlloySystem"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A language within physical metallurgy with which alloys are categorised."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a """AA6082
-Inconel 625"""@en .
+                                           skos:example """AA6082
+Inconel 625"""@en ;
+                                           skos:prefLabel "AlloySystem"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A language within physical metallurgy with which alloys are categorised."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6c227576-79ab-5aba-ac08-66ee7854617d
@@ -513,7 +517,11 @@ Inconel 625"""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_73650d49-8a40-5ed9-8a85-34a54079760c
 :EMMO_73650d49-8a40-5ed9-8a85-34a54079760c rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_4448f871-557b-5026-ad6e-acda83fd3bc0 ;
+                                           rdfs:subClassOf :EMMO_4448f871-557b-5026-ad6e-acda83fd3bc0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+                                                             owl:someValuesFrom emmo:EMMO_95a9bf22_eabc_4a84_863d_9ea398c8a52e
+                                                           ] ;
                                            skos:prefLabel "VolumeDensity"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of volume."@en .
 
@@ -528,8 +536,8 @@ Inconel 625"""@en .
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_7826ea41_0a5a_492f_af98_20fa886edcc0
 :EMMO_7826ea41_0a5a_492f_af98_20fa886edcc0 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf ;
-                                           rdfs:label "DependentElement"@en ;
                                            skos:altLabel "BalanceElement"@en ;
+                                           skos:prefLabel "DependentElement"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An element whos concentration is given from the remaining concentration after the concentration of all other elements has been given."@en .
 
 
@@ -695,16 +703,9 @@ Inconel 625"""@en .
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9ee41857-8010-54e9-a268-877b6fb4c77e
 :EMMO_9ee41857-8010-54e9-a268-877b6fb4c77e rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_3ed3297d-1512-5631-b0d3-7f36364040e0 ;
+                                           skos:example "vacancy, interstitial atom, substitutional atom"@en ;
                                            skos:prefLabel "PointDefect"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Point defects are lattice defects of zero dimensionality, i.e., they do not possess lattice structure in any dimension."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "vacancy, interstitial atom, substitutional atom"@en .
-
-
-###  https://w3id.org/emmo/domain/microstructure#EMMO_a08e74f1-0f4e-55b4-951c-64138ed6125e
-:EMMO_a08e74f1-0f4e-55b4-951c-64138ed6125e rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc ;
-                                           skos:prefLabel "PerLengthDimension"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Inverse length dimension"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Point defects are lattice defects of zero dimensionality, i.e., they do not possess lattice structure in any dimension."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_a1d368ca-1e20-55b1-80d8-92509ff12f8f
@@ -719,13 +720,6 @@ Inconel 625"""@en .
                                            rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
                                            skos:prefLabel "VoxelSize"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a voxel."@en .
-
-
-###  https://w3id.org/emmo/domain/microstructure#EMMO_a447eed4-184d-5002-9632-9eab73e10348
-:EMMO_a447eed4-184d-5002-9632-9eab73e10348 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc ;
-                                           skos:prefLabel "PerAreaDimension"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Inverse area dimension"@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_ac83bdd0-4390-517f-8d44-0c1abd7dca5a
@@ -806,11 +800,7 @@ Inconel 625"""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_b8b7624c-c0e2-5cbf-9fe4-37be93659d9b
 :EMMO_b8b7624c-c0e2-5cbf-9fe4-37be93659d9b rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_0877f58d-0a9c-5803-b1b7-6dcb058fc163 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
-                                                             owl:someValuesFrom :EMMO_a447eed4-184d-5002-9632-9eab73e10348
-                                                           ] ;
+                                           rdfs:subClassOf :EMMO_0877f58d-0a9c-5803-b1b7-6dcb058fc163 ;
                                            skos:prefLabel "DislocationDensity"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of the dislocation per volume. Usually counted by pits in an etched area section"@en .
 
@@ -844,9 +834,9 @@ Inconel 625"""@en .
                                                              owl:onProperty emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 ;
                                                              owl:someValuesFrom emmo:EMMO_1cba0b27_15d0_4326_933f_379d0b3565b6
                                                            ] ;
+                                           skos:example "Pixelated image."@en ;
                                            skos:prefLabel "PixelField"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each pixel (PixelGrid cell)"@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Pixelated image."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each pixel (PixelGrid cell)"@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c7789d83-bdaf-571b-97dc-32050dfab6a4
@@ -908,7 +898,11 @@ Inconel 625"""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d34a6e6f-6422-58c4-99ad-d170e8c83a88
 :EMMO_d34a6e6f-6422-58c4-99ad-d170e8c83a88 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_0b63d829-64fc-5f3a-8117-188705ba8321 ;
+                                           rdfs:subClassOf :EMMO_0b63d829-64fc-5f3a-8117-188705ba8321 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+                                                             owl:someValuesFrom emmo:EMMO_cdc962d8_f3ea_4764_a57a_c7caa4859179
+                                                           ] ;
                                            skos:example "Misorientation between two grains."@en ;
                                            skos:prefLabel "Misorientation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The difference between two orientations."@en ;
@@ -920,13 +914,6 @@ Inconel 625"""@en .
                                            rdfs:subClassOf emmo:EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55 ;
                                            skos:prefLabel "PhysicalField"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity that has a value in each point in space and time. "@en .
-
-
-###  https://w3id.org/emmo/domain/microstructure#EMMO_d3f0a471-79c3-5640-87a9-f64ff53014ec
-:EMMO_d3f0a471-79c3-5640-87a9-f64ff53014ec rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc ;
-                                           skos:prefLabel "PerVolumeDimension"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Inverse volume dimension"@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d
@@ -1037,9 +1024,9 @@ Inconel 625"""@en .
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0
 :EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_02c0621e_a527_4790_8a0f_2bb51973c819 ;
+                                           skos:example "AverageGrainSize"@en ;
                                            skos:prefLabel "AverageQuantity"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity representing the average of a set of physical quantities."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "AverageGrainSize"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity representing the average of a set of physical quantities."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f178f320-a094-5364-bbf9-11bd5f692ca3
@@ -1064,10 +1051,10 @@ Inconel 625"""@en .
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
 :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+                                           skos:example "Grain"@en ,
+                                                        "Precipitate"@en ;
                                            skos:prefLabel "MicrostructureConstituent"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A constituent of a microstructure."@en ;
-                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Grain"@en ,
-                                                                                          "Precipitate"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A constituent of a microstructure."@en .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
