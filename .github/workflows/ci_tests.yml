@@ -22,4 +22,4 @@ jobs:
 
     - name: Test
       run: |
-        emmocheck --configfile=.github/emmocheck_conf.yml
+        emmocheck --configfile=.github/emmocheck_conf.yml microstructure.ttl
