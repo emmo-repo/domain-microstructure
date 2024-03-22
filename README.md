@@ -59,7 +59,7 @@ compatibilies:
 
 | Imported Ontologies  | Version           |
 | -------------------- | ----------------- |
-| [EMMO][1]            | 1.0.0-beta5       |
+| [EMMO][1]            | 1.0.0-rc1         |
 | [crystallography][2] | 0.0.1             |
 
 
@@ -68,13 +68,12 @@ Obtaining the Microstructure Domain Ontology
 The Microstructure Domain Ontology can be access or opened in Protege
 using the following url
 
-    https://raw.githubusercontent.com/emmo-repo/domain-microstructure/main/physmet.ttl
+    https://w3id.org/emmo/domain/microstructure/source
 
-It can also be cloned from its [GitHub repository][3].  With [ssh
-access to GitHub][github-ssh] set up, the Microstructure Domain
-Ontology can be cloned with
+It can also be cloned from its [GitHub repository][3] using the `git`
+command:
 
-    git clone git@github.com:emmo-repo/domain-microstructure.git
+    git clone https://github.com/emmo-repo/domain-microstructure.git
 
 
 
