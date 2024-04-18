@@ -183,6 +183,13 @@
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical field who’s values are vectors."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_217d834a_4d23_4d1d_8344_99f9fd6bd6f3
+:EMMO_217d834a_4d23_4d1d_8344_99f9fd6bd6f3 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+                                           rdfs:label "DistanceFromSurface"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Distance from a point inside a material to the surface."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_228234e4-e197-510c-b5cf-5d7302f972dc
 :EMMO_228234e4-e197-510c-b5cf-5d7302f972dc rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_77acaaf6-990e-593d-8201-2b643e1d747d ,
@@ -193,6 +200,13 @@
                                            skos:example "tomography image"@en ;
                                            skos:prefLabel "VoxelField"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each voxel (VoxelGrid cell)"@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c
+:EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e ;
+                                           skos:prefLabel "CoolingRate"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Rate of cooling."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5
@@ -533,6 +547,17 @@ Inconel 625"""@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical field that is only defined on a set of volume elements in space and time."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e
+:EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+                                                             owl:someValuesFrom emmo:EMMO_4f245147_f072_4431_b535_6241e8e87eb8
+                                                           ] ;
+                                           skos:prefLabel "TemperatureChangeRate"@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Since ISO 80000 does not define a temperature change rate, this quantity should not be included in EMMO. We therefore add it here."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_7826ea41_0a5a_492f_af98_20fa886edcc0
 :EMMO_7826ea41_0a5a_492f_af98_20fa886edcc0 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf ;
@@ -812,6 +837,20 @@ Inconel 625"""@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Three angles describing the orientation of a real world object with respect to a main reference frame."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_bd4510c8_a75d_4cc7_8b7e_cf193af75ff1
+:EMMO_bd4510c8_a75d_4cc7_8b7e_cf193af75ff1 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 ;
+                                           skos:prefLabel "HeatingTime"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Time duration for heating."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_c2292bce_8fce_456c_8780_2e124c4cd030
+:EMMO_c2292bce_8fce_456c_8780_2e124c4cd030 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 ;
+                                           skos:prefLabel "CoolingTime"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Time duration for cooling."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c51107a5-c1ba-5e07-b85d-3decebbaef22
 :EMMO_c51107a5-c1ba-5e07-b85d-3decebbaef22 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ,
@@ -837,6 +876,13 @@ Inconel 625"""@en ;
                                            skos:example "Pixelated image."@en ;
                                            skos:prefLabel "PixelField"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each pixel (PixelGrid cell)"@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_c6d7cf77_07c3_48ff_a571_d1ac4116a09c
+:EMMO_c6d7cf77_07c3_48ff_a571_d1ac4116a09c rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e ;
+                                           skos:prefLabel "HeatingRate"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Rate of heating."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c7789d83-bdaf-571b-97dc-32050dfab6a4
@@ -983,6 +1029,16 @@ Inconel 625"""@en ;
                                            skos:prefLabel "Alloy"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mixture with metallic character composed of two or more elements of which at least one is a metal."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Alloys may have very different properties compared to the pure substances it is composed of."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_e448389b_7a56_4b63_862a_d248e571ad8c
+:EMMO_e448389b_7a56_4b63_862a_d248e571ad8c rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+                                           rdfs:seeAlso "https://link.springer.com/article/10.1007/s11665-021-05922-x/figures/3"^^xsd:anyURI ;
+                                           skos:altLabel "DAS"@en ,
+                                                         "SDAS"@en ;
+                                           skos:prefLabel "SecondaryDendriteArmSpacing"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Averaging the distance between adjacent side branches on the longitudinal section of a primary dendrite."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_e51b4401-cff0-51f7-81c7-a1bde1bc0189
