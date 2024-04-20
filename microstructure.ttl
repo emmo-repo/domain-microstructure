@@ -11,8 +11,11 @@
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
                                                owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3> ;
-                                               owl:imports <https://w3id.org/emmo/> ,
-                                                           <https://w3id.org/emmo/domain/microstructure/0.3/for_emmo> ;
+                                               owl:imports <https://w3id.org/emmo/1.0.0-rc1/disciplines/chemistry> ,
+                                                           <https://w3id.org/emmo/1.0.0-rc1/disciplines/computerscience> ,
+                                                           <https://w3id.org/emmo/1.0.0-rc1/disciplines/geometrical> ,
+                                                           <https://w3id.org/emmo/1.0.0-rc1/disciplines/isq> ,
+                                                           <https://w3id.org/emmo/1.0.0-rc1/disciplines/materials> ;
                                                dcterms:contributor "SFI PhysMet"@en ;
                                                dcterms:creator "Astrid Marthinsen (SINTEF)"@en ,
                                                                "Georg J. Schmitz (ACCESS)"@en ,
@@ -318,6 +321,14 @@
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object in the microstructure. A region of a gas material."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_3d026e8b_4fdb_4a0a_a389_5c852e466017
+:EMMO_3d026e8b_4fdb_4a0a_a389_5c852e466017 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64 ;
+                                           skos:prefLabel "MobilityDatabase"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A database containing mobilities of a range of species."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A mobility database is typically combined with a thermodynamic database for predicting diffusivities and other kinetic properties."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_3ed3297d-1512-5631-b0d3-7f36364040e0
 :EMMO_3ed3297d-1512-5631-b0d3-7f36364040e0 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_5b3cefe2-1504-5623-a95f-5ff9477e28a5 ;
@@ -425,6 +436,14 @@
                                            rdfs:subClassOf :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace ;
                                            skos:prefLabel "Defect"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Local deviation from a regular pattern."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_5d944ed6_ed6b_48ea_aec5_166e537979b5
+:EMMO_5d944ed6_ed6b_48ea_aec5_166e537979b5 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64 ;
+                                           skos:prefLabel "ThermodynamicDatabase"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A set of critically evaluated parameter values for a range of thermodynamic functions."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "For metallic systems is CALPHAD a popular approach for calculating thermodynamic properties. In this approach are the thermodynamic properties defived from parametrised expressions of the Gibb free energy (and possible other basic quantities) of each phase. It is the parameters of these expressions that are stored in the thermodynamic database."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5ee3b417-59f4-5233-9a81-ec83bbf14423
@@ -1083,6 +1102,14 @@ Inconel 625"""@en ;
                                            skos:example "AverageGrainSize"@en ;
                                            skos:prefLabel "AverageQuantity"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity representing the average of a set of physical quantities."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_f15f6836_9e24_4d93_b23a_dbbd7b6c5c8e
+:EMMO_f15f6836_9e24_4d93_b23a_dbbd7b6c5c8e rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c ;
+                                           skos:prefLabel "SolidificationCoolingRate"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Cooling rate during solidification."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Typically an average value is referred to."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f178f320-a094-5364-bbf9-11bd5f692ca3
