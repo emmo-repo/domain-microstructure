@@ -189,7 +189,7 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_217d834a_4d23_4d1d_8344_99f9fd6bd6f3
 :EMMO_217d834a_4d23_4d1d_8344_99f9fd6bd6f3 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
-                                           rdfs:label "DistanceFromSurface"@en ;
+                                           skos:prefLabel "DistanceFromSurface"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Distance from a point inside a material to the surface."@en .
 
 
