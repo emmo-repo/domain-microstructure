@@ -1101,7 +1101,7 @@ Inconel 625"""@en ;
                                            rdfs:subClassOf emmo:EMMO_02c0621e_a527_4790_8a0f_2bb51973c819 ;
                                            skos:example "AverageGrainSize"@en ;
                                            skos:prefLabel "AverageQuantity"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity representing the average of a set of physical quantities."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity that is determined from averinging the value of a set of determinations/observations/measurements of another physical quantity."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f15f6836_9e24_4d93_b23a_dbbd7b6c5c8e
