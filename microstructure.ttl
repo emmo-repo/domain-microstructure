@@ -366,7 +366,7 @@
 :EMMO_4916ca54-be93-5aff-87b2-2e5b55a398a8 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_f4ed9d1e-40ba-564b-bb47-a55dcf8d73fe ;
                                            skos:prefLabel "ParticleSizeDistribution"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the Sizes of multiple particles"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the Sizes of multiple particles."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_4c72efd2-93bc-5692-b200-256efce58997
@@ -1125,6 +1125,14 @@ Inconel 625"""@en ;
                                            rdfs:subClassOf :EMMO_0a3607ec-9961-5e7f-9d4c-b0dcdb3ab439 ;
                                            skos:prefLabel "SizeDistribution"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the Sizes of multiple objects"@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_f76d629e_3440_4acf_82ae_e7255c4492b4
+:EMMO_f76d629e_3440_4acf_82ae_e7255c4492b4 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_4916ca54-be93-5aff-87b2-2e5b55a398a8 ;
+                                           skos:prefLabel "PrecipitateSizeDistribution"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en ,
+                                                                                          "Size distribution of precipitates."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
