@@ -131,6 +131,17 @@
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Area of parts divided by the total area of the whole (domain under consideration)."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_17b4803f_6dc1_441c_ac84_0cf190de3a06
+:EMMO_17b4803f_6dc1_441c_ac84_0cf190de3a06 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81 ;
+                                           skos:altLabel "ElasticLimit"@en ,
+                                                         "YieldStrength"@en ;
+                                           skos:prefLabel "YieldStress"@en ;
+                                           emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://en.wikipedia.org/wiki/Yield_(engineering)"^^xsd:anyURI ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The stress corresponding to the yield point at which the material begins to deform plastically."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The yield strength is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation. In some materials, such as aluminium, there is a gradual onset of non-linear behavior, and no precise yield point. In such a case, the offset yield point (or proof stress) is taken as the stress at which 0.2% plastic deformation occurs. Yielding is a gradual failure mode which is normally not catastrophic, unlike ultimate failure."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1a93c22d-52cb-590c-a30a-0ec734895211
 :EMMO_1a93c22d-52cb-590c-a30a-0ec734895211 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_44da6d75_54a4_4aa8_bd3a_156f6e9abb8e ,
