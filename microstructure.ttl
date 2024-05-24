@@ -103,9 +103,8 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0ce81730-cf19-5582-9dab-caa1cccea652
 :EMMO_0ce81730-cf19-5582-9dab-caa1cccea652 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "SharpBoundary"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary that is confined to a thin region relative to the considered length scale."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary related to a discontinous change in a physical property."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_14ad97af-303a-58fe-bdcc-c13c57dbbb9e
@@ -160,9 +159,11 @@
                                                              owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
                                                              owl:onClass emmo:EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de
                                                            ] ;
+                                           owl:disjointUnionOf ( :EMMO_0ce81730-cf19-5582-9dab-caa1cccea652
+                                                                 :EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1
+                                                               ) ;
                                            skos:prefLabel "Boundary"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The (thin) region overlapping at least two phase of matter that are in physical contact."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "There is no exact definition of the thickness of a boundary, but it refer to the region of each phase that is affected (in some property) by being in contact of the other phase."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The zone of transition of a physical property between two regions of a material."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93
@@ -657,19 +658,16 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace
 :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 ;
-                                           skos:altLabel "SpatialContrast"@en ,
-                                                         "SpatialPattern"@en ,
+                                           skos:altLabel "SpatialPattern"@en ,
                                                          "SpatialVariation"@en ;
-                                           skos:prefLabel "SpatialData"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An entity with a spatial variation of its properties."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Should be moved to EMMO middle"@en .
+                                           skos:prefLabel "SpatialContrast"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An entity with a spatial variation of its properties."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1
 :EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "DiffuseBoundary"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Smooth and continuation transition"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Smooth and continuation change in a physical property."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_8fa9f05b-72e0-58d9-af64-a5a6673c5038
