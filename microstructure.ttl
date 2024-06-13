@@ -27,6 +27,10 @@
 #    Classes
 #################################################################
 
+###  https://w3id.org/emmo#EMMO_57c75ca1_bf8a_42bc_85d9_58cfe38c7df2
+emmo:EMMO_57c75ca1_bf8a_42bc_85d9_58cfe38c7df2 rdf:type owl:Class .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0449d241-e6ec-5426-b327-16785bcf87fe
 :EMMO_0449d241-e6ec-5426-b327-16785bcf87fe rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_4c72efd2-93bc-5692-b200-256efce58997 ,
@@ -1142,6 +1146,14 @@ Inconel 625"""@en ;
                                            skos:prefLabel "PrecipitateSizeDistribution"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en ,
                                                                                           "Size distribution of precipitates."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_f84836b6_4a4d_4f13_a340_a4c141028c87
+:EMMO_f84836b6_4a4d_4f13_a340_a4c141028c87 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e ;
+                                           skos:prefLabel "EffectiveComposition"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The composition in the matrix."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The effective composition is different from the nominal composition, since it only considers the composition of the matrix, excluding all other phases."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
