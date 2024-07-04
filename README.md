@@ -1,11 +1,13 @@
-[![pipeline status](https://gitlab.com/sfi-physmet/platform/physmetontology/badges/master/pipeline.svg)](https://gitlab.com/sfi-physmet/platform/physmetontology/pipelines/latest)
+[![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
 
 
-First draft of an EMMO-based ontology for physical metallurgy
-=============================================================
-This is intended to be a domain ontology for physical metallurgy.  The
-intension is to cover all relevant aspect of metallic microstructures,
-including
+Microstructure Domain Ontology
+==============================
+This is work in progress.
+
+The Microstructure Domain Ontology is intended to be a domain ontology
+for physical metallurgy.  The intension is to cover all relevant
+aspect of metallic microstructures, including:
   - composition
   - particles, both stable (primary) and metastable (precipitates)
   - grains
@@ -23,7 +25,7 @@ For modelling, we will distinguish between
     succession of states) and
   - property models (that relates a microstructure state to a property).
 
-It should support describing same concept at different spacial
+It should support describing same concept at different spatial
 resolutions, like mean field, 1D, 2D and 3D.
 
 For mean field descriptions (what about spatially resolved), it should
@@ -57,30 +59,38 @@ compatibilies:
 
 | Imported Ontologies  | Version           |
 | -------------------- | ----------------- |
-| [EMMO][1]            | 1.0.0-alpha2      |
+| [EMMO][1]            | 1.0.0-rc1         |
 | [crystallography][2] | 0.0.1             |
 
 
-Obtaining PhysMetOntology
--------------------------
-This repository include the correct version of the crystallography and
-mechanics domain ontologies as a git submodules.  Hence, use the
-following command when cloning this repository:
+Obtaining the Microstructure Domain Ontology
+--------------------------------------------
+The Microstructure Domain Ontology can be access or opened in Protege
+using the following url
 
-    git clone --recurse-submodules --shallow-submodules git@gitlab.com:sfi-physmet/platform/physmetontology.git
+    https://w3id.org/emmo/domain/microstructure/source
+
+It can also be cloned from its [GitHub repository][3] using the `git`
+command:
+
+    git clone https://github.com/emmo-repo/domain-microstructure.git
+
 
 
 Attributions and credits
 ------------------------
 ### Authors
-- Jesper Friis, SINTEF
-- Tomas Manik, NTNU
-- Sylvain Gouttenbroze, SINTEF
-- Astrid Marthinsen, SINTEF
+- Jesper Friis, SINTEF, Norway
+- Tomas Manik, NTNU, Norway
+- Sylvain Gouttenbroze, SINTEF, Norway
+- Astrid Marthinsen, SINTEF, Norway
+- Georg Schmitz, ACCESS, Germany
+- Ulrike Cihak-Bayr, AC2T, Austria
+
 
 ### Projects
 - Demystify ontologies - Internal project at [SINTEF](www.sintef.no)
-- SFI PhysMet
+- [SFI PhysMet](https://www.ntnu.edu/physmet)
 
 
 License
@@ -93,3 +103,6 @@ license (CC BY 4.0).
 
 [1]: https://github.com/emmo-repo/EMMO
 [2]: https://github.com/emmo-repo/domain-crystallography
+[3]: https://github.com/emmo-repo/domain-microstructure
+[github]: https://github.com/
+[github-ssh]: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
