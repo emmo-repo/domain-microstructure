@@ -38,7 +38,7 @@ but also all the branches.
 ### Transfer changes to the remote repository
 
 Git aims at tracking the changes between version. For that reason, when you have made 
-some changes two operations are needed: tagging and committing. Tagging will consist
+some changes two operations are needed: staging and committing. Staging will consist
 in indicating which file is to be marked as changed (and so which changes will be recorded
 in the repository). Committing will actually do the recording of the changes.
 
