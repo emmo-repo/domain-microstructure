@@ -68,6 +68,14 @@
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the measure of a quantity of any characteristic value per unit of area."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_094a7810_bb49_42c3_acff_a15c4509320f
+:EMMO_094a7810_bb49_42c3_acff_a15c4509320f rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 ;
+                                           skos:prefLabel "HeterogeneousNucleation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Most common nucleation process."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_09ff37fd-1468-501a-9b35-10192a470b0f
 :EMMO_09ff37fd-1468-501a-9b35-10192a470b0f rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_5e77f00d_5c0a_44e7_baf1_2c2a4cb5b3ae ,
@@ -111,7 +119,10 @@
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2
 :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
-                                           skos:prefLabel "Nucleation"@en .
+                                           rdfs:seeAlso "https://www.britannica.com/science/nucleation"^^xsd:anyURI ;
+                                           skos:prefLabel "Nucleation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Nucleation processes are classed as heterogeneous or homogeneous."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_14ad97af-303a-58fe-bdcc-c13c57dbbb9e
@@ -286,7 +297,8 @@
 :EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
                                            skos:prefLabel "Precipitation"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a chemical process in which a solid substance is produced from a solution (liquid or solid)"@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process by which a solute separates from a solution and forms solid particles."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "This can occur either from a liquid solution or a solid solution."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c
@@ -352,6 +364,14 @@
                                                            :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
                                            skos:prefLabel "EquivalentGrainSize"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The grain volume divided by the grain surface area."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_41dfb6e9_1be1_411b_affa_8cf50bf3ea87
+:EMMO_41dfb6e9_1be1_411b_affa_8cf50bf3ea87 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 ;
+                                           skos:prefLabel "HomogenousNucleation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Nucleation due to atoms coming into a enegetically beneficial configuration due to
+random movement of through the bulk of the medium."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_4264a22e-55b2-5090-8a6a-1c0541462b30
@@ -572,7 +592,9 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8
 :EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
-                                           skos:prefLabel "Diffusion"@en .
+                                           skos:prefLabel "Diffusion"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_708c2e92-4c34-52a8-83f6-51086d798da4
@@ -682,9 +704,9 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_848b495f_2124_406c_bc3a_6c211558a511
 :EMMO_848b495f_2124_406c_bc3a_6c211558a511 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55 ;
-                                           skos:altLabel "MicrostructureProperty"@en ,
-                                                         "Physical quantities categorised according to the microstructure domain ontology."@en ;
-                                           skos:prefLabel "MicrostructureQuantity"@en .
+                                           skos:altLabel "MicrostructureProperty"@en ;
+                                           skos:prefLabel "MicrostructureQuantity"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_84e023a7-3c91-57ea-a175-6cd23acfa86b
@@ -729,7 +751,21 @@ Inconel 625"""@en ;
 :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
                                            skos:prefLabel "Hardening"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In metallurgy, hardening refers to a variety of processes used to increase the hardness and strength of a metal or alloy."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Hardening is typically coursed by reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ,
+                                                                                          "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."@en ,
+                                                                                          """Here are some common hardening techniques:
+ 
+   1. Work Hardening (Cold Working): This process involves deforming the metal at temperatures below its recrystallization point, which introduces defects into the crystal structure. These defects impede the movement of dislocations, making the metal harder and stronger. Common methods include rolling, hammering, and drawing.
+ 
+   2. Heat Treatment: This broad category includes several specific processes:
+        Quenching and Tempering: The metal is heated to a high temperature and then rapidly cooled (quenched) in water or oil. This results in a hard but brittle structure. The metal is then reheated to a lower temperature (tempered) to achieve a balance between hardness and toughness.
+
+        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness 
+ 
+    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures 
+ 
+    4. Solid Solution Strengthening: Alloying elements are added to the metal to create a solid solution, where the atoms of the alloying element distort the metal’s crystal lattice and hinder dislocation movement, thereby increasing hardness and strength"""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9364f901-d87e-5e74-927b-e49f6818665c
@@ -938,7 +974,8 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c383bff3_67ef_40d7_a395_3f0ed7928e9a
 :EMMO_c383bff3_67ef_40d7_a395_3f0ed7928e9a rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 ;
-                                           skos:prefLabel "WorkHardening"@en .
+                                           skos:prefLabel "WorkHardening"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process involves deforming the metal at temperatures below its recrystallization point, which introduces defects into the crystal structure. These defects impede the movement of dislocations, making the metal harder and stronger. Common methods include rolling, hammering, and drawing."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c51107a5-c1ba-5e07-b85d-3decebbaef22
@@ -1218,9 +1255,13 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f4ed9d1e-40ba-564b-bb47-a55dcf8d73fe
 :EMMO_f4ed9d1e-40ba-564b-bb47-a55dcf8d73fe rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_0a3607ec-9961-5e7f-9d4c-b0dcdb3ab439 ,
-                                                           :EMMO_562f4beb_d8bc_4f3f_b83e_f2ca4e3cee27 ;
+                                                           :EMMO_562f4beb_d8bc_4f3f_b83e_f2ca4e3cee27 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+                                                             owl:someValuesFrom emmo:EMMO_fee2a014_3322_48f9_91ab_d947a6e54556
+                                                           ] ;
                                            skos:prefLabel "SizeDistribution"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the sizes of multiple objects."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the sizes of multiple objects. It is measured in as the number of items of a given size class per volume."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f76d629e_3440_4acf_82ae_e7255c4492b4
@@ -1247,7 +1288,15 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba
 :EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
-                                           skos:prefLabel "ParticleGrowth"@en .
+                                           skos:prefLabel "ParticleGrowth"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Particle growth occurs through several mechanisms:
+ 
+* Diffusion: Atoms, molecules, or ions move randomly and attach to the surface of a growing particle. 
+* Aggregation: Smaller particles collide and stick together, forming larger particles.
+* Coalescence: Two or more smaller particles merge to form a single larger particle.
+* Condensation: A vapor or gas transforms into solid or liquid particles under supersaturated conditions.
+* Ostwald Ripening: Larger particles grow at the expense of smaller ones, driven by differences in solubility."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
