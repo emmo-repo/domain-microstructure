@@ -47,7 +47,7 @@ Staging is done by: ```git add name_of_file```
 Commiting is done by:  ```git commit -m "my description of the changes" ```
 
 The command ```git status``` will give you an overview of the tracked files that 
-have been modified, the tagged files, and also of the files that are not tracked.
+have been modified, the staged files, and also of the files that are not tracked.
 It also indicates on which branch you are.
 
 After the commit, your local repository has been updated. This update needs to 
