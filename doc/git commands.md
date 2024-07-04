@@ -42,7 +42,7 @@ some changes two operations are needed: tagging and committing. Tagging will con
 in indicating which file is to be marked as changed (and so which changes will be recorded
 in the repository). Committing will actually do the recording of the changes.
 
-Tagging is done by: ```git add name_of_file```
+Staging is done by: ```git add name_of_file```
 
 Commiting is done by:  ```git commit -m "my description of the changes" ```
 
