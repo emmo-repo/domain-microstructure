@@ -152,7 +152,7 @@ emmo:EMMO_57c75ca1_bf8a_42bc_85d9_58cfe38c7df2 rdf:type owl:Class .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1a93c22d-52cb-590c-a30a-0ec734895211
 :EMMO_1a93c22d-52cb-590c-a30a-0ec734895211 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_44da6d75_54a4_4aa8_bd3a_156f6e9abb8e ,
+                                           rdfs:subClassOf emmo:EMMO_4312cae4_03ba_457e_b35d_0671a7db350c ,
                                                            :EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 ;
                                            skos:prefLabel "Centroid"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The arithmetic mean position vector of all the position vectors in the object"@en ;
