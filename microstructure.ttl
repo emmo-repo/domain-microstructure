@@ -33,34 +33,6 @@
 #    Classes
 #################################################################
 
-###  http://org.semanticweb.owlapi/error#Error1
-<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error2
-<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error3
-<http://org.semanticweb.owlapi/error#Error3> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error4
-<http://org.semanticweb.owlapi/error#Error4> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error5
-<http://org.semanticweb.owlapi/error#Error5> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error6
-<http://org.semanticweb.owlapi/error#Error6> rdf:type owl:Class .
-
-
-###  http://org.semanticweb.owlapi/error#Error7
-<http://org.semanticweb.owlapi/error#Error7> rdf:type owl:Class .
-
-
 ###  https://w3id.org/emmo#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34
 emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                                rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
@@ -215,8 +187,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3
 :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error3> ,
-                                                           :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace ;
+                                           rdfs:subClassOf :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace ;
                                            owl:disjointUnionOf ( :EMMO_0ce81730-cf19-5582-9dab-caa1cccea652
                                                                  :EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1
                                                                ) ;
@@ -226,8 +197,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93
 :EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error2> ,
-                                                           :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 ,
+                                           rdfs:subClassOf :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 ,
                                                            :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
                                            skos:prefLabel "GrainBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary between at least two grains."@en .
@@ -351,8 +321,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_37b704a7-1358-5041-bc5a-b65282014d3e
 :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error6> ,
-                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "PhaseBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Boundary between two (or more) phases."@en .
 
@@ -485,8 +454,7 @@ random movement of through the bulk of the medium."""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5b23558f-6686-55bf-a812-e0a9a51b5614
 :EMMO_5b23558f-6686-55bf-a812-e0a9a51b5614 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error5> ,
-                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "DualBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary consisting of exactly two phase of matter."@en .
 
@@ -1066,16 +1034,14 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929
 :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error4> ,
-                                                           :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e ;
+                                           rdfs:subClassOf :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e ;
                                            skos:prefLabel "SolidPhaseBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Boundary with at least one solid"@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d0e5f672-8fd6-5ce0-a4d2-39d65ad9028d
 :EMMO_d0e5f672-8fd6-5ce0-a4d2-39d65ad9028d rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error7> ,
-                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "TripleJunction"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary volume , where tree things collocate."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A triple junction is a line in space."@en .
@@ -1132,8 +1098,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_dadc1e15-a920-503f-802e-074c16682eb1
 :EMMO_dadc1e15-a920-503f-802e-074c16682eb1 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error1> ,
-                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
+                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "QuadrupleJunction"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary volume , where four things collocate."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A quadruple junction is a point in space."@en .
@@ -1326,19 +1291,19 @@ Inconel 625"""@en ;
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
