@@ -10,13 +10,14 @@
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
-                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3> ;
-                                               owl:imports <https://w3id.org/emmo/1.0.0-rc3/disciplines/chemistry> ,
-                                                           <https://w3id.org/emmo/1.0.0-rc3/disciplines/computerscience> ,
-                                                           <https://w3id.org/emmo/1.0.0-rc3/disciplines/geometrical> ,
-                                                           <https://w3id.org/emmo/1.0.0-rc3/disciplines/metrology> ,
-                                                           <https://w3id.org/emmo/1.0.0-rc3/disciplines/models> ,
-                                                           <https://w3id.org/emmo/1.0.0-rc3/perspectives/structural> ;
+                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
+                                               owl:imports <https://w3id.org/emmo/1.0.0/disciplines/chemistry> ,
+                                                           <https://w3id.org/emmo/1.0.0/disciplines/computerscience> ,
+                                                           <https://w3id.org/emmo/1.0.0/disciplines/geometrical> ,
+                                                           <https://w3id.org/emmo/1.0.0/disciplines/manufacturing> ,
+                                                           <https://w3id.org/emmo/1.0.0/disciplines/metrology> ,
+                                                           <https://w3id.org/emmo/1.0.0/disciplines/models> ,
+                                                           <https://w3id.org/emmo/1.0.0/perspectives/structural> ;
                                                dcterms:contributor "SFI PhysMet"@en ;
                                                dcterms:creator "Astrid Marthinsen (SINTEF)"@en ,
                                                                "Georg J. Schmitz (ACCESS)"@en ,
@@ -26,21 +27,51 @@
                                                                "Ulrike Cihak-Bayr (AC2T)"@en ;
                                                dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
                                                dcterms:title "Microstructure domain ontology"@en ;
-                                               owl:versionInfo "0.3"@en .
+                                               owl:versionInfo "0.3.1"@en .
 
 #################################################################
 #    Classes
 #################################################################
 
+###  http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error2
+<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error3
+<http://org.semanticweb.owlapi/error#Error3> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error4
+<http://org.semanticweb.owlapi/error#Error4> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error5
+<http://org.semanticweb.owlapi/error#Error5> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error6
+<http://org.semanticweb.owlapi/error#Error6> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error7
+<http://org.semanticweb.owlapi/error#Error7> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34
+emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
+                                               rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                               skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
+                                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0449d241-e6ec-5426-b327-16785bcf87fe
 :EMMO_0449d241-e6ec-5426-b327-16785bcf87fe rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_4c72efd2-93bc-5692-b200-256efce58997 ,
-                                                           :EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee ;
-                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a
-                                                           ] ;
+                                                           :EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18 ;
                                            skos:prefLabel "SinglePhaseParticle"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Particle containing one PhaseOfMatter"@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In the physical sciences, a particle (or corpuscule in older texts) is a small localized object to which can be ascribed several physical or chemical properties, such as volume, density, or mass. [Wikipedia]"@en .
@@ -117,13 +148,14 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0ce81730-cf19-5582-9dab-caa1cccea652
 :EMMO_0ce81730-cf19-5582-9dab-caa1cccea652 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "SharpBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary related to a discontinous change in a physical property."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2
 :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            rdfs:seeAlso "https://www.britannica.com/science/nucleation"^^xsd:anyURI ;
                                            skos:prefLabel "Nucleation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
@@ -183,13 +215,8 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3
 :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error3> ,
+                                                           :EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace ;
                                            owl:disjointUnionOf ( :EMMO_0ce81730-cf19-5582-9dab-caa1cccea652
                                                                  :EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1
                                                                ) ;
@@ -199,14 +226,9 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93
 :EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 ,
-                                                           :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass :EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error2> ,
+                                                           :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 ,
+                                                           :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
                                            skos:prefLabel "GrainBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary between at least two grains."@en .
 
@@ -301,7 +323,7 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f
 :EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Precipitation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process by which a solute separates from a solution and forms solid particles."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "This can occur either from a liquid solution or a solid solution."@en .
@@ -329,13 +351,8 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_37b704a7-1358-5041-bc5a-b65282014d3e
 :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error6> ,
+                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "PhaseBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Boundary between two (or more) phases."@en .
 
@@ -468,13 +485,8 @@ random movement of through the bulk of the medium."""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5b23558f-6686-55bf-a812-e0a9a51b5614
 :EMMO_5b23558f-6686-55bf-a812-e0a9a51b5614 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error5> ,
+                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "DualBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary consisting of exactly two phase of matter."@en .
 
@@ -488,16 +500,25 @@ random movement of through the bulk of the medium."""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 :EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
-                                           skos:prefLabel "Recovery"@en .
+                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           skos:prefLabel "Recovery"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A process by which a metal or alloy's deformed grains can reduce their stored energy by the removal or rearrangement of defects in their crystal structure."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Doherty et al. (1997) defined recovery as 
+
+    All annealing processes occurring in deformed materials that occur without the migration of a high-angle grain boundary.
+
+This definition allows to differentiated recovery from recrystallization and grain growth as both feature extensive movement of high-angle grain boundaries.
+
+-- 
+RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE King; TR McNelley; HJ McQueen; AD Rollett (1997). \"Current Issues In Recrystallisation: A Review\". Materials Science and Engineering. A238: 219–274."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5d370686_0500_47f0_b7fd_17e3a309b965
 :EMMO_5d370686_0500_47f0_b7fd_17e3a309b965 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_46e03909_4d46_4406_b125_8e7e4a5f632d ;
                                            skos:prefLabel "EvolutionModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en ,
-                                                                                          "An evilution model is a formal description of one or more physical phenomena."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "An evilution model is a formal description of one or more physical phenomena."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5d944ed6_ed6b_48ea_aec5_166e537979b5
@@ -597,7 +618,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8
 :EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Diffusion"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient."@en .
@@ -645,6 +666,7 @@ Inconel 625"""@en ;
                                                              owl:someValuesFrom emmo:EMMO_4f245147_f072_4431_b535_6241e8e87eb8
                                                            ] ;
                                            skos:prefLabel "TemperatureChangeRate"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Rate at which the temperature is changed."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Since ISO 80000 does not define a temperature change rate, this quantity should not be included in EMMO. We therefore add it here."@en .
 
 
@@ -740,6 +762,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1
 :EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "DiffuseBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Smooth and continuation change in a physical property."@en .
 
@@ -755,22 +778,22 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09
 :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Hardening"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In metallurgy, hardening refers to a variety of processes used to increase the hardness and strength of a metal or alloy."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Hardening is typically coursed by reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ,
                                                                                           "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."@en ,
                                                                                           """Here are some common hardening techniques:
- 
+
    1. Work Hardening (Cold Working): This process involves deforming the metal at temperatures below its recrystallization point, which introduces defects into the crystal structure. These defects impede the movement of dislocations, making the metal harder and stronger. Common methods include rolling, hammering, and drawing.
- 
+
    2. Heat Treatment: This broad category includes several specific processes:
         Quenching and Tempering: The metal is heated to a high temperature and then rapidly cooled (quenched) in water or oil. This results in a hard but brittle structure. The metal is then reheated to a lower temperature (tempered) to achieve a balance between hardness and toughness.
 
-        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness 
- 
-    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures 
- 
+        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness
+
+    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures
+
     4. Solid Solution Strengthening: Alloying elements are added to the metal to create a solid solution, where the atoms of the alloying element distort the metal’s crystal lattice and hinder dislocation movement, thereby increasing hardness and strength"""@en .
 
 
@@ -1043,26 +1066,16 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929
 :EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error4> ,
+                                                           :EMMO_37b704a7-1358-5041-bc5a-b65282014d3e ;
                                            skos:prefLabel "SolidPhaseBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Boundary with at least one solid"@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d0e5f672-8fd6-5ce0-a4d2-39d65ad9028d
 :EMMO_d0e5f672-8fd6-5ce0-a4d2-39d65ad9028d rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error7> ,
+                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "TripleJunction"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary volume , where tree things collocate."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A triple junction is a line in space."@en .
@@ -1119,13 +1132,8 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_dadc1e15-a920-503f-802e-074c16682eb1
 :EMMO_dadc1e15-a920-503f-802e-074c16682eb1 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_5ceab41b_2aea_4041_9e9c_a243f7562cee
-                                                                            ] ;
-                                                             owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger ;
-                                                             owl:onClass emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a
-                                                           ] ;
+                                           rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error1> ,
+                                                           :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "QuadrupleJunction"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary volume , where four things collocate."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A quadruple junction is a point in space."@en .
@@ -1167,7 +1175,7 @@ Inconel 625"""@en ;
 :EMMO_e058f954_68e0_41c6_ad9b_f9460c83b408 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_562f4beb_d8bc_4f3f_b83e_f2ca4e3cee27 ;
                                            skos:prefLabel "OrientationDistribution"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The distribution of orientations or the constituents of a whole."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The distribution of orientations of the constituents of a whole."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_e25884df-decb-52e1-b8c0-f5092dd40066
@@ -1264,7 +1272,7 @@ Inconel 625"""@en ;
                                                            :EMMO_562f4beb_d8bc_4f3f_b83e_f2ca4e3cee27 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
-                                                             owl:someValuesFrom emmo:EMMO_fee2a014_3322_48f9_91ab_d947a6e54556
+                                                             owl:someValuesFrom emmo:EMMO_3c38a8b4_ed07_4185_8d9b_b57b9130c537
                                                            ] ;
                                            skos:prefLabel "SizeDistribution"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the sizes of multiple objects. It is measured in as the number of items of a given size class per volume."@en .
@@ -1279,8 +1287,8 @@ Inconel 625"""@en ;
                                                              owl:allValuesFrom :EMMO_903bf818-c0b4-56ef-9673-799ba204795d
                                                            ] ;
                                            skos:prefLabel "PrecipitateSizeDistribution"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en ,
-                                                                                          "Size distribution of precipitates."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Size distribution of precipitates."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f84836b6_4a4d_4f13_a340_a4c141028c87
@@ -1293,12 +1301,12 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba
 :EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "ParticleGrowth"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Particle growth occurs through several mechanisms:
- 
-* Diffusion: Atoms, molecules, or ions move randomly and attach to the surface of a growing particle. 
+
+* Diffusion: Atoms, molecules, or ions move randomly and attach to the surface of a growing particle.
 * Aggregation: Smaller particles collide and stick together, forming larger particles.
 * Coalescence: Two or more smaller particles merge to form a single larger particle.
 * Condensation: A vapor or gas transforms into solid or liquid particles under supersaturated conditions.
@@ -1315,4 +1323,25 @@ Inconel 625"""@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A constituent of a microstructure."@en .
 
 
-###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
