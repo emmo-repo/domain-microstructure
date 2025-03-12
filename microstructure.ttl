@@ -501,15 +501,24 @@ random movement of through the bulk of the medium."""@en .
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 :EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
-                                           skos:prefLabel "Recovery"@en .
+                                           skos:prefLabel "Recovery"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A process by which a metal or alloy's deformed grains can reduce their stored energy by the removal or rearrangement of defects in their crystal structure."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Doherty et al. (1997) defined recovery as 
+
+    All annealing processes occurring in deformed materials that occur without the migration of a high-angle grain boundary.
+
+This definition allows to differentiated recovery from recrystallization and grain growth as both feature extensive movement of high-angle grain boundaries.
+
+-- 
+RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE King; TR McNelley; HJ McQueen; AD Rollett (1997). \"Current Issues In Recrystallisation: A Review\". Materials Science and Engineering. A238: 219–274."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5d370686_0500_47f0_b7fd_17e3a309b965
 :EMMO_5d370686_0500_47f0_b7fd_17e3a309b965 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_46e03909_4d46_4406_b125_8e7e4a5f632d ;
                                            skos:prefLabel "EvolutionModel"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en ,
-                                                                                          "An evilution model is a formal description of one or more physical phenomena."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "An evilution model is a formal description of one or more physical phenomena."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5d944ed6_ed6b_48ea_aec5_166e537979b5
@@ -657,6 +666,7 @@ Inconel 625"""@en ;
                                                              owl:someValuesFrom emmo:EMMO_4f245147_f072_4431_b535_6241e8e87eb8
                                                            ] ;
                                            skos:prefLabel "TemperatureChangeRate"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Rate at which the temperature is changed."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Since ISO 80000 does not define a temperature change rate, this quantity should not be included in EMMO. We therefore add it here."@en .
 
 
@@ -1165,7 +1175,7 @@ Inconel 625"""@en ;
 :EMMO_e058f954_68e0_41c6_ad9b_f9460c83b408 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_562f4beb_d8bc_4f3f_b83e_f2ca4e3cee27 ;
                                            skos:prefLabel "OrientationDistribution"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The distribution of orientations or the constituents of a whole."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The distribution of orientations of the constituents of a whole."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_e25884df-decb-52e1-b8c0-f5092dd40066
@@ -1262,7 +1272,7 @@ Inconel 625"""@en ;
                                                            :EMMO_562f4beb_d8bc_4f3f_b83e_f2ca4e3cee27 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
-                                                             owl:someValuesFrom emmo:EMMO_fee2a014_3322_48f9_91ab_d947a6e54556
+                                                             owl:someValuesFrom emmo:EMMO_3c38a8b4_ed07_4185_8d9b_b57b9130c537
                                                            ] ;
                                            skos:prefLabel "SizeDistribution"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A distribution of the sizes of multiple objects. It is measured in as the number of items of a given size class per volume."@en .
@@ -1277,8 +1287,8 @@ Inconel 625"""@en ;
                                                              owl:allValuesFrom :EMMO_903bf818-c0b4-56ef-9673-799ba204795d
                                                            ] ;
                                            skos:prefLabel "PrecipitateSizeDistribution"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en ,
-                                                                                          "Size distribution of precipitates."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Size distribution of precipitates."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f84836b6_4a4d_4f13_a340_a4c141028c87

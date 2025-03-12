@@ -35,8 +35,9 @@ test_quantity_dimension:
     - microstructure.GeneralisedDensity
     - microstructure.LengthDensity  # should not be ignored!!!
     - microstructure.Orientation  # does this have a unit? LengthFractionUnit?
-    - microstructure.
-    - microstructure.
+    - microstructure.OrientationDistribution
+    - microstructure.StatisticalQuantity
+    - microstructure.MicrostructureQuantity
 
 
 test_unit_dimension:
