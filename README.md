@@ -59,7 +59,7 @@ compatibilies:
 
 | Imported Ontologies  | Version           |
 | -------------------- | ----------------- |
-| [EMMO][1]            | 1.0.0-rc1         |
+| [EMMO][1]            | 1.0.0             |
 | [crystallography][2] | 0.0.1             |
 
 
