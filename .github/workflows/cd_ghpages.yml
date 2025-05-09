@@ -3,6 +3,11 @@ on:
   push:
     branches: [master]
 
+env:
+  ONTOLOGY_NAME: microstructure
+  ONTOLOGY_IRI: https://w3id.org/emmo/domain/${ONTOLOGY_NAME}
+  #ONTOLOGY_IRI: https://w3id.org/emmo/domain/microstructure
+
 permissions:
   contents: write
 
@@ -29,8 +34,19 @@ jobs:
     - name: Create squashed and inferred ontology
       run: |
         mkdir build
-        ontoconvert -saw --base-iri="https://w3id.org/emmo/domain/microstructure#" --iri="https://w3id.org/emmo/domain/microstructure" microstructure.ttl build/microstructure.ttl
-        #ontoconvert -saw --base-iri="https://w3id.org/emmo/domain/microstructure#" --iri="https://w3id.org/emmo/domain/microstructure" microstructure.ttl build/microstructure-inferred.ttl --infer=HermiT
+        ontoconvert \
+            -sawe \
+            --base-iri="${ONTOLOGY_IRI}#" \
+            --iri="${ONTOLOGY_IRI}" \
+            ${ONTOLOGY_NAME}.ttl \
+            build/${ONTOLOGY_NAME}.ttl
+        ontoconvert \
+            -sawe \
+            --base-iri="${ONTOLOGY_IRI}#" \
+            --iri="${ONTOLOGY_IRI}" \
+            --infer=HermiT \
+            ${ONTOLOGY_NAME}.ttl \
+            build/${ONTOLOGY_NAME}-inferred.ttl
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
