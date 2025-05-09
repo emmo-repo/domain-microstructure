@@ -5,8 +5,7 @@ on:
 
 env:
   ONTOLOGY_NAME: microstructure
-  ONTOLOGY_IRI: https://w3id.org/emmo/domain/${ONTOLOGY_NAME}
-  #ONTOLOGY_IRI: https://w3id.org/emmo/domain/microstructure
+  ONTOLOGY_IRI: https://w3id.org/emmo/domain/microstructure
 
 permissions:
   contents: write
