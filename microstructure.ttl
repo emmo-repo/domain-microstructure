@@ -3,12 +3,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix emmo: <https://w3id.org/emmo#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix emmo: <https://w3id.org/emmo#> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
@@ -29,9 +28,9 @@
                                                                "Tomas Manik (NTNU)"@en ,
                                                                "Ulrike Cihak-Bayr (AC2T)"@en ;
                                                dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
-    dcterms:title "Microstructure domain ontology"@en ;
-    vann:preferredNamespacePrefix "mdo" ;
-    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" ;
+                                               dcterms:title "Microstructure domain ontology"@en ;
+                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "mdo" ;
+                                               <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" ;
                                                owl:versionInfo "0.3.1"@en .
 
 #################################################################
@@ -1136,8 +1135,8 @@ Inconel 625"""@en ;
                                                              owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
                                                              owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3
                                                            ] ;
-                                           rdfs:comment "A characterisation measurement process where the composition of a material is measured."@en ;
-                                           skos:prefLabel "CompositionMeasurement"@en .
+                                           skos:prefLabel "CompositionMeasurement"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_def0b149-c158-5552-8cac-4444043db37e
