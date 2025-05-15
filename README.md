@@ -1,8 +1,8 @@
 [![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
 
 
-Microstructure Domain Ontology
-==============================
+Microstructure Domain Ontology (MDO)
+====================================
 This is work in progress.
 
 The Microstructure Domain Ontology is intended to be a domain ontology
