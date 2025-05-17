@@ -1,8 +1,8 @@
 [![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
 
 
-Microstructure Domain Ontology
-==============================
+Microstructure Domain Ontology (MDO)
+====================================
 This is work in progress.
 
 The Microstructure Domain Ontology is intended to be a domain ontology
@@ -53,14 +53,12 @@ Open questions
 
 Imported ontologies
 -------------------
-This ontology builds on top of EMMO and the crystallography and
-mechanics domain ontologies. See the following table for version
-compatibilies:
+Version dependencies on imported ontologies:
 
-| Imported Ontologies  | Version           |
-| -------------------- | ----------------- |
-| [EMMO][1]            | 1.0.0             |
-| [crystallography][2] | 0.0.1             |
+| Version | [EMMO] | [CHAMEO] |
+|---------|--------|----------|
+| 0.3.1   | 1.0.0  | 1.0.0    |
+
 
 
 Obtaining the Microstructure Domain Ontology
@@ -70,7 +68,7 @@ using the following url
 
     https://w3id.org/emmo/domain/microstructure/source
 
-It can also be cloned from its [GitHub repository][3] using the `git`
+It can also be cloned from its [GitHub repository] using the `git`
 command:
 
     git clone https://github.com/emmo-repo/domain-microstructure.git
@@ -88,9 +86,9 @@ Attributions and credits
 - Ulrike Cihak-Bayr, AC2T, Austria
 
 
-### Projects
-- Demystify ontologies - Internal project at [SINTEF](www.sintef.no)
-- [SFI PhysMet](https://www.ntnu.edu/physmet)
+### Supporting projects
+- Demystify ontologies - Internal project at [SINTEF](http://www.sintef.no)
+- [SFI PhysMet](https://www.ntnu.edu/physmet/) (2020-2028) that receives funding from the Research Council of Norway, project no. 309584.
 
 
 License
@@ -101,8 +99,7 @@ International](https://creativecommons.org/licenses/by/4.0/legalcode)
 license (CC BY 4.0).
 
 
-[1]: https://github.com/emmo-repo/EMMO
-[2]: https://github.com/emmo-repo/domain-crystallography
-[3]: https://github.com/emmo-repo/domain-microstructure
-[github]: https://github.com/
-[github-ssh]: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+[EMMO]: https://github.com/emmo-repo/EMMO
+[CHAMEO]: https://github.com/emmo-repo/domain-characterisation-methodology
+[Crystallography]: https://github.com/emmo-repo/domain-crystallography
+[GitHub repository]: https://github.com/emmo-repo/domain-microstructure

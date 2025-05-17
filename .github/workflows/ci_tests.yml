@@ -1,6 +1,9 @@
 name: CI tests
 on: [push]
 
+env:
+  ONTOLOGY_NAME: microstructure
+
 jobs:
   ci_testing:
     concurrency: ci-${{ github.ref }}  # Recommended if you intend to make multiple deployments in quick succession.
@@ -22,4 +25,4 @@ jobs:
 
     - name: Test
       run: |
-        emmocheck --configfile=.github/emmocheck_conf.yml microstructure.ttl
+        emmocheck --configfile=.github/emmocheck_conf.yml ${ONTOLOGY_NAME}.ttl

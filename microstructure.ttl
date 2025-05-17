@@ -6,6 +6,7 @@
 @prefix emmo: <https://w3id.org/emmo#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
@@ -17,7 +18,8 @@
                                                            <https://w3id.org/emmo/1.0.0/disciplines/manufacturing> ,
                                                            <https://w3id.org/emmo/1.0.0/disciplines/metrology> ,
                                                            <https://w3id.org/emmo/1.0.0/disciplines/models> ,
-                                                           <https://w3id.org/emmo/1.0.0/perspectives/structural> ;
+                                                           <https://w3id.org/emmo/1.0.0/perspectives/structural> ,
+                                                           <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo> ;
                                                dcterms:contributor "SFI PhysMet"@en ;
                                                dcterms:creator "Astrid Marthinsen (SINTEF)"@en ,
                                                                "Georg J. Schmitz (ACCESS)"@en ,
@@ -27,18 +29,13 @@
                                                                "Ulrike Cihak-Bayr (AC2T)"@en ;
                                                dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
                                                dcterms:title "Microstructure domain ontology"@en ;
+                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "mdo" ;
+                                               <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" ;
                                                owl:versionInfo "0.3.1"@en .
 
 #################################################################
 #    Classes
 #################################################################
-
-###  https://w3id.org/emmo#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34
-emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
-                                               rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-                                               skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
-                                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
-
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0449d241-e6ec-5426-b327-16785bcf87fe
 :EMMO_0449d241-e6ec-5426-b327-16785bcf87fe rdf:type owl:Class ;
@@ -127,7 +124,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2
 :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            rdfs:seeAlso "https://www.britannica.com/science/nucleation"^^xsd:anyURI ;
                                            skos:prefLabel "Nucleation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
@@ -236,6 +233,13 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each voxel (VoxelGrid cell)"@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34
+:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                           skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c
 :EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e ;
@@ -293,7 +297,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f
 :EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Precipitation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process by which a solute separates from a solution and forms solid particles."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "This can occur either from a liquid solution or a solid solution."@en .
@@ -460,16 +464,16 @@ random movement of through the bulk of the medium."""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 :EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Recovery"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A process by which a metal or alloy's deformed grains can reduce their stored energy by the removal or rearrangement of defects in their crystal structure."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Doherty et al. (1997) defined recovery as 
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Doherty et al. (1997) defined recovery as
 
     All annealing processes occurring in deformed materials that occur without the migration of a high-angle grain boundary.
 
 This definition allows to differentiated recovery from recrystallization and grain growth as both feature extensive movement of high-angle grain boundaries.
 
--- 
+--
 RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE King; TR McNelley; HJ McQueen; AD Rollett (1997). \"Current Issues In Recrystallisation: A Review\". Materials Science and Engineering. A238: 219–274."""@en .
 
 
@@ -578,7 +582,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8
 :EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Diffusion"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient."@en .
@@ -738,7 +742,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09
 :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Hardening"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In metallurgy, hardening refers to a variety of processes used to increase the hardness and strength of a metal or alloy."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Hardening is typically coursed by reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ,
@@ -1128,6 +1132,21 @@ This is to be consistent with the common jargon in metallurgy where grain size a
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An abstract coordinate system with an origin, oritation and scale specified by a set of reference points. "@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_de093fd3_6f08_4891_a215_0783c1efbffd
+:EMMO_de093fd3_6f08_4891_a215_0783c1efbffd rdf:type owl:Class ;
+                                           rdfs:subClassOf chameo:CharacterisationMeasurementProcess ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                             owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                             owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3
+                                                           ] ;
+                                           skos:prefLabel "CompositionMeasurement"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_def0b149-c158-5552-8cac-4444043db37e
 :EMMO_def0b149-c158-5552-8cac-4444043db37e rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_f17133c2_bb33_4ffd_89fa_eef2b403d5e6 ,
@@ -1275,7 +1294,7 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba
 :EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "ParticleGrowth"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Particle growth occurs through several mechanisms:
