@@ -140,13 +140,13 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                                            emmo:EMMO_e4e80813_f379_4091_b017_ee059811f806 ,
                                                            emmo:EMMO_f678173d_f036_4df1_a86b_2894560be617 ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                             owl:onProperty emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b ;
                                                              owl:someValuesFrom :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
                                                            ] ;
                                            rdfs:comment "Being nominalistic, the microstructure is the material itself, not just a description of its structure."@en ;
                                            skos:prefLabel "Microstructure"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A composite material, who's constituents are in general so small that they require a microscope to be observed."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure constituents) are of a different type than the microstructure itself, it also a fundamental whole."@en ,
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A composite material, who's components are in general so small that they require a microscope to be observed."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure components) are of a different type than the microstructure itself, it also a fundamental whole."@en ,
                                                                                           "This is consistent with the definition of a microstructure in Oxford Languages: \"The fine structure (in a metal or other material) which can be made visible and examined with a microscope\"."@en .
 
 
@@ -329,10 +329,9 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_3a9e6708-4df7-51a5-bd3f-f551d7f2ca30
 :EMMO_3a9e6708-4df7-51a5-bd3f-f551d7f2ca30 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_04f2a2d5_e799_4692_a654_420e76f5acc1 ,
-                                                           :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
-                                           skos:altLabel "Pore"@en ;
+                                                           :EMMO_9c797a88_591d_4413_bca4_813cc112a1aa ;
                                            skos:prefLabel "GasPore"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A region of a gas in a microstructure."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A pore filled with gas."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_3d026e8b_4fdb_4a0a_a389_5c852e466017
@@ -348,14 +347,6 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_5b3cefe2-1504-5623-a95f-5ff9477e28a5 ;
                                            skos:prefLabel "CrystallographicDefect"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Imperfection in the regular geometrical arrangement of the atoms in a crystalline  solid."@en .
-
-
-###  https://w3id.org/emmo/domain/microstructure#EMMO_3fd3b90d-d1fb-5819-b312-a8926565820d
-:EMMO_3fd3b90d-d1fb-5819-b312-a8926565820d rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ,
-                                                           :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
-                                           skos:prefLabel "EquivalentGrainSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The grain volume divided by the grain surface area."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_41dfb6e9_1be1_411b_affa_8cf50bf3ea87
@@ -413,10 +404,11 @@ random movement of through the bulk of the medium."""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_4cff9c2a_c618_4df6_9c9d_6d5653d62e35
 :EMMO_4cff9c2a_c618_4df6_9c9d_6d5653d62e35 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
-                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
+                                           rdfs:subClassOf :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                                           :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ,
+                                                           :EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b ;
                                            skos:prefLabel "SubgrainSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a subgrain measured according to a specified procedure (and/or model)."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Representative length of a subgrain measured according to a specified procedure (experimentally or theoretically)."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_50cde755-076b-5dce-b9d1-d260f93411a0
@@ -787,8 +779,8 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34
 :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
-                                           skos:prefLabel "EquivalentSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The grain volume divided by the object surface area."@en .
+                                           skos:prefLabel "RepresentativeLength"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A length that represent the size of an object measured according to a given procedure (experimental or theoretical)."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9a4d7dca-734f-5d06-bd87-6d6c97a81467
@@ -807,17 +799,25 @@ Inconel 625"""@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Also a method to characterize object by finding the smallest ellipsoid that fully comprise the object"@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_9c797a88_591d_4413_bca4_813cc112a1aa
+:EMMO_9c797a88_591d_4413_bca4_813cc112a1aa rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
+                                           skos:prefLabel "Pore"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A small openings in a solid substance."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Pores are typically filled with other material, like air or water."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b
 :EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
-                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                           rdfs:subClassOf :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
                                                              owl:allValuesFrom emmo:EMMO_a15cea10_9946_4d2b_95c5_cfc333fd2abb
                                                            ] ;
                                            skos:prefLabel "ParticleSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a particle measured according to a specified procedure (and/or model)."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Size of a particle measured according to a specified procedure (and/or model)."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Common representations of a particle size are the particle volume or the diameter of a (hypothetical) sphere with the same volume as the particle."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9ead4d78-23ad-5a33-8d8e-abef3925fcbb
@@ -891,9 +891,13 @@ Inconel 625"""@en ;
                                            rdfs:subClassOf emmo:EMMO_f1025834_0cd2_42a1_bfeb_13bec41c8655 ,
                                                            :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
                                            skos:prefLabel "Grain"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A region of a crystalline material with (almost) the same crystal orientation."@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A part of a microstructure with (almost) the same crystal orientation."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A common definition is that grains are separated from their neighbour grains by grain boundaries with a misorientation angle higher than 15 degrees."@en ,
-                                                                                          "Grains (and subgrains) are in general not crystals since they may include small particles (e.g. precipitates) with another crystal structure."@en ,
+                                                                                          """Grain, in metallurgy, any of the crystallites (small crystals or grains) of varying, randomly distributed, small sizes that compose a solid metal. Randomly oriented, the grains contact each other at surfaces called grain boundaries. The structure and size of the grains determine important physical properties of the solid metal. Grains of a metal ingot can be elongated and locked together by rolling to improve the mechanical properties in the direction of grain length. Internal stresses at grain boundaries may be relieved by annealing to restore exhausted ductility in certain alloys or to harden other alloys.
+
+-- britannica.com (https://www.britannica.com/science/grain-solid)"""@en ,
+                                                                                          "Grains (and subgrains) are in general not (single) crystals since they may include small particles (e.g. precipitates) with another crystal structure."@en ,
+                                                                                          "Note, since grains are defined as being a (holistic) component of a microstructure, we cannot speak about a single grain without it being a part of a microstucture."@en ,
                                                                                           "Part of a crystalline material consituted primarily of one crystalline phase."@en .
 
 
@@ -1085,15 +1089,19 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d
 :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
-                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                           rdfs:subClassOf :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                                           :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ,
+                                                           :EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
                                                              owl:allValuesFrom :EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88
                                                            ] ;
                                            skos:prefLabel "GrainSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a grain measured according to a specified procedure (and/or model)."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A representative length of a grain measured according to a specified procedure (experimentally or theoretically)."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Note the asymmetry with the definition of the more general particle size, which can be measured with any quantity (e.g. volume, average cross-section diameter, etc) the grain size is always a length.
+
+This is to be consistent with the common jargon in metallurgy where grain size always refer to a length."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_dadc1e15-a920-503f-802e-074c16682eb1
@@ -1130,9 +1138,10 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_e0304dcb-96a3-5e44-a4bd-9628f9b910cc
 :EMMO_e0304dcb-96a3-5e44-a4bd-9628f9b910cc rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
+                                           rdfs:subClassOf emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 ,
+                                                           :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ;
                                            skos:altLabel "EquivalentSphericalGrainDiameter"@en ;
-                                           skos:prefLabel "EquivalentSphericalSize"@en ;
+                                           skos:prefLabel "EquivalentSphericalDiameter"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diameter of an equivalent sphere with the same volume as the object"@en .
 
 
@@ -1281,29 +1290,34 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
 :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ,
-                                                           emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
-                                           skos:example "Grain"@en ,
-                                                        "Precipitate"@en ;
-                                           skos:prefLabel "MicrostructureConstituent"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A constituent of a microstructure."@en .
+                                                           emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b
+                                                                            ] ;
+                                                             owl:someValuesFrom :EMMO_14ad97af-303a-58fe-bdcc-c13c57dbbb9e
+                                                           ] ;
+                                           skos:example "Grain, precipitate"@en ;
+                                           skos:prefLabel "MicrostructureComponent"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A part (component) of a microstructure that contributes to the overall properties of the microstructure itself."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Microstructure components are defined as holistic spatial parts of a microstructure. Hence, single microstructure components does not exists - their definition depends on being a part of a microstructure."@en .
 
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
