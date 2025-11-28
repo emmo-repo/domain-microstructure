@@ -5,7 +5,9 @@ on:
 
 env:
   ONTOLOGY_NAME: microstructure
+  ONTOLOGY_PREFIX: microstructure
   ONTOLOGY_IRI: https://w3id.org/emmo/domain/microstructure
+  ONTOLOGY_THEME: ddoc:microstructure
 
 permissions:
   contents: write
@@ -30,22 +32,93 @@ jobs:
         pip install --upgrade pip
         pip install EMMOntoPy
 
-    - name: Create squashed and inferred ontology
+    - name: Install temgo and tripper
+      run: |
+        pip install .
+        #pip install tripper[datadoc]
+        pip install -U git+https://github.com/EMMC-ASBL/tripper.git@master
+
+    - name: Install ROBOT
+      run: |
+        mkdir bin
+        wget -nv https://github.com/ontodev/robot/releases/download/v1.9.6/robot.jar
+        mv robot.jar bin/.
+        curl https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > bin/robot
+        chmod +x bin/robot
+        ls -l bin/
+
+    - name: Download Widoco
+      run: |
+        wget --quiet https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-17.jar
+
+    - name: Create squashed ontology
       run: |
         mkdir build
+        cp README.md LICENSE build/.
+
+        ontoconvert \
+            -saw \
+            --namespace="emmo:https://w3id.org/emmo#" \
+            --namespace="${ONTOLOGY_PREFIX}:${ONTOLOGY_IRI}#" \
+            ${ONTOLOGY_NAME}-dependencies.ttl \
+            build/${ONTOLOGY_NAME}-dependencies.ttl
+
         ontoconvert \
             -sawe \
+            --namespace="emmo:https://w3id.org/emmo#" \
+            --namespace="${ONTOLOGY_PREFIX}:${ONTOLOGY_IRI}#" \
             --base-iri="${ONTOLOGY_IRI}#" \
             --iri="${ONTOLOGY_IRI}" \
             ${ONTOLOGY_NAME}.ttl \
             build/${ONTOLOGY_NAME}.ttl
+
         ontoconvert \
-            -sawe \
+            -awe \
+            --namespace="emmo:https://w3id.org/emmo#" \
+            --namespace="${ONTOLOGY_PREFIX}:${ONTOLOGY_IRI}#" \
             --base-iri="${ONTOLOGY_IRI}#" \
             --iri="${ONTOLOGY_IRI}" \
-            --infer=HermiT \
+            --copy-annotation="elucidation-->http://purl.org/dc/terms/description" \
+            --copy-annotation="prefLabel-->http://www.w3.org/2000/01/rdf-schema#label" \
             ${ONTOLOGY_NAME}.ttl \
-            build/${ONTOLOGY_NAME}-inferred.ttl
+            build/${ONTOLOGY_NAME}-doc.ttl
+
+    - name: Create inferred ontology
+      run: |
+        # Running HermiT via ontoconvert fails with custom datatypes.
+        # Use ROBOT instead.
+        #
+        #ontoconvert \
+        #    -sawe \
+        #    --base-iri="${ONTOLOGY_IRI}#" \
+        #    --iri="${ONTOLOGY_IRI}" \
+        #    --infer=HermiT \
+        #    ${ONTOLOGY_NAME}.ttl \
+        #    build/${ONTOLOGY_NAME}-inferred.ttl
+        #
+        bin/robot reason \
+            --reasoner HermiT \
+            --input build/${ONTOLOGY_NAME}.ttl \
+            --output build/${ONTOLOGY_NAME}-inferred.ttl
+
+    #- name: Generate markdown documentation of all keywords
+    #  run: |
+    #    keywords -i build/${ONTOLOGY_NAME}-doc.ttl --keywords build/${ONTOLOGY_NAME}.md --theme=${ONTOLOGY_THEME} --redefine=allow
+
+    - name: Generate Widoco documentation
+      run: |
+        java -jar widoco-1.4.25-jar-with-dependencies_JDK-17.jar \
+            -ontFile build/${ONTOLOGY_NAME}-doc.ttl \
+            -outFolder build/widoco \
+            -getOntologyMetadata \
+            -oops \
+            -rewriteAll \
+            -saveConfig build/widoco/widoco.conf \
+            - webVowl \
+            -licensius \
+            -includeAnnotationProperties
+
+
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
