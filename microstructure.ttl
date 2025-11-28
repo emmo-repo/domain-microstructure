@@ -6,6 +6,7 @@
 @prefix emmo: <https://w3id.org/emmo#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
@@ -17,7 +18,8 @@
                                                            <https://w3id.org/emmo/1.0.0/disciplines/manufacturing> ,
                                                            <https://w3id.org/emmo/1.0.0/disciplines/metrology> ,
                                                            <https://w3id.org/emmo/1.0.0/disciplines/models> ,
-                                                           <https://w3id.org/emmo/1.0.0/perspectives/structural> ;
+                                                           <https://w3id.org/emmo/1.0.0/perspectives/structural> ,
+                                                           <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo> ;
                                                dcterms:contributor "SFI PhysMet"@en ;
                                                dcterms:creator "Astrid Marthinsen (SINTEF)"@en ,
                                                                "Georg J. Schmitz (ACCESS)"@en ,
@@ -27,18 +29,81 @@
                                                                "Ulrike Cihak-Bayr (AC2T)"@en ;
                                                dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
                                                dcterms:title "Microstructure domain ontology"@en ;
+                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "mdo" ;
+                                               <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" ;
                                                owl:versionInfo "0.3.1"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1
+:EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 rdf:type owl:AnnotationProperty ;
+                                           skos:prefLabel "metallurgicalReference"@en ;
+                                           rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_68a5325b_042b_416e_8189_f5139cb73139
+:EMMO_68a5325b_042b_416e_8189_f5139cb73139 rdf:type owl:AnnotationProperty ;
+                                           rdfs:seeAlso "https://materialsdata.nist.gov/bitstream/handle/11115/185/Understanding%20Wrought%20and%20Cast%20Al%20Alloy%20Designations.pdf?isAllowed=y&sequence=3"^^xsd:anyURI ;
+                                           skos:example """- 6061 (four-digit aluminium alloy designation)
+- S31008 (UNS)"""@en ;
+                                           skos:prefLabel "alloyDesignation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Common systems include the four-digit numerical system for wrought aluminum and the Unified Numbering System (UNS), which uses a prefix letter followed by five digits."@en ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:range xsd:string ;
+                                           rdfs:domain :EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_a2abd4df_70b1_4e90_a27a_e3eab14e5b04
+:EMMO_a2abd4df_70b1_4e90_a27a_e3eab14e5b04 rdf:type owl:AnnotationProperty ;
+                                           skos:prefLabel "sampleName"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a sample."@en ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:domain chameo:Sample ;
+                                           rdfs:range xsd:string .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569
+:EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569 rdf:type owl:AnnotationProperty ;
+                                           skos:prefLabel "materialName"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a material."@en ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:domain :EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569 ;
+                                           rdfs:range xsd:string .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b
+:EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b rdf:type owl:AnnotationProperty ;
+                                           rdfs:seeAlso "https://materialsdata.nist.gov/bitstream/handle/11115/186/Understanding%20Temp%09er%20Designation.pdf?isAllowed=y&sequence=3"^^xsd:anyURI ;
+                                           skos:example "T6 (peak aged)"@en ;
+                                           skos:prefLabel "temperDesignation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Temper designations tell both the producer and the user how the alloy has been mechanically and/or thermally treated to achieve the properties desired. The first character in the temper designation (a capital letter, F, O, H, W, or T) indicates the general class of treatment.
+
+- F, as fabricated. Most F-temper products are “semi-finished” products. They will be used in shaping, finishing or thermal processes to achieve other finished forms or tempers.
+- O, annealed. Annealing treatments are used to achieve the lowest-strength condition for the alloy. The main reason is to maximize workability or increase toughness and ductility.
+- H, strain-hardened. This is for non-heat-treatable alloys that have had their strength increased by strain hardening, usually at room temperature.
+- W, solution heat-treated. This designation applies only to alloys that age naturally and spontaneously after solution heat treating. It is rarely a finished temper.
+- T, thermally treated. This applies to any product form of any heat-treatable alloy that has been given a solution heat treatment followed by quenching and aging.
+""" ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:domain emmo:EMMO_6fa330f7_3289_4228_81df_12ee8a9708ac ;
+                                           rdfs:range xsd:string .
+
 
 #################################################################
 #    Classes
 #################################################################
-
-###  https://w3id.org/emmo#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34
-emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
-                                               rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-                                               skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
-                                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
-
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0449d241-e6ec-5426-b327-16785bcf87fe
 :EMMO_0449d241-e6ec-5426-b327-16785bcf87fe rdf:type owl:Class ;
@@ -127,7 +192,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2
 :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            rdfs:seeAlso "https://www.britannica.com/science/nucleation"^^xsd:anyURI ;
                                            skos:prefLabel "Nucleation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
@@ -140,13 +205,13 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                                            emmo:EMMO_e4e80813_f379_4091_b017_ee059811f806 ,
                                                            emmo:EMMO_f678173d_f036_4df1_a86b_2894560be617 ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+                                                             owl:onProperty emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b ;
                                                              owl:someValuesFrom :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
                                                            ] ;
                                            rdfs:comment "Being nominalistic, the microstructure is the material itself, not just a description of its structure."@en ;
                                            skos:prefLabel "Microstructure"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A composite material, who's constituents are in general so small that they require a microscope to be observed."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure constituents) are of a different type than the microstructure itself, it also a fundamental whole."@en ,
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A composite material, who's components are in general so small that they require a microscope to be observed."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure components) are of a different type than the microstructure itself, it also a fundamental whole."@en ,
                                                                                           "This is consistent with the definition of a microstructure in Oxford Languages: \"The fine structure (in a metal or other material) which can be made visible and examined with a microscope\"."@en .
 
 
@@ -236,6 +301,13 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field values assigned to each voxel (VoxelGrid cell)"@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34
+:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                           skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c
 :EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e ;
@@ -293,7 +365,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f
 :EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Precipitation"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process by which a solute separates from a solution and forms solid particles."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "This can occur either from a liquid solution or a solid solution."@en .
@@ -301,7 +373,8 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c
 :EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
+                                           rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 ,
+                                                           :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
                                            skos:prefLabel "MaterialName"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a material."@en .
 
@@ -329,10 +402,9 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_3a9e6708-4df7-51a5-bd3f-f551d7f2ca30
 :EMMO_3a9e6708-4df7-51a5-bd3f-f551d7f2ca30 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_04f2a2d5_e799_4692_a654_420e76f5acc1 ,
-                                                           :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
-                                           skos:altLabel "Pore"@en ;
+                                                           :EMMO_9c797a88_591d_4413_bca4_813cc112a1aa ;
                                            skos:prefLabel "GasPore"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A region of a gas in a microstructure."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A pore filled with gas."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_3d026e8b_4fdb_4a0a_a389_5c852e466017
@@ -348,14 +420,6 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_5b3cefe2-1504-5623-a95f-5ff9477e28a5 ;
                                            skos:prefLabel "CrystallographicDefect"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Imperfection in the regular geometrical arrangement of the atoms in a crystalline  solid."@en .
-
-
-###  https://w3id.org/emmo/domain/microstructure#EMMO_3fd3b90d-d1fb-5819-b312-a8926565820d
-:EMMO_3fd3b90d-d1fb-5819-b312-a8926565820d rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ,
-                                                           :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d ;
-                                           skos:prefLabel "EquivalentGrainSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The grain volume divided by the grain surface area."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_41dfb6e9_1be1_411b_affa_8cf50bf3ea87
@@ -412,10 +476,11 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_4cff9c2a_c618_4df6_9c9d_6d5653d62e35
 :EMMO_4cff9c2a_c618_4df6_9c9d_6d5653d62e35 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
-                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
+                                           rdfs:subClassOf :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                                           :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ,
+                                                           :EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b ;
                                            skos:prefLabel "SubgrainSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a subgrain measured according to a specified procedure (and/or model)."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Representative length of a subgrain measured according to a specified procedure (experimentally or theoretically)."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_50cde755-076b-5dce-b9d1-d260f93411a0
@@ -478,7 +543,7 @@ emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 rdf:type owl:Class ;
 
 This definition allows to differentiated recovery from recrystallization and grain growth as both feature extensive movement of high-angle grain boundaries.
 
--- 
+--
 RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE King; TR McNelley; HJ McQueen; AD Rollett (1997). \"Current Issues In Recrystallisation: A Review\". Materials Science and Engineering. A238: 219–274."""@en .
 
 
@@ -551,7 +616,8 @@ RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE Kin
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6aa987e8_d41e_4d25_84f1_35a3e2beba56
 :EMMO_6aa987e8_d41e_4d25_84f1_35a3e2beba56 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
+                                           rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 ,
+                                                           :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
                                            skos:example """AA6082
 Inconel 625"""@en ;
                                            skos:prefLabel "AlloySystem"@en ;
@@ -576,6 +642,19 @@ Inconel 625"""@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A solvent can be in many state of matter."@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6
+:EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 ,
+                                                           emmo:EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527 ,
+                                                           :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
+                                           rdfs:seeAlso "https://www.lightmetalage.com/wp-content/uploads/2019/08/Fig2-wire-and-rod.png"^^xsd:anyURI ;
+                                           skos:example "For example, \"6061-T6\" indicates a 6061 alloy that has been solution heat treated and then artificially aged."@en ;
+                                           skos:prefLabel "AlloyDesignation"@en ;
+                                           emmo:EMMO_157fdf31_6387_42be_8e72_10530519214a "https://www.lightmetalage.com/wp-content/uploads/2019/08/Fig2-wire-and-rod.png" ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The four-digit numerical portion represents the alloy chemistry, while the temper designation, added after the four-digit code, indicates the specific heat treatment applied."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6d47161f-7721-50e1-a78c-c256041aa83a
 :EMMO_6d47161f-7721-50e1-a78c-c256041aa83a rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_4c72efd2-93bc-5692-b200-256efce58997 ,
@@ -587,7 +666,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8
 :EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Diffusion"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient."@en .
@@ -747,7 +826,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09
 :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Hardening"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."@en ,
@@ -788,8 +867,8 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34
 :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
-                                           skos:prefLabel "EquivalentSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The grain volume divided by the object surface area."@en .
+                                           skos:prefLabel "RepresentativeLength"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A length that represent the size of an object measured according to a given procedure (experimental or theoretical)."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9a4d7dca-734f-5d06-bd87-6d6c97a81467
@@ -808,17 +887,25 @@ Inconel 625"""@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Also a method to characterize object by finding the smallest ellipsoid that fully comprise the object"@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_9c797a88_591d_4413_bca4_813cc112a1aa
+:EMMO_9c797a88_591d_4413_bca4_813cc112a1aa rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
+                                           skos:prefLabel "Pore"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A small openings in a solid substance."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Pores are typically filled with other material, like air or water."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b
 :EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
-                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                           rdfs:subClassOf :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
                                                              owl:allValuesFrom emmo:EMMO_a15cea10_9946_4d2b_95c5_cfc333fd2abb
                                                            ] ;
                                            skos:prefLabel "ParticleSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a particle measured according to a specified procedure (and/or model)."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Size of a particle measured according to a specified procedure (and/or model)."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Common representations of a particle size are the particle volume or the diameter of a (hypothetical) sphere with the same volume as the particle."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9ead4d78-23ad-5a33-8d8e-abef3925fcbb
@@ -892,9 +979,13 @@ Inconel 625"""@en ;
                                            rdfs:subClassOf emmo:EMMO_f1025834_0cd2_42a1_bfeb_13bec41c8655 ,
                                                            :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
                                            skos:prefLabel "Grain"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A region of a crystalline material with (almost) the same crystal orientation."@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A part of a microstructure with (almost) the same crystal orientation."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A common definition is that grains are separated from their neighbour grains by grain boundaries with a misorientation angle higher than 15 degrees."@en ,
-                                                                                          "Grains (and subgrains) are in general not crystals since they may include small particles (e.g. precipitates) with another crystal structure."@en ,
+                                                                                          """Grain, in metallurgy, any of the crystallites (small crystals or grains) of varying, randomly distributed, small sizes that compose a solid metal. Randomly oriented, the grains contact each other at surfaces called grain boundaries. The structure and size of the grains determine important physical properties of the solid metal. Grains of a metal ingot can be elongated and locked together by rolling to improve the mechanical properties in the direction of grain length. Internal stresses at grain boundaries may be relieved by annealing to restore exhausted ductility in certain alloys or to harden other alloys.
+
+-- britannica.com (https://www.britannica.com/science/grain-solid)"""@en ,
+                                                                                          "Grains (and subgrains) are in general not (single) crystals since they may include small particles (e.g. precipitates) with another crystal structure."@en ,
+                                                                                          "Note, since grains are defined as being a (holistic) component of a microstructure, we cannot speak about a single grain without it being a part of a microstucture."@en ,
                                                                                           "Part of a crystalline material consituted primarily of one crystalline phase."@en .
 
 
@@ -1087,15 +1178,19 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d
 :EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ,
-                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                           rdfs:subClassOf :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ,
+                                                           :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ,
+                                                           :EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty [ owl:inverseOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204
                                                                             ] ;
                                                              owl:allValuesFrom :EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88
                                                            ] ;
                                            skos:prefLabel "GrainSize"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Length of a grain measured according to a specified procedure (and/or model)."@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A representative length of a grain measured according to a specified procedure (experimentally or theoretically)."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Note the asymmetry with the definition of the more general particle size, which can be measured with any quantity (e.g. volume, average cross-section diameter, etc) the grain size is always a length.
+
+This is to be consistent with the common jargon in metallurgy where grain size always refer to a length."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_dadc1e15-a920-503f-802e-074c16682eb1
@@ -1122,6 +1217,21 @@ Inconel 625"""@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An abstract coordinate system with an origin, oritation and scale specified by a set of reference points. "@en .
 
 
+###  https://w3id.org/emmo/domain/microstructure#EMMO_de093fd3_6f08_4891_a215_0783c1efbffd
+:EMMO_de093fd3_6f08_4891_a215_0783c1efbffd rdf:type owl:Class ;
+                                           rdfs:subClassOf chameo:CharacterisationMeasurementProcess ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                             owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                             owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3
+                                                           ] ;
+                                           skos:prefLabel "CompositionMeasurement"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
+
+
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_def0b149-c158-5552-8cac-4444043db37e
 :EMMO_def0b149-c158-5552-8cac-4444043db37e rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_f17133c2_bb33_4ffd_89fa_eef2b403d5e6 ,
@@ -1132,9 +1242,10 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_e0304dcb-96a3-5e44-a4bd-9628f9b910cc
 :EMMO_e0304dcb-96a3-5e44-a4bd-9628f9b910cc rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
+                                           rdfs:subClassOf emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 ,
+                                                           :EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 ;
                                            skos:altLabel "EquivalentSphericalGrainDiameter"@en ;
-                                           skos:prefLabel "EquivalentSphericalSize"@en ;
+                                           skos:prefLabel "EquivalentSphericalDiameter"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Diameter of an equivalent sphere with the same volume as the object"@en .
 
 
@@ -1268,7 +1379,7 @@ Inconel 625"""@en ;
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba
 :EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "ParticleGrowth"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Particle growth occurs through several mechanisms:
@@ -1283,21 +1394,20 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7
 :EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ,
-                                                           emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
-                                           skos:example "Grain"@en ,
-                                                        "Precipitate"@en ;
-                                           skos:prefLabel "MicrostructureConstituent"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A constituent of a microstructure."@en .
+                                                           emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b
+                                                                            ] ;
+                                                             owl:someValuesFrom :EMMO_14ad97af-303a-58fe-bdcc-c13c57dbbb9e
+                                                           ] ;
+                                           skos:example "Grain, precipitate"@en ;
+                                           skos:prefLabel "MicrostructureComponent"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A part (component) of a microstructure that contributes to the overall properties of the microstructure itself."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Microstructure components are defined as holistic spatial parts of a microstructure. Hence, single microstructure components does not exists - their definition depends on being a part of a microstructure."@en .
 
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
-
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
@@ -1310,5 +1420,18 @@ Inconel 625"""@en ;
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+#################################################################
+#    Annotations
+#################################################################
+
+rdfs:range xsd:string  .
+
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
