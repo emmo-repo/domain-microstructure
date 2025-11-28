@@ -423,8 +423,7 @@
 :EMMO_41dfb6e9_1be1_411b_affa_8cf50bf3ea87 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 ;
                                            skos:prefLabel "HomogenousNucleation"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Nucleation due to atoms coming into a enegetically beneficial configuration due to
-random movement of through the bulk of the medium."""@en .
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Nucleation because to atoms coming into a enegetically beneficial configuration due to random movement of through the bulk of the medium."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_4264a22e-55b2-5090-8a6a-1c0541462b30
@@ -530,10 +529,12 @@ random movement of through the bulk of the medium."""@en .
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 :EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
+                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
                                            skos:prefLabel "Recovery"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A process by which a metal or alloy's deformed grains can reduce their stored energy by the removal or rearrangement of defects in their crystal structure."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Doherty et al. (1997) defined recovery as
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en ,
+                                                                                          "Recovery differs from recrystallization and grain growth, which involve significant movement of high-angle grain boundaries. In contrast, recovery occurs without this migration. If recovery happens during deformation (common in high-temperature processing), it is known as dynamic recovery. When it happens after processing, it is called static recovery."@en ,
+                                                                                          """Doherty et al. (1997) defined recovery as 
 
     All annealing processes occurring in deformed materials that occur without the migration of a high-angle grain boundary.
 
@@ -824,9 +825,8 @@ Inconel 625"""@en ;
 :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Hardening"@en ;
-                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In metallurgy, hardening refers to a variety of processes used to increase the hardness and strength of a metal or alloy."@en ;
-                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Hardening is typically coursed by reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ,
-                                                                                          "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."@en ,
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."@en ,
                                                                                           """Here are some common hardening techniques:
 
    1. Work Hardening (Cold Working): This process involves deforming the metal at temperatures below its recrystallization point, which introduces defects into the crystal structure. These defects impede the movement of dislocations, making the metal harder and stronger. Common methods include rolling, hammering, and drawing.
@@ -834,11 +834,12 @@ Inconel 625"""@en ;
    2. Heat Treatment: This broad category includes several specific processes:
         Quenching and Tempering: The metal is heated to a high temperature and then rapidly cooled (quenched) in water or oil. This results in a hard but brittle structure. The metal is then reheated to a lower temperature (tempered) to achieve a balance between hardness and toughness.
 
-        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness
-
-    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures
-
-    4. Solid Solution Strengthening: Alloying elements are added to the metal to create a solid solution, where the atoms of the alloying element distort the metal’s crystal lattice and hinder dislocation movement, thereby increasing hardness and strength"""@en .
+        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness 
+ 
+    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures 
+ 
+    4. Solid Solution Strengthening: Alloying elements are added to the metal to create a solid solution, where the atoms of the alloying element distort the metal’s crystal lattice and hinder dislocation movement, thereby increasing hardness and strength."""@en ,
+                                                                                          "In metallurgy, hardening refers to a variety of processes used to increase the hardness and strength of a metal or alloy."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_9364f901-d87e-5e74-927b-e49f6818665c
@@ -1059,6 +1060,7 @@ Inconel 625"""@en ;
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c383bff3_67ef_40d7_a395_3f0ed7928e9a
 :EMMO_c383bff3_67ef_40d7_a395_3f0ed7928e9a rdf:type owl:Class ;
                                            rdfs:subClassOf :EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 ;
+                                           skos:altLabel "ColdWorking"@en ;
                                            skos:prefLabel "WorkHardening"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process involves deforming the metal at temperatures below its recrystallization point, which introduces defects into the crystal structure. These defects impede the movement of dislocations, making the metal harder and stronger. Common methods include rolling, hammering, and drawing."@en .
 
