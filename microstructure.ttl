@@ -34,6 +34,74 @@
                                                owl:versionInfo "0.3.1"@en .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1
+:EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 rdf:type owl:AnnotationProperty ;
+                                           skos:prefLabel "metallurgicalReference"@en ;
+                                           rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_68a5325b_042b_416e_8189_f5139cb73139
+:EMMO_68a5325b_042b_416e_8189_f5139cb73139 rdf:type owl:AnnotationProperty ;
+                                           rdfs:seeAlso "https://materialsdata.nist.gov/bitstream/handle/11115/185/Understanding%20Wrought%20and%20Cast%20Al%20Alloy%20Designations.pdf?isAllowed=y&sequence=3"^^xsd:anyURI ;
+                                           skos:example """- 6061 (four-digit aluminium alloy designation)
+- S31008 (UNS)"""@en ;
+                                           skos:prefLabel "alloyDesignation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Common systems include the four-digit numerical system for wrought aluminum and the Unified Numbering System (UNS), which uses a prefix letter followed by five digits."@en ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:range xsd:string ;
+                                           rdfs:domain :EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_a2abd4df_70b1_4e90_a27a_e3eab14e5b04
+:EMMO_a2abd4df_70b1_4e90_a27a_e3eab14e5b04 rdf:type owl:AnnotationProperty ;
+                                           skos:prefLabel "sampleName"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a sample."@en ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:domain chameo:Sample ;
+                                           rdfs:range xsd:string .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569
+:EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569 rdf:type owl:AnnotationProperty ;
+                                           skos:prefLabel "materialName"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a material."@en ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:domain :EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569 ;
+                                           rdfs:range xsd:string .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b
+:EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b rdf:type owl:AnnotationProperty ;
+                                           rdfs:seeAlso "https://materialsdata.nist.gov/bitstream/handle/11115/186/Understanding%20Temp%09er%20Designation.pdf?isAllowed=y&sequence=3"^^xsd:anyURI ;
+                                           skos:example "T6 (peak aged)"@en ;
+                                           skos:prefLabel "temperDesignation"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """Temper designations tell both the producer and the user how the alloy has been mechanically and/or thermally treated to achieve the properties desired. The first character in the temper designation (a capital letter, F, O, H, W, or T) indicates the general class of treatment.
+
+- F, as fabricated. Most F-temper products are “semi-finished” products. They will be used in shaping, finishing or thermal processes to achieve other finished forms or tempers.
+- O, annealed. Annealing treatments are used to achieve the lowest-strength condition for the alloy. The main reason is to maximize workability or increase toughness and ductility.
+- H, strain-hardened. This is for non-heat-treatable alloys that have had their strength increased by strain hardening, usually at room temperature.
+- W, solution heat-treated. This designation applies only to alloys that age naturally and spontaneously after solution heat treating. It is rarely a finished temper.
+- T, thermally treated. This applies to any product form of any heat-treatable alloy that has been given a solution heat treatment followed by quenching and aging.
+""" ;
+                                           rdfs:subPropertyOf dcterms:identifier ,
+                                                              :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
+                                           rdfs:domain emmo:EMMO_6fa330f7_3289_4228_81df_12ee8a9708ac ;
+                                           rdfs:range xsd:string .
+
+
+#################################################################
 #    Classes
 #################################################################
 
@@ -305,7 +373,8 @@
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c
 :EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
+                                           rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 ,
+                                                           :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
                                            skos:prefLabel "MaterialName"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a material."@en .
 
@@ -546,7 +615,8 @@ RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE Kin
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6aa987e8_d41e_4d25_84f1_35a3e2beba56
 :EMMO_6aa987e8_d41e_4d25_84f1_35a3e2beba56 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
+                                           rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 ,
+                                                           :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
                                            skos:example """AA6082
 Inconel 625"""@en ;
                                            skos:prefLabel "AlloySystem"@en ;
@@ -569,6 +639,19 @@ Inconel 625"""@en ;
                                            skos:prefLabel "Solvent"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A substance that dissolves a solute, resulting in a solution."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A solvent can be in many state of matter."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6
+:EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 ,
+                                                           emmo:EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527 ,
+                                                           :EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf ;
+                                           rdfs:seeAlso "https://www.lightmetalage.com/wp-content/uploads/2019/08/Fig2-wire-and-rod.png"^^xsd:anyURI ;
+                                           skos:example "For example, \"6061-T6\" indicates a 6061 alloy that has been solution heat treated and then artificially aged."@en ;
+                                           skos:prefLabel "AlloyDesignation"@en ;
+                                           emmo:EMMO_157fdf31_6387_42be_8e72_10530519214a "https://www.lightmetalage.com/wp-content/uploads/2019/08/Fig2-wire-and-rod.png" ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The four-digit numerical portion represents the alloy chemistry, while the temper designation, added after the four-digit code, indicates the specific heat treatment applied."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_6d47161f-7721-50e1-a78c-c256041aa83a
@@ -1324,6 +1407,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
 
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
@@ -1333,13 +1419,17 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
+
+#################################################################
+#    Annotations
+#################################################################
+
+rdfs:range xsd:string  .
+
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
