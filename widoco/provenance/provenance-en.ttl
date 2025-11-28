@@ -1,0 +1,22 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://w3id.org/emmo/domain/microstructure/0.3.1> a prov:Entity;
+	 dc:title "Microstructure domain ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
+	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo :agent6;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
+:agent0 a prov:Agent; foaf:name "Astrid Marthinsen (SINTEF)".
+:agent1 a prov:Agent; foaf:name "Georg J. Schmitz (ACCESS)".
+:agent2 a prov:Agent; foaf:name "Jesper Friis (SINTEF)".
+:agent3 a prov:Agent; foaf:name "Sylvain Gouttebroze (SINTEF)".
+:agent4 a prov:Agent; foaf:name "Tomas Manik (NTNU)".
+:agent5 a prov:Agent; foaf:name "Ulrike Cihak-Bayr (AC2T)".
+:agent6 a prov:Agent; foaf:name "SFI PhysMet".
