@@ -32,9 +32,8 @@ jobs:
         pip install --upgrade pip
         pip install EMMOntoPy
 
-    - name: Install temgo and tripper
+    - name: Install tripper
       run: |
-        pip install .
         #pip install tripper[datadoc]
         pip install -U git+https://github.com/EMMC-ASBL/tripper.git@master
 
