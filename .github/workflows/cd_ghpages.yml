@@ -114,7 +114,7 @@ jobs:
             -oops \
             -rewriteAll \
             -saveConfig build/widoco/widoco.conf \
-            - webVowl \
+            -webVowl \
             -licensius \
             -includeAnnotationProperties
 
