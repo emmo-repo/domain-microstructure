@@ -38,6 +38,8 @@ test_quantity_dimension:
     - microstructure.OrientationDistribution
     - microstructure.StatisticalQuantity
     - microstructure.MicrostructureQuantity
+    - microstructure.ParticleSize
+    - microstructure.AverageParticleSize
 
 
 test_unit_dimension:
