@@ -5743,13 +5743,13 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
 
