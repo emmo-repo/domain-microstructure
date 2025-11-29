@@ -8,30 +8,112 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
-                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
-                                               owl:imports <https://w3id.org/emmo/1.0.0/disciplines/chemistry> ,
-                                                           <https://w3id.org/emmo/1.0.0/disciplines/computerscience> ,
-                                                           <https://w3id.org/emmo/1.0.0/disciplines/geometrical> ,
-                                                           <https://w3id.org/emmo/1.0.0/disciplines/manufacturing> ,
-                                                           <https://w3id.org/emmo/1.0.0/disciplines/metrology> ,
-                                                           <https://w3id.org/emmo/1.0.0/disciplines/models> ,
-                                                           <https://w3id.org/emmo/1.0.0/perspectives/structural> ,
-                                                           <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo> ;
-                                               dcterms:contributor "SFI PhysMet"@en ;
-                                               dcterms:creator "Astrid Marthinsen (SINTEF)"@en ,
-                                                               "Georg J. Schmitz (ACCESS)"@en ,
-                                                               "Jesper Friis (SINTEF)"@en ,
-                                                               "Sylvain Gouttebroze (SINTEF)"@en ,
-                                                               "Tomas Manik (NTNU)"@en ,
-                                                               "Ulrike Cihak-Bayr (AC2T)"@en ;
-                                               dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
-                                               dcterms:title "Microstructure domain ontology"@en ;
-                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "mdo" ;
-                                               <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" ;
-                                               owl:versionInfo "0.3.1"@en .
+    owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
+    owl:versionInfo "0.3.1"@en ;
+    owl:imports <https://w3id.org/emmo/domain/microstructure> ;
+    rdfs:label "MDO" ;
+    dcterms:contributor
+        <https://orcid.org/0000-0003-4065-9742> ,
+        <https://orcid.org/0000-0001-5150-6544> ,
+        <https://orcid.org/0000-0002-5043-4742> ,
+        <https://orcid.org/0000-0001-8858-4511> ;
+    dcterms:creator
+        <https://orcid.org/0000-0002-1560-809X> ,
+        <https://orcid.org/0000-0002-2170-3798> ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
+    dcterms:title "Microstructure domain ontology"@en ;
+    dcterms:publisher <https://www.ntnu.edu/physmet> ;
+    dcterms:created "02-05-2020" ;
+    dcterms:abstract """The Microstructure Domain Ontology is intended to be a domain ontology
+for physical metallurgy.  The intension is to cover all relevant
+aspect of metallic microstructures, including:
+  - composition
+  - particles, both stable (primary) and metastable (precipitates)
+  - grains
+  - subgrains
+  - grain boundaries & particle free zones (PFZs)
+  - texture
+  - dislocations
+  - alloy systems
+
+The aim is to support both microstructure modelling as well as
+characterisation.
+
+For modelling, we will distinguish between
+  - evolution models (that changes the microstructure through a
+    succession of states) and
+  - property models (that relates a microstructure state to a property).
+
+It should support describing same concept at different spatial
+resolutions, like mean field, 1D, 2D and 3D.
+
+For mean field descriptions (what about spatially resolved), it should
+be possible describe quantities at different statistical levels, like
+mean size, normalised size distribution (mean + standard deviation)
+and full size distribution.
+
+There should be a common way to connect a state to external
+conditions, like temperature, volume/shape and pressure (essential for
+describing a process).
+"""@en ;
+    bibo:status <http://purl.org/adms/status/UnderDevelopment> ;
+    bibo:doi <https://doi.org/10.5281/zenodo.7966659> ;
+    foaf:fundedBy <https://www.forskningsradet.no/> ;
+    vann:preferredNamespacePrefix "mdo" ;
+    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" .
+
+
+
+# Contributors
+<https://orcid.org/0000-0002-1560-809X> rdf:type foaf:Person ;
+    skos:altLabel "Jesper Friis" ;
+    skos:prefLabel "JesperFriis" ;
+    foaf:name "Jesper Friis" ;
+    foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+<https://orcid.org/0000-0003-4065-9742> rdf:type foaf:Person ;
+    skos:altLabel "Georg J. Schmitz" .
+    skos:prefLabel "GeorgSchmitz" ;
+    foaf:name "Georg J. Schmitz" .
+
+<https://orcid.org/0000-0002-2170-3798> rdf:type foaf:Person ;
+    skos:altLabel "Sylvain Gouttebroze" ;
+    skos:prefLabel "SylvainGouttebroze" ;
+    foaf:name "Sylvain Gouttebroze" ;
+    foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+<https://orcid.org/0000-0001-5150-6544> rdf:type foaf:Person ;
+    skos:altLabel "Astrid Marthinsen" ;
+    skos:prefLabel "AstridMarthinsen" ;
+    foaf:name "Astrid Marthinsen" ;
+    foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+<https://orcid.org/0000-0002-5043-4742> rdf:type foaf:Person ;
+    skos:altLabel "Tomas Manik" ;
+    skos:prefLabel "TomasManik" ;
+    foaf:name "Tomas Manik>" ;
+    foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+<https://orcid.org/0000-0001-8858-4511> rdf:type foaf:Person ;
+    skos:altLabel "Ulrike Cihak-Bayr" ;
+    skos:prefLabel "UlrikeCihakBayr" ;
+    foaf:name "Ulrike Cihak-Bayr" ;
+    foaf:workplaceHomepage <https://www.ac2t.at/en/> .
+
+<https://www.ntnu.edu/physmet> a foaf:Organization ;
+    skos:altLabel "SFI PhysMet" ;
+    skos:prefLabel "SFIPhysMet" ;
+    foaf:name "SFI PhysMet" ;
+    foaf:title "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" ;
+    foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
+    foaf:homepage <https://www.ntnu.edu/physmet> .
+
+
+
 
 #################################################################
 #    Annotation properties
@@ -534,7 +616,7 @@
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en ,
                                                                                           "Recovery differs from recrystallization and grain growth, which involve significant movement of high-angle grain boundaries. In contrast, recovery occurs without this migration. If recovery happens during deformation (common in high-temperature processing), it is known as dynamic recovery. When it happens after processing, it is called static recovery."@en ,
-                                                                                          """Doherty et al. (1997) defined recovery as 
+                                                                                          """Doherty et al. (1997) defined recovery as
 
     All annealing processes occurring in deformed materials that occur without the migration of a high-angle grain boundary.
 
@@ -834,10 +916,10 @@ Inconel 625"""@en ;
    2. Heat Treatment: This broad category includes several specific processes:
         Quenching and Tempering: The metal is heated to a high temperature and then rapidly cooled (quenched) in water or oil. This results in a hard but brittle structure. The metal is then reheated to a lower temperature (tempered) to achieve a balance between hardness and toughness.
 
-        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness 
- 
-    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures 
- 
+        Precipitation Hardening (Age Hardening): This involves heating the alloy to a high temperature to form a solid solution and then cooling it rapidly. Subsequent aging at lower temperatures allows the formation of fine precipitates within the metal matrix, which hinder dislocation movement and increase hardness
+
+    3. Case Hardening: This method is used to harden the surface of a metal while maintaining a softer, ductile core. Techniques include carburizing, nitriding, and carbonitriding, where the surface of the metal is enriched with carbon or nitrogen through exposure to a reactive gas or liquid at high temperatures
+
     4. Solid Solution Strengthening: Alloying elements are added to the metal to create a solid solution, where the atoms of the alloying element distort the metal’s crystal lattice and hinder dislocation movement, thereby increasing hardness and strength."""@en ,
                                                                                           "In metallurgy, hardening refers to a variety of processes used to increase the hardness and strength of a metal or alloy."@en .
 
