@@ -293,31 +293,31 @@
   } ]
 }, {
   "@id" : "_:genid45",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid46",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
-  } ]
-}, {
-  "@id" : "_:genid47",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "3"
-  } ]
-}, {
-  "@id" : "_:genid48",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "4"
   } ]
 }, {
-  "@id" : "_:genid49",
+  "@id" : "_:genid47",
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
@@ -338,9 +338,9 @@
   } ]
 }, {
   "@id" : "_:genid51",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
+    "@value" : "3"
   } ]
 }, {
   "@id" : "_:genid6",
@@ -468,12 +468,12 @@
 }, {
   "@id" : "http://w3id.org/emmo#EMMO_946b5162_95b0_4801_81d4_efef43842a0d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "http://w3id.org/emmo#EMMO_eb50c9cb_9576_4a61_95ec_f81fb8218187",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
@@ -553,12 +553,12 @@
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_0f3e0646_4f06_4588_9779_6a4f05c5a8d6",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_1141d225_fe90_4230_82c6_31cab6a4e3fe",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_180bd73b_0c5d_4b1f_ba12_4309c5a50d49",
@@ -588,12 +588,12 @@
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_38f31ba5_348f_4ac2_9a67_a62b5dd7aadd",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_3d03a403_facd_48c6_b75e_7ab8b9299218",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_41c5f63b_f0e7_475e_bfac_a92027585979",
@@ -603,17 +603,17 @@
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_41cecfc2_bb6b_45f3_b6cc_e7740d931afe",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_4292fdcd_bbba_4d99_95c6_daa533d952ef",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_43d0bb2c_bb0e_4312_a0de_084c29ff7f9e",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_5e38e44b_a0d1_4afc_a876_95095c0a589f",
@@ -623,12 +623,12 @@
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_b32fe85d_2f7b_4972_9dd7_7cf20d4bba59",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_c66ad523_3937_485e_91bb_ad488ddb373f",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org.org/emmo#EMMO_f0fec2df_41f0_4412_b28a_592858c065f0",
@@ -678,7 +678,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_008fd3b2_4013_451f_8827_52bceab11841",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_00b85655_f20c_4e83_b90e_094e8ea7e48f",
@@ -738,7 +738,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0277f24a_ea7f_4917_81b7_fb0406c8fc62",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_02a935c8_c2d4_4a00_bd6f_b89d05aac79e",
@@ -748,7 +748,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_02c4890b_aef3_4173_9669_94d1f6baf611",
@@ -848,7 +848,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_052e9796_1144_43ae_a798_c5755cd6cd81",
@@ -868,7 +868,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044",
@@ -878,7 +878,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0650c031_42b6_4f0a_b62d_d88f071da6bf",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0658e7df_ffd9_4779_82fc_62efe0a7f3b1",
@@ -888,7 +888,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_06658d8d_dcde_4fc9_aae1_17f71c0bcdec",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/math#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_066937f0_ea5c_4b06_8739_53f66d5ef89e",
@@ -1003,7 +1003,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_09f0ac34_c349_46b5_acf0_0edeae52cca1",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0a88be81_343d_4388_92c1_09228ff95ada",
@@ -1213,12 +1213,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_0f795e3e_c602_4577_9a43_d5a231aa1360",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/standardmodel#"
+    "@id" : "https://w3id.org/emmo/mereocausality#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1044e509_e204_433a_8130_8d4579ada59f",
@@ -1233,7 +1233,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_10a5fd39_06aa_4648_9e70_f962a9cb2069",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_10bbe9e9_46b6_4b5d_8b51_ed759fc21f21",
@@ -1318,7 +1318,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_13191289_6c2b_4741_93e1_82d53bd0e703",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1328d112_e731_4e56_b9b9_6b6cdd495cd6",
@@ -1493,12 +1493,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_18ce5200_00f5_45bb_8c6f_6fb128cd41ae",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_18d180e4_5e3e_42f7_820c_e08951223486",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_194100e1_e11a_4b7c_bb5a_171655679fc8",
@@ -1608,12 +1608,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1b6a95fb_3df7_44c9_ad3d_419c9c5fe7cb",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64",
@@ -1623,7 +1623,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1c0b22a2_be82_4fa8_9e2b_a569a625d442",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e",
@@ -1648,7 +1648,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1c7f2dfe_0db4_4bf6_a0f6_853054a34ead",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1c957677_a460_4702_85a6_baef659d14b1",
@@ -1703,7 +1703,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1eb6b28e_f260_4f04_ada1_19c6dcb668d9",
@@ -1713,12 +1713,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/math#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_1f087811_06cb_42d5_90fb_25d0e7e068ef",
@@ -1783,7 +1783,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2138677c_845a_4bc2_8be7_7b0a07b4777d",
@@ -1848,7 +1848,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_22744495_4f32_4a17_b189_259c644268f9",
@@ -1878,7 +1878,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2480b72b_db8d_460f_9a5f_c2912f979046",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_24b30ba4_90f4_423d_93d2_fd0fde349087",
@@ -1903,7 +1903,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_251cfb4f_5c75_4778_91ed_6c8395212fd8",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_252cce84_cc8a_49dc_8405_0d5e06425d69",
@@ -2043,7 +2043,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_28fbea28_2204_4613_87ff_6d877b855fcd",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/math#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_29108c7c_9087_4992_ab1c_02561665df21",
@@ -2108,7 +2108,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2a971203_58d5_4039_98ce_be7eafb2b14f",
@@ -2158,7 +2158,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2bb50428_568d_46e8_b8bf_59a4c5656461",
@@ -2208,7 +2208,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2d72e38c_d587_437f_98f6_f2718fb130eb",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_2da7408f_d389_4245_887d_a1743b81a9b6",
@@ -2346,7 +2346,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3227b821_26a5_4c7c_9c01_5c24483e0bd0",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/units/sidimensionalunits#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_322ce14e_9ede_4841_ad70_302b4d6c5f28",
@@ -2371,7 +2371,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_32e701c0_a925_49df_9829_0931b8554807",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/perspectives/structural#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_32eb7161_60ed_4431_8326_81a92aec088c",
@@ -2381,7 +2381,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_33433bb1_c68f_45ee_a466_f01e2c57b214",
@@ -2416,7 +2416,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_33dc57d7_68bd_460c_a440_26a78d57ea0d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_33e0ac8b_a318_4285_b1de_e95347784632",
@@ -2471,12 +2471,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_35d2e130_6e01_41ed_94f7_00b333d46cf9",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_35d4c439_fcb6_4399_a855_a89a207b41e9",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_35e1dd93_2cb6_4cea_b201_31036e113f61",
@@ -2566,7 +2566,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_38d00e5f_d759_4dcc_8551_ab95865cf799",
@@ -2656,12 +2656,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3b1b64d1_60c9_4689_a300_eb9cd56e368b",
@@ -2771,7 +2771,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3eb993a1_61ae_4a20_b168_dda853f51c14",
@@ -2801,7 +2801,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3f15d200_c97b_42c8_8ac0_d81d150361e2",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_3f2a669c_101b_428e_9cfc_0157986c36d5",
@@ -2906,7 +2906,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4208f937_8bad_47cf_af46_4ada75e63adb",
@@ -2991,7 +2991,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_442bd91e_a724_4e9f_89c1_18423016fb75",
@@ -3076,7 +3076,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_46406907_9afd_424e_934a_a523f9f9cc36",
@@ -3111,7 +3111,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0",
@@ -3136,7 +3136,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_47bf3513_4ae6_4858_9c45_76e23230d68d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_47eea65c_e6ce_4c95_9406_fdb1519abc87",
@@ -3196,12 +3196,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_49267eba_5548_4163_8f36_518d65b583f9",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d",
@@ -3221,12 +3221,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4a1c73f1_b6f5_4d10_a3a6_5de90bac7cd0",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4a2bf359_c47b_4aa3_9811_b59c3e1dac1e",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4a464c8d_8895_44a8_a628_aed13509f1bd",
@@ -3331,7 +3331,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4d5621e8_af7f_4aef_abd5_f905a34f62af",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4d604a13_d1f6_42fd_818f_d3138d5e308c",
@@ -3346,7 +3346,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4db96fb7_e9e0_466d_942b_f6f17bfdc145",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4dbe2b16_3e84_4049_898d_eb89bcc925a2",
@@ -3381,7 +3381,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4f226cf3_6d02_4d35_8566_a9e641bc6ff3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_4f245147_f072_4431_b535_6241e8e87eb8",
@@ -3496,7 +3496,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_50ea1ec5_f157_41b0_b46b_a9032f17ca10",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/computerscience#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_5117c5fe_f661_46f8_83c3_b48947f1532a",
@@ -3561,7 +3561,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_52b8a39b_e5ff_46d3_b972_65bc43077a07",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/standardmodel#"
+    "@id" : "https://w3id.org/emmo/mereocausality#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_52ba3876_b51e_4670_a6f2_ce726abc2d3d",
@@ -3636,7 +3636,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_53ed8611_2cd7_4286_9ef0_36572117b963",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_54d0d0f4_d9fa_4179_a9b5_4110c49dafff",
@@ -3651,7 +3651,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_55354438_7000_4284_b1b9_59d60c2261b9",
@@ -3731,12 +3731,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_57c75ca1_bf8a_42bc_85d9_58cfe38c7df2",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/perspectives/structural#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_581e05bc_a4fe_494a_a85c_f2c4b4374e18",
@@ -3851,7 +3851,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_5be83f9c_a4ba_4b9a_be1a_5bfc6e891231",
@@ -3981,7 +3981,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/computerscience#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_5f375229_de0c_46bf_b11f_da9d3b742253",
@@ -4041,7 +4041,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_611e4040_9a3e_4a1a_9fa2_7b1012269401",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_614c1bd9_93df_4248_861c_44b86d854739",
@@ -4116,7 +4116,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/computerscience#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_649bf97b_4397_4005_90d9_219755d92e34",
@@ -4151,7 +4151,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_65a007dc_2550_46b0_b394_3346c67fbb69",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_65a2c5b8_e4d8_4a51_b2f8_e55effc0547d",
@@ -4296,7 +4296,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_69ebb235_9c5e_443d_9a3b_7042b1005f1f",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_6aa04359_50d6_43d7_b3a7_296bd391bf7d",
@@ -4416,7 +4416,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_6eca09be_17e9_445e_abc9_000aa61b7a11",
@@ -4486,7 +4486,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_70bbb94e_2ca7_4d73_ba01_6397f134d172",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_70da982d_1810_4b01_9630_a28e216ecd9a",
@@ -4521,7 +4521,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_720a469f_a19c_4a88_900c_29b3938f5092",
@@ -4556,7 +4556,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_7286b164_df4c_4c14_a4b5_d41ad9c121f3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_730f2e31_ca78_410f_a5e1_4043217a41ab",
@@ -4641,7 +4641,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_76bd5e44_bf5a_49f9_a517_eea5e8bcbc2d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/mereocausality#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_76cc4efc_231e_42b4_be83_2547681caed6",
@@ -4696,7 +4696,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_79a02de5_b884_4eab_bc18_f67997d597a2",
@@ -4796,7 +4796,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_7e53a8b4_6e02_4e56_80d4_8683f92b9c77",
@@ -4846,7 +4846,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_801395f8_948e_4637_ac3b_5fcd587d72ca",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_802c167d_b792_4cb8_a315_35797345c0e3",
@@ -4856,7 +4856,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_802d3e92_8770_4f98_a289_ccaaab7fdddf",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8040a6f6_4736_4dd2_8d1c_f2c13cb77a71",
@@ -4926,7 +4926,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_82fc8506_1f84_4add_9683_abea077bd1e3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8303a247_f9d9_4616_bdcd_f5cbd7b298e3",
@@ -5046,7 +5046,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8681074a_e225_4e38_b586_e85b0f43ce38",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_868ae137_4d25_493e_b270_21ea3d94849e",
@@ -5066,7 +5066,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_86ffe1bb_d457_4948_9e39_35f363b9a9fe",
@@ -5076,7 +5076,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8785be5a_2493_4b12_8f39_31907ab11748",
@@ -5086,7 +5086,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_87ac88ff_8379_4f5a_8c7b_424a8fff1ee8",
@@ -5116,7 +5116,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_88470739_03d3_4c47_a03e_b30a1288d50c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/math#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8864793d_0f36_4fa3_b54a_90d0234f976a",
@@ -5181,12 +5181,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_89762966_8076_4f7c_b745_f718d653e8e2",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/math#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_89d04b65_5b11_4916_b606_0cf3f007fcd9",
@@ -5241,7 +5241,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8b2fd84c_8f51_4731_9bd7_830545e78b23",
@@ -5251,7 +5251,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8b305b63_6fa3_44dd_9679_17eb8403a07a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8b4af754_110a_4854_ac65_349ebafc1bed",
@@ -5271,7 +5271,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8bb6b688_812a_4cb9_b76c_d5a058928719",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8c151a67_f04a_4435_b7d1_1738e6d952ee",
@@ -5286,7 +5286,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8c64fcfa_23aa_45f8_9e58_bdfd065fab8f",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/math#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8ced4dcc_ba95_4e5f_a54d_68b928c367a0",
@@ -5431,7 +5431,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_90589553_5625_4074_8f0d_0532fd7eb42b",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_90798691_3b86_4d8c_910f_be2b39c98b39",
@@ -5446,7 +5446,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_90963312_d9a9_4474_8d10_835aef5b168e",
@@ -5466,7 +5466,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_90bfd475_ba4a_4065_b0c1_1f08230be252",
@@ -5516,7 +5516,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9159bb16_8a70_49f9_bac4_f5cf2a82c39a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_91a0635a_a89a_46de_8928_04a777d145c7",
@@ -5726,7 +5726,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_985bec21_989f_4b9e_a4b3_735d88099c3c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9864a26d_ee34_43ac_bc01_118734886185",
@@ -5806,7 +5806,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9b87d718_9dcc_4f7d_ad20_12c2aa4c76be",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9b8f36cd_4312_4bc3_a99c_420c00f41550",
@@ -5836,7 +5836,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9be5fcc4_0d8b_481d_b984_6338d4b55588",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9bed5d66_805a_4b3a_9153_beaf67143848",
@@ -5856,7 +5856,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9cb984ca_48ad_4864_b09e_50d3fff19420",
@@ -5886,7 +5886,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9d799b43_e188_4047_8167_121d96b31a26",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9d8f708a_f291_4d72_80ec_362c6e6bbca6",
@@ -5896,7 +5896,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9e029526_79a2_47a8_a151_dd0545db471b",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/math#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_9e0891a6_4d87_4891_b557_69ab2bae1dae",
@@ -6026,7 +6026,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a139c6d5_1a0b_4605_a6c0_9f383539f9b1",
@@ -6046,7 +6046,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a15cea10_9946_4d2b_95c5_cfc333fd2abb",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a18a3e9b_7e3d_44bf_9640_c8634e770ba8",
@@ -6131,7 +6131,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a49c2441_1e54_43f0_a1cf_2f553a23ac34",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a4b14b83_9392_4a5f_a2e8_b2b58793f59b",
@@ -6141,7 +6141,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a4e36749_1f44_4e6c_80e8_d5b27d986d8b",
@@ -6326,7 +6326,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_acaaa124_3dde_48b6_86e6_6ec6f364f408",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_acd1a504_ca32_4f30_86ad_0b62cea5bc02",
@@ -6441,7 +6441,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b0ef0941_5c92_4b71_bc26_95e95e5e0004",
@@ -6476,7 +6476,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe",
@@ -6491,7 +6491,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b295158f_fda4_4124_ab58_d9ea4ccfca5a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b29fd350_39aa_4af7_9459_3faa0544cba6",
@@ -6556,7 +6556,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b4494d69_6393_4eb4_8346_7fedd4df0bc5",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/perspectives/structural#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b452fe23_0c61_436d_8357_57a521448801",
@@ -6651,12 +6651,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b82d6a44_ea23_4b68_9b24_70f77deac955",
@@ -6701,12 +6701,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b9522e56_1fac_4766_97e6_428605fabd3e",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/reference/persholistic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b9695e87_8261_412e_83cd_a86459426a28",
@@ -6731,7 +6731,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6",
@@ -6756,7 +6756,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_bc73913a_3bb6_4205_8d36_79bc72ca9891",
@@ -6816,7 +6816,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_be8680e5_28ec_4168_9206_d1cd33fbd458",
@@ -6911,7 +6911,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c130614a_2985_476d_a7ed_8a137847703c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c18fff21_87c8_4877_a7e6_9ca1052d074e",
@@ -6961,7 +6961,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/units/sidimensionalunits#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c30aaeb1_66cc_4c69_8890_d7812c1d608c",
@@ -7041,7 +7041,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c5ae6d8e_6b39_431f_8de4_ae4e357abc04",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/perceptual#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c5b4c32b_74de_403d_96f2_266bec8bd0e8",
@@ -7051,7 +7051,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c5e9e390_8836_4440_b4fd_c906fdd4f438",
@@ -7091,7 +7091,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c7171429_b9e3_4812_95c1_e97309370538",
@@ -7106,7 +7106,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c74da218_9147_4f03_92d1_8894abca55f3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/perceptual#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c790c7ff_2d10_4336_94ad_4f4e173109a9",
@@ -7261,7 +7261,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_cbdea88b_fef1_4c7c_b69f_ae1f0f241c4a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_cbf42aa6_9e11_4be8_932a_ae3c792ab17d",
@@ -7351,7 +7351,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_cede9297_c60d_4487_9207_62ac963202b5",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/agency#"
+    "@id" : "https://w3id.org/emmo/reference/workflow#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_cf0f8f57_8a9e_410c_8fe4_a436673fa3d3",
@@ -7481,7 +7481,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d43546df_7fd7_44d5_9d7c_0f2bf56cefe3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d43af210_f854_4432_a891_ce3022e3b558",
@@ -7551,7 +7551,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d5f98475_00ce_4987_99fb_262aed395e46",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d64920b5_acd0_4e29_893e_ae03b3d7cdaf",
@@ -7601,7 +7601,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d7788d1a_020d_4c78_85a1_13563fcec168",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d78b940d_4e2a_4a46_816b_da89029adc19",
@@ -7646,12 +7646,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d9350951_5300_44e8_ae61_79fb7c53b7e7",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_d9589ed2_5304_48b3_9795_11bf44e64e9b",
@@ -7741,7 +7741,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_dbbbf0ed_a446_4f9e_877c_8c46e7842f43",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_dc0874e8_36e1_44df_947d_0d7c81167a09",
@@ -7791,7 +7791,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_dd4b7d81_28a9_4801_8831_4cbab217e362",
@@ -7871,7 +7871,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e0aaed83_9224_4bd8_a960_a813c4569412",
@@ -8041,7 +8041,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e56ee3eb_7609_4ae1_8bed_51974f0960a6",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/math#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e59eb557_3a0f_4532_9984_deed22f94952",
@@ -8101,7 +8101,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e7aac247_31d6_4b2e_9fd2_e842b1b7ccac",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/mereocausality#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e7bc8939_7ff8_4917_beb5_c42730b390f3",
@@ -8226,7 +8226,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_ea67caa5_2609_4e91_98ae_81103f2d5c25",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/perspectives/semiotics#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_ea7724fe_ba5d_4201_865e_761cb6fe9f99",
@@ -8261,7 +8261,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_eb3ffec6_3d69_4633_a3b1_088ad53cb00b",
@@ -8276,12 +8276,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_eb77076b_a104_42ac_a065_798b2d2809ad",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/reference/physicalistic#"
+    "@id" : "https://w3id.org/emmo/disciplines/materials#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/chemistry#"
+    "@id" : "https://w3id.org/emmo/disciplines/perceptual#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_eb85216f_b872_4ee5_9f62_655aa2ae0470",
@@ -8461,7 +8461,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_eff42cb3_208e_4768_9a39_f8b6b3c3d7a2",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f00fb163_48c9_4c59_b6c2_4205c082aa54",
@@ -8566,7 +8566,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f2fc1ce9_cc3b_4eb5_a112_3c85d1b1374a",
@@ -8611,7 +8611,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f53f45f2_c354_417c_a904_a2606ad584d7",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/disciplines/metrology#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f5655090_2266_41cb_b2e9_3b4569c45731",
@@ -8671,7 +8671,7 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/models#"
+    "@id" : "https://w3id.org/emmo/domain/characterisation-methodology/chameo#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f7f41d20_eabb_4bcb_9a16_0436851fcd5c",
@@ -8716,12 +8716,12 @@
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f8bd64d5_5d3e_4ad4_a46e_c30714fecb7f",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/isq#"
+    "@id" : "https://w3id.org/emmo/reference/symbolic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f93fe78b_9646_4a15_b88b_1c93686a764d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/disciplines/manufacturing#"
+    "@id" : "https://w3id.org/emmo/reference/persholistic#"
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f94e509a_be29_4365_a4cd_70165e47e232",
