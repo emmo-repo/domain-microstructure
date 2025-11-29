@@ -141,7 +141,8 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
 
 
 ###  http://xmlns.com/foaf/0.1/title
-<http://xmlns.com/foaf/0.1/title> rdf:type owl:AnnotationProperty .
+<http://xmlns.com/foaf/0.1/title> rdf:type owl:AnnotationProperty ;
+                                  rdfs:isDefinedBy : .
 
 
 ###  http://xmlns.com/foaf/0.1/workplaceHomepage
@@ -288,11 +289,13 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
 #################################################################
 
 ###  http://xmlns.com/foaf/0.1/Organization
-<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class ;
+                                         rdfs:isDefinedBy : .
 
 
 ###  http://xmlns.com/foaf/0.1/Person
-<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class ;
+                                   rdfs:isDefinedBy : .
 
 
 ###  https://w3id.org/emmo#EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac
@@ -341,10 +344,6 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
 
 ###  https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064
 <https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-
-###  https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7
-<https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> rdf:type owl:Class .
 
 
 ###  https://w3id.org/emmo#EMMO_3c38a8b4_ed07_4185_8d9b_b57b9130c537
@@ -1168,7 +1167,7 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 :EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 rdf:type owl:Class ;
-                                           rdfs:subClassOf <https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            <http://purl.org/dc/terms/description> "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
                                            rdfs:comment "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ,
                                                         "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en ;
@@ -2459,6 +2458,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0001-5150-6544
 <https://orcid.org/0000-0001-5150-6544> rdf:type owl:NamedIndividual ,
                                                  <http://xmlns.com/foaf/0.1/Person> ;
+                                        rdfs:isDefinedBy : ;
+                                        rdfs:label "AstridMarthinsen" ;
                                         <http://www.w3.org/2004/02/skos/core#altLabel> "Astrid Marthinsen" ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "AstridMarthinsen" ;
                                         <http://xmlns.com/foaf/0.1/name> "Astrid Marthinsen" ;
@@ -2468,6 +2469,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0001-8858-4511
 <https://orcid.org/0000-0001-8858-4511> rdf:type owl:NamedIndividual ,
                                                  <http://xmlns.com/foaf/0.1/Person> ;
+                                        rdfs:isDefinedBy : ;
+                                        rdfs:label "UlrikeCihakBayr" ;
                                         <http://www.w3.org/2004/02/skos/core#altLabel> "Ulrike Cihak-Bayr" ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "UlrikeCihakBayr" ;
                                         <http://xmlns.com/foaf/0.1/name> "Ulrike Cihak-Bayr" ;
@@ -2477,6 +2480,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0002-1560-809X
 <https://orcid.org/0000-0002-1560-809X> rdf:type owl:NamedIndividual ,
                                                  <http://xmlns.com/foaf/0.1/Person> ;
+                                        rdfs:isDefinedBy : ;
+                                        rdfs:label "JesperFriis" ;
                                         <http://www.w3.org/2004/02/skos/core#altLabel> "Jesper Friis" ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "JesperFriis" ;
                                         <http://xmlns.com/foaf/0.1/name> "Jesper Friis" ;
@@ -2486,6 +2491,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0002-2170-3798
 <https://orcid.org/0000-0002-2170-3798> rdf:type owl:NamedIndividual ,
                                                  <http://xmlns.com/foaf/0.1/Person> ;
+                                        rdfs:isDefinedBy : ;
+                                        rdfs:label "SylvainGouttebroze" ;
                                         <http://www.w3.org/2004/02/skos/core#altLabel> "Sylvain Gouttebroze" ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "SylvainGouttebroze" ;
                                         <http://xmlns.com/foaf/0.1/name> "Sylvain Gouttebroze" ;
@@ -2495,6 +2502,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0002-5043-4742
 <https://orcid.org/0000-0002-5043-4742> rdf:type owl:NamedIndividual ,
                                                  <http://xmlns.com/foaf/0.1/Person> ;
+                                        rdfs:isDefinedBy : ;
+                                        rdfs:label "TomasManik" ;
                                         <http://www.w3.org/2004/02/skos/core#altLabel> "Tomas Manik" ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "TomasManik" ;
                                         <http://xmlns.com/foaf/0.1/name> "Tomas Manik>" ;
@@ -2504,6 +2513,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0003-4065-9742
 <https://orcid.org/0000-0003-4065-9742> rdf:type owl:NamedIndividual ,
                                                  <http://xmlns.com/foaf/0.1/Person> ;
+                                        rdfs:isDefinedBy : ;
+                                        rdfs:label "GeorgSchmitz" ;
                                         <http://www.w3.org/2004/02/skos/core#altLabel> "Georg J. Schmitz" ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "GeorgSchmitz" ;
                                         <http://xmlns.com/foaf/0.1/name> "Georg J. Schmitz" .
@@ -2512,6 +2523,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://www.ntnu.edu/physmet
 <https://www.ntnu.edu/physmet> rdf:type owl:NamedIndividual ,
                                         <http://xmlns.com/foaf/0.1/Organization> ;
+                               rdfs:isDefinedBy : ;
+                               rdfs:label "SFIPhysMet" ;
                                <http://www.w3.org/2004/02/skos/core#altLabel> "SFI PhysMet" ;
                                <http://www.w3.org/2004/02/skos/core#prefLabel> "SFIPhysMet" ;
                                <http://xmlns.com/foaf/0.1/homepage> <https://www.ntnu.edu/physmet> ;
@@ -2523,22 +2536,22 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
 ] .
 
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 #################################################################
@@ -2594,6 +2607,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
 
 <http://www.w3.org/ns/locn#fullAddress> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+
+<http://xmlns.com/foaf/0.1/fundedBy> rdfs:isDefinedBy : .
 
 
 <http://xmlns.com/foaf/0.1/mbox> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .

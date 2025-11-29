@@ -88,6 +88,7 @@
 # 
 # http://xmlns.com/foaf/0.1/title
 <http://xmlns.com/foaf/0.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
 # 
 # http://xmlns.com/foaf/0.1/workplaceHomepage
 <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -212,9 +213,11 @@
 # 
 # http://xmlns.com/foaf/0.1/Organization
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
 # 
 # http://xmlns.com/foaf/0.1/Person
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
 # 
 # https://w3id.org/emmo#EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac
 <https://w3id.org/emmo#EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -251,9 +254,6 @@
 # 
 # https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064
 <https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-# 
-# https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7
-<https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # https://w3id.org/emmo#EMMO_3c38a8b4_ed07_4185_8d9b_b57b9130c537
 <https://w3id.org/emmo#EMMO_3c38a8b4_ed07_4185_8d9b_b57b9130c537> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -985,7 +985,7 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 <https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> .
+<https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34> .
 <https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533> <http://purl.org/dc/terms/description> "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en .
 <https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en .
 <https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533> <http://www.w3.org/2000/01/rdf-schema#comment> "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en .
@@ -2151,6 +2151,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://orcid.org/0000-0001-5150-6544
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2000/01/rdf-schema#label> "AstridMarthinsen" .
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2004/02/skos/core#altLabel> "Astrid Marthinsen" .
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2004/02/skos/core#prefLabel> "AstridMarthinsen" .
 <https://orcid.org/0000-0001-5150-6544> <http://xmlns.com/foaf/0.1/name> "Astrid Marthinsen" .
@@ -2159,6 +2161,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://orcid.org/0000-0001-8858-4511
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2000/01/rdf-schema#label> "UlrikeCihakBayr" .
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2004/02/skos/core#altLabel> "Ulrike Cihak-Bayr" .
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2004/02/skos/core#prefLabel> "UlrikeCihakBayr" .
 <https://orcid.org/0000-0001-8858-4511> <http://xmlns.com/foaf/0.1/name> "Ulrike Cihak-Bayr" .
@@ -2167,6 +2171,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://orcid.org/0000-0002-1560-809X
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2000/01/rdf-schema#label> "JesperFriis" .
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2004/02/skos/core#altLabel> "Jesper Friis" .
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2004/02/skos/core#prefLabel> "JesperFriis" .
 <https://orcid.org/0000-0002-1560-809X> <http://xmlns.com/foaf/0.1/name> "Jesper Friis" .
@@ -2175,6 +2181,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://orcid.org/0000-0002-2170-3798
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2000/01/rdf-schema#label> "SylvainGouttebroze" .
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2004/02/skos/core#altLabel> "Sylvain Gouttebroze" .
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2004/02/skos/core#prefLabel> "SylvainGouttebroze" .
 <https://orcid.org/0000-0002-2170-3798> <http://xmlns.com/foaf/0.1/name> "Sylvain Gouttebroze" .
@@ -2183,6 +2191,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://orcid.org/0000-0002-5043-4742
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2000/01/rdf-schema#label> "TomasManik" .
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2004/02/skos/core#altLabel> "Tomas Manik" .
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2004/02/skos/core#prefLabel> "TomasManik" .
 <https://orcid.org/0000-0002-5043-4742> <http://xmlns.com/foaf/0.1/name> "Tomas Manik>" .
@@ -2191,6 +2201,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://orcid.org/0000-0003-4065-9742
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2000/01/rdf-schema#label> "GeorgSchmitz" .
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2004/02/skos/core#altLabel> "Georg J. Schmitz" .
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeorgSchmitz" .
 <https://orcid.org/0000-0003-4065-9742> <http://xmlns.com/foaf/0.1/name> "Georg J. Schmitz" .
@@ -2198,6 +2210,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://www.ntnu.edu/physmet
 <https://www.ntnu.edu/physmet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://www.ntnu.edu/physmet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.ntnu.edu/physmet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+<https://www.ntnu.edu/physmet> <http://www.w3.org/2000/01/rdf-schema#label> "SFIPhysMet" .
 <https://www.ntnu.edu/physmet> <http://www.w3.org/2004/02/skos/core#altLabel> "SFI PhysMet" .
 <https://www.ntnu.edu/physmet> <http://www.w3.org/2004/02/skos/core#prefLabel> "SFIPhysMet" .
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/homepage> <https://www.ntnu.edu/physmet> .
@@ -2206,12 +2220,12 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/title> "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" .
 # 
 _:genid45 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid46 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid47 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid46 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid48 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid49 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid50 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid51 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid49 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid50 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid51 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 # 
 # 
 # #################################################################
@@ -2257,6 +2271,8 @@ _:genid51 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://w
 <http://www.w3.org/2004/02/skos/core#preflabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
 <http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+# 
+<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
 # 
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 

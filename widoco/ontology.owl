@@ -256,7 +256,9 @@ describing a process).
     <!-- http://xmlns.com/foaf/0.1/title -->
 
 
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/title"/>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/title">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -502,14 +504,18 @@ describing a process).
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
 
-    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+    </owl:Class>
     
 
 
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
 
-    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+    </owl:Class>
     
 
 
@@ -618,13 +624,6 @@ describing a process).
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    
-
-
-    <!-- https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 -->
-
-
-    <owl:Class rdf:about="https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7"/>
     
 
 
@@ -1898,7 +1897,7 @@ describing a process).
 
 
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations.</terms:description>
         <rdfs:comment xml:lang="en">A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations.</rdfs:comment>
         <rdfs:comment xml:lang="en">Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application.</rdfs:comment>
@@ -3646,6 +3645,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5150-6544">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>AstridMarthinsen</rdfs:label>
         <skos:altLabel>Astrid Marthinsen</skos:altLabel>
         <skos:prefLabel>AstridMarthinsen</skos:prefLabel>
         <foaf:name>Astrid Marthinsen</foaf:name>
@@ -3659,6 +3660,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8858-4511">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>UlrikeCihakBayr</rdfs:label>
         <skos:altLabel>Ulrike Cihak-Bayr</skos:altLabel>
         <skos:prefLabel>UlrikeCihakBayr</skos:prefLabel>
         <foaf:name>Ulrike Cihak-Bayr</foaf:name>
@@ -3672,6 +3675,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1560-809X">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>JesperFriis</rdfs:label>
         <skos:altLabel>Jesper Friis</skos:altLabel>
         <skos:prefLabel>JesperFriis</skos:prefLabel>
         <foaf:name>Jesper Friis</foaf:name>
@@ -3685,6 +3690,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2170-3798">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>SylvainGouttebroze</rdfs:label>
         <skos:altLabel>Sylvain Gouttebroze</skos:altLabel>
         <skos:prefLabel>SylvainGouttebroze</skos:prefLabel>
         <foaf:name>Sylvain Gouttebroze</foaf:name>
@@ -3698,6 +3705,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5043-4742">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>TomasManik</rdfs:label>
         <skos:altLabel>Tomas Manik</skos:altLabel>
         <skos:prefLabel>TomasManik</skos:prefLabel>
         <foaf:name>Tomas Manik&gt;</foaf:name>
@@ -3711,6 +3720,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4065-9742">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>GeorgSchmitz</rdfs:label>
         <skos:altLabel>Georg J. Schmitz</skos:altLabel>
         <skos:prefLabel>GeorgSchmitz</skos:prefLabel>
         <foaf:name>Georg J. Schmitz</foaf:name>
@@ -3723,6 +3734,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
     <owl:NamedIndividual rdf:about="https://www.ntnu.edu/physmet">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label>SFIPhysMet</rdfs:label>
         <skos:altLabel>SFI PhysMet</skos:altLabel>
         <skos:prefLabel>SFIPhysMet</skos:prefLabel>
         <foaf:homepage rdf:resource="https://www.ntnu.edu/physmet"/>
@@ -3734,22 +3747,22 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
     </rdf:Description>
     
 
@@ -3813,6 +3826,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/ns/locn#fullAddress">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/fundedBy">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/mbox">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>

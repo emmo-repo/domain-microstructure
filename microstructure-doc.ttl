@@ -68,6 +68,9 @@ skos:preflabel rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dep
 
 locn:fullAddress rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
+foaf:fundedBy a owl:AnnotationProperty ;
+    rdfs:isDefinedBy microstructure: .
+
 foaf:homepage rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 foaf:logo rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -77,6 +80,9 @@ foaf:mbox rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependen
 foaf:name rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 foaf:page rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+foaf:title a owl:AnnotationProperty ;
+    rdfs:isDefinedBy microstructure: .
 
 foaf:workplaceHomepage rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -4184,7 +4190,7 @@ microstructure:EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 a owl:Class ;
     rdfs:comment "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en,
         "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en ;
     rdfs:isDefinedBy microstructure: ;
-    rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+    rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
     skos:prefLabel "Recovery"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en,
@@ -4749,11 +4755,11 @@ microstructure:EMMO_de093fd3_6f08_4891_a215_0783c1efbffd a owl:Class ;
     rdfs:comment "A characterisation measurement process where the composition of a material is measured."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
-            owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
-        [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
             owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ],
+        [ a owl:Restriction ;
+            owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+            owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
         <https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMeasurementProcess> ;
     skos:prefLabel "CompositionMeasurement"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
@@ -4948,37 +4954,58 @@ microstructure:EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba a owl:Class ;
 * Condensation: A vapor or gas transforms into solid or liquid particles under supersaturated conditions.
 * Ostwald Ripening: Larger particles grow at the expense of smaller ones, driven by differences in solubility."""@en .
 
-<https://orcid.org/0000-0001-5150-6544> a foaf:Person ;
+foaf:Organization a owl:Class ;
+    rdfs:isDefinedBy microstructure: .
+
+<https://orcid.org/0000-0001-5150-6544> a owl:NamedIndividual,
+        foaf:Person ;
+    rdfs:label "AstridMarthinsen"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "Astrid Marthinsen"^^xsd:string ;
     skos:prefLabel "AstridMarthinsen"^^xsd:string ;
     foaf:name "Astrid Marthinsen"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
-<https://orcid.org/0000-0001-8858-4511> a foaf:Person ;
+<https://orcid.org/0000-0001-8858-4511> a owl:NamedIndividual,
+        foaf:Person ;
+    rdfs:label "UlrikeCihakBayr"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "Ulrike Cihak-Bayr"^^xsd:string ;
     skos:prefLabel "UlrikeCihakBayr"^^xsd:string ;
     foaf:name "Ulrike Cihak-Bayr"^^xsd:string ;
     foaf:workplaceHomepage <https://www.ac2t.at/en> .
 
-<https://orcid.org/0000-0002-1560-809X> a foaf:Person ;
+<https://orcid.org/0000-0002-1560-809X> a owl:NamedIndividual,
+        foaf:Person ;
+    rdfs:label "JesperFriis"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "Jesper Friis"^^xsd:string ;
     skos:prefLabel "JesperFriis"^^xsd:string ;
     foaf:name "Jesper Friis"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
-<https://orcid.org/0000-0002-2170-3798> a foaf:Person ;
+<https://orcid.org/0000-0002-2170-3798> a owl:NamedIndividual,
+        foaf:Person ;
+    rdfs:label "SylvainGouttebroze"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "Sylvain Gouttebroze"^^xsd:string ;
     skos:prefLabel "SylvainGouttebroze"^^xsd:string ;
     foaf:name "Sylvain Gouttebroze"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
-<https://orcid.org/0000-0002-5043-4742> a foaf:Person ;
+<https://orcid.org/0000-0002-5043-4742> a owl:NamedIndividual,
+        foaf:Person ;
+    rdfs:label "TomasManik"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "Tomas Manik"^^xsd:string ;
     skos:prefLabel "TomasManik"^^xsd:string ;
     foaf:name "Tomas Manik>"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
-<https://orcid.org/0000-0003-4065-9742> a foaf:Person ;
+<https://orcid.org/0000-0003-4065-9742> a owl:NamedIndividual,
+        foaf:Person ;
+    rdfs:label "GeorgSchmitz"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "Georg J. Schmitz"^^xsd:string ;
     skos:prefLabel "GeorgSchmitz"^^xsd:string ;
     foaf:name "Georg J. Schmitz"^^xsd:string .
@@ -5210,11 +5237,11 @@ microstructure:EMMO_6c227576-79ab-5aba-ac08-66ee7854617d a owl:Class ;
         "A substance that dissolves a solute, resulting in a solution."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-            owl:someValuesFrom microstructure:EMMO_2733d914-f08a-5ba0-bbce-77c82a7b4ae9 ],
-        [ a owl:Restriction ;
             owl:allValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
             owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ],
+        [ a owl:Restriction ;
+            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+            owl:someValuesFrom microstructure:EMMO_2733d914-f08a-5ba0-bbce-77c82a7b4ae9 ],
         emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69,
         emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
     skos:prefLabel "Solvent"@en ;
@@ -5512,7 +5539,10 @@ microstructure:EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 a owl:Class ;
     skos:prefLabel "AverageQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity that is determined from averinging the value of a set of determinations/observations/measurements of another physical quantity."@en .
 
-<https://www.ntnu.edu/physmet> a foaf:Organization ;
+<https://www.ntnu.edu/physmet> a owl:NamedIndividual,
+        foaf:Organization ;
+    rdfs:label "SFIPhysMet"^^xsd:string ;
+    rdfs:isDefinedBy microstructure: ;
     skos:altLabel "SFI PhysMet"^^xsd:string ;
     skos:prefLabel "SFIPhysMet"^^xsd:string ;
     foaf:homepage <https://www.ntnu.edu/physmet> ;
@@ -5650,15 +5680,6 @@ emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 a owl:Class ;
-    rdfs:label "PhysicalMetallurgicalProcess"@en ;
-    dcterms:description "A material process that is categorised to be long to the field of physical metallurgy."@en ;
-    rdfs:comment "A material process that is categorised to be long to the field of physical metallurgy."@en ;
-    rdfs:isDefinedBy microstructure: ;
-    rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-    skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
-    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
-
 microstructure:EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88 a owl:Class ;
     rdfs:label "Grain"@en ;
     dcterms:description "A part of a microstructure with (almost) the same crystal orientation."@en ;
@@ -5686,6 +5707,9 @@ microstructure:EMMO_d3787972-02cd-52fa-94b7-1dc90b0132e0 a owl:Class ;
     skos:prefLabel "PhysicalField"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity that has a value in each point in space and time. "@en .
 
+foaf:Person a owl:Class ;
+    rdfs:isDefinedBy microstructure: .
+
 microstructure:EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 a owl:Class ;
     rdfs:label "Boundary"@en ;
     dcterms:description "The zone of transition of a physical property between two regions of a material."@en ;
@@ -5695,6 +5719,15 @@ microstructure:EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 a owl:Class ;
     owl:disjointUnionOf ( microstructure:EMMO_0ce81730-cf19-5582-9dab-caa1cccea652 microstructure:EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1 ) ;
     skos:prefLabel "Boundary"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The zone of transition of a physical property between two regions of a material."@en .
+
+microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 a owl:Class ;
+    rdfs:label "PhysicalMetallurgicalProcess"@en ;
+    dcterms:description "A material process that is categorised to be long to the field of physical metallurgy."@en ;
+    rdfs:comment "A material process that is categorised to be long to the field of physical metallurgy."@en ;
+    rdfs:isDefinedBy microstructure: ;
+    rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+    skos:prefLabel "PhysicalMetallurgicalProcess"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A material process that is categorised to be long to the field of physical metallurgy."@en .
 
 microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997 a owl:Class ;
     rdfs:label "MicrostructureParticle"@en ;
@@ -5739,17 +5772,17 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
     skos:prefLabel "MicrostructureQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
