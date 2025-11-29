@@ -3638,9 +3638,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5150-6544">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>AstridMarthinsen</rdfs:label>
-        <skos:altLabel>Astrid Marthinsen</skos:altLabel>
-        <skos:prefLabel>AstridMarthinsen</skos:prefLabel>
+        <rdfs:label>Astrid Marthinsen</rdfs:label>
+        <skos:altLabel>AstridMarthinsen</skos:altLabel>
+        <skos:prefLabel>Astrid Marthinsen</skos:prefLabel>
         <foaf:name>Astrid Marthinsen</foaf:name>
         <foaf:workplaceHomepage rdf:resource="https://www.sintef.no/en"/>
     </owl:NamedIndividual>
@@ -3653,9 +3653,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8858-4511">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>UlrikeCihakBayr</rdfs:label>
-        <skos:altLabel>Ulrike Cihak-Bayr</skos:altLabel>
-        <skos:prefLabel>UlrikeCihakBayr</skos:prefLabel>
+        <rdfs:label>Ulrike Cihak-Bayr</rdfs:label>
+        <skos:altLabel>UlrikeCihakBayr</skos:altLabel>
+        <skos:prefLabel>Ulrike Cihak-Bayr</skos:prefLabel>
         <foaf:name>Ulrike Cihak-Bayr</foaf:name>
         <foaf:workplaceHomepage rdf:resource="https://www.ac2t.at/en"/>
     </owl:NamedIndividual>
@@ -3668,9 +3668,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1560-809X">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>JesperFriis</rdfs:label>
-        <skos:altLabel>Jesper Friis</skos:altLabel>
-        <skos:prefLabel>JesperFriis</skos:prefLabel>
+        <rdfs:label>Jesper Friis</rdfs:label>
+        <skos:altLabel>JesperFriis</skos:altLabel>
+        <skos:prefLabel>Jesper Friis</skos:prefLabel>
         <foaf:name>Jesper Friis</foaf:name>
         <foaf:workplaceHomepage rdf:resource="https://www.sintef.no/en"/>
     </owl:NamedIndividual>
@@ -3683,9 +3683,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2170-3798">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>SylvainGouttebroze</rdfs:label>
-        <skos:altLabel>Sylvain Gouttebroze</skos:altLabel>
-        <skos:prefLabel>SylvainGouttebroze</skos:prefLabel>
+        <rdfs:label>Sylvain Gouttebroze</rdfs:label>
+        <skos:altLabel>SylvainGouttebroze</skos:altLabel>
+        <skos:prefLabel>Sylvain Gouttebroze</skos:prefLabel>
         <foaf:name>Sylvain Gouttebroze</foaf:name>
         <foaf:workplaceHomepage rdf:resource="https://www.sintef.no/en"/>
     </owl:NamedIndividual>
@@ -3698,9 +3698,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5043-4742">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>TomasManik</rdfs:label>
-        <skos:altLabel>Tomas Manik</skos:altLabel>
-        <skos:prefLabel>TomasManik</skos:prefLabel>
+        <rdfs:label>Tomas Manik</rdfs:label>
+        <skos:altLabel>TomasManik</skos:altLabel>
+        <skos:prefLabel>Tomas Manik</skos:prefLabel>
         <foaf:name>Tomas Manik&gt;</foaf:name>
         <foaf:workplaceHomepage rdf:resource="https://www.sintef.no/en"/>
     </owl:NamedIndividual>
@@ -3713,9 +3713,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4065-9742">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>GeorgSchmitz</rdfs:label>
-        <skos:altLabel>Georg J. Schmitz</skos:altLabel>
-        <skos:prefLabel>GeorgSchmitz</skos:prefLabel>
+        <rdfs:label>Georg J. Schmitz</rdfs:label>
+        <skos:altLabel>GeorgSchmitz</skos:altLabel>
+        <skos:prefLabel>Georg J. Schmitz</skos:prefLabel>
         <foaf:name>Georg J. Schmitz</foaf:name>
     </owl:NamedIndividual>
     
@@ -3727,34 +3727,34 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:NamedIndividual rdf:about="https://www.ntnu.edu/physmet">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
-        <rdfs:label>SFIPhysMet</rdfs:label>
-        <skos:altLabel>SFI PhysMet</skos:altLabel>
-        <skos:prefLabel>SFIPhysMet</skos:prefLabel>
+        <rdfs:label>SFI PhysMet</rdfs:label>
+        <skos:altLabel>SFIPhysMet</skos:altLabel>
+        <skos:prefLabel>SFI PhysMet</skos:prefLabel>
         <foaf:homepage rdf:resource="https://www.ntnu.edu/physmet"/>
         <foaf:logo rdf:resource="https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&amp;t=1606834992983"/>
         <foaf:name>SFI PhysMet</foaf:name>
         <foaf:title>Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry</foaf:title>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
     </rdf:Description>
     
 

@@ -293,13 +293,13 @@
   } ]
 }, {
   "@id" : "_:genid45",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid46",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
@@ -319,7 +319,7 @@
   "@id" : "_:genid49",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
+    "@value" : "4"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -334,13 +334,13 @@
   "@id" : "_:genid50",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "4"
+    "@value" : "3"
   } ]
 }, {
   "@id" : "_:genid51",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "3"
+    "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid6",
@@ -579,13 +579,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "AstridMarthinsen"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "Astrid Marthinsen"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "AstridMarthinsen"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Astrid Marthinsen"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Astrid Marthinsen"
@@ -603,13 +603,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "UlrikeCihakBayr"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "Ulrike Cihak-Bayr"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "UlrikeCihakBayr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Ulrike Cihak-Bayr"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Ulrike Cihak-Bayr"
@@ -627,13 +627,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "JesperFriis"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "Jesper Friis"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "JesperFriis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Jesper Friis"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Jesper Friis"
@@ -651,13 +651,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "SylvainGouttebroze"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "Sylvain Gouttebroze"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "SylvainGouttebroze"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Sylvain Gouttebroze"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Sylvain Gouttebroze"
@@ -675,13 +675,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "TomasManik"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "Tomas Manik"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "TomasManik"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Tomas Manik"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Tomas Manik>"
@@ -699,13 +699,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "GeorgSchmitz"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "Georg J. Schmitz"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "GeorgSchmitz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Georg J. Schmitz"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Georg J. Schmitz"
@@ -15499,13 +15499,13 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "SFIPhysMet"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "SFI PhysMet"
   } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
     "@value" : "SFIPhysMet"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "SFI PhysMet"
   } ],
   "http://xmlns.com/foaf/0.1/homepage" : [ {
     "@id" : "https://www.ntnu.edu/physmet"
