@@ -1460,8 +1460,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0001-5150-6544
 <https://orcid.org/0000-0001-5150-6544> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
-                                        skos:altLabel "Astrid Marthinsen" ;
-                                        skos:prefLabel "AstridMarthinsen" ;
+                                        skos:altLabel "AstridMarthinsen" ;
+                                        skos:prefLabel "Astrid Marthinsen" ;
                                         foaf:name "Astrid Marthinsen" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en/> .
 
@@ -1469,8 +1469,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0001-8858-4511
 <https://orcid.org/0000-0001-8858-4511> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
-                                        skos:altLabel "Ulrike Cihak-Bayr" ;
-                                        skos:prefLabel "UlrikeCihakBayr" ;
+                                        skos:altLabel "UlrikeCihakBayr" ;
+                                        skos:prefLabel "Ulrike Cihak-Bayr" ;
                                         foaf:name "Ulrike Cihak-Bayr" ;
                                         foaf:workplaceHomepage <https://www.ac2t.at/en/> .
 
@@ -1478,8 +1478,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0002-1560-809X
 <https://orcid.org/0000-0002-1560-809X> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
-                                        skos:altLabel "Jesper Friis" ;
-                                        skos:prefLabel "JesperFriis" ;
+                                        skos:altLabel "JesperFriis" ;
+                                        skos:prefLabel "Jesper Friis" ;
                                         foaf:name "Jesper Friis" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en/> .
 
@@ -1487,8 +1487,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0002-2170-3798
 <https://orcid.org/0000-0002-2170-3798> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
-                                        skos:altLabel "Sylvain Gouttebroze" ;
-                                        skos:prefLabel "SylvainGouttebroze" ;
+                                        skos:altLabel "SylvainGouttebroze" ;
+                                        skos:prefLabel "Sylvain Gouttebroze" ;
                                         foaf:name "Sylvain Gouttebroze" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en/> .
 
@@ -1496,8 +1496,8 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0002-5043-4742
 <https://orcid.org/0000-0002-5043-4742> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
-                                        skos:altLabel "Tomas Manik" ;
-                                        skos:prefLabel "TomasManik" ;
+                                        skos:altLabel "TomasManik" ;
+                                        skos:prefLabel "Tomas Manik" ;
                                         foaf:name "Tomas Manik>" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en/> .
 
@@ -1505,16 +1505,16 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 ###  https://orcid.org/0000-0003-4065-9742
 <https://orcid.org/0000-0003-4065-9742> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
-                                        skos:altLabel "Georg J. Schmitz" ;
-                                        skos:prefLabel "GeorgSchmitz" ;
+                                        skos:altLabel "GeorgSchmitz" ;
+                                        skos:prefLabel "Georg J. Schmitz" ;
                                         foaf:name "Georg J. Schmitz" .
 
 
 ###  https://www.ntnu.edu/physmet
 <https://www.ntnu.edu/physmet> rdf:type owl:NamedIndividual ,
                                         foaf:Organization ;
-                               skos:altLabel "SFI PhysMet" ;
-                               skos:prefLabel "SFIPhysMet" ;
+                               skos:altLabel "SFIPhysMet" ;
+                               skos:prefLabel "SFI PhysMet" ;
                                foaf:homepage <https://www.ntnu.edu/physmet> ;
                                foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
                                foaf:name "SFI PhysMet" ;
