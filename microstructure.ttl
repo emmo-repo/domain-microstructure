@@ -3,35 +3,20 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix emmo: <https://w3id.org/emmo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
-    owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
-    owl:versionInfo "0.3.1"@en ;
-    owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
-    rdfs:label "MDO" ;
-    dcterms:contributor
-        <https://orcid.org/0000-0003-4065-9742> ,
-        <https://orcid.org/0000-0001-5150-6544> ,
-        <https://orcid.org/0000-0002-5043-4742> ,
-        <https://orcid.org/0000-0001-8858-4511> ;
-    dcterms:creator
-        <https://orcid.org/0000-0002-1560-809X> ,
-        <https://orcid.org/0000-0002-2170-3798> ;
-    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
-    dcterms:title "Microstructure domain ontology"@en ;
-    dcterms:publisher <https://www.ntnu.edu/physmet> ;
-    dcterms:created "02-05-2020" ;
-    dcterms:description "A domain ontology for microstructures  focusing on physical metallurgy."@en ;
-    dcterms:abstract """The Microstructure Domain Ontology is intended to be a domain ontology
+                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
+                                               owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
+                                               dcterms:abstract """The Microstructure Domain Ontology is intended to be a domain ontology
 for physical metallurgy.  The intension is to cover all relevant
 aspect of metallic microstructures, including:
   - composition
@@ -63,64 +48,35 @@ There should be a common way to connect a state to external
 conditions, like temperature, volume/shape and pressure (essential for
 describing a process).
 """@en ;
-    bibo:status <http://purl.org/adms/status/UnderDevelopment> ;
-    bibo:doi <https://doi.org/10.5281/zenodo.7966659> ;
-    foaf:fundedBy <https://www.forskningsradet.no/> ;
-    vann:preferredNamespacePrefix "mdo" ;
-    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" .
-
-
-
-# Contributors
-<https://orcid.org/0000-0002-1560-809X> rdf:type foaf:Person ;
-    skos:altLabel "Jesper Friis" ;
-    skos:prefLabel "JesperFriis" ;
-    foaf:name "Jesper Friis" ;
-    foaf:workplaceHomepage <https://www.sintef.no/en/> .
-
-<https://orcid.org/0000-0003-4065-9742> rdf:type foaf:Person ;
-    skos:altLabel "Georg J. Schmitz" ;
-    skos:prefLabel "GeorgSchmitz" ;
-    foaf:name "Georg J. Schmitz" .
-
-<https://orcid.org/0000-0002-2170-3798> rdf:type foaf:Person ;
-    skos:altLabel "Sylvain Gouttebroze" ;
-    skos:prefLabel "SylvainGouttebroze" ;
-    foaf:name "Sylvain Gouttebroze" ;
-    foaf:workplaceHomepage <https://www.sintef.no/en/> .
-
-<https://orcid.org/0000-0001-5150-6544> rdf:type foaf:Person ;
-    skos:altLabel "Astrid Marthinsen" ;
-    skos:prefLabel "AstridMarthinsen" ;
-    foaf:name "Astrid Marthinsen" ;
-    foaf:workplaceHomepage <https://www.sintef.no/en/> .
-
-<https://orcid.org/0000-0002-5043-4742> rdf:type foaf:Person ;
-    skos:altLabel "Tomas Manik" ;
-    skos:prefLabel "TomasManik" ;
-    foaf:name "Tomas Manik>" ;
-    foaf:workplaceHomepage <https://www.sintef.no/en/> .
-
-<https://orcid.org/0000-0001-8858-4511> rdf:type foaf:Person ;
-    skos:altLabel "Ulrike Cihak-Bayr" ;
-    skos:prefLabel "UlrikeCihakBayr" ;
-    foaf:name "Ulrike Cihak-Bayr" ;
-    foaf:workplaceHomepage <https://www.ac2t.at/en/> .
-
-<https://www.ntnu.edu/physmet> a foaf:Organization ;
-    skos:altLabel "SFI PhysMet" ;
-    skos:prefLabel "SFIPhysMet" ;
-    foaf:name "SFI PhysMet" ;
-    foaf:title "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" ;
-    foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
-    foaf:homepage <https://www.ntnu.edu/physmet> .
-
-
-
+                                               dcterms:contributor <https://orcid.org/0000-0001-5150-6544> ,
+                                                                   <https://orcid.org/0000-0001-8858-4511> ,
+                                                                   <https://orcid.org/0000-0002-5043-4742> ,
+                                                                   <https://orcid.org/0000-0003-4065-9742> ;
+                                               dcterms:created "02-05-2020" ;
+                                               dcterms:creator <https://orcid.org/0000-0002-1560-809X> ,
+                                                               <https://orcid.org/0000-0002-2170-3798> ;
+                                               dcterms:description "A domain ontology for microstructures  focusing on physical metallurgy."@en ;
+                                               dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
+                                               dcterms:publisher <https://www.ntnu.edu/physmet> ;
+                                               dcterms:title "Microstructure domain ontology"@en ;
+                                               bibo:doi <https://doi.org/10.5281/zenodo.7966659> ;
+                                               bibo:status <http://purl.org/adms/status/UnderDevelopment> ;
+                                               vann:preferredNamespacePrefix "mdo" ;
+                                               vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" ;
+                                               rdfs:label "MDO" ;
+                                               owl:versionInfo "0.3.1"@en ;
+                                               foaf:fundedBy <https://www.forskningsradet.no/> .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://xmlns.com/foaf/0.1/fundedBy
+foaf:fundedBy rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/title
+foaf:title rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1
@@ -149,8 +105,8 @@ describing a process).
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a sample."@en ;
                                            rdfs:subPropertyOf dcterms:identifier ,
                                                               :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
-                                           rdfs:domain chameo:Sample ;
-                                           rdfs:range xsd:string .
+                                           rdfs:range xsd:string ;
+                                           rdfs:domain chameo:Sample .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569
@@ -159,8 +115,8 @@ describing a process).
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A name identifying a material."@en ;
                                            rdfs:subPropertyOf dcterms:identifier ,
                                                               :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
-                                           rdfs:domain :EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569 ;
-                                           rdfs:range xsd:string .
+                                           rdfs:range xsd:string ;
+                                           rdfs:domain :EMMO_c295acbb_48ea_47fd_98fd_3cdbf9f6c569 .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b
@@ -179,13 +135,21 @@ describing a process).
 """ ;
                                            rdfs:subPropertyOf dcterms:identifier ,
                                                               :EMMO_3e9d001d_60b2_4b3b_950e_3cf463a381c1 ;
-                                           rdfs:domain emmo:EMMO_6fa330f7_3289_4228_81df_12ee8a9708ac ;
-                                           rdfs:range xsd:string .
+                                           rdfs:range xsd:string ;
+                                           rdfs:domain emmo:EMMO_6fa330f7_3289_4228_81df_12ee8a9708ac .
 
 
 #################################################################
 #    Classes
 #################################################################
+
+###  http://xmlns.com/foaf/0.1/Organization
+foaf:Organization rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class .
+
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_0449d241-e6ec-5426-b327-16785bcf87fe
 :EMMO_0449d241-e6ec-5426-b327-16785bcf87fe rdf:type owl:Class ;
@@ -614,11 +578,10 @@ describing a process).
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533
 :EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_314d0bd5_67ed_437e_a609_36d46147cea7 ;
+                                           rdfs:subClassOf :EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
                                            skos:prefLabel "Recovery"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en ,
-                                                                                          "Recovery differs from recrystallization and grain growth, which involve significant movement of high-angle grain boundaries. In contrast, recovery occurs without this migration. If recovery happens during deformation (common in high-temperature processing), it is known as dynamic recovery. When it happens after processing, it is called static recovery."@en ,
                                                                                           """Doherty et al. (1997) defined recovery as
 
     All annealing processes occurring in deformed materials that occur without the migration of a high-angle grain boundary.
@@ -626,7 +589,8 @@ describing a process).
 This definition allows to differentiated recovery from recrystallization and grain growth as both feature extensive movement of high-angle grain boundaries.
 
 --
-RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE King; TR McNelley; HJ McQueen; AD Rollett (1997). \"Current Issues In Recrystallisation: A Review\". Materials Science and Engineering. A238: 219–274."""@en .
+RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE King; TR McNelley; HJ McQueen; AD Rollett (1997). \"Current Issues In Recrystallisation: A Review\". Materials Science and Engineering. A238: 219–274."""@en ,
+                                                                                          "Recovery differs from recrystallization and grain growth, which involve significant movement of high-angle grain boundaries. In contrast, recovery occurs without this migration. If recovery happens during deformation (common in high-temperature processing), it is known as dynamic recovery. When it happens after processing, it is called static recovery."@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_5d370686_0500_47f0_b7fd_17e3a309b965
@@ -1488,11 +1452,76 @@ This is to be consistent with the common jargon in metallurgy where grain size a
                                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Microstructure components are defined as holistic spatial parts of a microstructure. Hence, single microstructure components does not exists - their definition depends on being a part of a microstructure."@en .
 
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
-] .
+#################################################################
+#    Individuals
+#################################################################
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
+###  https://orcid.org/0000-0001-5150-6544
+<https://orcid.org/0000-0001-5150-6544> rdf:type owl:NamedIndividual ,
+                                                 foaf:Person ;
+                                        skos:altLabel "Astrid Marthinsen" ;
+                                        skos:prefLabel "AstridMarthinsen" ;
+                                        foaf:name "Astrid Marthinsen" ;
+                                        foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+
+###  https://orcid.org/0000-0001-8858-4511
+<https://orcid.org/0000-0001-8858-4511> rdf:type owl:NamedIndividual ,
+                                                 foaf:Person ;
+                                        skos:altLabel "Ulrike Cihak-Bayr" ;
+                                        skos:prefLabel "UlrikeCihakBayr" ;
+                                        foaf:name "Ulrike Cihak-Bayr" ;
+                                        foaf:workplaceHomepage <https://www.ac2t.at/en/> .
+
+
+###  https://orcid.org/0000-0002-1560-809X
+<https://orcid.org/0000-0002-1560-809X> rdf:type owl:NamedIndividual ,
+                                                 foaf:Person ;
+                                        skos:altLabel "Jesper Friis" ;
+                                        skos:prefLabel "JesperFriis" ;
+                                        foaf:name "Jesper Friis" ;
+                                        foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+
+###  https://orcid.org/0000-0002-2170-3798
+<https://orcid.org/0000-0002-2170-3798> rdf:type owl:NamedIndividual ,
+                                                 foaf:Person ;
+                                        skos:altLabel "Sylvain Gouttebroze" ;
+                                        skos:prefLabel "SylvainGouttebroze" ;
+                                        foaf:name "Sylvain Gouttebroze" ;
+                                        foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+
+###  https://orcid.org/0000-0002-5043-4742
+<https://orcid.org/0000-0002-5043-4742> rdf:type owl:NamedIndividual ,
+                                                 foaf:Person ;
+                                        skos:altLabel "Tomas Manik" ;
+                                        skos:prefLabel "TomasManik" ;
+                                        foaf:name "Tomas Manik>" ;
+                                        foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+
+###  https://orcid.org/0000-0003-4065-9742
+<https://orcid.org/0000-0003-4065-9742> rdf:type owl:NamedIndividual ,
+                                                 foaf:Person ;
+                                        skos:altLabel "Georg J. Schmitz" ;
+                                        skos:prefLabel "GeorgSchmitz" ;
+                                        foaf:name "Georg J. Schmitz" .
+
+
+###  https://www.ntnu.edu/physmet
+<https://www.ntnu.edu/physmet> rdf:type owl:NamedIndividual ,
+                                        foaf:Organization ;
+                               skos:altLabel "SFI PhysMet" ;
+                               skos:prefLabel "SFIPhysMet" ;
+                               foaf:homepage <https://www.ntnu.edu/physmet> ;
+                               foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
+                               foaf:name "SFI PhysMet" ;
+                               foaf:title "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" .
+
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
@@ -1503,13 +1532,13 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
-
-
-
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
