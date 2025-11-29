@@ -1,10 +1,10 @@
+[![Documentation](https://img.shields.io/badge/documentation-red)](https://emmo-repo.github.io/domain-microstructure/widoco/index-en.html)
+[![CI tests](https://github.com/emmo-repo/domain-microstructure/actions/workflows/ci_tests.yml/badge.svg?branch=master)](https://github.com/emmo-repo/domain-microstructure/actions/workflows/ci_tests.yml)
 [![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
 
 
 Microstructure Domain Ontology (MDO)
 ====================================
-This is work in progress.
-
 The Microstructure Domain Ontology is intended to be a domain ontology
 for physical metallurgy.  The intension is to cover all relevant
 aspect of metallic microstructures, including:
@@ -36,6 +36,12 @@ and full size distribution.
 There should be a common way to connect a state to external
 conditions, like temperature, volume/shape and pressure (essential for
 describing a process).
+
+
+Resources
+---------
+* [Reference documentation]
+
 
 
 Open questions
@@ -86,20 +92,20 @@ Attributions and credits
 - Ulrike Cihak-Bayr, AC2T, Austria
 
 
-### Supporting projects
-- Demystify ontologies - Internal project at [SINTEF](http://www.sintef.no)
-- [SFI PhysMet](https://www.ntnu.edu/physmet/) (2020-2028) that receives funding from the Research Council of Norway, project no. 309584.
+### Acknowledgment
+This work has been supported by the following projects:
+  - Demystify ontologies - Internal project at [SINTEF](http://www.sintef.no)
+  - [SFI PhysMet](https://www.ntnu.edu/physmet/) (2020-2028) that receives funding from the Research Council of Norway, project no. 309584.
 
 
 License
 -------
-The physmet domain ontology is released under the [Creative Commons
-Attribution 4.0
-International](https://creativecommons.org/licenses/by/4.0/legalcode)
-license (CC BY 4.0).
+The physmet domain ontology is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+(CC BY 4.0) license.
 
 
 [EMMO]: https://github.com/emmo-repo/EMMO
 [CHAMEO]: https://github.com/emmo-repo/domain-characterisation-methodology
 [Crystallography]: https://github.com/emmo-repo/domain-crystallography
 [GitHub repository]: https://github.com/emmo-repo/domain-microstructure
+[Reference documentation]: https://emmo-repo.github.io/domain-microstructure/widoco/index-en.html
