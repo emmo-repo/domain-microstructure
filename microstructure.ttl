@@ -65,7 +65,8 @@ describing a process).
                                                vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" ;
                                                rdfs:label "MDO" ;
                                                owl:versionInfo "0.3.1"@en ;
-                                               foaf:fundedBy <https://www.forskningsradet.no/> .
+                                               foaf:fundedBy <https://www.forskningsradet.no/> ;
+                                               foaf:logo <https://github.com/emmo-repo/domain-microstructure/blob/master/doc/figs/logo_64x64.png?raw=true> .
 
 #################################################################
 #    Annotation properties
