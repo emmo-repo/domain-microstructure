@@ -58,7 +58,8 @@ describing a process).
                                                <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" ;
                                                rdfs:label "MDO" ;
                                                owl:versionInfo "0.3.1"@en ;
-                                               <http://xmlns.com/foaf/0.1/fundedBy> <https://www.forskningsradet.no> .
+                                               <http://xmlns.com/foaf/0.1/fundedBy> <https://www.forskningsradet.no> ;
+                                               <http://xmlns.com/foaf/0.1/logo> <https://github.com/emmo-repo/domain-microstructure/blob/master/doc/figs/logo_64x64.png?raw=true> .
 
 #################################################################
 #    Annotation properties
@@ -130,10 +131,6 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
 
 ###  http://xmlns.com/foaf/0.1/homepage
 <http://xmlns.com/foaf/0.1/homepage> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-
-###  http://xmlns.com/foaf/0.1/logo
-<http://xmlns.com/foaf/0.1/logo> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 
 ###  http://xmlns.com/foaf/0.1/name
@@ -2536,19 +2533,19 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
@@ -2610,6 +2607,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
 
 <http://xmlns.com/foaf/0.1/fundedBy> rdfs:isDefinedBy : .
+
+
+<http://xmlns.com/foaf/0.1/logo> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 
 <http://xmlns.com/foaf/0.1/mbox> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
