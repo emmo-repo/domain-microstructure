@@ -3895,7 +3895,7 @@ describing a process).
     owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
     owl:versionInfo "0.3.1"@en ;
     foaf:fundedBy <https://www.forskningsradet.no> ;
-    foaf:logo <https://github.com/emmo-repo/domain-microstructure/blob/master/doc/figs/logo_64x64.png?raw=true> .
+    foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 
 microstructure:EMMO_0449d241-e6ec-5426-b327-16785bcf87fe a owl:Class ;
     rdfs:label "SinglePhaseParticle"@en ;
@@ -5775,15 +5775,15 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
