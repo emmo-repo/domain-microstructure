@@ -50,7 +50,7 @@ vann:preferredNamespaceUri rdfs:isDefinedBy <https://w3id.org/emmo/domain/charac
 
 <http://w3id.org/emmo#EMMO_946b5162_95b0_4801_81d4_efef43842a0d> rdfs:isDefinedBy <https://w3id.org/emmo/reference/agency#> .
 
-<http://w3id.org/emmo#EMMO_eb50c9cb_9576_4a61_95ec_f81fb8218187> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+<http://w3id.org/emmo#EMMO_eb50c9cb_9576_4a61_95ec_f81fb8218187> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 owl:minQualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
@@ -82,9 +82,9 @@ foaf:workplaceHomepage rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> 
 
 schema:unitCode rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
 
-<https://w3id.org.org/emmo#EMMO_0f3e0646_4f06_4588_9779_6a4f05c5a8d6> rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+<https://w3id.org.org/emmo#EMMO_0f3e0646_4f06_4588_9779_6a4f05c5a8d6> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
-<https://w3id.org.org/emmo#EMMO_1141d225_fe90_4230_82c6_31cab6a4e3fe> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+<https://w3id.org.org/emmo#EMMO_1141d225_fe90_4230_82c6_31cab6a4e3fe> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 <https://w3id.org.org/emmo#EMMO_180bd73b_0c5d_4b1f_ba12_4309c5a50d49> rdfs:isDefinedBy <https://w3id.org/emmo/reference/workflow#> .
 
@@ -96,23 +96,23 @@ schema:unitCode rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> 
 
 <https://w3id.org.org/emmo#EMMO_2c07a731_84f9_4883_9e58_2bc073abda29> rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
-<https://w3id.org.org/emmo#EMMO_38f31ba5_348f_4ac2_9a67_a62b5dd7aadd> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+<https://w3id.org.org/emmo#EMMO_38f31ba5_348f_4ac2_9a67_a62b5dd7aadd> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
-<https://w3id.org.org/emmo#EMMO_3d03a403_facd_48c6_b75e_7ab8b9299218> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+<https://w3id.org.org/emmo#EMMO_3d03a403_facd_48c6_b75e_7ab8b9299218> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 <https://w3id.org.org/emmo#EMMO_41c5f63b_f0e7_475e_bfac_a92027585979> rdfs:isDefinedBy <https://w3id.org/emmo/reference/workflow#> .
 
-<https://w3id.org.org/emmo#EMMO_41cecfc2_bb6b_45f3_b6cc_e7740d931afe> rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+<https://w3id.org.org/emmo#EMMO_41cecfc2_bb6b_45f3_b6cc_e7740d931afe> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
-<https://w3id.org.org/emmo#EMMO_4292fdcd_bbba_4d99_95c6_daa533d952ef> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+<https://w3id.org.org/emmo#EMMO_4292fdcd_bbba_4d99_95c6_daa533d952ef> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
-<https://w3id.org.org/emmo#EMMO_43d0bb2c_bb0e_4312_a0de_084c29ff7f9e> rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+<https://w3id.org.org/emmo#EMMO_43d0bb2c_bb0e_4312_a0de_084c29ff7f9e> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 <https://w3id.org.org/emmo#EMMO_5e38e44b_a0d1_4afc_a876_95095c0a589f> rdfs:isDefinedBy <https://w3id.org/emmo/reference/workflow#> .
 
-<https://w3id.org.org/emmo#EMMO_b32fe85d_2f7b_4972_9dd7_7cf20d4bba59> rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+<https://w3id.org.org/emmo#EMMO_b32fe85d_2f7b_4972_9dd7_7cf20d4bba59> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
-<https://w3id.org.org/emmo#EMMO_c66ad523_3937_485e_91bb_ad488ddb373f> rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+<https://w3id.org.org/emmo#EMMO_c66ad523_3937_485e_91bb_ad488ddb373f> rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 <https://w3id.org.org/emmo#EMMO_f0fec2df_41f0_4412_b28a_592858c065f0> rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
 
@@ -132,7 +132,7 @@ emmo:EMMO_002e4002_58c7_4aea_ac1f_bba5188818ff rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_005fb227_d68a_4c41_bbee_e20bdd69a0bc rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_008fd3b2_4013_451f_8827_52bceab11841 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_008fd3b2_4013_451f_8827_52bceab11841 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_00b85655_f20c_4e83_b90e_094e8ea7e48f rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -156,7 +156,7 @@ emmo:EMMO_02122e58_e0b3_4274_bdd4_745f64a61645 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_0266ec8c_bd13_4c9c_be77_607498793ed3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> .
 
-emmo:EMMO_0277f24a_ea7f_4917_81b7_fb0406c8fc62 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_0277f24a_ea7f_4917_81b7_fb0406c8fc62 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_02a935c8_c2d4_4a00_bd6f_b89d05aac79e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -196,7 +196,7 @@ emmo:EMMO_04cc9451_5306_45d0_8554_22cee4d6e785 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_04cf0295_3e8f_4693_a87f_3130d125cf05 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
 emmo:EMMO_052e9796_1144_43ae_a798_c5755cd6cd81 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -204,7 +204,7 @@ emmo:EMMO_054af807_85cd_4a13_8eba_119dfdaaf38b rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_057d0573_6ac0_4c27_9e3f_3c29205fd104 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -258,7 +258,7 @@ emmo:EMMO_09b9021b_f97b_43eb_b83d_0a764b472bc2 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_09cee580_aed5_4541_ab94_ec5bb1c64a7c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_09f0ac34_c349_46b5_acf0_0edeae52cca1 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_09f0ac34_c349_46b5_acf0_0edeae52cca1 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_0a88be81_343d_4388_92c1_09228ff95ada rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -336,7 +336,7 @@ emmo:EMMO_0f3ec0ad_3fcf_42b2_8f34_6dca89e35a4f rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_0f43918c_3578_4196_a5fa_d3fa6c0d5869 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
-emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_0f795e3e_c602_4577_9a43_d5a231aa1360 rdfs:isDefinedBy <https://w3id.org/emmo/reference/standardmodel#> .
 
@@ -344,7 +344,7 @@ emmo:EMMO_1044e509_e204_433a_8130_8d4579ada59f rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_109e8c69_4148_4cb0_9ceb_fbd526befca0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_10a5fd39_06aa_4648_9e70_f962a9cb2069 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_10a5fd39_06aa_4648_9e70_f962a9cb2069 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_10bbe9e9_46b6_4b5d_8b51_ed759fc21f21 rdfs:isDefinedBy <https://w3id.org/emmo/reference/symbolic#> .
 
@@ -492,11 +492,11 @@ emmo:EMMO_1b01c9c6_6367_498c_a04d_1a37499b3eff rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_1b32a555_978b_4e56_933f_e158e165023e rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
-emmo:EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_1b6a95fb_3df7_44c9_ad3d_419c9c5fe7cb rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
+emmo:EMMO_1b6a95fb_3df7_44c9_ad3d_419c9c5fe7cb rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
-emmo:EMMO_1c0b22a2_be82_4fa8_9e2b_a569a625d442 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_1c0b22a2_be82_4fa8_9e2b_a569a625d442 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
@@ -528,9 +528,9 @@ emmo:EMMO_1e7603a7_1365_49b8_b5e5_3711c8e6b904 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_1eb6b28e_f260_4f04_ada1_19c6dcb668d9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
 
-emmo:EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_1f087811_06cb_42d5_90fb_25d0e7e068ef rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -552,7 +552,7 @@ emmo:EMMO_209ba1b3_149f_4ff0_b672_941610eafd72 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
-emmo:EMMO_21205421_5783_4d3e_81e5_10c5d894a88a rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_21205421_5783_4d3e_81e5_10c5d894a88a rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_2138677c_845a_4bc2_8be7_7b0a07b4777d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -600,7 +600,7 @@ emmo:EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_24dda193_ada8_433b_bb74_6ca4a0b89a20 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
-emmo:EMMO_251cfb4f_5c75_4778_91ed_6c8395212fd8 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_251cfb4f_5c75_4778_91ed_6c8395212fd8 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_252cce84_cc8a_49dc_8405_0d5e06425d69 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -680,7 +680,7 @@ emmo:EMMO_2a28c0dd_89b1_47ac_b81f_fccc56f39617 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_2a67f539_d503_4e98_934e_50d4a9ae6cfd rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_2a971203_58d5_4039_98ce_be7eafb2b14f rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -720,7 +720,7 @@ emmo:EMMO_2d572205_274c_414a_9564_01c3e14e3c8f rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_2d66cf6d_9396_40c8_bb82_324ab19067ce rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_2d72e38c_d587_437f_98f6_f2718fb130eb rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_2d72e38c_d587_437f_98f6_f2718fb130eb rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
 emmo:EMMO_2da7408f_d389_4245_887d_a1743b81a9b6 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
@@ -774,7 +774,7 @@ emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_321af35f_f0cc_4a5c_b4fe_8c2c0303fb0c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
-emmo:EMMO_3227b821_26a5_4c7c_9c01_5c24483e0bd0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_3227b821_26a5_4c7c_9c01_5c24483e0bd0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
 emmo:EMMO_322ce14e_9ede_4841_ad70_302b4d6c5f28 rdfs:isDefinedBy <https://w3id.org/emmo/reference/workflow#> .
 
@@ -788,7 +788,7 @@ emmo:EMMO_32e701c0_a925_49df_9829_0931b8554807 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_32eb7161_60ed_4431_8326_81a92aec088c rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> .
 
-emmo:EMMO_32f55395_8b94_40de_a103_bffa5c121d98 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_32f55395_8b94_40de_a103_bffa5c121d98 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_33433bb1_c68f_45ee_a466_f01e2c57b214 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
@@ -802,7 +802,7 @@ emmo:EMMO_33ae2d07_5526_4555_a0b4_8f4c031b5652 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_33b6c84d_e139_418c_8f8c_f1d45f94df46 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_33dc57d7_68bd_460c_a440_26a78d57ea0d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_33dc57d7_68bd_460c_a440_26a78d57ea0d rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
 emmo:EMMO_33e0ac8b_a318_4285_b1de_e95347784632 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
@@ -824,9 +824,9 @@ emmo:EMMO_359312ca_1d9d_4765_b20b_28d9f45d77e7 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
-emmo:EMMO_35d2e130_6e01_41ed_94f7_00b333d46cf9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_35d2e130_6e01_41ed_94f7_00b333d46cf9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
-emmo:EMMO_35d4c439_fcb6_4399_a855_a89a207b41e9 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
+emmo:EMMO_35d4c439_fcb6_4399_a855_a89a207b41e9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_35e1dd93_2cb6_4cea_b201_31036e113f61 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -860,7 +860,7 @@ emmo:EMMO_385de036_637c_48fa_b6d5_5dca6f79d350 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_38a53b33_0eda_45fd_b955_69d2f0d3f9de rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_38b579de_4331_40e0_803d_09efa298e726 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_38b579de_4331_40e0_803d_09efa298e726 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_38d00e5f_d759_4dcc_8551_ab95865cf799 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
@@ -898,7 +898,7 @@ emmo:EMMO_3ab914c1_5d8d_4a6e_804b_84aa89623c48 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
-emmo:EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_3b1b64d1_60c9_4689_a300_eb9cd56e368b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -938,7 +938,7 @@ emmo:EMMO_3df1408c_df34_4037_8584_c25f854bb346 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_3e1a8604_8d5a_470d_bb4a_865c65728986 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_3eb993a1_61ae_4a20_b168_dda853f51c14 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
 
@@ -1052,7 +1052,7 @@ emmo:EMMO_4588526f_8553_4f4d_aa73_a483e88d599b rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_45fec702_54cb_4508_b47e_bdc581229e22 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_46406907_9afd_424e_934a_a523f9f9cc36 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1064,7 +1064,7 @@ emmo:EMMO_46dc0d51_b60f_49cd_8650_9aba7be3726c rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_46f70544_818e_495e_99ef_d342c54ee7dc rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
@@ -1074,7 +1074,7 @@ emmo:EMMO_477042ef_3173_49b2_a264_0e3270733f8c rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_479db031_b344_4488_9efa_4bc12c6c1765 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_47bf3513_4ae6_4858_9c45_76e23230d68d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_47bf3513_4ae6_4858_9c45_76e23230d68d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_47eea65c_e6ce_4c95_9406_fdb1519abc87 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -1098,7 +1098,7 @@ emmo:EMMO_48f00c52_8d3d_4e80_8d88_59fabaa01d87 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_48fc6f16_0f04_4e86_a9fc_fcfc14c5ef4b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
-emmo:EMMO_49267eba_5548_4163_8f36_518d65b583f9 rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_49267eba_5548_4163_8f36_518d65b583f9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -1108,9 +1108,9 @@ emmo:EMMO_498aad49_f8d4_40a4_a9eb_efd563a0115f rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> .
 
-emmo:EMMO_4a1c73f1_b6f5_4d10_a3a6_5de90bac7cd0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_4a1c73f1_b6f5_4d10_a3a6_5de90bac7cd0 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_4a2bf359_c47b_4aa3_9811_b59c3e1dac1e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_4a2bf359_c47b_4aa3_9811_b59c3e1dac1e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_4a464c8d_8895_44a8_a628_aed13509f1bd rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
@@ -1148,7 +1148,7 @@ emmo:EMMO_4d5053a7_273e_495b_8098_5aa5c0f3f925 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_4d548993_7a73_4cb1_a125_d417014b571e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_4d5621e8_af7f_4aef_abd5_f905a34f62af rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_4d5621e8_af7f_4aef_abd5_f905a34f62af rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_4d604a13_d1f6_42fd_818f_d3138d5e308c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
@@ -1210,7 +1210,7 @@ emmo:EMMO_50d6236a_7667_4883_8ae1_9bb5d190423a rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_50dbbf9a_ed96_486f_99f6_d8ba78a0047c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_50ea1ec5_f157_41b0_b46b_a9032f17ca10 rdfs:isDefinedBy <https://w3id.org/emmo/reference/symbolic#> .
+emmo:EMMO_50ea1ec5_f157_41b0_b46b_a9032f17ca10 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> .
 
 emmo:EMMO_5117c5fe_f661_46f8_83c3_b48947f1532a rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1266,7 +1266,7 @@ emmo:EMMO_53dd6f2a_f9de_4f83_b925_1bf39a4ab9a6 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_53e825d9_1a09_483c_baa7_37501ebfbe1c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_53ed8611_2cd7_4286_9ef0_36572117b963 rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_53ed8611_2cd7_4286_9ef0_36572117b963 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_54d0d0f4_d9fa_4179_a9b5_4110c49dafff rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> .
 
@@ -1304,7 +1304,7 @@ emmo:EMMO_57ba1bf0_4314_432c_a9bb_6a6720c8dab5 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_57c75ca1_bf8a_42bc_85d9_58cfe38c7df2 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_57d977ab_0036_4779_b59a_e47620afdb9c rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_57d977ab_0036_4779_b59a_e47620afdb9c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_581e05bc_a4fe_494a_a85c_f2c4b4374e18 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1350,7 +1350,7 @@ emmo:EMMO_5add9885_dc98_4fa5_8482_fdf9ba5e3889 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_5afa28f0_8c9f_4fcd_8f67_805bd2f9c068 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_5be83f9c_a4ba_4b9a_be1a_5bfc6e891231 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
 
@@ -1450,7 +1450,7 @@ emmo:EMMO_6470bbfa_04a6_4360_9534_1aa18d68329b rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_648c17b7_a012_4060_a096_c76bd407804b rdfs:isDefinedBy <https://w3id.org/emmo/reference/symbolic#> .
 
-emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c rdfs:isDefinedBy <https://w3id.org/emmo/reference/workflow#> .
+emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> .
 
 emmo:EMMO_649bf97b_4397_4005_90d9_219755d92e34 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/perceptual#> .
 
@@ -1566,7 +1566,7 @@ emmo:EMMO_6e5608ec_7768_4764_b052_2254bb5283bb rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_6e78433a_dbb9_409a_a7c0_4037f79d4ed8 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_6eca09be_17e9_445e_abc9_000aa61b7a11 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
@@ -1618,7 +1618,7 @@ emmo:EMMO_7243633d_96ff_426d_ae44_8a2504e682da rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_7254c8be_965d_4b3c_b3be_12c5578bee7c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_7286b164_df4c_4c14_a4b5_d41ad9c121f3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_7286b164_df4c_4c14_a4b5_d41ad9c121f3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_730f2e31_ca78_410f_a5e1_4043217a41ab rdfs:isDefinedBy <https://w3id.org/emmo/reference/standardmodel#> .
 
@@ -1652,7 +1652,7 @@ emmo:EMMO_7610efb8_c7c6_4684_abc1_774783c62472 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_76acb5d8_5ab8_484b_8354_7f7612f39c17 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_76bd5e44_bf5a_49f9_a517_eea5e8bcbc2d rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_76bd5e44_bf5a_49f9_a517_eea5e8bcbc2d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_76cc4efc_231e_42b4_be83_2547681caed6 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1710,7 +1710,7 @@ emmo:EMMO_7d77a013_1a0c_46fe_a6d8_ef6f4abb44fa rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_7dd84949_0afa_4313_9b89_7bb0dd2e7771 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_7e53a8b4_6e02_4e56_80d4_8683f92b9c77 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1728,11 +1728,11 @@ emmo:EMMO_7f9b4abe_0bf1_48dc_9bd0_ea34e926ec85 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_7fb7fe7e_bdf9_4eeb_adad_e384dd5285c6 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_801395f8_948e_4637_ac3b_5fcd587d72ca rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_801395f8_948e_4637_ac3b_5fcd587d72ca rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_802c167d_b792_4cb8_a315_35797345c0e3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_802d3e92_8770_4f98_a289_ccaaab7fdddf rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_802d3e92_8770_4f98_a289_ccaaab7fdddf rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_8040a6f6_4736_4dd2_8d1c_f2c13cb77a71 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1820,7 +1820,7 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_86ffe1bb_d457_4948_9e39_35f363b9a9fe rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
-emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_8785be5a_2493_4b12_8f39_31907ab11748 rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> .
 
@@ -1864,7 +1864,7 @@ emmo:EMMO_8944581c_64da_46a9_be29_7074f7cc8098 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_89762966_8076_4f7c_b745_f718d653e8e2 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
+emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_89d04b65_5b11_4916_b606_0cf3f007fcd9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -1886,7 +1886,7 @@ emmo:EMMO_8af3b008_0e32_4684_85ab_a52a8e7b6877 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
-emmo:EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_8b2fd84c_8f51_4731_9bd7_830545e78b23 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -1898,13 +1898,13 @@ emmo:EMMO_8b66ada5_510c_44bd_a8d8_3c64d301a5e9 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_8b960a48_8017_4cc0_8e38_27d9237b7e0d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_8bb6b688_812a_4cb9_b76c_d5a058928719 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_8bb6b688_812a_4cb9_b76c_d5a058928719 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_8c151a67_f04a_4435_b7d1_1738e6d952ee rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
 emmo:EMMO_8c537c06_8e1d_4a3b_a251_1c89bb2c4790 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_8c64fcfa_23aa_45f8_9e58_bdfd065fab8f rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_8c64fcfa_23aa_45f8_9e58_bdfd065fab8f rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
 
 emmo:EMMO_8ced4dcc_ba95_4e5f_a54d_68b928c367a0 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
@@ -1968,7 +1968,7 @@ emmo:EMMO_90798691_3b86_4d8c_910f_be2b39c98b39 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_908da3d5_775e_425e_af96_33914618eb66 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_90963312_d9a9_4474_8d10_835aef5b168e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
@@ -2108,7 +2108,7 @@ emmo:EMMO_9b075686_4ac2_43bb_b2a3_17b3ea24ff17 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_9b52133b_8f6c_47fb_93f1_419071db3f4b rdfs:isDefinedBy <https://w3id.org/emmo/reference/agency#> .
 
-emmo:EMMO_9b87d718_9dcc_4f7d_ad20_12c2aa4c76be rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_9b87d718_9dcc_4f7d_ad20_12c2aa4c76be rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_9b8f36cd_4312_4bc3_a99c_420c00f41550 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -2120,7 +2120,7 @@ emmo:EMMO_9bbab0be_f9cc_4f46_9f46_0fd271911b79 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_9bc6da11_528a_44e8_bd9e_c4154eae7e55 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_9be5fcc4_0d8b_481d_b984_6338d4b55588 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_9be5fcc4_0d8b_481d_b984_6338d4b55588 rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_9bed5d66_805a_4b3a_9153_beaf67143848 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
@@ -2144,7 +2144,7 @@ emmo:EMMO_9d799b43_e188_4047_8167_121d96b31a26 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_9d8f708a_f291_4d72_80ec_362c6e6bbca6 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_9e029526_79a2_47a8_a151_dd0545db471b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_9e029526_79a2_47a8_a151_dd0545db471b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
 
 emmo:EMMO_9e0891a6_4d87_4891_b557_69ab2bae1dae rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -2230,7 +2230,7 @@ emmo:EMMO_a466b60b_d973_4b8f_897f_d0b837a59df3 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_a46f2e3f_6d06_4968_a02f_55274d131130 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_a49c2441_1e54_43f0_a1cf_2f553a23ac34 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_a49c2441_1e54_43f0_a1cf_2f553a23ac34 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_a4b14b83_9392_4a5f_a2e8_b2b58793f59b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
@@ -2366,13 +2366,13 @@ emmo:EMMO_b1a64980_c524_4d48_af8f_9805570ce453 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_b1daa610_64c6_4935_94b8_a19db586a2f6 rdfs:isDefinedBy <https://w3id.org/emmo/reference/persholistic#> .
 
-emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
 
 emmo:EMMO_b23e7251_a488_4732_8268_027ad76d7e37 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_b295158f_fda4_4124_ab58_d9ea4ccfca5a rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_b295158f_fda4_4124_ab58_d9ea4ccfca5a rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_b29fd350_39aa_4af7_9459_3faa0544cba6 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
@@ -2438,7 +2438,7 @@ emmo:EMMO_b7493aee_366c_442d_8f59_49ac7aa664d7 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_b82d6a44_ea23_4b68_9b24_70f77deac955 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -2466,7 +2466,7 @@ emmo:EMMO_ba380bc6_2bfd_4f11_94c7_b3cbaafd1631 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_ba882f34_0d71_4e4f_9d92_0c076c633a2c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
 
@@ -2476,7 +2476,7 @@ emmo:EMMO_bbca6dfa_7463_4e8d_8280_35862ff50ce0 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_bbf12904_e25e_4f49_87f3_8bd210a6b535 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_bc73913a_3bb6_4205_8d36_79bc72ca9891 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -2500,7 +2500,7 @@ emmo:EMMO_be31e6c6_881f_41c4_8354_c05aac4d7c46 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_be76ad52_2e29_4202_be6f_0a15eb9c1817 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926 rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_be8680e5_28ec_4168_9206_d1cd33fbd458 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> .
 
@@ -2554,7 +2554,7 @@ emmo:EMMO_c2d725c3_9c16_4871_9a86_7afa12fc0a01 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_c2d9d370_f9eb_40be_b01e_7ceba8f7457f rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
-emmo:EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
 emmo:EMMO_c30aaeb1_66cc_4c69_8890_d7812c1d608c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -2584,11 +2584,11 @@ emmo:EMMO_c5970406_0b66_4931_8a23_3e81162ba65b rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_c5ac5c53_14de_47ce_b424_2576d042d241 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_c5ae6d8e_6b39_431f_8de4_ae4e357abc04 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/perceptual#> .
+emmo:EMMO_c5ae6d8e_6b39_431f_8de4_ae4e357abc04 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_c5b4c32b_74de_403d_96f2_266bec8bd0e8 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
-emmo:EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_c5e9e390_8836_4440_b4fd_c906fdd4f438 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
 
@@ -2604,13 +2604,13 @@ emmo:EMMO_c6e77b51_681b_4d04_b20d_a08f2b977470 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_c6f8d962_2239_4a9e_a9ac_63c01b84de09 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
+emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_c7171429_b9e3_4812_95c1_e97309370538 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
 emmo:EMMO_c7188d13_52e6_43f7_9b6d_aba4c161fa8f rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
-emmo:EMMO_c74da218_9147_4f03_92d1_8894abca55f3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/perceptual#> .
+emmo:EMMO_c74da218_9147_4f03_92d1_8894abca55f3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_c790c7ff_2d10_4336_94ad_4f4e173109a9 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -2702,7 +2702,7 @@ emmo:EMMO_ce7d4720_aa20_4a8c_93e8_df41a35b6723 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_ceaa4c6b_f5b7_46f4_bfcd_16eb4afab945 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186 rdfs:isDefinedBy <https://w3id.org/emmo/reference/persholistic#> .
+emmo:EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
 emmo:EMMO_cede9297_c60d_4487_9207_62ac963202b5 rdfs:isDefinedBy <https://w3id.org/emmo/reference/agency#> .
 
@@ -2802,7 +2802,7 @@ emmo:EMMO_d74ed682_894f_46c5_87cb_167f60926965 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_d772fa7a_0a31_44bb_a825_ae7829d794c6 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
+emmo:EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_d78b940d_4e2a_4a46_816b_da89029adc19 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
@@ -2818,7 +2818,7 @@ emmo:EMMO_d8612fa0_c0fb_485d_b45a_1845e7a46796 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_d893d373_b579_4867_841e_1c2b31a8d2c6 rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> .
 
-emmo:EMMO_d9350951_5300_44e8_ae61_79fb7c53b7e7 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_d9350951_5300_44e8_ae61_79fb7c53b7e7 rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_d9589ed2_5304_48b3_9795_11bf44e64e9b rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
@@ -2872,7 +2872,7 @@ emmo:EMMO_dd14d055_2db0_4b81_bc97_ef6c2f72b8a0 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_dd48bd88_9855_4da9_9297_41ae8a3c41fc rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_dd4b7d81_28a9_4801_8831_4cbab217e362 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -2902,7 +2902,7 @@ emmo:EMMO_dfd22e00_993b_40cc_a4ad_1134c1e3007a rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_e024544d_e374_45b7_9340_1982040bc6b7 rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
-emmo:EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_e0aaed83_9224_4bd8_a960_a813c4569412 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -2990,7 +2990,7 @@ emmo:EMMO_e75fdaed_cb4e_41ba_8aa3_4cfa5087358f rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_e7848014_ad79_422d_be02_74df892f7c11 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> .
 
-emmo:EMMO_e7aac247_31d6_4b2e_9fd2_e842b1b7ccac rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_e7aac247_31d6_4b2e_9fd2_e842b1b7ccac rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_e7bc8939_7ff8_4917_beb5_c42730b390f3 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/units/sidimensionalunits#> .
 
@@ -3040,7 +3040,7 @@ emmo:EMMO_ea47add2_8e93_4659_a5f0_e6879032dee0 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_ea5a4079_dbca_4ae7_80f4_415643f95257 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_ea67caa5_2609_4e91_98ae_81103f2d5c25 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_ea67caa5_2609_4e91_98ae_81103f2d5c25 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
 emmo:EMMO_ea7724fe_ba5d_4201_865e_761cb6fe9f99 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
@@ -3054,7 +3054,7 @@ emmo:EMMO_eaf4640d_651d_4cbe_a315_3d2dc5df3b35 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
-emmo:EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_eb3ffec6_3d69_4633_a3b1_088ad53cb00b rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/persistence#> .
 
@@ -3062,7 +3062,7 @@ emmo:EMMO_eb561764_276e_413d_a8cb_3a3154fd9bf8 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_eb77076b_a104_42ac_a065_798b2d2809ad rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
 
-emmo:EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/perceptual#> .
+emmo:EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_eb85216f_b872_4ee5_9f62_655aa2ae0470 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -3170,7 +3170,7 @@ emmo:EMMO_f2c1a072_4ccb_46c4_a0f8_ac801d328d0f rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_f2ca6dd0_0e5f_4392_a92d_cafdae6cfc95 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929 rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 emmo:EMMO_f2fc1ce9_cc3b_4eb5_a112_3c85d1b1374a rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
@@ -3186,7 +3186,7 @@ emmo:EMMO_f508dec1_e2d8_43d5_ae65_c386c7b330f9 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_f53bafb6_b17d_4eb9_ad58_9d209f70dbfd rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_f53f45f2_c354_417c_a904_a2606ad584d7 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_f53f45f2_c354_417c_a904_a2606ad584d7 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_f5655090_2266_41cb_b2e9_3b4569c45731 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> .
 
@@ -4718,11 +4718,11 @@ microstructure:EMMO_de093fd3_6f08_4891_a215_0783c1efbffd a owl:Class ;
     rdfs:comment "A characterisation measurement process where the composition of a material is measured."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
-            owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
-        [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
             owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ],
+        [ a owl:Restriction ;
+            owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+            owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
         <https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMeasurementProcess> ;
     skos:prefLabel "CompositionMeasurement"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
@@ -4925,7 +4925,7 @@ emmo:EMMO_0bb3b434_73aa_428f_b4e8_2a2468648e19 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_11708648_fc62_46c6_bae5_3a10693e416e rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 rdfs:isDefinedBy <https://w3id.org/emmo/reference/data#> .
+emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_20ff3b34_c864_4936_8955_9345fc0a3b3c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> .
 
@@ -4937,7 +4937,7 @@ emmo:EMMO_3c38a8b4_ed07_4185_8d9b_b57b9130c537 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_4312cae4_03ba_457e_b35d_0671a7db350c rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_4456a5d2_16a6_4ee1_9a8e_5c75956b28ea rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
@@ -4965,9 +4965,9 @@ emmo:EMMO_95a9bf22_eabc_4a84_863d_9ea398c8a52e rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_96f39f77_44dc_491b_8fa7_30d887fe0890 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
+emmo:EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
-emmo:EMMO_a15cea10_9946_4d2b_95c5_cfc333fd2abb rdfs:isDefinedBy <https://w3id.org/emmo/reference/physicalistic#> .
+emmo:EMMO_a15cea10_9946_4d2b_95c5_cfc333fd2abb rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
 emmo:EMMO_a293f923_954c_4af5_9f97_9600ebd362cb rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -4987,7 +4987,7 @@ emmo:EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_d8aa8e1f_b650_416d_88a0_5118de945456 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> .
 
-emmo:EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_de2c6b70_bc1e_48ff_84b7_8fa16e0287fa rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -5268,9 +5268,9 @@ emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b rdfs:isDefinedBy <https://w3id.org/emmo/reference/persholistic#> .
 
-emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/materials#> .
+emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/chemistry#> .
 
-emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
+emmo:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> .
 
 emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> .
 
@@ -5284,7 +5284,7 @@ emmo:EMMO_f1025834_0cd2_42a1_bfeb_13bec41c8655 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_f1a51559_aa3d_43a0_9327_918039f0dfed rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
-emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 rdfs:isDefinedBy <https://w3id.org/emmo/reference/persholistic#> .
+emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 rdfs:isDefinedBy <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 microstructure:EMMO_0a3607ec-9961-5e7f-9d4c-b0dcdb3ab439 a owl:Class ;
     rdfs:label "DistributionFunction"@en ;
@@ -5446,7 +5446,7 @@ microstructure:EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 a owl:Class ;
     skos:prefLabel "AverageQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A physical quantity that is determined from averinging the value of a set of determinations/observations/measurements of another physical quantity."@en .
 
-emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 rdfs:isDefinedBy <https://w3id.org/emmo/reference/symbolic#> .
+emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66 rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> .
 
 emmo:EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/isq#> .
 
@@ -5665,9 +5665,9 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
     skos:prefLabel "MicrostructureQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
-[] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
-
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
@@ -5675,7 +5675,7 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
