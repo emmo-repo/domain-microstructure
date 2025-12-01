@@ -1497,7 +1497,7 @@ This is to be consistent with the common jargon in metallurgy where grain size a
                                                  foaf:Person ;
                                         skos:altLabel "Tomas Manik" ;
                                         skos:prefLabel "TomasManik" ;
-                                        foaf:name "Tomas Manik>" ;
+                                        foaf:name "Tomas Manik" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en/> .
 
 
