@@ -3894,8 +3894,7 @@ describing a process).
     owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
     owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
     owl:versionInfo "0.3.1"@en ;
-    foaf:fundedBy <https://www.forskningsradet.no> ;
-    foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
+    foaf:fundedBy <https://www.forskningsradet.no> .
 
 microstructure:EMMO_0449d241-e6ec-5426-b327-16785bcf87fe a owl:Class ;
     rdfs:label "SinglePhaseParticle"@en ;
@@ -4960,55 +4959,55 @@ foaf:Organization a owl:Class ;
 
 <https://orcid.org/0000-0001-5150-6544> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "Astrid Marthinsen"^^xsd:string ;
+    rdfs:label "AstridMarthinsen"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "AstridMarthinsen"^^xsd:string ;
-    skos:prefLabel "Astrid Marthinsen"^^xsd:string ;
+    skos:altLabel "Astrid Marthinsen"^^xsd:string ;
+    skos:prefLabel "AstridMarthinsen"^^xsd:string ;
     foaf:name "Astrid Marthinsen"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0001-8858-4511> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "Ulrike Cihak-Bayr"^^xsd:string ;
+    rdfs:label "UlrikeCihakBayr"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "UlrikeCihakBayr"^^xsd:string ;
-    skos:prefLabel "Ulrike Cihak-Bayr"^^xsd:string ;
+    skos:altLabel "Ulrike Cihak-Bayr"^^xsd:string ;
+    skos:prefLabel "UlrikeCihakBayr"^^xsd:string ;
     foaf:name "Ulrike Cihak-Bayr"^^xsd:string ;
     foaf:workplaceHomepage <https://www.ac2t.at/en> .
 
 <https://orcid.org/0000-0002-1560-809X> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "Jesper Friis"^^xsd:string ;
+    rdfs:label "JesperFriis"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "JesperFriis"^^xsd:string ;
-    skos:prefLabel "Jesper Friis"^^xsd:string ;
+    skos:altLabel "Jesper Friis"^^xsd:string ;
+    skos:prefLabel "JesperFriis"^^xsd:string ;
     foaf:name "Jesper Friis"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0002-2170-3798> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "Sylvain Gouttebroze"^^xsd:string ;
+    rdfs:label "SylvainGouttebroze"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "SylvainGouttebroze"^^xsd:string ;
-    skos:prefLabel "Sylvain Gouttebroze"^^xsd:string ;
+    skos:altLabel "Sylvain Gouttebroze"^^xsd:string ;
+    skos:prefLabel "SylvainGouttebroze"^^xsd:string ;
     foaf:name "Sylvain Gouttebroze"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0002-5043-4742> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "Tomas Manik"^^xsd:string ;
+    rdfs:label "TomasManik"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "TomasManik"^^xsd:string ;
-    skos:prefLabel "Tomas Manik"^^xsd:string ;
-    foaf:name "Tomas Manik>"^^xsd:string ;
+    skos:altLabel "Tomas Manik"^^xsd:string ;
+    skos:prefLabel "TomasManik"^^xsd:string ;
+    foaf:name "Tomas Manik"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0003-4065-9742> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "Georg J. Schmitz"^^xsd:string ;
+    rdfs:label "GeorgSchmitz"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "GeorgSchmitz"^^xsd:string ;
-    skos:prefLabel "Georg J. Schmitz"^^xsd:string ;
+    skos:altLabel "Georg J. Schmitz"^^xsd:string ;
+    skos:prefLabel "GeorgSchmitz"^^xsd:string ;
     foaf:name "Georg J. Schmitz"^^xsd:string .
 
 emmo:EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -5542,10 +5541,10 @@ microstructure:EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 a owl:Class ;
 
 <https://www.ntnu.edu/physmet> a owl:NamedIndividual,
         foaf:Organization ;
-    rdfs:label "SFI PhysMet"^^xsd:string ;
+    rdfs:label "SFIPhysMet"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "SFIPhysMet"^^xsd:string ;
-    skos:prefLabel "SFI PhysMet"^^xsd:string ;
+    skos:altLabel "SFI PhysMet"^^xsd:string ;
+    skos:prefLabel "SFIPhysMet"^^xsd:string ;
     foaf:homepage <https://www.ntnu.edu/physmet> ;
     foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
     foaf:name "SFI PhysMet"^^xsd:string ;
@@ -5773,17 +5772,17 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
     skos:prefLabel "MicrostructureQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
