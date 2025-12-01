@@ -20,6 +20,7 @@
 <https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2000/01/rdf-schema#label> "MDO" .
 <https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#versionInfo> "0.3.1"@en .
 <https://w3id.org/emmo/domain/microstructure> <http://xmlns.com/foaf/0.1/fundedBy> <https://www.forskningsradet.no> .
+<https://w3id.org/emmo/domain/microstructure> <http://xmlns.com/foaf/0.1/logo> <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 # 
 # 
 # #################################################################
@@ -79,9 +80,6 @@
 # 
 # http://xmlns.com/foaf/0.1/homepage
 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-# 
-# http://xmlns.com/foaf/0.1/logo
-<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
 # http://xmlns.com/foaf/0.1/name
 <http://xmlns.com/foaf/0.1/name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2152,9 +2150,9 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2000/01/rdf-schema#label> "AstridMarthinsen" .
-<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2004/02/skos/core#altLabel> "Astrid Marthinsen" .
-<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2004/02/skos/core#prefLabel> "AstridMarthinsen" .
+<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2000/01/rdf-schema#label> "Astrid Marthinsen" .
+<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2004/02/skos/core#altLabel> "AstridMarthinsen" .
+<https://orcid.org/0000-0001-5150-6544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Astrid Marthinsen" .
 <https://orcid.org/0000-0001-5150-6544> <http://xmlns.com/foaf/0.1/name> "Astrid Marthinsen" .
 <https://orcid.org/0000-0001-5150-6544> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.sintef.no/en> .
 # 
@@ -2162,9 +2160,9 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2000/01/rdf-schema#label> "UlrikeCihakBayr" .
-<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2004/02/skos/core#altLabel> "Ulrike Cihak-Bayr" .
-<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2004/02/skos/core#prefLabel> "UlrikeCihakBayr" .
+<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2000/01/rdf-schema#label> "Ulrike Cihak-Bayr" .
+<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2004/02/skos/core#altLabel> "UlrikeCihakBayr" .
+<https://orcid.org/0000-0001-8858-4511> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ulrike Cihak-Bayr" .
 <https://orcid.org/0000-0001-8858-4511> <http://xmlns.com/foaf/0.1/name> "Ulrike Cihak-Bayr" .
 <https://orcid.org/0000-0001-8858-4511> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.ac2t.at/en> .
 # 
@@ -2172,9 +2170,9 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2000/01/rdf-schema#label> "JesperFriis" .
-<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2004/02/skos/core#altLabel> "Jesper Friis" .
-<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2004/02/skos/core#prefLabel> "JesperFriis" .
+<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2000/01/rdf-schema#label> "Jesper Friis" .
+<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2004/02/skos/core#altLabel> "JesperFriis" .
+<https://orcid.org/0000-0002-1560-809X> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jesper Friis" .
 <https://orcid.org/0000-0002-1560-809X> <http://xmlns.com/foaf/0.1/name> "Jesper Friis" .
 <https://orcid.org/0000-0002-1560-809X> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.sintef.no/en> .
 # 
@@ -2182,9 +2180,9 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2000/01/rdf-schema#label> "SylvainGouttebroze" .
-<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2004/02/skos/core#altLabel> "Sylvain Gouttebroze" .
-<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2004/02/skos/core#prefLabel> "SylvainGouttebroze" .
+<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2000/01/rdf-schema#label> "Sylvain Gouttebroze" .
+<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2004/02/skos/core#altLabel> "SylvainGouttebroze" .
+<https://orcid.org/0000-0002-2170-3798> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sylvain Gouttebroze" .
 <https://orcid.org/0000-0002-2170-3798> <http://xmlns.com/foaf/0.1/name> "Sylvain Gouttebroze" .
 <https://orcid.org/0000-0002-2170-3798> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.sintef.no/en> .
 # 
@@ -2192,9 +2190,9 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2000/01/rdf-schema#label> "TomasManik" .
-<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2004/02/skos/core#altLabel> "Tomas Manik" .
-<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2004/02/skos/core#prefLabel> "TomasManik" .
+<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2000/01/rdf-schema#label> "Tomas Manik" .
+<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2004/02/skos/core#altLabel> "TomasManik" .
+<https://orcid.org/0000-0002-5043-4742> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tomas Manik" .
 <https://orcid.org/0000-0002-5043-4742> <http://xmlns.com/foaf/0.1/name> "Tomas Manik" .
 <https://orcid.org/0000-0002-5043-4742> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.sintef.no/en> .
 # 
@@ -2202,30 +2200,30 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2000/01/rdf-schema#label> "GeorgSchmitz" .
-<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2004/02/skos/core#altLabel> "Georg J. Schmitz" .
-<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeorgSchmitz" .
+<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2000/01/rdf-schema#label> "Georg J. Schmitz" .
+<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2004/02/skos/core#altLabel> "GeorgSchmitz" .
+<https://orcid.org/0000-0003-4065-9742> <http://www.w3.org/2004/02/skos/core#prefLabel> "Georg J. Schmitz" .
 <https://orcid.org/0000-0003-4065-9742> <http://xmlns.com/foaf/0.1/name> "Georg J. Schmitz" .
 # 
 # https://www.ntnu.edu/physmet
 <https://www.ntnu.edu/physmet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://www.ntnu.edu/physmet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ntnu.edu/physmet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
-<https://www.ntnu.edu/physmet> <http://www.w3.org/2000/01/rdf-schema#label> "SFIPhysMet" .
-<https://www.ntnu.edu/physmet> <http://www.w3.org/2004/02/skos/core#altLabel> "SFI PhysMet" .
-<https://www.ntnu.edu/physmet> <http://www.w3.org/2004/02/skos/core#prefLabel> "SFIPhysMet" .
+<https://www.ntnu.edu/physmet> <http://www.w3.org/2000/01/rdf-schema#label> "SFI PhysMet" .
+<https://www.ntnu.edu/physmet> <http://www.w3.org/2004/02/skos/core#altLabel> "SFIPhysMet" .
+<https://www.ntnu.edu/physmet> <http://www.w3.org/2004/02/skos/core#prefLabel> "SFI PhysMet" .
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/homepage> <https://www.ntnu.edu/physmet> .
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/logo> <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> .
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/name> "SFI PhysMet" .
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/title> "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" .
 # 
-_:genid45 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid45 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid46 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid47 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid49 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid50 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid51 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid49 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid50 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid51 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 # 
 # 
 # #################################################################
@@ -2273,6 +2271,8 @@ _:genid51 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://w
 <http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
 <http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure#> .
+# 
+<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
