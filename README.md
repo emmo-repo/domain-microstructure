@@ -1,9 +1,6 @@
-<img src="doc/figs/logo_128x128.png" alt="Logo" align="right" width="96" height="96">
-
 [![Documentation](https://img.shields.io/badge/documentation-red)](https://emmo-repo.github.io/domain-microstructure/widoco/index-en.html)
 [![CI tests](https://github.com/emmo-repo/domain-microstructure/actions/workflows/ci_tests.yml/badge.svg?branch=master)](https://github.com/emmo-repo/domain-microstructure/actions/workflows/ci_tests.yml)
-[![DOI](https://zenodo.org/badge/348298817.svg)](https://zenodo.org/badge/latestdoi/348298817)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15010966.svg)](https://doi.org/10.5281/zenodo.15010966)
 
 
 Microstructure Domain Ontology (MDO)
