@@ -293,31 +293,31 @@
   } ]
 }, {
   "@id" : "_:genid45",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
+    "@value" : "3"
   } ]
 }, {
   "@id" : "_:genid46",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid47",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
-  } ]
-}, {
-  "@id" : "_:genid48",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "4"
   } ]
 }, {
+  "@id" : "_:genid48",
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ]
+}, {
   "@id" : "_:genid49",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
@@ -334,11 +334,11 @@
   "@id" : "_:genid50",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "3"
+    "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid51",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
@@ -10447,7 +10447,7 @@
     "@id" : "https://orcid.org/0000-0003-4065-9742"
   } ],
   "http://purl.org/dc/terms/created" : [ {
-    "@value" : "02-05-2020"
+    "@value" : "2020-05-02"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@id" : "https://orcid.org/0000-0002-1560-809X"
@@ -10457,6 +10457,9 @@
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
     "@value" : "A domain ontology for microstructures  focusing on physical metallurgy."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2023-05-24"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@language" : "en",
@@ -10487,12 +10490,16 @@
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies"
   } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@language" : "en",
+    "@value" : "0.3.1"
+  } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/0.3.1"
+    "@id" : "https://w3id.org/emmo/domain/microstructure/0.4.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "0.3.1"
+    "@value" : "0.4.0"
   } ],
   "http://xmlns.com/foaf/0.1/fundedBy" : [ {
     "@id" : "https://www.forskningsradet.no"

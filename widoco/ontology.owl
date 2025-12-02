@@ -16,7 +16,7 @@
      xmlns:schema="https://schema.org/"
      xmlns:microstructure="https://w3id.org/emmo/domain/microstructure#">
     <owl:Ontology rdf:about="https://w3id.org/emmo/domain/microstructure">
-        <owl:versionIRI rdf:resource="https://w3id.org/emmo/domain/microstructure/0.3.1"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/emmo/domain/microstructure/0.4.0"/>
         <owl:imports rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies"/>
         <terms:abstract xml:lang="en">The Microstructure Domain Ontology is intended to be a domain ontology
 for physical metallurgy.  The intension is to cover all relevant
@@ -54,10 +54,11 @@ describing a process).
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-8858-4511"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5043-4742"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4065-9742"/>
-        <terms:created>02-05-2020</terms:created>
+        <terms:created>2020-05-02</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-1560-809X"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-2170-3798"/>
         <terms:description xml:lang="en">A domain ontology for microstructures  focusing on physical metallurgy.</terms:description>
+        <terms:issued>2023-05-24</terms:issued>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
         <terms:publisher rdf:resource="https://www.ntnu.edu/physmet"/>
         <terms:title xml:lang="en">Microstructure domain ontology</terms:title>
@@ -66,7 +67,8 @@ describing a process).
         <vann:preferredNamespacePrefix>mdo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/emmo/domain/microstructure</vann:preferredNamespaceUri>
         <rdfs:label>MDO</rdfs:label>
-        <owl:versionInfo xml:lang="en">0.3.1</owl:versionInfo>
+        <owl:priorVersion xml:lang="en">0.3.1</owl:priorVersion>
+        <owl:versionInfo xml:lang="en">0.4.0</owl:versionInfo>
         <foaf:fundedBy rdf:resource="https://www.forskningsradet.no"/>
         <foaf:logo rdf:resource="https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png"/>
     </owl:Ontology>
@@ -107,6 +109,15 @@ describing a process).
 
 
     <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     
@@ -3736,25 +3747,25 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <foaf:title>Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry</foaf:title>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     
 
@@ -3788,9 +3799,7 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="http://purl.org/dc/terms/hasFormat">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/issued"/>
     <rdf:Description rdf:about="http://purl.org/dc/terms/license"/>
     <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>

@@ -1,15 +1,16 @@
 <https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/emmo/domain/microstructure/0.3.1> .
+<https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/emmo/domain/microstructure/0.4.0> .
 <https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/emmo/domain/microstructure/dependencies> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/abstract> "The Microstructure Domain Ontology is intended to be a domain ontology\nfor physical metallurgy.  The intension is to cover all relevant\naspect of metallic microstructures, including:\n  - composition\n  - particles, both stable (primary) and metastable (precipitates)\n  - grains\n  - subgrains\n  - grain boundaries & particle free zones (PFZs)\n  - texture\n  - dislocations\n  - alloy systems\n\nThe aim is to support both microstructure modelling as well as\ncharacterisation.\n\nFor modelling, we will distinguish between\n  - evolution models (that changes the microstructure through a\n    succession of states) and\n  - property models (that relates a microstructure state to a property).\n\nIt should support describing same concept at different spatial\nresolutions, like mean field, 1D, 2D and 3D.\n\nFor mean field descriptions (what about spatially resolved), it should\nbe possible describe quantities at different statistical levels, like\nmean size, normalised size distribution (mean + standard deviation)\nand full size distribution.\n\nThere should be a common way to connect a state to external\nconditions, like temperature, volume/shape and pressure (essential for\ndescribing a process).\n"@en .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-5150-6544> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-8858-4511> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-5043-4742> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0003-4065-9742> .
-<https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/created> "02-05-2020" .
+<https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/created> "2020-05-02" .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1560-809X> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-2170-3798> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/description> "A domain ontology for microstructures  focusing on physical metallurgy."@en .
+<https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/issued> "2023-05-24" .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/publisher> <https://www.ntnu.edu/physmet> .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/dc/terms/title> "Microstructure domain ontology"@en .
@@ -18,7 +19,8 @@
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/vocab/vann/preferredNamespacePrefix> "mdo" .
 <https://w3id.org/emmo/domain/microstructure> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" .
 <https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2000/01/rdf-schema#label> "MDO" .
-<https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#versionInfo> "0.3.1"@en .
+<https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#priorVersion> "0.3.1"@en .
+<https://w3id.org/emmo/domain/microstructure> <http://www.w3.org/2002/07/owl#versionInfo> "0.4.0"@en .
 <https://w3id.org/emmo/domain/microstructure> <http://xmlns.com/foaf/0.1/fundedBy> <https://www.forskningsradet.no> .
 <https://w3id.org/emmo/domain/microstructure> <http://xmlns.com/foaf/0.1/logo> <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 # 
@@ -38,6 +40,9 @@
 # 
 # http://purl.org/dc/terms/identifier
 <http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2217,13 +2222,13 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/name> "SFI PhysMet" .
 <https://www.ntnu.edu/physmet> <http://xmlns.com/foaf/0.1/title> "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" .
 # 
-_:genid45 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid46 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid47 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid49 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid50 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid51 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid45 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid46 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid49 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid50 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid51 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 # 
 # 
 # #################################################################
@@ -2247,7 +2252,6 @@ _:genid51 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.
 # 
 <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
-<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 # 
 # 
 <http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/emmo/domain/microstructure/dependencies#> .

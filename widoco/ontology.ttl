@@ -7,7 +7,7 @@
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
-                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
+                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.4.0> ;
                                                owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
                                                <http://purl.org/dc/terms/abstract> """The Microstructure Domain Ontology is intended to be a domain ontology
 for physical metallurgy.  The intension is to cover all relevant
@@ -45,10 +45,11 @@ describing a process).
                                                                                       <https://orcid.org/0000-0001-8858-4511> ,
                                                                                       <https://orcid.org/0000-0002-5043-4742> ,
                                                                                       <https://orcid.org/0000-0003-4065-9742> ;
-                                               <http://purl.org/dc/terms/created> "02-05-2020" ;
+                                               <http://purl.org/dc/terms/created> "2020-05-02" ;
                                                <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1560-809X> ,
                                                                                   <https://orcid.org/0000-0002-2170-3798> ;
                                                <http://purl.org/dc/terms/description> "A domain ontology for microstructures  focusing on physical metallurgy."@en ;
+                                               <http://purl.org/dc/terms/issued> "2023-05-24" ;
                                                <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
                                                <http://purl.org/dc/terms/publisher> <https://www.ntnu.edu/physmet> ;
                                                <http://purl.org/dc/terms/title> "Microstructure domain ontology"@en ;
@@ -57,7 +58,8 @@ describing a process).
                                                <http://purl.org/vocab/vann/preferredNamespacePrefix> "mdo" ;
                                                <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo/domain/microstructure" ;
                                                rdfs:label "MDO" ;
-                                               owl:versionInfo "0.3.1"@en ;
+                                               owl:priorVersion "0.3.1"@en ;
+                                               owl:versionInfo "0.4.0"@en ;
                                                <http://xmlns.com/foaf/0.1/fundedBy> <https://www.forskningsradet.no> ;
                                                <http://xmlns.com/foaf/0.1/logo> <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 
@@ -75,6 +77,10 @@ describing a process).
 
 ###  http://purl.org/dc/terms/identifier
 <http://purl.org/dc/terms/identifier> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 
 ###  http://purl.org/dc/terms/license
@@ -2530,25 +2536,25 @@ This is to be consistent with the common jargon in metallurgy where grain size a
                                <http://xmlns.com/foaf/0.1/title> "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" .
 
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
 ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 #################################################################
@@ -2574,8 +2580,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
 <http://purl.org/dc/terms/hasFormat> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-
-<http://purl.org/dc/terms/issued> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 
 

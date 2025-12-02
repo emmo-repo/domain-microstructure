@@ -3880,10 +3880,11 @@ describing a process).
         <https://orcid.org/0000-0001-8858-4511>,
         <https://orcid.org/0000-0002-5043-4742>,
         <https://orcid.org/0000-0003-4065-9742> ;
-    dcterms:created "02-05-2020"^^xsd:string ;
+    dcterms:created "2020-05-02"^^xsd:string ;
     dcterms:creator <https://orcid.org/0000-0002-1560-809X>,
         <https://orcid.org/0000-0002-2170-3798> ;
     dcterms:description "A domain ontology for microstructures  focusing on physical metallurgy."@en ;
+    dcterms:issued "2023-05-24"^^xsd:string ;
     dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
     dcterms:publisher <https://www.ntnu.edu/physmet> ;
     dcterms:title "Microstructure domain ontology"@en ;
@@ -3892,8 +3893,9 @@ describing a process).
     vann:preferredNamespacePrefix "mdo"^^xsd:string ;
     vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure"^^xsd:string ;
     owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
-    owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
-    owl:versionInfo "0.3.1"@en ;
+    owl:priorVersion "0.3.1"@en ;
+    owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.4.0> ;
+    owl:versionInfo "0.4.0"@en ;
     foaf:fundedBy <https://www.forskningsradet.no> ;
     foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 
@@ -4756,11 +4758,11 @@ microstructure:EMMO_de093fd3_6f08_4891_a215_0783c1efbffd a owl:Class ;
     rdfs:comment "A characterisation measurement process where the composition of a material is measured."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
-            owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
-        [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
             owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ],
+        [ a owl:Restriction ;
+            owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+            owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
         <https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMeasurementProcess> ;
     skos:prefLabel "CompositionMeasurement"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
@@ -5238,11 +5240,11 @@ microstructure:EMMO_6c227576-79ab-5aba-ac08-66ee7854617d a owl:Class ;
         "A substance that dissolves a solute, resulting in a solution."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
-            owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ],
-        [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
             owl:someValuesFrom microstructure:EMMO_2733d914-f08a-5ba0-bbce-77c82a7b4ae9 ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
+            owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ],
         emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69,
         emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
     skos:prefLabel "Solvent"@en ;
@@ -5773,9 +5775,7 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
     skos:prefLabel "MicrostructureQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
@@ -5785,5 +5785,7 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 

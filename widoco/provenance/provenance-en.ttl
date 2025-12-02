@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://w3id.org/emmo/domain/microstructure/0.3.1> a prov:Entity;
+<https://w3id.org/emmo/domain/microstructure/0.4.0> a prov:Entity;
 	 dc:title "Microstructure domain ontology";
 	 prov:wasAttributedTo <https://orcid.org/0000-0002-1560-809X>;
 	 dc:creator <https://orcid.org/0000-0002-1560-809X>;
@@ -17,5 +17,6 @@
 	 prov:wasAttributedTo <https://orcid.org/0000-0003-4065-9742>;
 	 dc:contributor <https://orcid.org/0000-0003-4065-9742>;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:wasGeneratedAt "02-05-2020";
+	 prov:wasRevisionOf <0.3.1>;
+	 prov:wasGeneratedAt "2020-05-02";
 .
