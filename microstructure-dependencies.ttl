@@ -11,4 +11,5 @@
         <https://w3id.org/emmo/1.0.2/disciplines/metrology> ,
         <https://w3id.org/emmo/1.0.2/disciplines/models> ,
         <https://w3id.org/emmo/1.0.2/perspectives/structural> ,
-        <https://w3id.org/emmo/domain/characterisation-methodology/1.0.2/chameo> .
+        <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
+        #<https://w3id.org/emmo/domain/characterisation-methodology/1.0.2/chameo> .
