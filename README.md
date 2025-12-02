@@ -61,9 +61,10 @@ Imported ontologies
 -------------------
 Version dependencies on imported ontologies:
 
-| Version | [EMMO] | [CHAMEO] |
-|---------|--------|----------|
-| 0.3.1   | 1.0.0  | 1.0.0    |
+| Version | [EMMO] | [CHAMEO] | Status      |
+|---------|--------|----------|-------------|
+| 0.3.1   | 1.0.0  | 1.0.0    | stable      |
+| 0.4.0   | 1.0.2  | 1.0.2    | development |
 
 
 
