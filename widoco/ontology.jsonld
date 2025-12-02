@@ -293,19 +293,19 @@
   } ]
 }, {
   "@id" : "_:genid45",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid46",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid47",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
   } ]
@@ -317,9 +317,9 @@
   } ]
 }, {
   "@id" : "_:genid49",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
+    "@value" : "4"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -340,7 +340,7 @@
   "@id" : "_:genid51",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "4"
+    "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid6",

@@ -5248,11 +5248,11 @@ microstructure:EMMO_6c227576-79ab-5aba-ac08-66ee7854617d a owl:Class ;
         "A substance that dissolves a solute, resulting in a solution."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
-            owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ],
-        [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
             owl:someValuesFrom microstructure:EMMO_2733d914-f08a-5ba0-bbce-77c82a7b4ae9 ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
+            owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ],
         emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69,
         emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
     skos:prefLabel "Solvent"@en ;
@@ -5785,15 +5785,15 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 
 [] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
 [] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
+
+[] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
