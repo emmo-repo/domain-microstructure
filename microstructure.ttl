@@ -14,7 +14,7 @@
 @base <https://w3id.org/emmo/domain/microstructure#> .
 
 <https://w3id.org/emmo/domain/microstructure> rdf:type owl:Ontology ;
-                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
+                                               owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.4.0> ;
                                                owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
                                                dcterms:abstract """The Microstructure Domain Ontology is intended to be a domain ontology
 for physical metallurgy.  The intension is to cover all relevant
@@ -52,10 +52,11 @@ describing a process).
                                                                    <https://orcid.org/0000-0001-8858-4511> ,
                                                                    <https://orcid.org/0000-0002-5043-4742> ,
                                                                    <https://orcid.org/0000-0003-4065-9742> ;
-                                               dcterms:created "02-05-2020" ;
+                                               dcterms:created "2020-05-02" ;
                                                dcterms:creator <https://orcid.org/0000-0002-1560-809X> ,
                                                                <https://orcid.org/0000-0002-2170-3798> ;
                                                dcterms:description "A domain ontology for microstructures  focusing on physical metallurgy."@en ;
+                                               dcterms:issued "2023-05-24" ;
                                                dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en ;
                                                dcterms:publisher <https://www.ntnu.edu/physmet> ;
                                                dcterms:title "Microstructure domain ontology"@en ;
@@ -64,9 +65,11 @@ describing a process).
                                                vann:preferredNamespacePrefix "mdo" ;
                                                vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" ;
                                                rdfs:label "MDO" ;
-                                               owl:versionInfo "0.3.1"@en ;
+                                               owl:priorVersion "0.3.1"@en ;
+                                               owl:versionInfo "0.4.0"@en ;
                                                foaf:fundedBy <https://www.forskningsradet.no/> ;
                                                foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
+
 
 #################################################################
 #    Annotation properties
