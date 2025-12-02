@@ -67,7 +67,8 @@ describing a process).
                                                vann:preferredNamespaceUri "https://w3id.org/emmo/domain/microstructure" ;
                                                rdfs:label "MDO" ;
                                                owl:versionInfo "0.3.1"@en ;
-                                               foaf:fundedBy <https://www.forskningsradet.no> .
+                                               foaf:fundedBy <https://www.forskningsradet.no> ;
+                                               foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 
 #################################################################
 #    Annotation properties
@@ -32132,9 +32133,9 @@ microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
 <https://orcid.org/0000-0001-5150-6544> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
                                         rdfs:isDefinedBy microstructure: ;
-                                        rdfs:label "AstridMarthinsen" ;
-                                        skos:altLabel "Astrid Marthinsen" ;
-                                        skos:prefLabel "AstridMarthinsen" ;
+                                        rdfs:label "Astrid Marthinsen" ;
+                                        skos:altLabel "AstridMarthinsen" ;
+                                        skos:prefLabel "Astrid Marthinsen" ;
                                         foaf:name "Astrid Marthinsen" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en> .
 
@@ -32143,9 +32144,9 @@ microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
 <https://orcid.org/0000-0001-8858-4511> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
                                         rdfs:isDefinedBy microstructure: ;
-                                        rdfs:label "UlrikeCihakBayr" ;
-                                        skos:altLabel "Ulrike Cihak-Bayr" ;
-                                        skos:prefLabel "UlrikeCihakBayr" ;
+                                        rdfs:label "Ulrike Cihak-Bayr" ;
+                                        skos:altLabel "UlrikeCihakBayr" ;
+                                        skos:prefLabel "Ulrike Cihak-Bayr" ;
                                         foaf:name "Ulrike Cihak-Bayr" ;
                                         foaf:workplaceHomepage <https://www.ac2t.at/en> .
 
@@ -32154,9 +32155,9 @@ microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
 <https://orcid.org/0000-0002-1560-809X> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
                                         rdfs:isDefinedBy microstructure: ;
-                                        rdfs:label "JesperFriis" ;
-                                        skos:altLabel "Jesper Friis" ;
-                                        skos:prefLabel "JesperFriis" ;
+                                        rdfs:label "Jesper Friis" ;
+                                        skos:altLabel "JesperFriis" ;
+                                        skos:prefLabel "Jesper Friis" ;
                                         foaf:name "Jesper Friis" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en> .
 
@@ -32165,9 +32166,9 @@ microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
 <https://orcid.org/0000-0002-2170-3798> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
                                         rdfs:isDefinedBy microstructure: ;
-                                        rdfs:label "SylvainGouttebroze" ;
-                                        skos:altLabel "Sylvain Gouttebroze" ;
-                                        skos:prefLabel "SylvainGouttebroze" ;
+                                        rdfs:label "Sylvain Gouttebroze" ;
+                                        skos:altLabel "SylvainGouttebroze" ;
+                                        skos:prefLabel "Sylvain Gouttebroze" ;
                                         foaf:name "Sylvain Gouttebroze" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en> .
 
@@ -32176,9 +32177,9 @@ microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
 <https://orcid.org/0000-0002-5043-4742> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
                                         rdfs:isDefinedBy microstructure: ;
-                                        rdfs:label "TomasManik" ;
-                                        skos:altLabel "Tomas Manik" ;
-                                        skos:prefLabel "TomasManik" ;
+                                        rdfs:label "Tomas Manik" ;
+                                        skos:altLabel "TomasManik" ;
+                                        skos:prefLabel "Tomas Manik" ;
                                         foaf:name "Tomas Manik" ;
                                         foaf:workplaceHomepage <https://www.sintef.no/en> .
 
@@ -32187,9 +32188,9 @@ microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 rdf:type owl:Class ;
 <https://orcid.org/0000-0003-4065-9742> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
                                         rdfs:isDefinedBy microstructure: ;
-                                        rdfs:label "GeorgSchmitz" ;
-                                        skos:altLabel "Georg J. Schmitz" ;
-                                        skos:prefLabel "GeorgSchmitz" ;
+                                        rdfs:label "Georg J. Schmitz" ;
+                                        skos:altLabel "GeorgSchmitz" ;
+                                        skos:prefLabel "Georg J. Schmitz" ;
                                         foaf:name "Georg J. Schmitz" .
 
 
@@ -32375,9 +32376,9 @@ emmo:SimonClark rdf:type owl:NamedIndividual ;
 <https://www.ntnu.edu/physmet> rdf:type owl:NamedIndividual ,
                                         foaf:Organization ;
                                rdfs:isDefinedBy microstructure: ;
-                               rdfs:label "SFIPhysMet" ;
-                               skos:altLabel "SFI PhysMet" ;
-                               skos:prefLabel "SFIPhysMet" ;
+                               rdfs:label "SFI PhysMet" ;
+                               skos:altLabel "SFIPhysMet" ;
+                               skos:prefLabel "SFI PhysMet" ;
                                foaf:homepage <https://www.ntnu.edu/physmet> ;
                                foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
                                foaf:name "SFI PhysMet" ;
@@ -32389,20 +32390,35 @@ emmo:SimonClark rdf:type owl:NamedIndividual ;
 ] .
 
 [ emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """The rule for the subproperty chain:
- inverse (hasInterpreter) o inverse (hasSign) ⇒ hasReferent"""@en
- ] .
-
-[ emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """The rule for the subproperty chain:
 inverse (hasSign) o inverse (hasReferent) ⇒ hasInterpreter"""@en
  ] .
 
+[ emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """The rule for the subproperty chain:
+ inverse (hasInterpreter) o inverse (hasSign) ⇒ hasReferent"""@en
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
@@ -32420,67 +32436,52 @@ inverse (hasSign) o inverse (hasReferent) ⇒ hasInterpreter"""@en
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 #################################################################

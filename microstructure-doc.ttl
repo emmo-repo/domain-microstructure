@@ -3894,7 +3894,8 @@ describing a process).
     owl:imports <https://w3id.org/emmo/domain/microstructure/dependencies> ;
     owl:versionIRI <https://w3id.org/emmo/domain/microstructure/0.3.1> ;
     owl:versionInfo "0.3.1"@en ;
-    foaf:fundedBy <https://www.forskningsradet.no> .
+    foaf:fundedBy <https://www.forskningsradet.no> ;
+    foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 
 microstructure:EMMO_0449d241-e6ec-5426-b327-16785bcf87fe a owl:Class ;
     rdfs:label "SinglePhaseParticle"@en ;
@@ -4755,11 +4756,11 @@ microstructure:EMMO_de093fd3_6f08_4891_a215_0783c1efbffd a owl:Class ;
     rdfs:comment "A characterisation measurement process where the composition of a material is measured."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
-            owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ],
-        [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
             owl:someValuesFrom emmo:EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3 ],
+        [ a owl:Restriction ;
+            owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+            owl:someValuesFrom emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ],
         <https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMeasurementProcess> ;
     skos:prefLabel "CompositionMeasurement"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation measurement process where the composition of a material is measured."@en .
@@ -4959,55 +4960,55 @@ foaf:Organization a owl:Class ;
 
 <https://orcid.org/0000-0001-5150-6544> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "AstridMarthinsen"^^xsd:string ;
+    rdfs:label "Astrid Marthinsen"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "Astrid Marthinsen"^^xsd:string ;
-    skos:prefLabel "AstridMarthinsen"^^xsd:string ;
+    skos:altLabel "AstridMarthinsen"^^xsd:string ;
+    skos:prefLabel "Astrid Marthinsen"^^xsd:string ;
     foaf:name "Astrid Marthinsen"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0001-8858-4511> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "UlrikeCihakBayr"^^xsd:string ;
+    rdfs:label "Ulrike Cihak-Bayr"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "Ulrike Cihak-Bayr"^^xsd:string ;
-    skos:prefLabel "UlrikeCihakBayr"^^xsd:string ;
+    skos:altLabel "UlrikeCihakBayr"^^xsd:string ;
+    skos:prefLabel "Ulrike Cihak-Bayr"^^xsd:string ;
     foaf:name "Ulrike Cihak-Bayr"^^xsd:string ;
     foaf:workplaceHomepage <https://www.ac2t.at/en> .
 
 <https://orcid.org/0000-0002-1560-809X> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "JesperFriis"^^xsd:string ;
+    rdfs:label "Jesper Friis"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "Jesper Friis"^^xsd:string ;
-    skos:prefLabel "JesperFriis"^^xsd:string ;
+    skos:altLabel "JesperFriis"^^xsd:string ;
+    skos:prefLabel "Jesper Friis"^^xsd:string ;
     foaf:name "Jesper Friis"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0002-2170-3798> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "SylvainGouttebroze"^^xsd:string ;
+    rdfs:label "Sylvain Gouttebroze"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "Sylvain Gouttebroze"^^xsd:string ;
-    skos:prefLabel "SylvainGouttebroze"^^xsd:string ;
+    skos:altLabel "SylvainGouttebroze"^^xsd:string ;
+    skos:prefLabel "Sylvain Gouttebroze"^^xsd:string ;
     foaf:name "Sylvain Gouttebroze"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0002-5043-4742> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "TomasManik"^^xsd:string ;
+    rdfs:label "Tomas Manik"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "Tomas Manik"^^xsd:string ;
-    skos:prefLabel "TomasManik"^^xsd:string ;
+    skos:altLabel "TomasManik"^^xsd:string ;
+    skos:prefLabel "Tomas Manik"^^xsd:string ;
     foaf:name "Tomas Manik"^^xsd:string ;
     foaf:workplaceHomepage <https://www.sintef.no/en> .
 
 <https://orcid.org/0000-0003-4065-9742> a owl:NamedIndividual,
         foaf:Person ;
-    rdfs:label "GeorgSchmitz"^^xsd:string ;
+    rdfs:label "Georg J. Schmitz"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "Georg J. Schmitz"^^xsd:string ;
-    skos:prefLabel "GeorgSchmitz"^^xsd:string ;
+    skos:altLabel "GeorgSchmitz"^^xsd:string ;
+    skos:prefLabel "Georg J. Schmitz"^^xsd:string ;
     foaf:name "Georg J. Schmitz"^^xsd:string .
 
 emmo:EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -5237,11 +5238,11 @@ microstructure:EMMO_6c227576-79ab-5aba-ac08-66ee7854617d a owl:Class ;
         "A substance that dissolves a solute, resulting in a solution."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
-            owl:someValuesFrom microstructure:EMMO_2733d914-f08a-5ba0-bbce-77c82a7b4ae9 ],
-        [ a owl:Restriction ;
             owl:allValuesFrom emmo:EMMO_2031516a_2be7_48e8_9af7_7e1270e308fe ;
             owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ],
+        [ a owl:Restriction ;
+            owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+            owl:someValuesFrom microstructure:EMMO_2733d914-f08a-5ba0-bbce-77c82a7b4ae9 ],
         emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69,
         emmo:EMMO_668fbd5b_6f1b_405c_9c6b_d6067bd0595a ;
     skos:prefLabel "Solvent"@en ;
@@ -5541,10 +5542,10 @@ microstructure:EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 a owl:Class ;
 
 <https://www.ntnu.edu/physmet> a owl:NamedIndividual,
         foaf:Organization ;
-    rdfs:label "SFIPhysMet"^^xsd:string ;
+    rdfs:label "SFI PhysMet"^^xsd:string ;
     rdfs:isDefinedBy microstructure: ;
-    skos:altLabel "SFI PhysMet"^^xsd:string ;
-    skos:prefLabel "SFIPhysMet"^^xsd:string ;
+    skos:altLabel "SFIPhysMet"^^xsd:string ;
+    skos:prefLabel "SFI PhysMet"^^xsd:string ;
     foaf:homepage <https://www.ntnu.edu/physmet> ;
     foaf:logo <https://www.ntnu.edu/image/layout_set_logo?img_id=1296478961&t=1606834992983> ;
     foaf:name "SFI PhysMet"^^xsd:string ;
@@ -5772,7 +5773,9 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
     skos:prefLabel "MicrostructureQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
 
@@ -5783,6 +5786,4 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
-
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
