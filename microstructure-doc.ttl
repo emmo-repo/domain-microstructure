@@ -2356,8 +2356,6 @@ emmo:EMMO_af7b627d_6528_4fdb_97df_ba4579c4bb5d rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_afea89af_ef16_4bdb_99d5_f3b2f4c85a6c rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_b02aaadc_592d_4d65_bf11_eee06bd9f80d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_b03dfad7_eab8_4949_9d10_dd4fd12faaef rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -3964,6 +3962,25 @@ microstructure:EMMO_0b04ee5c-2601-5f60-8cec-9f70870be873 a owl:Class ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A grain boundary with a high oritation angle between the grains."@en ;
     emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle larger than 15 degree."@en .
 
+microstructure:EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3 a owl:Class ;
+    rdfs:label "MeltingPoint"@en ;
+    dcterms:description "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+    rdfs:comment """As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."""@en,
+        "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+    rdfs:isDefinedBy microstructure: ;
+    rdfs:seeAlso "https://www.britannica.com/science/melting-point"^^xsd:anyURI ;
+    rdfs:subClassOf emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f,
+        microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
+    skos:prefLabel "MeltingPoint"@en ;
+    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+    emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."""@en .
+
 microstructure:EMMO_14bf3549_b874_41d1_8781_e2824380a0cd a owl:Class ;
     rdfs:label "PropertyModel"@en ;
     dcterms:description "A microstructure model that predicts the value of a property from a given microstructure."@en ;
@@ -5079,6 +5096,8 @@ emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_a8eb87b5_4d10_4137_a75c_e04ee59ca095 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
+emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
 emmo:EMMO_b9522e56_1fac_4766_97e6_428605fabd3e rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -5783,17 +5802,17 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
     skos:prefLabel "MicrostructureQuantity"@en ;
     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical quantities categorised according to the microstructure domain ontology."@en .
 
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
 
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+[] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 

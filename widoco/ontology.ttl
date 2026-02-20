@@ -453,6 +453,10 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
 <https://w3id.org/emmo#EMMO_a8eb87b5_4d10_4137_a75c_e04ee59ca095> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 
+###  https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
+<https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+
 ###  https://w3id.org/emmo#EMMO_b9522e56_1fac_4766_97e6_428605fabd3e
 <https://w3id.org/emmo#EMMO_b9522e56_1fac_4766_97e6_428605fabd3e> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -656,6 +660,27 @@ owl:qualifiedCardinality rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstr
                                            rdfs:label "SharpBoundary"@en ;
                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "SharpBoundary"@en ;
                                            <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A boundary related to a discontinous change in a physical property."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3
+:EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3 rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f> ,
+                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
+                                           <http://purl.org/dc/terms/description> "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+                                           rdfs:comment """As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."""@en ,
+                                                        "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+                                           rdfs:isDefinedBy : ;
+                                           rdfs:label "MeltingPoint"@en ;
+                                           rdfs:seeAlso "https://www.britannica.com/science/melting-point"^^xsd:anyURI ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "MeltingPoint"@en ;
+                                           <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+                                           <https://w3id.org/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f> """As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2
@@ -2542,19 +2567,19 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
 #################################################################
@@ -6010,9 +6035,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
 
 
 <https://w3id.org/emmo#EMMO_afea89af_ef16_4bdb_99d5_f3b2f4c85a6c> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-
-<https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 
 <https://w3id.org/emmo#EMMO_b02aaadc_592d_4d65_bf11_eee06bd9f80d> rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .

@@ -864,6 +864,15 @@ describing a process).
     
 
 
+    <!-- https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    
+
+
     <!-- https://w3id.org/emmo#EMMO_b9522e56_1fac_4766_97e6_428605fabd3e -->
 
 
@@ -1202,6 +1211,31 @@ describing a process).
         <rdfs:label xml:lang="en">SharpBoundary</rdfs:label>
         <skos:prefLabel xml:lang="en">SharpBoundary</skos:prefLabel>
         <emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">A boundary related to a discontinous change in a physical property.</emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/emmo/domain/microstructure#EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_848b495f_2124_406c_bc3a_6c211558a511"/>
+        <terms:description xml:lang="en">The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium.</terms:description>
+        <rdfs:comment xml:lang="en">As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
+        <rdfs:label xml:lang="en">MeltingPoint</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/melting-point</rdfs:seeAlso>
+        <skos:prefLabel xml:lang="en">MeltingPoint</skos:prefLabel>
+        <emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium.</emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f xml:lang="en">As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting.</emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f>
     </owl:Class>
     
 
@@ -3753,19 +3787,19 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
     </rdf:Description>
     
 
@@ -7228,9 +7262,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_afea89af_ef16_4bdb_99d5_f3b2f4c85a6c">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b02aaadc_592d_4d65_bf11_eee06bd9f80d">

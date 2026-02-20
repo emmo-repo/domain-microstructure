@@ -307,7 +307,7 @@
   "@id" : "_:genid47",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "3"
+    "@value" : "4"
   } ]
 }, {
   "@id" : "_:genid48",
@@ -332,15 +332,15 @@
   } ]
 }, {
   "@id" : "_:genid50",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "4"
-  } ]
-}, {
-  "@id" : "_:genid51",
   "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
   } ]
 }, {
   "@id" : "_:genid6",
@@ -10866,6 +10866,48 @@
   "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
     "@language" : "en",
     "@value" : "A boundary related to a discontinous change in a physical property."
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/microstructure#EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.\n\nRelated Topics: melting freezing point\nThe melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."
+  }, {
+    "@language" : "en",
+    "@value" : "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/emmo/domain/microstructure#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MeltingPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/melting-point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f"
+  }, {
+    "@id" : "https://w3id.org/emmo/domain/microstructure#EMMO_848b495f_2124_406c_bc3a_6c211558a511"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MeltingPoint"
+  } ],
+  "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."
+  } ],
+  "https://w3id.org/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.\n\nRelated Topics: melting freezing point\nThe melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."
   } ]
 }, {
   "@id" : "https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2",
