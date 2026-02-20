@@ -70,7 +70,6 @@ describing a process).
                                                foaf:fundedBy <https://www.forskningsradet.no/> ;
                                                foaf:logo <https://raw.githubusercontent.com/emmo-repo/domain-microstructure/refs/heads/master/doc/figs/logo_64x64.png> .
 
-
 #################################################################
 #    Annotation properties
 #################################################################
@@ -238,6 +237,19 @@ foaf:Person rdf:type owl:Class .
                                            rdfs:subClassOf :EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
                                            skos:prefLabel "SharpBoundary"@en ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A boundary related to a discontinous change in a physical property."@en .
+
+
+###  https://w3id.org/emmo/domain/microstructure#EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3
+:EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f ,
+                                                           :EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
+                                           rdfs:seeAlso "https://www.britannica.com/science/melting-point"^^xsd:anyURI ;
+                                           skos:prefLabel "MeltingPoint"@en ;
+                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+                                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f """As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
+
+Related Topics: melting freezing point
+The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."""@en .
 
 
 ###  https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2
@@ -1524,22 +1536,22 @@ This is to be consistent with the common jargon in metallurgy where grain size a
                                foaf:title "Centre for Sustainable and Competitive Metallurgical and Manufacturing Industry" .
 
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
-] .
-
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
+] .
 
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
