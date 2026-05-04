@@ -328,7 +328,6 @@ describing a process).
     <owl:AnnotationProperty rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_68a5325b_042b_416e_8189_f5139cb73139">
         <terms:description xml:lang="en">An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages.</terms:description>
         <rdfs:comment xml:lang="en">An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Common systems include the four-digit numerical system for wrought aluminum and the Unified Numbering System (UNS), which uses a prefix letter followed by five digits.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">alloyDesignation</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://materialsdata.nist.gov/bitstream/handle/11115/185/Understanding%20Wrought%20and%20Cast%20Al%20Alloy%20Designations.pdf?isAllowed=y&amp;sequence=3</rdfs:seeAlso>
@@ -387,14 +386,6 @@ describing a process).
     <owl:AnnotationProperty rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b">
         <terms:description xml:lang="en">An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy.</terms:description>
         <rdfs:comment xml:lang="en">An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy.</rdfs:comment>
-        <rdfs:comment>Temper designations tell both the producer and the user how the alloy has been mechanically and/or thermally treated to achieve the properties desired. The first character in the temper designation (a capital letter, F, O, H, W, or T) indicates the general class of treatment.
-
-- F, as fabricated. Most F-temper products are “semi-finished” products. They will be used in shaping, finishing or thermal processes to achieve other finished forms or tempers.
-- O, annealed. Annealing treatments are used to achieve the lowest-strength condition for the alloy. The main reason is to maximize workability or increase toughness and ductility.
-- H, strain-hardened. This is for non-heat-treatable alloys that have had their strength increased by strain hardening, usually at room temperature.
-- W, solution heat-treated. This designation applies only to alloys that age naturally and spontaneously after solution heat treating. It is rarely a finished temper.
-- T, thermally treated. This applies to any product form of any heat-treatable alloy that has been given a solution heat treatment followed by quenching and aging.
-</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">temperDesignation</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://materialsdata.nist.gov/bitstream/handle/11115/186/Understanding%20Temp%09er%20Designation.pdf?isAllowed=y&amp;sequence=3</rdfs:seeAlso>
@@ -1051,7 +1042,6 @@ describing a process).
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_4c72efd2-93bc-5692-b200-256efce58997"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18"/>
         <terms:description xml:lang="en">Particle containing one PhaseOfMatter</terms:description>
-        <rdfs:comment xml:lang="en">In the physical sciences, a particle (or corpuscule in older texts) is a small localized object to which can be ascribed several physical or chemical properties, such as volume, density, or mass. [Wikipedia]</rdfs:comment>
         <rdfs:comment xml:lang="en">Particle containing one PhaseOfMatter</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">SinglePhaseParticle</rdfs:label>
@@ -1121,7 +1111,6 @@ describing a process).
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_094a7810_bb49_42c3_acff_a15c4509320f">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2"/>
         <terms:description xml:lang="en">The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented.</terms:description>
-        <rdfs:comment xml:lang="en">Most common nucleation process.</rdfs:comment>
         <rdfs:comment xml:lang="en">The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">HeterogeneousNucleation</rdfs:label>
@@ -1172,7 +1161,6 @@ describing a process).
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93"/>
         <terms:description xml:lang="en">A grain boundary with a high oritation angle between the grains.</terms:description>
         <rdfs:comment xml:lang="en">A grain boundary with a high oritation angle between the grains.</rdfs:comment>
-        <rdfs:comment xml:lang="en">In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle larger than 15 degree.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">HighAngleGrainBoundary</rdfs:label>
         <skos:prefLabel xml:lang="en">HighAngleGrainBoundary</skos:prefLabel>
@@ -1189,7 +1177,6 @@ describing a process).
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_848b495f_2124_406c_bc3a_6c211558a511"/>
         <terms:description xml:lang="en">The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame.</terms:description>
         <rdfs:comment xml:lang="en">The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Three independent values are needed to describe the orientation of the local reference frame.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Orientation</rdfs:label>
         <skos:example xml:lang="en">For texture is the local reference frame typically connected to the crystal directions and the main reference frame to the rolling, transverse and normal directions.</skos:example>
@@ -1222,10 +1209,6 @@ describing a process).
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_848b495f_2124_406c_bc3a_6c211558a511"/>
         <terms:description xml:lang="en">The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium.</terms:description>
-        <rdfs:comment xml:lang="en">As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
-
-Related Topics: melting freezing point
-The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting.</rdfs:comment>
         <rdfs:comment xml:lang="en">The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">MeltingPoint</rdfs:label>
@@ -1246,7 +1229,6 @@ The melting temperature of a solid is generally considered to be the same as the
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows.</terms:description>
-        <rdfs:comment xml:lang="en">Nucleation processes are classed as heterogeneous or homogeneous.</rdfs:comment>
         <rdfs:comment xml:lang="en">The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Nucleation</rdfs:label>
@@ -1273,7 +1255,6 @@ The melting temperature of a solid is generally considered to be the same as the
         </rdfs:subClassOf>
         <terms:description xml:lang="en">A composite material, who&apos;s components are in general so small that they require a microscope to be observed.</terms:description>
         <rdfs:comment xml:lang="en">A composite material, who&apos;s components are in general so small that they require a microscope to be observed.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure components) are of a different type than the microstructure itself, it also a fundamental whole.</rdfs:comment>
         <rdfs:comment xml:lang="en">Being nominalistic, the microstructure is the material itself, not just a description of its structure.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Microstructure</rdfs:label>
@@ -1323,7 +1304,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_848b495f_2124_406c_bc3a_6c211558a511"/>
         <terms:description xml:lang="en">The stress corresponding to the yield point at which the material begins to deform plastically.</terms:description>
         <rdfs:comment xml:lang="en">The stress corresponding to the yield point at which the material begins to deform plastically.</rdfs:comment>
-        <rdfs:comment xml:lang="en">The yield strength is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation. In some materials, such as aluminium, there is a gradual onset of non-linear behavior, and no precise yield point. In such a case, the offset yield point (or proof stress) is taken as the stress at which 0.2% plastic deformation occurs. Yielding is a gradual failure mode which is normally not catastrophic, unlike ultimate failure.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">YieldStress</rdfs:label>
         <skos:altLabel xml:lang="en">ElasticLimit</skos:altLabel>
@@ -1344,7 +1324,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0"/>
         <terms:description xml:lang="en">The arithmetic mean position vector of all the position vectors in the object</terms:description>
         <rdfs:comment xml:lang="en">The arithmetic mean position vector of all the position vectors in the object</rdfs:comment>
-        <rdfs:comment xml:lang="en">defined the position of an extended object</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Centroid</rdfs:label>
         <skos:prefLabel xml:lang="en">Centroid</skos:prefLabel>
@@ -1594,7 +1573,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">The process by which a solute separates from a solution and forms solid particles.</terms:description>
         <rdfs:comment xml:lang="en">The process by which a solute separates from a solution and forms solid particles.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This can occur either from a liquid solution or a solid solution.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Precipitation</rdfs:label>
         <skos:prefLabel xml:lang="en">Precipitation</skos:prefLabel>
@@ -1636,7 +1614,6 @@ The melting temperature of a solid is generally considered to be the same as the
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">A region of a grain with (almost) the same crystal orientation.</terms:description>
-        <rdfs:comment xml:lang="en">A common definition is that subgrains are separated from their neighbours by subgrain boundaries with a misorientation angle between 5 and 15 degrees.</rdfs:comment>
         <rdfs:comment xml:lang="en">A region of a grain with (almost) the same crystal orientation.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Subgrain</rdfs:label>
@@ -1685,7 +1662,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64"/>
         <terms:description xml:lang="en">A database containing mobilities of a range of species.</terms:description>
         <rdfs:comment xml:lang="en">A database containing mobilities of a range of species.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A mobility database is typically combined with a thermodynamic database for predicting diffusivities and other kinetic properties.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">MobilityDatabase</rdfs:label>
         <skos:prefLabel xml:lang="en">MobilityDatabase</skos:prefLabel>
@@ -1802,7 +1778,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7"/>
         <terms:description xml:lang="en">Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders.</terms:description>
-        <rdfs:comment xml:lang="en">Everything a metallurgist calls a &quot;particle&quot; in a microstructure.</rdfs:comment>
         <rdfs:comment xml:lang="en">Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">MicrostructureParticle</rdfs:label>
@@ -1840,7 +1815,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93"/>
         <terms:description xml:lang="en">A grain boundary with a low oritation angle between the grains.</terms:description>
         <rdfs:comment xml:lang="en">A grain boundary with a low oritation angle between the grains.</rdfs:comment>
-        <rdfs:comment xml:lang="en">In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle less than 5 degree.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">LowAngleGrainBoundary</rdfs:label>
         <skos:prefLabel xml:lang="en">LowAngleGrainBoundary</skos:prefLabel>
@@ -1856,7 +1830,6 @@ The melting temperature of a solid is generally considered to be the same as the
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_545f5321-e334-50a8-bdfb-cc883fd32d7e">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5"/>
         <terms:description xml:lang="en">Ratio between the maximum and minimum length of a box</terms:description>
-        <rdfs:comment xml:lang="en">Also a method to characterize object by finding the smallest box that fully comprise the object</rdfs:comment>
         <rdfs:comment xml:lang="en">Ratio between the maximum and minimum length of a box</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">BoxAspectRatio</rdfs:label>
@@ -1937,7 +1910,6 @@ The melting temperature of a solid is generally considered to be the same as the
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations.</terms:description>
         <rdfs:comment xml:lang="en">A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Recovery</rdfs:label>
         <skos:prefLabel xml:lang="en">Recovery</skos:prefLabel>
@@ -1963,7 +1935,6 @@ RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE Kin
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_46e03909_4d46_4406_b125_8e7e4a5f632d"/>
         <terms:description xml:lang="en">A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions.</terms:description>
         <rdfs:comment xml:lang="en">A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions.</rdfs:comment>
-        <rdfs:comment xml:lang="en">An evilution model is a formal description of one or more physical phenomena.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">EvolutionModel</rdfs:label>
         <skos:prefLabel xml:lang="en">EvolutionModel</skos:prefLabel>
@@ -1980,7 +1951,6 @@ RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE Kin
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64"/>
         <terms:description xml:lang="en">A set of critically evaluated parameter values for a range of thermodynamic functions.</terms:description>
         <rdfs:comment xml:lang="en">A set of critically evaluated parameter values for a range of thermodynamic functions.</rdfs:comment>
-        <rdfs:comment xml:lang="en">For metallic systems is CALPHAD a popular approach for calculating thermodynamic properties. In this approach are the thermodynamic properties defived from parametrised expressions of the Gibb free energy (and possible other basic quantities) of each phase. It is the parameters of these expressions that are stored in the thermodynamic database.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">ThermodynamicDatabase</rdfs:label>
         <skos:prefLabel xml:lang="en">ThermodynamicDatabase</skos:prefLabel>
@@ -2027,7 +1997,6 @@ RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE Kin
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_6246546c-55eb-52ee-87e2-56ce8912eb2d">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac"/>
         <terms:description xml:lang="en">Length of a pixel.</terms:description>
-        <rdfs:comment xml:lang="en">A pixel is the smallest unit of a digital image. In the common case where the pixels are 2D squares, the pixel size is length of one of the sides.</rdfs:comment>
         <rdfs:comment xml:lang="en">Length of a pixel.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">PixelSize</rdfs:label>
@@ -2133,7 +2102,6 @@ Inconel 625</skos:example>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">A substance that dissolves a solute, resulting in a solution.</terms:description>
-        <rdfs:comment xml:lang="en">A solvent can be in many state of matter.</rdfs:comment>
         <rdfs:comment xml:lang="en">A substance that dissolves a solute, resulting in a solution.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Solvent</rdfs:label>
@@ -2153,7 +2121,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_05cc2e09_fbd1_4788_a04b_3d12dac396cf"/>
         <terms:description xml:lang="en">Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy.</terms:description>
         <rdfs:comment xml:lang="en">Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy.</rdfs:comment>
-        <rdfs:comment xml:lang="en">The four-digit numerical portion represents the alloy chemistry, while the temper designation, added after the four-digit code, indicates the specific heat treatment applied.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">AlloyDesignation</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.lightmetalage.com/wp-content/uploads/2019/08/Fig2-wire-and-rod.png</rdfs:seeAlso>
@@ -2173,7 +2140,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_4c72efd2-93bc-5692-b200-256efce58997"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7"/>
         <terms:description xml:lang="en">finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]</terms:description>
-        <rdfs:comment xml:lang="en">clarify difference from precipitate</rdfs:comment>
         <rdfs:comment xml:lang="en">finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Dispersoid</rdfs:label>
@@ -2191,7 +2157,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">The movement of individual atoms, ions and molecules relative to the remainder of the material.</terms:description>
         <rdfs:comment xml:lang="en">The movement of individual atoms, ions and molecules relative to the remainder of the material.</rdfs:comment>
-        <rdfs:comment xml:lang="en">The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Diffusion</rdfs:label>
         <skos:prefLabel xml:lang="en">Diffusion</skos:prefLabel>
@@ -2282,7 +2247,6 @@ Inconel 625</skos:example>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">Rate at which the temperature is changed.</terms:description>
         <rdfs:comment xml:lang="en">Rate at which the temperature is changed.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Since ISO 80000 does not define a temperature change rate, this quantity should not be included in EMMO. We therefore add it here.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">TemperatureChangeRate</rdfs:label>
         <skos:prefLabel xml:lang="en">TemperatureChangeRate</skos:prefLabel>
@@ -2330,7 +2294,6 @@ Inconel 625</skos:example>
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_7b782ab6-c534-5737-9c88-1061cc06bf2e">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_46f0f8df_4dc6_418f_8036_10427a3a288e"/>
         <terms:description xml:lang="en">Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements.</terms:description>
-        <rdfs:comment xml:lang="en">A mesh does not put any restructiction on the type of vomume elements that are used.</rdfs:comment>
         <rdfs:comment xml:lang="en">Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Mesh</rdfs:label>
@@ -2498,7 +2461,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_4c72efd2-93bc-5692-b200-256efce58997"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7"/>
         <terms:description xml:lang="en">Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation.</terms:description>
-        <rdfs:comment xml:lang="en">A precipitate can not live without its sourounding microstructure</rdfs:comment>
         <rdfs:comment xml:lang="en">Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Precipitate</rdfs:label>
@@ -2515,7 +2477,6 @@ Inconel 625</skos:example>
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment.</terms:description>
-        <rdfs:comment xml:lang="en">Hardening typically involves the alteration of the metal&apos;s microstructure through heat treatment, mechanical work, or the addition of alloying elements.</rdfs:comment>
         <rdfs:comment xml:lang="en">Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Hardening</rdfs:label>
@@ -2616,7 +2577,6 @@ Inconel 625</skos:example>
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_9b94c1a2-a85f-588f-9619-7b2bc1be774e">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5"/>
         <terms:description xml:lang="en">Ratio between the major axis and minor axis length of an ellipsoid</terms:description>
-        <rdfs:comment xml:lang="en">Also a method to characterize object by finding the smallest ellipsoid that fully comprise the object</rdfs:comment>
         <rdfs:comment xml:lang="en">Ratio between the major axis and minor axis length of an ellipsoid</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">EllipsoidAspectRatio</rdfs:label>
@@ -2634,7 +2594,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7"/>
         <terms:description xml:lang="en">A small openings in a solid substance.</terms:description>
         <rdfs:comment xml:lang="en">A small openings in a solid substance.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Pores are typically filled with other material, like air or water.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Pore</rdfs:label>
         <skos:prefLabel xml:lang="en">Pore</skos:prefLabel>
@@ -2660,7 +2619,6 @@ Inconel 625</skos:example>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">Size of a particle measured according to a specified procedure (and/or model).</terms:description>
-        <rdfs:comment xml:lang="en">Common representations of a particle size are the particle volume or the diameter of a (hypothetical) sphere with the same volume as the particle.</rdfs:comment>
         <rdfs:comment xml:lang="en">Size of a particle measured according to a specified procedure (and/or model).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">ParticleSize</rdfs:label>
@@ -2796,7 +2754,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7"/>
         <terms:description xml:lang="en">A Guinier–Preston zone, or GP-zone, is a fine-scale metallurgical phenomenon, involving early stage precipitation.</terms:description>
         <rdfs:comment xml:lang="en">A Guinier–Preston zone, or GP-zone, is a fine-scale metallurgical phenomenon, involving early stage precipitation.</rdfs:comment>
-        <rdfs:comment xml:lang="en">GP-zones are associated with the phenomenon of age hardening, whereby room-temperature reactions continue to occur within a material through time, resulting in changing physical properties.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">GPZone</rdfs:label>
         <skos:altLabel xml:lang="en">GuinierPrestonZone</skos:altLabel>
@@ -2814,7 +2771,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_f1025834_0cd2_42a1_bfeb_13bec41c8655"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7"/>
         <terms:description xml:lang="en">A part of a microstructure with (almost) the same crystal orientation.</terms:description>
-        <rdfs:comment xml:lang="en">A common definition is that grains are separated from their neighbour grains by grain boundaries with a misorientation angle higher than 15 degrees.</rdfs:comment>
         <rdfs:comment xml:lang="en">A part of a microstructure with (almost) the same crystal orientation.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Grain</rdfs:label>
@@ -2875,7 +2831,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_f6d0c26a_98b6_4cf8_8632_aa259131faaa"/>
         <terms:description xml:lang="en">A mathematical operator producing a single number that represents a set of numbers.</terms:description>
         <rdfs:comment xml:lang="en">A mathematical operator producing a single number that represents a set of numbers.</rdfs:comment>
-        <rdfs:comment xml:lang="en">An average operator can be defined in several ways, like as an median, arithmetic mean or geometrical mean.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Average</rdfs:label>
         <skos:altLabel xml:lang="en">AverageValue</skos:altLabel>
@@ -3009,7 +2964,6 @@ Inconel 625</skos:example>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">Unordered fluctuations of the spatial configuration of solutes in a solid solution. </terms:description>
-        <rdfs:comment xml:lang="en">The size distribution of solute clusters are assumed to follow Maxwell-Boltzmann statistics.</rdfs:comment>
         <rdfs:comment xml:lang="en">Unordered fluctuations of the spatial configuration of solutes in a solid solution. </rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">SoluteCluster</rdfs:label>
@@ -3066,7 +3020,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_3ed3297d-1512-5631-b0d3-7f36364040e0"/>
         <terms:description xml:lang="en">A linear crystallographic defect or irregularity within a crystal structure.</terms:description>
         <rdfs:comment xml:lang="en">A linear crystallographic defect or irregularity within a crystal structure.</rdfs:comment>
-        <rdfs:comment xml:lang="en">NEED TO CLARIFY LINE OR PLANAR</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Dislocation</rdfs:label>
         <skos:prefLabel xml:lang="en">Dislocation</skos:prefLabel>
@@ -3129,7 +3082,6 @@ Inconel 625</skos:example>
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3"/>
         <terms:description xml:lang="en">A boundary volume , where tree things collocate.</terms:description>
         <rdfs:comment xml:lang="en">A boundary volume , where tree things collocate.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A triple junction is a line in space.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">TripleJunction</rdfs:label>
         <skos:prefLabel xml:lang="en">TripleJunction</skos:prefLabel>
@@ -3184,7 +3136,6 @@ Inconel 625</skos:example>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">The difference between two orientations.</terms:description>
         <rdfs:comment xml:lang="en">The difference between two orientations.</rdfs:comment>
-        <rdfs:comment xml:lang="en">The misorientation depends only on the two local reference frames, but not on the main reference frame.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Misorientation</rdfs:label>
         <skos:example xml:lang="en">Misorientation between two grains.</skos:example>
@@ -3229,9 +3180,6 @@ Inconel 625</skos:example>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">A representative length of a grain measured according to a specified procedure (experimentally or theoretically).</terms:description>
         <rdfs:comment xml:lang="en">A representative length of a grain measured according to a specified procedure (experimentally or theoretically).</rdfs:comment>
-        <rdfs:comment xml:lang="en">Note the asymmetry with the definition of the more general particle size, which can be measured with any quantity (e.g. volume, average cross-section diameter, etc) the grain size is always a length.
-
-This is to be consistent with the common jargon in metallurgy where grain size always refer to a length.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">GrainSize</rdfs:label>
         <skos:prefLabel xml:lang="en">GrainSize</skos:prefLabel>
@@ -3250,7 +3198,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3"/>
         <terms:description xml:lang="en">A boundary volume , where four things collocate.</terms:description>
         <rdfs:comment xml:lang="en">A boundary volume , where four things collocate.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A quadruple junction is a point in space.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">QuadrupleJunction</rdfs:label>
         <skos:prefLabel xml:lang="en">QuadrupleJunction</skos:prefLabel>
@@ -3379,7 +3326,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">Mixture with metallic character composed of two or more elements of which at least one is a metal.</terms:description>
-        <rdfs:comment xml:lang="en">Alloys may have very different properties compared to the pure substances it is composed of.</rdfs:comment>
         <rdfs:comment xml:lang="en">Mixture with metallic character composed of two or more elements of which at least one is a metal.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">Alloy</rdfs:label>
@@ -3505,7 +3451,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c"/>
         <terms:description xml:lang="en">Cooling rate during solidification.</terms:description>
         <rdfs:comment xml:lang="en">Cooling rate during solidification.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Typically an average value is referred to.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">SolidificationCoolingRate</rdfs:label>
         <skos:prefLabel xml:lang="en">SolidificationCoolingRate</skos:prefLabel>
@@ -3579,7 +3524,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:description xml:lang="en">Size distribution of precipitates.</terms:description>
-        <rdfs:comment xml:lang="en">An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β&apos;&apos;, β&apos;, U1 and U2 in an aluminium 6xxx alloy.</rdfs:comment>
         <rdfs:comment xml:lang="en">Size distribution of precipitates.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">PrecipitateSizeDistribution</rdfs:label>
@@ -3597,7 +3541,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo#EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e"/>
         <terms:description xml:lang="en">The composition in the matrix.</terms:description>
         <rdfs:comment xml:lang="en">The composition in the matrix.</rdfs:comment>
-        <rdfs:comment xml:lang="en">The effective composition is different from the nominal composition, since it only considers the composition of the matrix, excluding all other phases.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">EffectiveComposition</rdfs:label>
         <skos:prefLabel xml:lang="en">EffectiveComposition</skos:prefLabel>
@@ -3613,13 +3556,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <owl:Class rdf:about="https://w3id.org/emmo/domain/microstructure#EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba">
         <rdfs:subClassOf rdf:resource="https://w3id.org/emmo/domain/microstructure#EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34"/>
         <terms:description xml:lang="en">The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system.</terms:description>
-        <rdfs:comment xml:lang="en">Particle growth occurs through several mechanisms:
-
-* Diffusion: Atoms, molecules, or ions move randomly and attach to the surface of a growing particle.
-* Aggregation: Smaller particles collide and stick together, forming larger particles.
-* Coalescence: Two or more smaller particles merge to form a single larger particle.
-* Condensation: A vapor or gas transforms into solid or liquid particles under supersaturated conditions.
-* Ostwald Ripening: Larger particles grow at the expense of smaller ones, driven by differences in solubility.</rdfs:comment>
         <rdfs:comment xml:lang="en">The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">ParticleGrowth</rdfs:label>
@@ -3654,7 +3590,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         </rdfs:subClassOf>
         <terms:description xml:lang="en">A part (component) of a microstructure that contributes to the overall properties of the microstructure itself.</terms:description>
         <rdfs:comment xml:lang="en">A part (component) of a microstructure that contributes to the overall properties of the microstructure itself.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Microstructure components are defined as holistic spatial parts of a microstructure. Hence, single microstructure components does not exists - their definition depends on being a part of a microstructure.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure#"/>
         <rdfs:label xml:lang="en">MicrostructureComponent</rdfs:label>
         <skos:example xml:lang="en">Grain, precipitate</skos:example>
@@ -3784,9 +3719,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
@@ -3796,10 +3728,13 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     
 
@@ -4357,9 +4292,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_18d180e4_5e3e_42f7_820c_e08951223486">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_18fdd2cd_4b0a_43a5_a938_66d8290a066c">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_194100e1_e11a_4b7c_bb5a_171655679fc8">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -4565,9 +4497,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_22744495_4f32_4a17_b189_259c644268f9">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_2332d7a4_2fbe_4a36_a10f_5c8efcce29d6">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291">
@@ -5560,9 +5489,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_51f1ba0d_e92b_4be2_9a9d_4640b16ac7ed">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_51f426a6_af4a_4e91_a392_2b0bb635e2d5">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_51f93d8c_57fa_4314_a68d_8d69c2609c97">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -5983,6 +5909,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_6837b106_7220_4ec6_b7c9_d549d6163672">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_6884600e_5d9b_44b1_9fc5_7d4dc1639e2f">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -6214,9 +6143,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_77e9dc31_5b19_463e_b000_44c6e79f98aa">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_7821eeb8_5e44_452b_90e9_3db03bbef241">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_78284835_f4ed_4a7c_914f_a7fdb460ed8e">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -6245,9 +6171,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_7a317af2_d2f7_4e8a_8fbd_aaebfb7d21cc">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_7aec67a4_fb96_47c6_80a3_8fea557b2cbb">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6">
@@ -6320,9 +6243,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_801395f8_948e_4637_ac3b_5fcd587d72ca">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_802b7639_9498_4b47_ad45_1a087fe8fb85">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_802c167d_b792_4cb8_a315_35797345c0e3">
@@ -6502,9 +6422,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_88a34881_b8d0_474b_9a08_40dbd414d834">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_88b84515_a0df_47bb_8166_c7c8b893c1d8">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_88bbdd04_908f_45f0_9ded_d73b430de3b1">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -6539,6 +6456,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_8a2a1cbc_dfc3_4e6c_b337_00ee56fd438a">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_8a582db1_c561_42f6_80ff_0fd8f252b129">
@@ -6814,13 +6734,7 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_95d4eb9b_d3d0_4705_a01c_4f87fb5f8d43">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_95d706e4_8b16_48a1_8dfd_40ccd4df1c12">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_961d1aba_f75e_4411_aaa4_457f7516ed6b">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_963b7cf2_3358_463e_86fa_2e8ef00704d9">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_96c38f8d_fabd_41dc_abda_d15419eb897d">
@@ -6982,12 +6896,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_9eb2d590_2115_4edd_aa8e_345d60921765">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_9ebb6e14_c656_4568_abfa_f7f193ea14ac">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_9ec16158_9118_4886_be97_4310f02f7571">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_9ecb2aa2_10a9_4499_a3ff_9ad76e9f4e0d">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -7019,6 +6927,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a06e3d38_1aa8_4f45_89a8_722dbacfda24">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a086af15_a7c3_404c_b4ce_c8e4466f1b4b">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a09a5342_cad4_40fa_a619_a5af0867cb8f">
@@ -7135,7 +7046,7 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a94aec97_71ff_4574_b111_a52d77d2c230">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a97351bc_1b1b_4157_95b7_0a60ac56b8e2">
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a96e2152_40e7_409c_a53a_fdb9f141eb6a">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_a9891fff_fa7a_4806_b7bd_786de7358e8d">
@@ -7210,9 +7121,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_acf636d4_9ac2_4ce3_960a_d54338e6cae3">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_ad0bdf66_93c4_4a4d_8e1d_57ec850b1741">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_ad0e72fc_dcaa_490d_8371_b4d814dcda2c">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -7232,9 +7140,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_add2e29d_6d87_4b78_9706_588e25557093">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_ae081613_1d3a_49af_ba03_7195fcc9ebba">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_ae15fb4f_8e4d_41de_a0f9_3997f89ba6a2">
@@ -7288,9 +7193,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b1a64980_c524_4d48_af8f_9805570ce453">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b1c64830_45c7_499d_9a72_68f517d57823">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b1daa610_64c6_4935_94b8_a19db586a2f6">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -7301,9 +7203,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b23e7251_a488_4732_8268_027ad76d7e37">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b24af630_0758_447e_a04d_a0e95db9b4fa">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b295158f_fda4_4124_ab58_d9ea4ccfca5a">
@@ -7346,9 +7245,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b3ddad94_ef7e_4b97_8329_9e7c788dd94d">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b418c9ac_be7c_42d1_862c_64f655ced6c5">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_b4494d69_6393_4eb4_8346_7fedd4df0bc5">
@@ -7559,9 +7455,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_c130614a_2985_476d_a7ed_8a137847703c">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_c18abee6_8c62_4f04_aac2_55aa1a1fc551">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_c18fff21_87c8_4877_a7e6_9ca1052d074e">
@@ -7984,9 +7877,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_d893d373_b579_4867_841e_1c2b31a8d2c6">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_d8a7aac9_984a_4254_ab3b_7d8b1c061149">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_d9350951_5300_44e8_ae61_79fb7c53b7e7">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -8080,9 +7970,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_dd92c2ae_3ca4_49bc_9147_d82b96f7505e">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_ddb62e5b_9a1f_4d10_8cd8_32655301bfc9">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_ddcc1e64_69cc_4a0c_9ee8_08aca78b3c85">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -8129,6 +8016,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_e1021593_06da_4237_8a02_29d8f6fef76d">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_e117f976_7a5d_4508_bf85_9226dca58e1f">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_e12dcfa4_c9f1_4546_9a12_8457c052e6ba">
@@ -8189,6 +8079,9 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_e46f3f24_c2ec_4552_8dd4_cfc5c0a89c09">
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_e4791212_5a13_4aa6_aac2_08704550dcc3">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0">
@@ -8491,9 +8384,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f14ae884_9345_4de4_a322_362329517e3e">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f1503598_03af_4fec_a860_ebc77aa92832">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f19ff3b4_6bfe_4c41_a2b2_9affd39c140b">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
@@ -8528,9 +8418,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f37fc69b_d6fd_44de_9c66_3c70b2efb7f4">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f42a0e95_c130_4a69_9660_6bfdbb897d4a">
@@ -8570,9 +8457,6 @@ This is to be consistent with the common jargon in metallurgy where grain size a
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f702bad4_fc77_41f0_a26d_79f6444fd4f3">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f722a7a9_864d_4896_a331_f90141f90a0a">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/emmo/domain/microstructure/dependencies#"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/emmo#EMMO_f76f5a24_d703_4e8c_b368_f9a7777cb73a">

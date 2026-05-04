@@ -299,15 +299,15 @@
   } ]
 }, {
   "@id" : "_:genid46",
-  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
+    "@value" : "4"
   } ]
 }, {
   "@id" : "_:genid47",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "4"
+    "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid48",
@@ -319,7 +319,7 @@
   "@id" : "_:genid49",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "2"
+    "@value" : "3"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -338,9 +338,9 @@
   } ]
 }, {
   "@id" : "_:genid51",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "3"
+    "@value" : "2"
   } ]
 }, {
   "@id" : "_:genid6",
@@ -1566,11 +1566,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_18fdd2cd_4b0a_43a5_a938_66d8290a066c",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_194100e1_e11a_4b7c_bb5a_171655679fc8",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -1937,11 +1932,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_22744495_4f32_4a17_b189_259c644268f9",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_2332d7a4_2fbe_4a36_a10f_5c8efcce29d6",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -3666,11 +3656,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_51f426a6_af4a_4e91_a392_2b0bb635e2d5",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_51f93d8c_57fa_4314_a68d_8d69c2609c97",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -4401,6 +4386,11 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
+  "@id" : "https://w3id.org/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
+  } ]
+}, {
   "@id" : "https://w3id.org/emmo#EMMO_6884600e_5d9b_44b1_9fc5_7d4dc1639e2f",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -4791,11 +4781,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_7821eeb8_5e44_452b_90e9_3db03bbef241",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_78284835_f4ed_4a7c_914f_a7fdb460ed8e",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -4847,11 +4832,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_7a317af2_d2f7_4e8a_8fbd_aaebfb7d21cc",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_7aec67a4_fb96_47c6_80a3_8fea557b2cbb",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -4982,11 +4962,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_801395f8_948e_4637_ac3b_5fcd587d72ca",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_802b7639_9498_4b47_ad45_1a087fe8fb85",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -5286,11 +5261,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_88b84515_a0df_47bb_8166_c7c8b893c1d8",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_88bbdd04_908f_45f0_9ded_d73b430de3b1",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -5347,6 +5317,11 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_8a2a1cbc_dfc3_4e6c_b337_00ee56fd438a",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -5811,17 +5786,7 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_95d706e4_8b16_48a1_8dfd_40ccd4df1c12",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_961d1aba_f75e_4411_aaa4_457f7516ed6b",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_963b7cf2_3358_463e_86fa_2e8ef00704d9",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -6101,16 +6066,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_9ebb6e14_c656_4568_abfa_f7f193ea14ac",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_9ec16158_9118_4886_be97_4310f02f7571",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_9ecb2aa2_10a9_4499_a3ff_9ad76e9f4e0d",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -6162,6 +6117,11 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_a06e3d38_1aa8_4f45_89a8_722dbacfda24",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_a086af15_a7c3_404c_b4ce_c8e4466f1b4b",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -6381,7 +6341,7 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_a97351bc_1b1b_4157_95b7_0a60ac56b8e2",
+  "@id" : "https://w3id.org/emmo#EMMO_a96e2152_40e7_409c_a53a_fdb9f141eb6a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -6506,11 +6466,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_ad0bdf66_93c4_4a4d_8e1d_57ec850b1741",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_ad0e72fc_dcaa_490d_8371_b4d814dcda2c",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -6542,11 +6497,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_add2e29d_6d87_4b78_9706_588e25557093",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_ae081613_1d3a_49af_ba03_7195fcc9ebba",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -6641,11 +6591,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_b1c64830_45c7_499d_9a72_68f517d57823",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_b1daa610_64c6_4935_94b8_a19db586a2f6",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -6662,11 +6607,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b23e7251_a488_4732_8268_027ad76d7e37",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_b24af630_0758_447e_a04d_a0e95db9b4fa",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -6737,11 +6677,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_b3ddad94_ef7e_4b97_8329_9e7c788dd94d",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_b418c9ac_be7c_42d1_862c_64f655ced6c5",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -7102,11 +7037,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_c130614a_2985_476d_a7ed_8a137847703c",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_c18abee6_8c62_4f04_aac2_55aa1a1fc551",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -7841,11 +7771,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_d8a7aac9_984a_4254_ab3b_7d8b1c061149",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_d8aa8e1f_b650_416d_88a0_5118de945456",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -8016,11 +7941,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_ddb62e5b_9a1f_4d10_8cd8_32655301bfc9",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_ddcc1e64_69cc_4a0c_9ee8_08aca78b3c85",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -8107,6 +8027,11 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_e117f976_7a5d_4508_bf85_9226dca58e1f",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -8207,6 +8132,11 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_e46f3f24_c2ec_4552_8dd4_cfc5c0a89c09",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_e4791212_5a13_4aa6_aac2_08704550dcc3",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -8721,11 +8651,6 @@
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
 }, {
-  "@id" : "https://w3id.org/emmo#EMMO_f1503598_03af_4fec_a860_ebc77aa92832",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
   "@id" : "https://w3id.org/emmo#EMMO_f17133c2_bb33_4ffd_89fa_eef2b403d5e6",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
@@ -8792,11 +8717,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_f37fc69b_d6fd_44de_9c66_3c70b2efb7f4",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -8877,11 +8797,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/emmo#EMMO_f702bad4_fc77_41f0_a26d_79f6444fd4f3",
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
-  } ]
-}, {
-  "@id" : "https://w3id.org/emmo#EMMO_f722a7a9_864d_4896_a331_f90141f90a0a",
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure/dependencies#"
   } ]
@@ -10536,9 +10451,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "In the physical sciences, a particle (or corpuscule in older texts) is a small localized object to which can be ascribed several physical or chemical properties, such as volume, density, or mass. [Wikipedia]"
-  }, {
-    "@language" : "en",
     "@value" : "Particle containing one PhaseOfMatter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -10669,9 +10581,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Most common nucleation process."
-  }, {
-    "@language" : "en",
     "@value" : "The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -10772,9 +10681,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A grain boundary with a high oritation angle between the grains."
-  }, {
-    "@language" : "en",
-    "@value" : "In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle larger than 15 degree."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -10808,9 +10714,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame."
-  }, {
-    "@language" : "en",
-    "@value" : "Three independent values are needed to describe the orientation of the local reference frame."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -10876,9 +10779,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.\n\nRelated Topics: melting freezing point\nThe melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."
-  }, {
-    "@language" : "en",
     "@value" : "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -10918,9 +10818,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Nucleation processes are classed as heterogeneous or homogeneous."
-  }, {
-    "@language" : "en",
     "@value" : "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -10959,9 +10856,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A composite material, who's components are in general so small that they require a microscope to be observed."
-  }, {
-    "@language" : "en",
-    "@value" : "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure components) are of a different type than the microstructure itself, it also a fundamental whole."
   }, {
     "@language" : "en",
     "@value" : "Being nominalistic, the microstructure is the material itself, not just a description of its structure."
@@ -11065,9 +10959,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The stress corresponding to the yield point at which the material begins to deform plastically."
-  }, {
-    "@language" : "en",
-    "@value" : "The yield strength is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation. In some materials, such as aluminium, there is a gradual onset of non-linear behavior, and no precise yield point. In such a case, the offset yield point (or proof stress) is taken as the stress at which 0.2% plastic deformation occurs. Yielding is a gradual failure mode which is normally not catastrophic, unlike ultimate failure."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -11114,9 +11005,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The arithmetic mean position vector of all the position vectors in the object"
-  }, {
-    "@language" : "en",
-    "@value" : "defined the position of an extended object"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -11579,9 +11467,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The process by which a solute separates from a solution and forms solid particles."
-  }, {
-    "@language" : "en",
-    "@value" : "This can occur either from a liquid solution or a solid solution."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -11644,9 +11529,6 @@
     "@value" : "A region of a grain with (almost) the same crystal orientation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A common definition is that subgrains are separated from their neighbours by subgrain boundaries with a misorientation angle between 5 and 15 degrees."
-  }, {
     "@language" : "en",
     "@value" : "A region of a grain with (almost) the same crystal orientation."
   } ],
@@ -11744,9 +11626,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A database containing mobilities of a range of species."
-  }, {
-    "@language" : "en",
-    "@value" : "A mobility database is typically combined with a thermodynamic database for predicting diffusivities and other kinetic properties."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -11972,9 +11851,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Everything a metallurgist calls a \"particle\" in a microstructure."
-  }, {
-    "@language" : "en",
     "@value" : "Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -12055,9 +11931,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A grain boundary with a low oritation angle between the grains."
-  }, {
-    "@language" : "en",
-    "@value" : "In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle less than 5 degree."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -12089,9 +11962,6 @@
     "@value" : "Ratio between the maximum and minimum length of a box"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Also a method to characterize object by finding the smallest box that fully comprise the object"
-  }, {
     "@language" : "en",
     "@value" : "Ratio between the maximum and minimum length of a box"
   } ],
@@ -12253,9 +12123,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."
-  }, {
-    "@language" : "en",
-    "@value" : "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -12295,9 +12162,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."
-  }, {
-    "@language" : "en",
-    "@value" : "An evilution model is a formal description of one or more physical phenomena."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -12331,9 +12195,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A set of critically evaluated parameter values for a range of thermodynamic functions."
-  }, {
-    "@language" : "en",
-    "@value" : "For metallic systems is CALPHAD a popular approach for calculating thermodynamic properties. In this approach are the thermodynamic properties defived from parametrised expressions of the Gibb free energy (and possible other basic quantities) of each phase. It is the parameters of these expressions that are stored in the thermodynamic database."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -12425,9 +12286,6 @@
     "@value" : "Length of a pixel."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A pixel is the smallest unit of a digital image. In the common case where the pixels are 2D squares, the pixel size is length of one of the sides."
-  }, {
     "@language" : "en",
     "@value" : "Length of a pixel."
   } ],
@@ -12558,9 +12416,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages."
-  }, {
-    "@language" : "en",
-    "@value" : "Common systems include the four-digit numerical system for wrought aluminum and the Unified Numbering System (UNS), which uses a prefix letter followed by five digits."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6"
@@ -12644,9 +12499,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "A solvent can be in many state of matter."
-  }, {
-    "@language" : "en",
     "@value" : "A substance that dissolves a solute, resulting in a solution."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -12687,9 +12539,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy."
-  }, {
-    "@language" : "en",
-    "@value" : "The four-digit numerical portion represents the alloy chemistry, while the temper designation, added after the four-digit code, indicates the specific heat treatment applied."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -12737,9 +12586,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "clarify difference from precipitate"
-  }, {
-    "@language" : "en",
     "@value" : "finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -12776,9 +12622,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The movement of individual atoms, ions and molecules relative to the remainder of the material."
-  }, {
-    "@language" : "en",
-    "@value" : "The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -12934,9 +12777,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Rate at which the temperature is changed."
-  }, {
-    "@language" : "en",
-    "@value" : "Since ISO 80000 does not define a temperature change rate, this quantity should not be included in EMMO. We therefore add it here."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -13036,9 +12876,6 @@
     "@value" : "Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A mesh does not put any restructiction on the type of vomume elements that are used."
-  }, {
     "@language" : "en",
     "@value" : "Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements."
   } ],
@@ -13351,9 +13188,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "A precipitate can not live without its sourounding microstructure"
-  }, {
-    "@language" : "en",
     "@value" : "Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -13388,9 +13222,6 @@
     "@value" : "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."
-  }, {
     "@language" : "en",
     "@value" : "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."
   } ],
@@ -13551,9 +13382,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Also a method to characterize object by finding the smallest ellipsoid that fully comprise the object"
-  }, {
-    "@language" : "en",
     "@value" : "Ratio between the major axis and minor axis length of an ellipsoid"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -13588,9 +13416,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A small openings in a solid substance."
-  }, {
-    "@language" : "en",
-    "@value" : "Pores are typically filled with other material, like air or water."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -13622,9 +13447,6 @@
     "@value" : "Size of a particle measured according to a specified procedure (and/or model)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Common representations of a particle size are the particle volume or the diameter of a (hypothetical) sphere with the same volume as the particle."
-  }, {
     "@language" : "en",
     "@value" : "Size of a particle measured according to a specified procedure (and/or model)."
   } ],
@@ -13910,9 +13732,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A Guinier–Preston zone, or GP-zone, is a fine-scale metallurgical phenomenon, involving early stage precipitation."
-  }, {
-    "@language" : "en",
-    "@value" : "GP-zones are associated with the phenomenon of age hardening, whereby room-temperature reactions continue to occur within a material through time, resulting in changing physical properties."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -13950,9 +13769,6 @@
     "@value" : "A part of a microstructure with (almost) the same crystal orientation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A common definition is that grains are separated from their neighbour grains by grain boundaries with a misorientation angle higher than 15 degrees."
-  }, {
     "@language" : "en",
     "@value" : "A part of a microstructure with (almost) the same crystal orientation."
   } ],
@@ -14062,9 +13878,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A mathematical operator producing a single number that represents a set of numbers."
-  }, {
-    "@language" : "en",
-    "@value" : "An average operator can be defined in several ways, like as an median, arithmetic mean or geometrical mean."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -14347,9 +14160,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "The size distribution of solute clusters are assumed to follow Maxwell-Boltzmann statistics."
-  }, {
-    "@language" : "en",
     "@value" : "Unordered fluctuations of the spatial configuration of solutes in a solid solution. "
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -14457,9 +14267,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A linear crystallographic defect or irregularity within a crystal structure."
-  }, {
-    "@language" : "en",
-    "@value" : "NEED TO CLARIFY LINE OR PLANAR"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -14584,9 +14391,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A boundary volume , where tree things collocate."
-  }, {
-    "@language" : "en",
-    "@value" : "A triple junction is a line in space."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -14682,9 +14486,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The difference between two orientations."
-  }, {
-    "@language" : "en",
-    "@value" : "The misorientation depends only on the two local reference frames, but not on the main reference frame."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -14753,9 +14554,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A representative length of a grain measured according to a specified procedure (experimentally or theoretically)."
-  }, {
-    "@language" : "en",
-    "@value" : "Note the asymmetry with the definition of the more general particle size, which can be measured with any quantity (e.g. volume, average cross-section diameter, etc) the grain size is always a length.\n\nThis is to be consistent with the common jargon in metallurgy where grain size always refer to a length."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -14795,9 +14593,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A boundary volume , where four things collocate."
-  }, {
-    "@language" : "en",
-    "@value" : "A quadruple junction is a point in space."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -15021,9 +14816,6 @@
     "@value" : "Mixture with metallic character composed of two or more elements of which at least one is a metal."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Alloys may have very different properties compared to the pure substances it is composed of."
-  }, {
     "@language" : "en",
     "@value" : "Mixture with metallic character composed of two or more elements of which at least one is a metal."
   } ],
@@ -15262,9 +15054,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Cooling rate during solidification."
-  }, {
-    "@language" : "en",
-    "@value" : "Typically an average value is referred to."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -15363,9 +15152,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."
-  }, {
-    "@language" : "en",
     "@value" : "Size distribution of precipitates."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -15402,8 +15188,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy."
-  }, {
-    "@value" : "Temper designations tell both the producer and the user how the alloy has been mechanically and/or thermally treated to achieve the properties desired. The first character in the temper designation (a capital letter, F, O, H, W, or T) indicates the general class of treatment.\n\n- F, as fabricated. Most F-temper products are “semi-finished” products. They will be used in shaping, finishing or thermal processes to achieve other finished forms or tempers.\n- O, annealed. Annealing treatments are used to achieve the lowest-strength condition for the alloy. The main reason is to maximize workability or increase toughness and ductility.\n- H, strain-hardened. This is for non-heat-treatable alloys that have had their strength increased by strain hardening, usually at room temperature.\n- W, solution heat-treated. This designation applies only to alloys that age naturally and spontaneously after solution heat treating. It is rarely a finished temper.\n- T, thermally treated. This applies to any product form of any heat-treatable alloy that has been given a solution heat treatment followed by quenching and aging.\n"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/emmo#EMMO_6fa330f7_3289_4228_81df_12ee8a9708ac"
@@ -15452,9 +15236,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The composition in the matrix."
-  }, {
-    "@language" : "en",
-    "@value" : "The effective composition is different from the nominal composition, since it only considers the composition of the matrix, excluding all other phases."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"
@@ -15486,9 +15267,6 @@
     "@value" : "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Particle growth occurs through several mechanisms:\n\n* Diffusion: Atoms, molecules, or ions move randomly and attach to the surface of a growing particle.\n* Aggregation: Smaller particles collide and stick together, forming larger particles.\n* Coalescence: Two or more smaller particles merge to form a single larger particle.\n* Condensation: A vapor or gas transforms into solid or liquid particles under supersaturated conditions.\n* Ostwald Ripening: Larger particles grow at the expense of smaller ones, driven by differences in solubility."
-  }, {
     "@language" : "en",
     "@value" : "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."
   } ],
@@ -15524,9 +15302,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A part (component) of a microstructure that contributes to the overall properties of the microstructure itself."
-  }, {
-    "@language" : "en",
-    "@value" : "Microstructure components are defined as holistic spatial parts of a microstructure. Hence, single microstructure components does not exists - their definition depends on being a part of a microstructure."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/emmo/domain/microstructure#"

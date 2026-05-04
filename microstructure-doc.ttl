@@ -416,8 +416,6 @@ emmo:EMMO_18ce5200_00f5_45bb_8c6f_6fb128cd41ae rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_18d180e4_5e3e_42f7_820c_e08951223486 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_18fdd2cd_4b0a_43a5_a938_66d8290a066c rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_194100e1_e11a_4b7c_bb5a_171655679fc8 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_1942247a_50b4_4109_bff4_bb213de45e08 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -555,8 +553,6 @@ emmo:EMMO_22496460_c849_4bd7_8be0_9a1202506f18 rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_22522299_4091_4d1f_82a2_3890492df6db rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_22744495_4f32_4a17_b189_259c644268f9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_2332d7a4_2fbe_4a36_a10f_5c8efcce29d6 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -1220,8 +1216,6 @@ emmo:EMMO_51e72e5c_ab21_4d0e_ad9f_b168eca89cf4 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_51f1ba0d_e92b_4be2_9a9d_4640b16ac7ed rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_51f426a6_af4a_4e91_a392_2b0bb635e2d5 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_51f93d8c_57fa_4314_a68d_8d69c2609c97 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_5273677c_1cf3_4ae1_b73e_98df6fe9cfa9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -1502,6 +1496,8 @@ emmo:EMMO_6835537c_d294_4005_a770_ec9621f29ed1 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_6837b106_7220_4ec6_b7c9_d549d6163672 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
+emmo:EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
 emmo:EMMO_6884600e_5d9b_44b1_9fc5_7d4dc1639e2f rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_68d094e2_1777_48b5_8e43_32965f824970 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -1654,8 +1650,6 @@ emmo:EMMO_77e2e601_5ecb_450b_b563_92f096997832 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_77e9dc31_5b19_463e_b000_44c6e79f98aa rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_7821eeb8_5e44_452b_90e9_3db03bbef241 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_78284835_f4ed_4a7c_914f_a7fdb460ed8e rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_78487bf1_c0bc_4db8_99dd_d8b7cc8b3bac rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -1675,8 +1669,6 @@ emmo:EMMO_79aad3fb_2e01_4626_8369_4e914893aa6d rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_79fa18f3_6da9_42b9_8cc3_08d9e5c9da87 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_7a317af2_d2f7_4e8a_8fbd_aaebfb7d21cc rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_7aec67a4_fb96_47c6_80a3_8fea557b2cbb rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -1725,8 +1717,6 @@ emmo:EMMO_7f9b4abe_0bf1_48dc_9bd0_ea34e926ec85 rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_7fb7fe7e_bdf9_4eeb_adad_e384dd5285c6 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_801395f8_948e_4637_ac3b_5fcd587d72ca rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_802b7639_9498_4b47_ad45_1a087fe8fb85 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_802c167d_b792_4cb8_a315_35797345c0e3 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -1846,8 +1836,6 @@ emmo:EMMO_88967c93_894b_4e42_bc3c_c8517b255489 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_88a34881_b8d0_474b_9a08_40dbd414d834 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_88b84515_a0df_47bb_8166_c7c8b893c1d8 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_88bbdd04_908f_45f0_9ded_d73b430de3b1 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_88f36585_bd30_4160_b975_61362f3468a9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -1871,6 +1859,8 @@ emmo:EMMO_89d04b65_5b11_4916_b606_0cf3f007fcd9 rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_8a137e9f_579c_4e28_baca_e8980eb0c3db rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_8a2a1cbc_dfc3_4e6c_b337_00ee56fd438a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+emmo:EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_8a582db1_c561_42f6_80ff_0fd8f252b129 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2054,11 +2044,7 @@ emmo:EMMO_959c9715_14fb_4ce8_a93b_79678b2959b9 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_95d4eb9b_d3d0_4705_a01c_4f87fb5f8d43 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_95d706e4_8b16_48a1_8dfd_40ccd4df1c12 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_961d1aba_f75e_4411_aaa4_457f7516ed6b rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_963b7cf2_3358_463e_86fa_2e8ef00704d9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2168,10 +2154,6 @@ emmo:EMMO_9e985b2c_d36d_4ab5_ab01_3290b6747757 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_9eb2d590_2115_4edd_aa8e_345d60921765 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_9ebb6e14_c656_4568_abfa_f7f193ea14ac rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_9ec16158_9118_4886_be97_4310f02f7571 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_9ecb2aa2_10a9_4499_a3ff_9ad76e9f4e0d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_9ed4ea5a_42c4_48aa_bd59_c16c7d34e741 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2193,6 +2175,8 @@ emmo:EMMO_9fd1e79d_41d1_44f8_8142_66dbdf0fc7ad rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_a06e3d38_1aa8_4f45_89a8_722dbacfda24 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+emmo:EMMO_a086af15_a7c3_404c_b4ce_c8e4466f1b4b rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_a09a5342_cad4_40fa_a619_a5af0867cb8f rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2270,7 +2254,7 @@ emmo:EMMO_a8bd7094_6b40_47af_b1f4_a69d81a3afbd rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_a94aec97_71ff_4574_b111_a52d77d2c230 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_a97351bc_1b1b_4157_95b7_0a60ac56b8e2 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+emmo:EMMO_a96e2152_40e7_409c_a53a_fdb9f141eb6a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_a9891fff_fa7a_4806_b7bd_786de7358e8d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2320,8 +2304,6 @@ emmo:EMMO_aced32dd_1a13_49b0_8d8f_c79313942d19 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_acf636d4_9ac2_4ce3_960a_d54338e6cae3 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_ad0bdf66_93c4_4a4d_8e1d_57ec850b1741 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_ad0e72fc_dcaa_490d_8371_b4d814dcda2c rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_ad6c76cf_b400_423e_820f_cf0c4e77f455 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2335,8 +2317,6 @@ emmo:EMMO_ad9d6895_2800_48ad_8007_e293c52a8178 rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_adc5aa0d_9add_4c8a_aa81_b5798a654ca9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_add2e29d_6d87_4b78_9706_588e25557093 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_ae081613_1d3a_49af_ba03_7195fcc9ebba rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_ae15fb4f_8e4d_41de_a0f9_3997f89ba6a2 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2372,8 +2352,6 @@ emmo:EMMO_b19aacfc_5f73_4c33_9456_469c1e89a53e rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_b1a64980_c524_4d48_af8f_9805570ce453 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_b1c64830_45c7_499d_9a72_68f517d57823 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_b1daa610_64c6_4935_94b8_a19db586a2f6 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2381,8 +2359,6 @@ emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_b23e7251_a488_4732_8268_027ad76d7e37 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_b24af630_0758_447e_a04d_a0e95db9b4fa rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_b295158f_fda4_4124_ab58_d9ea4ccfca5a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2411,8 +2387,6 @@ emmo:EMMO_b3c004d7_d377_459d_8857_dee6b5f51f3a rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_b3c8ba10_6bee_45e7_9416_e9019aa9f023 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_b3ddad94_ef7e_4b97_8329_9e7c788dd94d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_b418c9ac_be7c_42d1_862c_64f655ced6c5 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_b4494d69_6393_4eb4_8346_7fedd4df0bc5 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2553,8 +2527,6 @@ emmo:EMMO_c106f318_38b1_4261_94cc_f4ac6ccc47af rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_c12eb68b_8526_4c35_8346_c27194946353 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_c130614a_2985_476d_a7ed_8a137847703c rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_c18abee6_8c62_4f04_aac2_55aa1a1fc551 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_c18fff21_87c8_4877_a7e6_9ca1052d074e rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2838,8 +2810,6 @@ emmo:EMMO_d8612fa0_c0fb_485d_b45a_1845e7a46796 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_d893d373_b579_4867_841e_1c2b31a8d2c6 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_d8a7aac9_984a_4254_ab3b_7d8b1c061149 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_d9350951_5300_44e8_ae61_79fb7c53b7e7 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_d9589ed2_5304_48b3_9795_11bf44e64e9b rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2902,8 +2872,6 @@ emmo:EMMO_dd8301d8_affa_4b1d_8db8_7b9d0a1f2ee7 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_dd92c2ae_3ca4_49bc_9147_d82b96f7505e rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_ddb62e5b_9a1f_4d10_8cd8_32655301bfc9 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_ddcc1e64_69cc_4a0c_9ee8_08aca78b3c85 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_ddecfff6_d3a1_4972_b9e9_3d0ca11a3a0b rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -2935,6 +2903,8 @@ emmo:EMMO_e0edfb9e_9a96_4fae_b942_831ffe27b84a rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_e0feea8c_318e_4dcf_92f0_751e228ed99d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_e1021593_06da_4237_8a02_29d8f6fef76d rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+emmo:EMMO_e117f976_7a5d_4508_bf85_9226dca58e1f rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_e12dcfa4_c9f1_4546_9a12_8457c052e6ba rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -2975,6 +2945,8 @@ emmo:EMMO_e4281979_2b07_4a43_a772_4903fb3696fe rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_e467cc3f_676c_432e_b70e_19237d1bcc78 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_e46f3f24_c2ec_4552_8dd4_cfc5c0a89c09 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
+
+emmo:EMMO_e4791212_5a13_4aa6_aac2_08704550dcc3 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -3176,8 +3148,6 @@ emmo:EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6 rdfs:isDefinedBy <https://w3id.or
 
 emmo:EMMO_f14ae884_9345_4de4_a322_362329517e3e rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
-emmo:EMMO_f1503598_03af_4fec_a860_ebc77aa92832 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
 emmo:EMMO_f19ff3b4_6bfe_4c41_a2b2_9affd39c140b rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_f1be7d92_c57d_4698_a0ba_968130a3f9e1 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
@@ -3201,8 +3171,6 @@ emmo:EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929 rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_f2fc1ce9_cc3b_4eb5_a112_3c85d1b1374a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_f37fc69b_d6fd_44de_9c66_3c70b2efb7f4 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_f42a0e95_c130_4a69_9660_6bfdbb897d4a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -3229,8 +3197,6 @@ emmo:EMMO_f68858dd_64f4_4877_b7fb_70d04fbe5bab rdfs:isDefinedBy <https://w3id.or
 emmo:EMMO_f6fac54d_6b6d_4255_b217_4363a83f1834 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_f702bad4_fc77_41f0_a26d_79f6444fd4f3 rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
-
-emmo:EMMO_f722a7a9_864d_4896_a331_f90141f90a0a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
 emmo:EMMO_f76f5a24_d703_4e8c_b368_f9a7777cb73a rdfs:isDefinedBy <https://w3id.org/emmo/domain/microstructure/dependencies#> .
 
@@ -3908,8 +3874,7 @@ describing a process).
 microstructure:EMMO_0449d241-e6ec-5426-b327-16785bcf87fe a owl:Class ;
     rdfs:label "SinglePhaseParticle"@en ;
     dcterms:description "Particle containing one PhaseOfMatter"@en ;
-    rdfs:comment "In the physical sciences, a particle (or corpuscule in older texts) is a small localized object to which can be ascribed several physical or chemical properties, such as volume, density, or mass. [Wikipedia]"@en,
-        "Particle containing one PhaseOfMatter"@en ;
+    rdfs:comment "Particle containing one PhaseOfMatter"@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997,
         microstructure:EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18 ;
@@ -3931,8 +3896,7 @@ microstructure:EMMO_06a205fb-d9eb-5d4f-85fd-444922c0d5e8 a owl:Class ;
 microstructure:EMMO_094a7810_bb49_42c3_acff_a15c4509320f a owl:Class ;
     rdfs:label "HeterogeneousNucleation"@en ;
     dcterms:description "The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented."@en ;
-    rdfs:comment "Most common nucleation process."@en,
-        "The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented."@en ;
+    rdfs:comment "The surface of some different substance, such as a dust particle or the wall of the container, acts as the centre upon which the first atoms, ions, or molecules of the crystal become properly oriented."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 ;
     skos:prefLabel "HeterogeneousNucleation"@en ;
@@ -3954,8 +3918,7 @@ microstructure:EMMO_09ff37fd-1468-501a-9b35-10192a470b0f a owl:Class ;
 microstructure:EMMO_0b04ee5c-2601-5f60-8cec-9f70870be873 a owl:Class ;
     rdfs:label "HighAngleGrainBoundary"@en ;
     dcterms:description "A grain boundary with a high oritation angle between the grains."@en ;
-    rdfs:comment "A grain boundary with a high oritation angle between the grains."@en,
-        "In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle larger than 15 degree."@en ;
+    rdfs:comment "A grain boundary with a high oritation angle between the grains."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93 ;
     skos:prefLabel "HighAngleGrainBoundary"@en ;
@@ -3965,11 +3928,7 @@ microstructure:EMMO_0b04ee5c-2601-5f60-8cec-9f70870be873 a owl:Class ;
 microstructure:EMMO_0fca915d_497b_4047_9fdb_b575bde9e6e3 a owl:Class ;
     rdfs:label "MeltingPoint"@en ;
     dcterms:description "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
-    rdfs:comment """As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat then will convert the solid into a liquid with no temperature change. When all the solid has melted, additional heat will raise the temperature of the liquid. The melting temperature of crystalline solids is a characteristic figure and is used to identify pure compounds and elements. Most mixtures and amorphous solids melt over a range of temperatures.
-
-Related Topics: melting freezing point
-The melting temperature of a solid is generally considered to be the same as the freezing point of the corresponding liquid; because a liquid may freeze in different crystal systems and because impurities lower the freezing point, however, the actual freezing point may not be the same as the melting point. Thus, for characterizing a substance, the melting point is preferred. See also melting."""@en,
-        "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
+    rdfs:comment "The temperature at which the solid and liquid forms of a pure substance can exist in equilibrium."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:seeAlso "https://www.britannica.com/science/melting-point"^^xsd:anyURI ;
     rdfs:subClassOf emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f,
@@ -3993,8 +3952,7 @@ microstructure:EMMO_14bf3549_b874_41d1_8781_e2824380a0cd a owl:Class ;
 microstructure:EMMO_17b4803f_6dc1_441c_ac84_0cf190de3a06 a owl:Class ;
     rdfs:label "YieldStress"@en ;
     dcterms:description "The stress corresponding to the yield point at which the material begins to deform plastically."@en ;
-    rdfs:comment "The stress corresponding to the yield point at which the material begins to deform plastically."@en,
-        "The yield strength is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation. In some materials, such as aluminium, there is a gradual onset of non-linear behavior, and no precise yield point. In such a case, the offset yield point (or proof stress) is taken as the stress at which 0.2% plastic deformation occurs. Yielding is a gradual failure mode which is normally not catastrophic, unlike ultimate failure."@en ;
+    rdfs:comment "The stress corresponding to the yield point at which the material begins to deform plastically."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,
         microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
@@ -4008,8 +3966,7 @@ microstructure:EMMO_17b4803f_6dc1_441c_ac84_0cf190de3a06 a owl:Class ;
 microstructure:EMMO_1a93c22d-52cb-590c-a30a-0ec734895211 a owl:Class ;
     rdfs:label "Centroid"@en ;
     dcterms:description "The arithmetic mean position vector of all the position vectors in the object"@en ;
-    rdfs:comment "The arithmetic mean position vector of all the position vectors in the object"@en,
-        "defined the position of an extended object"@en ;
+    rdfs:comment "The arithmetic mean position vector of all the position vectors in the object"@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_4312cae4_03ba_457e_b35d_0671a7db350c,
         microstructure:EMMO_ee8abecb-206e-5f9f-b2a4-8c8d2c8bb7e0 ;
@@ -4097,8 +4054,7 @@ microstructure:EMMO_2cfd0993-f7a0-5f45-8e56-05e7bfca9638 a owl:Class ;
 microstructure:EMMO_2fdafa2f-ef99-572f-8d2a-4c246e7e759f a owl:Class ;
     rdfs:label "Precipitation"@en ;
     dcterms:description "The process by which a solute separates from a solution and forms solid particles."@en ;
-    rdfs:comment "The process by which a solute separates from a solution and forms solid particles."@en,
-        "This can occur either from a liquid solution or a solid solution."@en ;
+    rdfs:comment "The process by which a solute separates from a solution and forms solid particles."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
     skos:prefLabel "Precipitation"@en ;
@@ -4118,8 +4074,7 @@ microstructure:EMMO_30925a6b_8048_4463_b55d_ed254bebfd6c a owl:Class ;
 microstructure:EMMO_339dbebc-83ac-5ee4-9a87-48a9223a05c8 a owl:Class ;
     rdfs:label "Subgrain"@en ;
     dcterms:description "A region of a grain with (almost) the same crystal orientation."@en ;
-    rdfs:comment "A common definition is that subgrains are separated from their neighbours by subgrain boundaries with a misorientation angle between 5 and 15 degrees."@en,
-        "A region of a grain with (almost) the same crystal orientation."@en ;
+    rdfs:comment "A region of a grain with (almost) the same crystal orientation."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty [ owl:inverseOf emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ] ;
@@ -4132,8 +4087,7 @@ microstructure:EMMO_339dbebc-83ac-5ee4-9a87-48a9223a05c8 a owl:Class ;
 microstructure:EMMO_3d026e8b_4fdb_4a0a_a389_5c852e466017 a owl:Class ;
     rdfs:label "MobilityDatabase"@en ;
     dcterms:description "A database containing mobilities of a range of species."@en ;
-    rdfs:comment "A database containing mobilities of a range of species."@en,
-        "A mobility database is typically combined with a thermodynamic database for predicting diffusivities and other kinetic properties."@en ;
+    rdfs:comment "A database containing mobilities of a range of species."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64 ;
     skos:prefLabel "MobilityDatabase"@en ;
@@ -4172,8 +4126,7 @@ microstructure:EMMO_4cff9c2a_c618_4df6_9c9d_6d5653d62e35 a owl:Class ;
 microstructure:EMMO_50cde755-076b-5dce-b9d1-d260f93411a0 a owl:Class ;
     rdfs:label "LowAngleGrainBoundary"@en ;
     dcterms:description "A grain boundary with a low oritation angle between the grains."@en ;
-    rdfs:comment "A grain boundary with a low oritation angle between the grains."@en,
-        "In aluminium are high angle grain boundaries typically defined with as grain boundaries with a grain boundary angle less than 5 degree."@en ;
+    rdfs:comment "A grain boundary with a low oritation angle between the grains."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_1c81f1eb-8b94-5e74-96de-1aeacbdb5b93 ;
     skos:prefLabel "LowAngleGrainBoundary"@en ;
@@ -4183,8 +4136,7 @@ microstructure:EMMO_50cde755-076b-5dce-b9d1-d260f93411a0 a owl:Class ;
 microstructure:EMMO_545f5321-e334-50a8-bdfb-cc883fd32d7e a owl:Class ;
     rdfs:label "BoxAspectRatio"@en ;
     dcterms:description "Ratio between the maximum and minimum length of a box"@en ;
-    rdfs:comment "Also a method to characterize object by finding the smallest box that fully comprise the object"@en,
-        "Ratio between the maximum and minimum length of a box"@en ;
+    rdfs:comment "Ratio between the maximum and minimum length of a box"@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5 ;
     skos:prefLabel "BoxAspectRatio"@en ;
@@ -4215,8 +4167,7 @@ microstructure:EMMO_5b23558f-6686-55bf-a812-e0a9a51b5614 a owl:Class ;
 microstructure:EMMO_5c1b70da_6a7b_417f_ae6c_f5e7976f7533 a owl:Class ;
     rdfs:label "Recovery"@en ;
     dcterms:description "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
-    rdfs:comment "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en,
-        "Dislocations are introduced by plastic deformation and contribute to increasing the yield strength of the material. The recovery process reduces dislocation density, leading to a decrease in material strength but an increase in ductility. This is why recovery can be seen as either beneficial or detrimental depending on the application."@en ;
+    rdfs:comment "A physical phenomenon where deformed grains within a metal reduce their stored energy by removing or rearranging defects in their crystal structure, primarily dislocations."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
     skos:prefLabel "Recovery"@en ;
@@ -4235,8 +4186,7 @@ RD Doherty; DA Hughes; FJ Humphreys; JJ Jonas; D Juul Jenson; ME Kassner; WE Kin
 microstructure:EMMO_5d370686_0500_47f0_b7fd_17e3a309b965 a owl:Class ;
     rdfs:label "EvolutionModel"@en ;
     dcterms:description "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en ;
-    rdfs:comment "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en,
-        "An evilution model is a formal description of one or more physical phenomena."@en ;
+    rdfs:comment "A microstructure model that predicts the evolution of a microstructure given a starting point and some boundary conditions."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_46e03909_4d46_4406_b125_8e7e4a5f632d ;
     skos:prefLabel "EvolutionModel"@en ;
@@ -4246,8 +4196,7 @@ microstructure:EMMO_5d370686_0500_47f0_b7fd_17e3a309b965 a owl:Class ;
 microstructure:EMMO_5d944ed6_ed6b_48ea_aec5_166e537979b5 a owl:Class ;
     rdfs:label "ThermodynamicDatabase"@en ;
     dcterms:description "A set of critically evaluated parameter values for a range of thermodynamic functions."@en ;
-    rdfs:comment "A set of critically evaluated parameter values for a range of thermodynamic functions."@en,
-        "For metallic systems is CALPHAD a popular approach for calculating thermodynamic properties. In this approach are the thermodynamic properties defived from parametrised expressions of the Gibb free energy (and possible other basic quantities) of each phase. It is the parameters of these expressions that are stored in the thermodynamic database."@en ;
+    rdfs:comment "A set of critically evaluated parameter values for a range of thermodynamic functions."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_1beed5ca_2bab_425d_bbe6_db6fab6ffe64 ;
     skos:prefLabel "ThermodynamicDatabase"@en ;
@@ -4299,8 +4248,7 @@ microstructure:EMMO_66bf989d-d737-5e27-a6d5-6508c8bb75c6 a owl:Class ;
 microstructure:EMMO_68a5325b_042b_416e_8189_f5139cb73139 a owl:AnnotationProperty ;
     rdfs:label "alloyDesignation"@en ;
     dcterms:description "An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages."@en ;
-    rdfs:comment "An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages."@en,
-        "Common systems include the four-digit numerical system for wrought aluminum and the Unified Numbering System (UNS), which uses a prefix letter followed by five digits."@en ;
+    rdfs:comment "An alloy designation is a system of numbers, letters, and sometimes chemical symbols used to identify the composition and properties of a metal alloy. These designations often indicate the primary alloying elements, their percentages."@en ;
     rdfs:domain microstructure:EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:range xsd:string ;
@@ -4328,8 +4276,7 @@ Inconel 625"""@en ;
 microstructure:EMMO_6d47161f-7721-50e1-a78c-c256041aa83a a owl:Class ;
     rdfs:label "Dispersoid"@en ;
     dcterms:description "finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]"@en ;
-    rdfs:comment "clarify difference from precipitate"@en,
-        "finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]"@en ;
+    rdfs:comment "finely divided particles of one substance [PhaseOfMatter] dispersed in another [Merriam-Webster]"@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997,
         microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
@@ -4340,8 +4287,7 @@ microstructure:EMMO_6d47161f-7721-50e1-a78c-c256041aa83a a owl:Class ;
 microstructure:EMMO_6d8095ed_ce81_4c2e_96d8_fca7b17eb8e8 a owl:Class ;
     rdfs:label "Diffusion"@en ;
     dcterms:description "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en ;
-    rdfs:comment "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en,
-        "The movements of individual atoms is random but where there is a concentration gradient and a large number of movement occur, there will be a net effect for atoms to move down the gradient."@en ;
+    rdfs:comment "The movement of individual atoms, ions and molecules relative to the remainder of the material."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
     skos:prefLabel "Diffusion"@en ;
@@ -4471,8 +4417,7 @@ microstructure:EMMO_9a4d7dca-734f-5d06-bd87-6d6c97a81467 a owl:Class ;
 microstructure:EMMO_9b94c1a2-a85f-588f-9619-7b2bc1be774e a owl:Class ;
     rdfs:label "EllipsoidAspectRatio"@en ;
     dcterms:description "Ratio between the major axis and minor axis length of an ellipsoid"@en ;
-    rdfs:comment "Also a method to characterize object by finding the smallest ellipsoid that fully comprise the object"@en,
-        "Ratio between the major axis and minor axis length of an ellipsoid"@en ;
+    rdfs:comment "Ratio between the major axis and minor axis length of an ellipsoid"@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_255cf673-6d41-5fe1-b7c9-e8b9b0e31ed5 ;
     skos:prefLabel "EllipsoidAspectRatio"@en ;
@@ -4543,8 +4488,7 @@ microstructure:EMMO_ada88738-c901-5d83-884b-5f84d27ce527 a owl:Class ;
 microstructure:EMMO_afebd9df-5284-57c5-ad72-c783a08954b2 a owl:Class ;
     rdfs:label "GPZone"@en ;
     dcterms:description "A Guinier–Preston zone, or GP-zone, is a fine-scale metallurgical phenomenon, involving early stage precipitation."@en ;
-    rdfs:comment "A Guinier–Preston zone, or GP-zone, is a fine-scale metallurgical phenomenon, involving early stage precipitation."@en,
-        "GP-zones are associated with the phenomenon of age hardening, whereby room-temperature reactions continue to occur within a material through time, resulting in changing physical properties."@en ;
+    rdfs:comment "A Guinier–Preston zone, or GP-zone, is a fine-scale metallurgical phenomenon, involving early stage precipitation."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997,
         microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
@@ -4578,8 +4522,7 @@ microstructure:EMMO_b20d7c9c-fd4b-5fae-b3dd-484abc28d315 a owl:Class ;
 microstructure:EMMO_b365d478-957b-547d-9c1d-cbf3224e96ab a owl:Class ;
     rdfs:label "Average"@en ;
     dcterms:description "A mathematical operator producing a single number that represents a set of numbers."@en ;
-    rdfs:comment "A mathematical operator producing a single number that represents a set of numbers."@en,
-        "An average operator can be defined in several ways, like as an median, arithmetic mean or geometrical mean."@en ;
+    rdfs:comment "A mathematical operator producing a single number that represents a set of numbers."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_f6d0c26a_98b6_4cf8_8632_aa259131faaa ;
     skos:altLabel "AverageValue"@en ;
@@ -4655,8 +4598,7 @@ microstructure:EMMO_c383bff3_67ef_40d7_a395_3f0ed7928e9a a owl:Class ;
 microstructure:EMMO_c51107a5-c1ba-5e07-b85d-3decebbaef22 a owl:Class ;
     rdfs:label "SoluteCluster"@en ;
     dcterms:description "Unordered fluctuations of the spatial configuration of solutes in a solid solution. "@en ;
-    rdfs:comment "The size distribution of solute clusters are assumed to follow Maxwell-Boltzmann statistics."@en,
-        "Unordered fluctuations of the spatial configuration of solutes in a solid solution. "@en ;
+    rdfs:comment "Unordered fluctuations of the spatial configuration of solutes in a solid solution. "@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom emmo:EMMO_1cba0b27_15d0_4326_933f_379d0b3565b6 ;
@@ -4693,8 +4635,7 @@ microstructure:EMMO_c6d7cf77_07c3_48ff_a571_d1ac4116a09c a owl:Class ;
 microstructure:EMMO_c7789d83-bdaf-571b-97dc-32050dfab6a4 a owl:Class ;
     rdfs:label "Dislocation"@en ;
     dcterms:description "A linear crystallographic defect or irregularity within a crystal structure."@en ;
-    rdfs:comment "A linear crystallographic defect or irregularity within a crystal structure."@en,
-        "NEED TO CLARIFY LINE OR PLANAR"@en ;
+    rdfs:comment "A linear crystallographic defect or irregularity within a crystal structure."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_3ed3297d-1512-5631-b0d3-7f36364040e0 ;
     skos:prefLabel "Dislocation"@en ;
@@ -4723,8 +4664,7 @@ microstructure:EMMO_d0b9a1f9-602e-58ce-abd7-badb40306065 a owl:Class ;
 microstructure:EMMO_d0e5f672-8fd6-5ce0-a4d2-39d65ad9028d a owl:Class ;
     rdfs:label "TripleJunction"@en ;
     dcterms:description "A boundary volume , where tree things collocate."@en ;
-    rdfs:comment "A boundary volume , where tree things collocate."@en,
-        "A triple junction is a line in space."@en ;
+    rdfs:comment "A boundary volume , where tree things collocate."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
     skos:prefLabel "TripleJunction"@en ;
@@ -4754,8 +4694,7 @@ microstructure:EMMO_d2bc1114-c7ef-5802-900c-f9d0e4d6b63f a owl:Class ;
 microstructure:EMMO_d34a6e6f-6422-58c4-99ad-d170e8c83a88 a owl:Class ;
     rdfs:label "Misorientation"@en ;
     dcterms:description "The difference between two orientations."@en ;
-    rdfs:comment "The difference between two orientations."@en,
-        "The misorientation depends only on the two local reference frames, but not on the main reference frame."@en ;
+    rdfs:comment "The difference between two orientations."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
@@ -4769,8 +4708,7 @@ microstructure:EMMO_d34a6e6f-6422-58c4-99ad-d170e8c83a88 a owl:Class ;
 microstructure:EMMO_dadc1e15-a920-503f-802e-074c16682eb1 a owl:Class ;
     rdfs:label "QuadrupleJunction"@en ;
     dcterms:description "A boundary volume , where four things collocate."@en ;
-    rdfs:comment "A boundary volume , where four things collocate."@en,
-        "A quadruple junction is a point in space."@en ;
+    rdfs:comment "A boundary volume , where four things collocate."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_1b2bfe71-5da9-5c46-b137-be45c3e3f9c3 ;
     skos:prefLabel "QuadrupleJunction"@en ;
@@ -4814,8 +4752,7 @@ microstructure:EMMO_e058f954_68e0_41c6_ad9b_f9460c83b408 a owl:Class ;
 microstructure:EMMO_e25884df-decb-52e1-b8c0-f5092dd40066 a owl:Class ;
     rdfs:label "Alloy"@en ;
     dcterms:description "Mixture with metallic character composed of two or more elements of which at least one is a metal."@en ;
-    rdfs:comment "Alloys may have very different properties compared to the pure substances it is composed of."@en,
-        "Mixture with metallic character composed of two or more elements of which at least one is a metal."@en ;
+    rdfs:comment "Mixture with metallic character composed of two or more elements of which at least one is a metal."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
@@ -4883,8 +4820,7 @@ microstructure:EMMO_edf910b9-fb32-5907-acd6-22029e6cfcac a owl:Class ;
 microstructure:EMMO_f15f6836_9e24_4d93_b23a_dbbd7b6c5c8e a owl:Class ;
     rdfs:label "SolidificationCoolingRate"@en ;
     dcterms:description "Cooling rate during solidification."@en ;
-    rdfs:comment "Cooling rate during solidification."@en,
-        "Typically an average value is referred to."@en ;
+    rdfs:comment "Cooling rate during solidification."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_2556de75_d5b7_4bfb_b4ac_6291421f606c ;
     skos:prefLabel "SolidificationCoolingRate"@en ;
@@ -4907,8 +4843,7 @@ microstructure:EMMO_f178f320-a094-5364-bbf9-11bd5f692ca3 a owl:Class ;
 microstructure:EMMO_f76d629e_3440_4acf_82ae_e7255c4492b4 a owl:Class ;
     rdfs:label "PrecipitateSizeDistribution"@en ;
     dcterms:description "Size distribution of precipitates."@en ;
-    rdfs:comment "An alloy can have multiple precipitate size distributions, one for each type of precipitates. For example GP zones, β'', β', U1 and U2 in an aluminium 6xxx alloy."@en,
-        "Size distribution of precipitates."@en ;
+    rdfs:comment "Size distribution of precipitates."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom microstructure:EMMO_903bf818-c0b4-56ef-9673-799ba204795d ;
@@ -4921,15 +4856,7 @@ microstructure:EMMO_f76d629e_3440_4acf_82ae_e7255c4492b4 a owl:Class ;
 microstructure:EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b a owl:AnnotationProperty ;
     rdfs:label "temperDesignation"@en ;
     dcterms:description "An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy."@en ;
-    rdfs:comment """Temper designations tell both the producer and the user how the alloy has been mechanically and/or thermally treated to achieve the properties desired. The first character in the temper designation (a capital letter, F, O, H, W, or T) indicates the general class of treatment.
-
-- F, as fabricated. Most F-temper products are “semi-finished” products. They will be used in shaping, finishing or thermal processes to achieve other finished forms or tempers.
-- O, annealed. Annealing treatments are used to achieve the lowest-strength condition for the alloy. The main reason is to maximize workability or increase toughness and ductility.
-- H, strain-hardened. This is for non-heat-treatable alloys that have had their strength increased by strain hardening, usually at room temperature.
-- W, solution heat-treated. This designation applies only to alloys that age naturally and spontaneously after solution heat treating. It is rarely a finished temper.
-- T, thermally treated. This applies to any product form of any heat-treatable alloy that has been given a solution heat treatment followed by quenching and aging.
-"""^^xsd:string,
-        "An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy."@en ;
+    rdfs:comment "An alphanumeric designation appended to the alloy designation that describes the thermomecanical treatment of the alloy."@en ;
     rdfs:domain emmo:EMMO_6fa330f7_3289_4228_81df_12ee8a9708ac ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:range xsd:string ;
@@ -4951,8 +4878,7 @@ microstructure:EMMO_f7fa6062_dac2_4a10_9731_95cb89af699b a owl:AnnotationPropert
 microstructure:EMMO_f84836b6_4a4d_4f13_a340_a4c141028c87 a owl:Class ;
     rdfs:label "EffectiveComposition"@en ;
     dcterms:description "The composition in the matrix."@en ;
-    rdfs:comment "The composition in the matrix."@en,
-        "The effective composition is different from the nominal composition, since it only considers the composition of the matrix, excluding all other phases."@en ;
+    rdfs:comment "The composition in the matrix."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e ;
     skos:prefLabel "EffectiveComposition"@en ;
@@ -4962,14 +4888,7 @@ microstructure:EMMO_f84836b6_4a4d_4f13_a340_a4c141028c87 a owl:Class ;
 microstructure:EMMO_fbd3f454_0d43_4c75_aa71_06af3d3ab1ba a owl:Class ;
     rdfs:label "ParticleGrowth"@en ;
     dcterms:description "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
-    rdfs:comment """Particle growth occurs through several mechanisms:
-
-* Diffusion: Atoms, molecules, or ions move randomly and attach to the surface of a growing particle.
-* Aggregation: Smaller particles collide and stick together, forming larger particles.
-* Coalescence: Two or more smaller particles merge to form a single larger particle.
-* Condensation: A vapor or gas transforms into solid or liquid particles under supersaturated conditions.
-* Ostwald Ripening: Larger particles grow at the expense of smaller ones, driven by differences in solubility."""@en,
-        "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
+    rdfs:comment "The process where particles increase in size and mass over time. particle growth can be understood as the manifestation of various physical processes that lead to the enlargement of particles in a system."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
     skos:prefLabel "ParticleGrowth"@en ;
@@ -5143,8 +5062,7 @@ microstructure:EMMO_0877f58d-0a9c-5803-b1b7-6dcb058fc163 a owl:Class ;
 microstructure:EMMO_0b63d829-64fc-5f3a-8117-188705ba8321 a owl:Class ;
     rdfs:label "Orientation"@en ;
     dcterms:description "The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame."@en ;
-    rdfs:comment "The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame."@en,
-        "Three independent values are needed to describe the orientation of the local reference frame."@en ;
+    rdfs:comment "The orientation of a real world object relative to a main reference frame. It can be expressed as the transformation from the main reference frame to a local reference frame."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 ;
     skos:example "For texture is the local reference frame typically connected to the crystal directions and the main reference frame to the rolling, transverse and normal directions."@en ;
@@ -5165,7 +5083,6 @@ microstructure:EMMO_14ad97af-303a-58fe-bdcc-c13c57dbbb9e a owl:Class ;
     rdfs:label "Microstructure"@en ;
     dcterms:description "A composite material, who's components are in general so small that they require a microscope to be observed."@en ;
     rdfs:comment "A composite material, who's components are in general so small that they require a microscope to be observed."@en,
-        "A microstructure is also a holistic system (a complex whole with interconnected parts). However, since its parts (collectively called microstructure components) are of a different type than the microstructure itself, it also a fundamental whole."@en,
         "Being nominalistic, the microstructure is the material itself, not just a description of its structure."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -5242,8 +5159,7 @@ microstructure:EMMO_5b3cefe2-1504-5623-a95f-5ff9477e28a5 a owl:Class ;
 microstructure:EMMO_6246546c-55eb-52ee-87e2-56ce8912eb2d a owl:Class ;
     rdfs:label "PixelSize"@en ;
     dcterms:description "Length of a pixel."@en ;
-    rdfs:comment "A pixel is the smallest unit of a digital image. In the common case where the pixels are 2D squares, the pixel size is length of one of the sides."@en,
-        "Length of a pixel."@en ;
+    rdfs:comment "Length of a pixel."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac ;
     skos:prefLabel "PixelSize"@en ;
@@ -5263,8 +5179,7 @@ microstructure:EMMO_658f9df4-e1ec-58ba-b9da-2a860d753a18 a owl:Class ;
 microstructure:EMMO_6c227576-79ab-5aba-ac08-66ee7854617d a owl:Class ;
     rdfs:label "Solvent"@en ;
     dcterms:description "A substance that dissolves a solute, resulting in a solution."@en ;
-    rdfs:comment "A solvent can be in many state of matter."@en,
-        "A substance that dissolves a solute, resulting in a solution."@en ;
+    rdfs:comment "A substance that dissolves a solute, resulting in a solution."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
@@ -5281,8 +5196,7 @@ microstructure:EMMO_6c227576-79ab-5aba-ac08-66ee7854617d a owl:Class ;
 microstructure:EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 a owl:Class ;
     rdfs:label "AlloyDesignation"@en ;
     dcterms:description "Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy."@en ;
-    rdfs:comment "Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy."@en,
-        "The four-digit numerical portion represents the alloy chemistry, while the temper designation, added after the four-digit code, indicates the specific heat treatment applied."@en ;
+    rdfs:comment "Alphanumeric code that identify the chemical composition and temper (heat treatment) of a metal alloy."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:seeAlso "https://www.lightmetalage.com/wp-content/uploads/2019/08/Fig2-wire-and-rod.png"^^xsd:anyURI ;
     rdfs:subClassOf emmo:EMMO_5f334606_f67d_4f0e_acb9_eeb21cb10c66,
@@ -5297,8 +5211,7 @@ microstructure:EMMO_6cb0647d_6340_43a9_810f_8b6c245e37e6 a owl:Class ;
 microstructure:EMMO_7b782ab6-c534-5737-9c88-1061cc06bf2e a owl:Class ;
     rdfs:label "Mesh"@en ;
     dcterms:description "Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements."@en ;
-    rdfs:comment "A mesh does not put any restructiction on the type of vomume elements that are used."@en,
-        "Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements."@en ;
+    rdfs:comment "Generic discretisation of a volume. It covers completely (an approximation of) the volume with no overlapping elements."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_46f0f8df_4dc6_418f_8036_10427a3a288e ;
     skos:prefLabel "Mesh"@en ;
@@ -5317,8 +5230,7 @@ microstructure:EMMO_8d44ea1a-3b1c-5723-bda9-058ca5159ac1 a owl:Class ;
 microstructure:EMMO_903bf818-c0b4-56ef-9673-799ba204795d a owl:Class ;
     rdfs:label "Precipitate"@en ;
     dcterms:description "Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation."@en ;
-    rdfs:comment "A precipitate can not live without its sourounding microstructure"@en,
-        "Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation."@en ;
+    rdfs:comment "Finely dispersed particles containing one PhaseOfMatter forming from solid phaseOfMatter by precipitation."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997,
         microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
@@ -5329,8 +5241,7 @@ microstructure:EMMO_903bf818-c0b4-56ef-9673-799ba204795d a owl:Class ;
 microstructure:EMMO_9c797a88_591d_4413_bca4_813cc112a1aa a owl:Class ;
     rdfs:label "Pore"@en ;
     dcterms:description "A small openings in a solid substance."@en ;
-    rdfs:comment "A small openings in a solid substance."@en,
-        "Pores are typically filled with other material, like air or water."@en ;
+    rdfs:comment "A small openings in a solid substance."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
     skos:prefLabel "Pore"@en ;
@@ -5421,8 +5332,7 @@ microstructure:EMMO_0a3607ec-9961-5e7f-9d4c-b0dcdb3ab439 a owl:Class ;
 microstructure:EMMO_10c87439_ad91_4df7_893f_2b9a85f4d6e2 a owl:Class ;
     rdfs:label "Nucleation"@en ;
     dcterms:description "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
-    rdfs:comment "Nucleation processes are classed as heterogeneous or homogeneous."@en,
-        "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
+    rdfs:comment "The initial process that occurs in the formation of a crystal from a solution, a liquid, or a vapour, in which a small number of ions, atoms, or molecules become arranged in a pattern characteristic of a crystalline solid, forming a site upon which additional particles are deposited as the crystal grows."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:seeAlso "https://www.britannica.com/science/nucleation"^^xsd:anyURI ;
     rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
@@ -5492,8 +5402,7 @@ microstructure:EMMO_77acaaf6-990e-593d-8201-2b643e1d747d a owl:Class ;
 microstructure:EMMO_77c8ba24_1294_4d9d_8c02_60252b5a377e a owl:Class ;
     rdfs:label "TemperatureChangeRate"@en ;
     dcterms:description "Rate at which the temperature is changed."@en ;
-    rdfs:comment "Rate at which the temperature is changed."@en,
-        "Since ISO 80000 does not define a temperature change rate, this quantity should not be included in EMMO. We therefore add it here."@en ;
+    rdfs:comment "Rate at which the temperature is changed."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty emmo:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
@@ -5527,8 +5436,7 @@ microstructure:EMMO_89c368d0-ca72-5e9f-bd52-988d9b6f8ace a owl:Class ;
 microstructure:EMMO_92b5fd3d_0d4c_4767_bce9_fa23fdbe9b09 a owl:Class ;
     rdfs:label "Hardening"@en ;
     dcterms:description "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ;
-    rdfs:comment "Hardening typically involves the alteration of the metal's microstructure through heat treatment, mechanical work, or the addition of alloying elements."@en,
-        "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ;
+    rdfs:comment "Reduction of dislocation mobility in a material as a response to an external thermomechanical treatment."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 ;
     skos:prefLabel "Hardening"@en ;
@@ -5623,8 +5531,7 @@ microstructure:EMMO_95fac2ab-f304-5f3c-98ae-ad454ccd1d34 a owl:Class ;
 microstructure:EMMO_9d31ac42-8d58-592b-b443-ed19e084ee6b a owl:Class ;
     rdfs:label "ParticleSize"@en ;
     dcterms:description "Size of a particle measured according to a specified procedure (and/or model)."@en ;
-    rdfs:comment "Common representations of a particle size are the particle volume or the diameter of a (hypothetical) sphere with the same volume as the particle."@en,
-        "Size of a particle measured according to a specified procedure (and/or model)."@en ;
+    rdfs:comment "Size of a particle measured according to a specified procedure (and/or model)."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom emmo:EMMO_a15cea10_9946_4d2b_95c5_cfc333fd2abb ;
@@ -5646,10 +5553,7 @@ microstructure:EMMO_d0e2d4e0-298e-57b7-90a8-71669ca12929 a owl:Class ;
 microstructure:EMMO_d951a91c-c9ad-5f8c-919b-a51d0fcebb3d a owl:Class ;
     rdfs:label "GrainSize"@en ;
     dcterms:description "A representative length of a grain measured according to a specified procedure (experimentally or theoretically)."@en ;
-    rdfs:comment "A representative length of a grain measured according to a specified procedure (experimentally or theoretically)."@en,
-        """Note the asymmetry with the definition of the more general particle size, which can be measured with any quantity (e.g. volume, average cross-section diameter, etc) the grain size is always a length.
-
-This is to be consistent with the common jargon in metallurgy where grain size always refer to a length."""@en ;
+    rdfs:comment "A representative length of a grain measured according to a specified procedure (experimentally or theoretically)."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom microstructure:EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88 ;
@@ -5713,8 +5617,7 @@ emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec rdfs:isDefinedBy <https://w3id.or
 microstructure:EMMO_b0f0e57e-464d-562f-80ec-b216c92d5e88 a owl:Class ;
     rdfs:label "Grain"@en ;
     dcterms:description "A part of a microstructure with (almost) the same crystal orientation."@en ;
-    rdfs:comment "A common definition is that grains are separated from their neighbour grains by grain boundaries with a misorientation angle higher than 15 degrees."@en,
-        "A part of a microstructure with (almost) the same crystal orientation."@en ;
+    rdfs:comment "A part of a microstructure with (almost) the same crystal orientation."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_f1025834_0cd2_42a1_bfeb_13bec41c8655,
         microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
@@ -5762,8 +5665,7 @@ microstructure:EMMO_237d4be7_b8e9_4d0b_9f01_ad9b84047d34 a owl:Class ;
 microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997 a owl:Class ;
     rdfs:label "MicrostructureParticle"@en ;
     dcterms:description "Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders."@en ;
-    rdfs:comment "Everything a metallurgist calls a \"particle\" in a microstructure."@en,
-        "Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders."@en ;
+    rdfs:comment "Small solid self-connected part of a microstructure that is separated from its sourroundings and has a different phase(s) across all its borders."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1,
         microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 ;
@@ -5777,8 +5679,7 @@ microstructure:EMMO_4c72efd2-93bc-5692-b200-256efce58997 a owl:Class ;
 microstructure:EMMO_fc7ad1c6-73e2-5525-9116-e4aee2f0dfc7 a owl:Class ;
     rdfs:label "MicrostructureComponent"@en ;
     dcterms:description "A part (component) of a microstructure that contributes to the overall properties of the microstructure itself."@en ;
-    rdfs:comment "A part (component) of a microstructure that contributes to the overall properties of the microstructure itself."@en,
-        "Microstructure components are defined as holistic spatial parts of a microstructure. Hence, single microstructure components does not exists - their definition depends on being a part of a microstructure."@en ;
+    rdfs:comment "A part (component) of a microstructure that contributes to the overall properties of the microstructure itself."@en ;
     rdfs:isDefinedBy microstructure: ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty [ owl:inverseOf emmo:EMMO_3c7f239f_e833_4a2b_98a1_c88831770c1b ] ;
@@ -5806,13 +5707,13 @@ microstructure:EMMO_848b495f_2124_406c_bc3a_6c211558a511 a owl:Class ;
 
 [] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
-[] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
-[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
-
 [] owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger .
+
+[] owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger .
 
 [] owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger .
 
