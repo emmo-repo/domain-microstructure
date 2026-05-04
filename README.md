@@ -70,7 +70,7 @@ Version dependencies on imported ontologies:
 |------------|--------|----------|-------------|
 | 0.3.1      | 1.0.0  | 1.0.0    | stable      |
 | 0.4.0-beta | 1.0.2  | 1.0.2    | stable      |
-| 0.4.0      | 1.0.3  | 1.0.2    | development |
+| 0.4.0      | 1.0.3  | 1.0.3    | development |
 
 
 
